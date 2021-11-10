@@ -1,0 +1,363 @@
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\segmentoOtoneurologia.exe.config
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\segmentoOtoneurologia.exe
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\segmentoOtoneurologia.pdb
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\obj\Debug\segmentoOtoneurologia.frmLogin.resources
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\obj\Debug\segmentoOtoneurologia.frmPrincial.resources
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\obj\Debug\segmentoOtoneurologia.Properties.Resources.resources
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\obj\Debug\segmentoOtoneurologia.csproj.GenerateResource.cache
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\obj\Debug\segmentoOtoneurologia.csproj.CoreCompileInputs.cache
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\obj\Debug\segmentoOtoneurologia.exe
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\obj\Debug\segmentoOtoneurologia.pdb
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\obj\Debug\segmentoOtoneurologia.frmAjuda.resources
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\Google.Protobuf.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\MySql.Data.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\MySqlConnector.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\Renci.SshNet.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\System.Buffers.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\System.Memory.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\Zstandard.Net.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\Google.Protobuf.pdb
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\Google.Protobuf.xml
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\MySql.Data.xml
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\MySqlConnector.xml
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\Renci.SshNet.xml
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\System.Buffers.xml
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\System.Memory.xml
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\obj\Debug\segmentoOtoneurologia.exe.config
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\obj\Debug\segmentoOtoneurologia.csproj.CopyComplete
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\obj\Debug\segmentoOtoneurologia.frmCadastroOtoneurologia.resources
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\obj\Debug\segmentoOtoneurologia.frmExames.resources
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\obj\Debug\segmentoOtoneurologia.frmLaudario.resources
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\obj\Debug\segmentoOtoneurologia.frmBlocoNotas.resources
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\obj\Debug\segmentoOtoneurologia.frmReceituarios.resources
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\obj\Debug\segmentoOtoneurologia.frmContatos.resources
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\obj\Debug\segmentoOtoneurologia.frmProntuario.resources
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\obj\Debug\segmentoOtoneurologia.frmConservacaoAuditiva.resources
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\obj\Debug\segmentoOtoneurologia.frmRecepcao.resources
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\obj\Debug\segmentoOtoneurologia.frmAguarde.resources
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\Xceed.Wpf.AvalonDock.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\Xceed.Wpf.Toolkit.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\cs-CZ\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\Microsoft.ReportViewer.DataVisualization.DLL
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\Microsoft.ReportViewer.Design.DLL
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\Microsoft.ReportViewer.WebDesign.DLL
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\Microsoft.ReportViewer.WinForms.DLL
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\EnvDTE.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\EnvDTE80.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\stdole.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\Microsoft.MSXML.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\obj\Debug\segmentoOtoneurologia.frmPrintCampoLivreAASI.resources
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\obj\Debug\RdlCompile.cache
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\obj\Debug\RdlCompile.compiled
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\Microsoft.Build.Framework.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\Microsoft.VisualStudio.VSHelp.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.11.0.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.10.0.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.14.0.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\Microsoft.VisualStudio.Shell.Interop.9.0.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\Microsoft.VisualStudio.ProjectAggregator.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.12.0.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\Microsoft.VisualStudio.ComponentModelHost.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\Microsoft.VisualStudio.Designer.Interfaces.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\Microsoft.VisualStudio.Debugger.InteropA.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\Microsoft.Build.Tasks.Core.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\Microsoft.VisualStudio.Data.Services.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\VSLangProj.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\Microsoft.VisualStudio.Shell.Interop.11.0.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\Microsoft.VisualStudio.Data.Core.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\Microsoft.VisualStudio.Shell.Interop.10.0.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\VSLangProj80.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\Microsoft.VisualStudio.ManagedInterfaces.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\Microsoft.VisualStudio.WCFReference.Interop.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\Microsoft.VisualStudio.Debugger.Interop.11.0.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\Microsoft.VisualStudio.GraphModel.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\Microsoft.Build.Utilities.Core.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.10.0.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\VSLangProj2.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.11.0.xml
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.10.0.xml
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.14.0.xml
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.12.0.xml
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\Microsoft.VisualStudio.Designer.Interfaces.xml
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.xml
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\Microsoft.VisualStudio.WCFReference.Interop.xml
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\ja-JP\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\pt-BR\Microsoft.VisualStudio.Data.Services.resources.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\pt-BR\Microsoft.VisualStudio.Data.Core.resources.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\pt-BR\Microsoft.VisualStudio.GraphModel.resources.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\obj\Debug\segmentoOtoneurologia.frmPrintImpedancioODeOE.resources
+D:\segmentoOtoneurologia\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+D:\segmentoOtoneurologia\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+D:\segmentoOtoneurologia\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+D:\segmentoOtoneurologia\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+D:\segmentoOtoneurologia\bin\Debug\segmentoOtoneurologia.exe.config
+D:\segmentoOtoneurologia\bin\Debug\segmentoOtoneurologia.exe
+D:\segmentoOtoneurologia\bin\Debug\segmentoOtoneurologia.pdb
+D:\segmentoOtoneurologia\bin\Debug\BouncyCastle.Crypto.dll
+D:\segmentoOtoneurologia\bin\Debug\Google.Protobuf.dll
+D:\segmentoOtoneurologia\bin\Debug\K4os.Compression.LZ4.dll
+D:\segmentoOtoneurologia\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\segmentoOtoneurologia\bin\Debug\K4os.Hash.xxHash.dll
+D:\segmentoOtoneurologia\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\segmentoOtoneurologia\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+D:\segmentoOtoneurologia\bin\Debug\Microsoft.ReportViewer.Design.dll
+D:\segmentoOtoneurologia\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\segmentoOtoneurologia\bin\Debug\Microsoft.ReportViewer.WebDesign.DLL
+D:\segmentoOtoneurologia\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
+D:\segmentoOtoneurologia\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\segmentoOtoneurologia\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\segmentoOtoneurologia\bin\Debug\MySql.Data.dll
+D:\segmentoOtoneurologia\bin\Debug\MySqlConnector.dll
+D:\segmentoOtoneurologia\bin\Debug\Renci.SshNet.dll
+D:\segmentoOtoneurologia\bin\Debug\System.Buffers.dll
+D:\segmentoOtoneurologia\bin\Debug\System.Memory.dll
+D:\segmentoOtoneurologia\bin\Debug\System.Numerics.Vectors.dll
+D:\segmentoOtoneurologia\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\segmentoOtoneurologia\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\segmentoOtoneurologia\bin\Debug\Ubiety.Dns.Core.dll
+D:\segmentoOtoneurologia\bin\Debug\Xceed.Wpf.AvalonDock.dll
+D:\segmentoOtoneurologia\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+D:\segmentoOtoneurologia\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+D:\segmentoOtoneurologia\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+D:\segmentoOtoneurologia\bin\Debug\Xceed.Wpf.Toolkit.dll
+D:\segmentoOtoneurologia\bin\Debug\Zstandard.Net.dll
+D:\segmentoOtoneurologia\bin\Debug\EnvDTE.dll
+D:\segmentoOtoneurologia\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+D:\segmentoOtoneurologia\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+D:\segmentoOtoneurologia\bin\Debug\EnvDTE80.dll
+D:\segmentoOtoneurologia\bin\Debug\Microsoft.Build.Framework.dll
+D:\segmentoOtoneurologia\bin\Debug\System.Data.Common.dll
+D:\segmentoOtoneurologia\bin\Debug\netstandard.dll
+D:\segmentoOtoneurologia\bin\Debug\stdole.dll
+D:\segmentoOtoneurologia\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+D:\segmentoOtoneurologia\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+D:\segmentoOtoneurologia\bin\Debug\Microsoft.VisualStudio.VSHelp.dll
+D:\segmentoOtoneurologia\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.11.0.dll
+D:\segmentoOtoneurologia\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.10.0.dll
+D:\segmentoOtoneurologia\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.14.0.dll
+D:\segmentoOtoneurologia\bin\Debug\Microsoft.VisualStudio.Shell.Interop.9.0.dll
+D:\segmentoOtoneurologia\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+D:\segmentoOtoneurologia\bin\Debug\Microsoft.VisualStudio.ProjectAggregator.dll
+D:\segmentoOtoneurologia\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.12.0.dll
+D:\segmentoOtoneurologia\bin\Debug\Microsoft.VisualStudio.ComponentModelHost.dll
+D:\segmentoOtoneurologia\bin\Debug\Microsoft.VisualStudio.Designer.Interfaces.dll
+D:\segmentoOtoneurologia\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.dll
+D:\segmentoOtoneurologia\bin\Debug\Microsoft.VisualStudio.Debugger.InteropA.dll
+D:\segmentoOtoneurologia\bin\Debug\Microsoft.Build.Tasks.Core.dll
+D:\segmentoOtoneurologia\bin\Debug\Microsoft.VisualStudio.Data.Services.dll
+D:\segmentoOtoneurologia\bin\Debug\VSLangProj.dll
+D:\segmentoOtoneurologia\bin\Debug\Microsoft.VisualStudio.Shell.Interop.11.0.dll
+D:\segmentoOtoneurologia\bin\Debug\Microsoft.VisualStudio.Data.Core.dll
+D:\segmentoOtoneurologia\bin\Debug\Microsoft.VisualStudio.Shell.Interop.10.0.dll
+D:\segmentoOtoneurologia\bin\Debug\VSLangProj80.dll
+D:\segmentoOtoneurologia\bin\Debug\Microsoft.VisualStudio.ManagedInterfaces.dll
+D:\segmentoOtoneurologia\bin\Debug\Microsoft.VisualStudio.WCFReference.Interop.dll
+D:\segmentoOtoneurologia\bin\Debug\Microsoft.VisualStudio.Debugger.Interop.11.0.dll
+D:\segmentoOtoneurologia\bin\Debug\Newtonsoft.Json.dll
+D:\segmentoOtoneurologia\bin\Debug\Microsoft.VisualStudio.GraphModel.dll
+D:\segmentoOtoneurologia\bin\Debug\Microsoft.MSXML.dll
+D:\segmentoOtoneurologia\bin\Debug\Microsoft.Build.Utilities.Core.dll
+D:\segmentoOtoneurologia\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.10.0.dll
+D:\segmentoOtoneurologia\bin\Debug\VSLangProj2.dll
+D:\segmentoOtoneurologia\bin\Debug\Google.Protobuf.pdb
+D:\segmentoOtoneurologia\bin\Debug\Google.Protobuf.xml
+D:\segmentoOtoneurologia\bin\Debug\K4os.Compression.LZ4.xml
+D:\segmentoOtoneurologia\bin\Debug\K4os.Compression.LZ4.Streams.xml
+D:\segmentoOtoneurologia\bin\Debug\K4os.Hash.xxHash.xml
+D:\segmentoOtoneurologia\bin\Debug\MySql.Data.xml
+D:\segmentoOtoneurologia\bin\Debug\MySqlConnector.xml
+D:\segmentoOtoneurologia\bin\Debug\Renci.SshNet.xml
+D:\segmentoOtoneurologia\bin\Debug\System.Buffers.xml
+D:\segmentoOtoneurologia\bin\Debug\System.Memory.xml
+D:\segmentoOtoneurologia\bin\Debug\System.Numerics.Vectors.xml
+D:\segmentoOtoneurologia\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\segmentoOtoneurologia\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\segmentoOtoneurologia\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.11.0.xml
+D:\segmentoOtoneurologia\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.10.0.xml
+D:\segmentoOtoneurologia\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.14.0.xml
+D:\segmentoOtoneurologia\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.12.0.xml
+D:\segmentoOtoneurologia\bin\Debug\Microsoft.VisualStudio.Designer.Interfaces.xml
+D:\segmentoOtoneurologia\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.xml
+D:\segmentoOtoneurologia\bin\Debug\Microsoft.VisualStudio.WCFReference.Interop.xml
+D:\segmentoOtoneurologia\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+D:\segmentoOtoneurologia\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+D:\segmentoOtoneurologia\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+D:\segmentoOtoneurologia\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+D:\segmentoOtoneurologia\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+D:\segmentoOtoneurologia\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+D:\segmentoOtoneurologia\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+D:\segmentoOtoneurologia\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+D:\segmentoOtoneurologia\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+D:\segmentoOtoneurologia\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+D:\segmentoOtoneurologia\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\segmentoOtoneurologia\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\segmentoOtoneurologia\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\segmentoOtoneurologia\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\segmentoOtoneurologia\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\segmentoOtoneurologia\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\segmentoOtoneurologia\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\segmentoOtoneurologia\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\segmentoOtoneurologia\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\segmentoOtoneurologia\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\segmentoOtoneurologia\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+D:\segmentoOtoneurologia\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+D:\segmentoOtoneurologia\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+D:\segmentoOtoneurologia\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+D:\segmentoOtoneurologia\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+D:\segmentoOtoneurologia\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+D:\segmentoOtoneurologia\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+D:\segmentoOtoneurologia\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+D:\segmentoOtoneurologia\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+D:\segmentoOtoneurologia\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+D:\segmentoOtoneurologia\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\segmentoOtoneurologia\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\segmentoOtoneurologia\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\segmentoOtoneurologia\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\segmentoOtoneurologia\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\segmentoOtoneurologia\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\segmentoOtoneurologia\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\segmentoOtoneurologia\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\segmentoOtoneurologia\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\segmentoOtoneurologia\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\segmentoOtoneurologia\bin\Debug\cs-CZ\Xceed.Wpf.AvalonDock.resources.dll
+D:\segmentoOtoneurologia\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+D:\segmentoOtoneurologia\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+D:\segmentoOtoneurologia\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+D:\segmentoOtoneurologia\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+D:\segmentoOtoneurologia\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+D:\segmentoOtoneurologia\bin\Debug\ja-JP\Xceed.Wpf.AvalonDock.resources.dll
+D:\segmentoOtoneurologia\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+D:\segmentoOtoneurologia\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+D:\segmentoOtoneurologia\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+D:\segmentoOtoneurologia\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+D:\segmentoOtoneurologia\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+D:\segmentoOtoneurologia\bin\Debug\pt-BR\Microsoft.VisualStudio.Data.Services.resources.dll
+D:\segmentoOtoneurologia\bin\Debug\pt-BR\Microsoft.VisualStudio.Data.Core.resources.dll
+D:\segmentoOtoneurologia\bin\Debug\pt-BR\Microsoft.VisualStudio.GraphModel.resources.dll
+D:\segmentoOtoneurologia\obj\Debug\segmentoOtoneurologia.csprojAssemblyReference.cache
+D:\segmentoOtoneurologia\obj\Debug\segmentoOtoneurologia.exe.config
+D:\segmentoOtoneurologia\obj\Debug\segmentoOtoneurologia.frmLogin.resources
+D:\segmentoOtoneurologia\obj\Debug\segmentoOtoneurologia.frmAguarde.resources
+D:\segmentoOtoneurologia\obj\Debug\segmentoOtoneurologia.frmAjuda.resources
+D:\segmentoOtoneurologia\obj\Debug\segmentoOtoneurologia.frmBlocoNotas.resources
+D:\segmentoOtoneurologia\obj\Debug\segmentoOtoneurologia.frmCadastroOtoneurologia.resources
+D:\segmentoOtoneurologia\obj\Debug\segmentoOtoneurologia.frmConservacaoAuditiva.resources
+D:\segmentoOtoneurologia\obj\Debug\segmentoOtoneurologia.frmContatos.resources
+D:\segmentoOtoneurologia\obj\Debug\segmentoOtoneurologia.frmExames.resources
+D:\segmentoOtoneurologia\obj\Debug\segmentoOtoneurologia.frmLaudario.resources
+D:\segmentoOtoneurologia\obj\Debug\segmentoOtoneurologia.frmPrincial.resources
+D:\segmentoOtoneurologia\obj\Debug\segmentoOtoneurologia.frmPrintCampoLivreAASI.resources
+D:\segmentoOtoneurologia\obj\Debug\segmentoOtoneurologia.frmPrintImpedancioODeOE.resources
+D:\segmentoOtoneurologia\obj\Debug\segmentoOtoneurologia.frmProntuario.resources
+D:\segmentoOtoneurologia\obj\Debug\segmentoOtoneurologia.frmReceituarios.resources
+D:\segmentoOtoneurologia\obj\Debug\segmentoOtoneurologia.frmRecepcao.resources
+D:\segmentoOtoneurologia\obj\Debug\segmentoOtoneurologia.Properties.Resources.resources
+D:\segmentoOtoneurologia\obj\Debug\segmentoOtoneurologia.csproj.GenerateResource.cache
+D:\segmentoOtoneurologia\obj\Debug\RdlCompile.cache
+D:\segmentoOtoneurologia\obj\Debug\RdlCompile.compiled
+D:\segmentoOtoneurologia\obj\Debug\segmentoOtoneurologia.csproj.CoreCompileInputs.cache
+D:\segmentoOtoneurologia\obj\Debug\segmentoOtoneurologia.csproj.CopyComplete
+D:\segmentoOtoneurologia\obj\Debug\segmentoOtoneurologia.exe
+D:\segmentoOtoneurologia\obj\Debug\segmentoOtoneurologia.pdb
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\obj\Debug\segmentoOtoneurologia.frmPrintComportamental.resources
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\obj\Debug\segmentoOtoneurologia.frmPrintAudioCampoConven.resources
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\obj\Debug\segmentoOtoneurologia.frmPrintAudioAltasFreq.resources
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\obj\Debug\segmentoOtoneurologia.frmPrintAudioClinica.resources
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\Correios.Net.dll
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\Correios.Net.pdb
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\obj\Debug\segmentoOtoneurologia.frmPrintAgendaDia.resources
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\obj\Debug\segmentoOtoneurologia.frmPrintReceituario.resources
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\obj\Debug\segmentoOtoneurologia.frmPrintLaudario.resources
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\obj\Debug\segmentoOtoneurologia.frmEstoque.resources
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\obj\Debug\segmentoOtoneurologia.frmFinanceiroEstoque.resources
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\obj\Debug\segmentoOtoneurologia.frmFinanceiroFaturamento.resources
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\obj\Debug\segmentoOtoneurologia.frmPrintRelatorioGeralFaturamento.resources
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\obj\Debug\segmentoOtoneurologia.frmPrintRelatorioFaturamentoParticulares.resources
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\obj\Debug\segmentoOtoneurologia.csprojAssemblyReference.cache
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\segmentoOtoneurologia.exe.manifest
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\bin\Debug\segmentoOtoneurologia.application
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\obj\Debug\segmentoOtoneurologia.TrustInfo.xml
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\obj\Debug\segmentoOtoneurologia.exe.manifest
+C:\Users\Fábio Leonel\source\repos\segmentoOtoneurologia\obj\Debug\segmentoOtoneurologia.application
