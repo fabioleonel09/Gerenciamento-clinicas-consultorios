@@ -57,6 +57,8 @@ namespace segmentoOtoneurologia
             this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.btnPesquisarNotas = new System.Windows.Forms.Button();
             this.maskedTextBox2 = new System.Windows.Forms.MaskedTextBox();
             this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
@@ -66,8 +68,6 @@ namespace segmentoOtoneurologia
             this.nomeNotaTextBox = new System.Windows.Forms.TextBox();
             this.tabelaBlocoNotasTableAdapter = new segmentoOtoneurologia.segmsaude001DataSetTableAdapters.tabelaBlocoNotasTableAdapter();
             this.tableAdapterManager = new segmentoOtoneurologia.segmsaude001DataSetTableAdapters.TableAdapterManager();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             nomeNotaLabel = new System.Windows.Forms.Label();
             dataNotaLabel = new System.Windows.Forms.Label();
             anotacoesLabel = new System.Windows.Forms.Label();
@@ -173,6 +173,7 @@ namespace segmentoOtoneurologia
             this.bindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = true;
             this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(52, 90);
             this.bindingNavigatorAddNewItem.Text = "Adicionar novo";
+            this.bindingNavigatorAddNewItem.Click += new System.EventHandler(this.bindingNavigatorAddNewItem_Click);
             // 
             // tabelaBlocoNotasBindingSource
             // 
@@ -202,6 +203,7 @@ namespace segmentoOtoneurologia
             this.bindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = true;
             this.bindingNavigatorDeleteItem.Size = new System.Drawing.Size(52, 90);
             this.bindingNavigatorDeleteItem.Text = "Excluir";
+            this.bindingNavigatorDeleteItem.Click += new System.EventHandler(this.bindingNavigatorDeleteItem_Click);
             // 
             // bindingNavigatorMoveFirstItem
             // 
@@ -272,6 +274,7 @@ namespace segmentoOtoneurologia
             this.toolStripButtonEditar.Name = "toolStripButtonEditar";
             this.toolStripButtonEditar.Size = new System.Drawing.Size(52, 90);
             this.toolStripButtonEditar.Text = "Editar conteúdo";
+            this.toolStripButtonEditar.Click += new System.EventHandler(this.toolStripButtonEditar_Click);
             // 
             // toolStripButtonBloquear
             // 
@@ -282,6 +285,7 @@ namespace segmentoOtoneurologia
             this.toolStripButtonBloquear.Name = "toolStripButtonBloquear";
             this.toolStripButtonBloquear.Size = new System.Drawing.Size(52, 90);
             this.toolStripButtonBloquear.Text = "Salvar e bloquear";
+            this.toolStripButtonBloquear.Click += new System.EventHandler(this.toolStripButtonBloquear_Click);
             // 
             // tableLayoutPanel2
             // 
@@ -375,6 +379,27 @@ namespace segmentoOtoneurologia
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Buscar por data";
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.ForeColor = System.Drawing.Color.DarkOrange;
+            this.label2.Location = new System.Drawing.Point(160, 29);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(17, 18);
+            this.label2.TabIndex = 4;
+            this.label2.Text = "e";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.ForeColor = System.Drawing.Color.DarkOrange;
+            this.label1.Location = new System.Drawing.Point(8, 29);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(49, 18);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "Entre:";
+            // 
             // btnPesquisarNotas
             // 
             this.btnPesquisarNotas.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -463,6 +488,7 @@ namespace segmentoOtoneurologia
             this.tableAdapterManager.tabelaBlocoNotasTableAdapter = this.tabelaBlocoNotasTableAdapter;
             this.tableAdapterManager.tabelaCadastroSenhasTableAdapter = null;
             this.tableAdapterManager.tabelaContatosTableAdapter = null;
+            this.tableAdapterManager.tabelaEstoqueTableAdapter = null;
             this.tableAdapterManager.tabelaExamesTableAdapter = null;
             this.tableAdapterManager.tabelaLaudario1TableAdapter = null;
             this.tableAdapterManager.tabelaLaudarioTableAdapter = null;
@@ -472,27 +498,6 @@ namespace segmentoOtoneurologia
             this.tableAdapterManager.tabelaProntuarioTableAdapter = null;
             this.tableAdapterManager.tabelaReceituarioTableAdapter = null;
             this.tableAdapterManager.UpdateOrder = segmentoOtoneurologia.segmsaude001DataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.ForeColor = System.Drawing.Color.DarkOrange;
-            this.label1.Location = new System.Drawing.Point(8, 29);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(49, 18);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "Entre:";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.ForeColor = System.Drawing.Color.DarkOrange;
-            this.label2.Location = new System.Drawing.Point(160, 29);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(17, 18);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "e";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // frmBlocoNotas
             // 

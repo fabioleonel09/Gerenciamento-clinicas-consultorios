@@ -56,7 +56,7 @@
     <ApplicationIcon>usuarios.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
-    <SignManifests>true</SignManifests>
+    <SignManifests>false</SignManifests>
   </PropertyGroup>
   <PropertyGroup>
     <ManifestCertificateThumbprint>215C49A482183121D49ED154EDDF08A26ADE268B</ManifestCertificateThumbprint>

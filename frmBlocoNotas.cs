@@ -16,6 +16,8 @@ namespace segmentoOtoneurologia
         {
             InitializeComponent();
 
+            gbAnotações.Enabled = false;
+
             tabelaBlocoNotasBindingSource.Filter = $"dataNota >= '#{DateTime.Now}#'"; //filtra a BD como o que estiver na data escolhida
         }
 
@@ -25,6 +27,9 @@ namespace segmentoOtoneurologia
             this.tabelaBlocoNotasBindingSource.EndEdit();
             this.tableAdapterManager.UpdateAll(this.segmsaude001DataSet);
 
+            MessageBox.Show("Anotação salva com sucesso!", "Atenção!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+            gbAnotações.Enabled = false;
         }
 
         private void frmBlocoNotas_Load(object sender, EventArgs e)
@@ -53,6 +58,36 @@ namespace segmentoOtoneurologia
                 maskedTextBox1.Clear();
                 maskedTextBox2.Clear();
             }
+        }
+
+        private void bindingNavigatorAddNewItem_Click(object sender, EventArgs e)
+        {
+            gbAnotações.Enabled = true;
+        }
+
+        private void bindingNavigatorDeleteItem_Click(object sender, EventArgs e)
+        {
+            this.Validate();
+            this.tabelaBlocoNotasBindingSource.EndEdit();
+            this.tableAdapterManager.UpdateAll(this.segmsaude001DataSet);
+
+            MessageBox.Show("Anotação apagada com sucesso!", "Atenção!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+            gbAnotações.Enabled = false;
+        }
+
+        private void toolStripButtonEditar_Click(object sender, EventArgs e)
+        {
+            gbAnotações.Enabled = true;
+        }
+
+        private void toolStripButtonBloquear_Click(object sender, EventArgs e)
+        {
+            this.Validate();
+            this.tabelaBlocoNotasBindingSource.EndEdit();
+            this.tableAdapterManager.UpdateAll(this.segmsaude001DataSet);
+
+            gbAnotações.Enabled = false;
         }
     }
 }
