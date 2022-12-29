@@ -213,6 +213,7 @@ namespace segmentoOtoneurologia
             this.bindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = true;
             this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(52, 74);
             this.bindingNavigatorAddNewItem.Text = "Adicionar novo";
+            this.bindingNavigatorAddNewItem.Click += new System.EventHandler(this.bindingNavigatorAddNewItem_Click);
             // 
             // tabelaContatosBindingSource
             // 
@@ -242,6 +243,7 @@ namespace segmentoOtoneurologia
             this.bindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = true;
             this.bindingNavigatorDeleteItem.Size = new System.Drawing.Size(52, 74);
             this.bindingNavigatorDeleteItem.Text = "Excluir";
+            this.bindingNavigatorDeleteItem.Click += new System.EventHandler(this.bindingNavigatorDeleteItem_Click);
             // 
             // bindingNavigatorMoveFirstItem
             // 
@@ -312,6 +314,7 @@ namespace segmentoOtoneurologia
             this.toolStripButtonEditar.Name = "toolStripButtonEditar";
             this.toolStripButtonEditar.Size = new System.Drawing.Size(52, 74);
             this.toolStripButtonEditar.Text = "Editar dados";
+            this.toolStripButtonEditar.Click += new System.EventHandler(this.toolStripButtonEditar_Click);
             // 
             // toolStripButtonBloquear
             // 
@@ -322,6 +325,7 @@ namespace segmentoOtoneurologia
             this.toolStripButtonBloquear.Name = "toolStripButtonBloquear";
             this.toolStripButtonBloquear.Size = new System.Drawing.Size(52, 74);
             this.toolStripButtonBloquear.Text = "Bloquear e salvar";
+            this.toolStripButtonBloquear.Click += new System.EventHandler(this.toolStripButtonBloquear_Click);
             // 
             // tabelaContatosDataGridView
             // 
@@ -500,6 +504,7 @@ namespace segmentoOtoneurologia
             this.tableAdapterManager.tabelaBlocoNotasTableAdapter = null;
             this.tableAdapterManager.tabelaCadastroSenhasTableAdapter = null;
             this.tableAdapterManager.tabelaContatosTableAdapter = this.tabelaContatosTableAdapter;
+            this.tableAdapterManager.tabelaEstoqueTableAdapter = null;
             this.tableAdapterManager.tabelaExamesTableAdapter = null;
             this.tableAdapterManager.tabelaLaudario1TableAdapter = null;
             this.tableAdapterManager.tabelaLaudarioTableAdapter = null;

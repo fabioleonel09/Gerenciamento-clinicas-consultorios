@@ -42,12 +42,12 @@ namespace segmentoOtoneurologia
             this.label6 = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.btnAjuda = new System.Windows.Forms.Button();
             this.btnEntrar = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.gbAdministrativo = new System.Windows.Forms.GroupBox();
             this.btnAdm = new System.Windows.Forms.Button();
@@ -70,14 +70,14 @@ namespace segmentoOtoneurologia
             this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.tabelaCadastroSenhasTableAdapter = new segmentoOtoneurologia.segmsaude001DataSetTableAdapters.tabelaCadastroSenhasTableAdapter();
             this.tableAdapterManager = new segmentoOtoneurologia.segmsaude001DataSetTableAdapters.TableAdapterManager();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tabPage2.SuspendLayout();
             this.gbAdministrativo.SuspendLayout();
             this.gbBancoDados.SuspendLayout();
@@ -104,6 +104,7 @@ namespace segmentoOtoneurologia
             this.cbProfissionais.Items.AddRange(new object[] {
             "",
             "Profissional da saúde",
+            "Exames",
             "Administração",
             "Faturamento",
             "Recepção",
@@ -120,7 +121,7 @@ namespace segmentoOtoneurologia
             this.label1.ForeColor = System.Drawing.Color.MidnightBlue;
             this.label1.Location = new System.Drawing.Point(34, 281);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(47, 16);
+            this.label1.Size = new System.Drawing.Size(46, 16);
             this.label1.TabIndex = 4;
             this.label1.Text = "Senha";
             // 
@@ -131,9 +132,9 @@ namespace segmentoOtoneurologia
             this.label2.ForeColor = System.Drawing.Color.MidnightBlue;
             this.label2.Location = new System.Drawing.Point(34, 340);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(80, 16);
+            this.label2.Size = new System.Drawing.Size(150, 16);
             this.label2.TabIndex = 5;
-            this.label2.Text = "Profissional";
+            this.label2.Text = "Profissional / Atividade";
             // 
             // label3
             // 
@@ -142,7 +143,7 @@ namespace segmentoOtoneurologia
             this.label3.ForeColor = System.Drawing.Color.MidnightBlue;
             this.label3.Location = new System.Drawing.Point(34, 233);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(55, 16);
+            this.label3.Size = new System.Drawing.Size(54, 16);
             this.label3.TabIndex = 7;
             this.label3.Text = "Usuário";
             // 
@@ -225,16 +226,6 @@ namespace segmentoOtoneurologia
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Login de usuário";
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::segmentoOtoneurologia.Properties.Resources.luaRecolorida2;
-            this.pictureBox1.Location = new System.Drawing.Point(371, -27);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(522, 567);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox1.TabIndex = 15;
-            this.pictureBox1.TabStop = false;
-            // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.Salmon;
@@ -308,6 +299,16 @@ namespace segmentoOtoneurologia
             this.btnEntrar.UseVisualStyleBackColor = false;
             this.btnEntrar.Click += new System.EventHandler(this.btnEntrar_Click);
             this.btnEntrar.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.btnEntrar_KeyPress);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::segmentoOtoneurologia.Properties.Resources.luaRecolorida2;
+            this.pictureBox1.Location = new System.Drawing.Point(371, -27);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(522, 567);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox1.TabIndex = 15;
+            this.pictureBox1.TabStop = false;
             // 
             // tabPage2
             // 
@@ -541,6 +542,16 @@ namespace segmentoOtoneurologia
             this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
             this.dataGridViewTextBoxColumn4.Width = 140;
             // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::segmentoOtoneurologia.Properties.Resources.luaRecolorida2;
+            this.pictureBox4.Location = new System.Drawing.Point(371, -27);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(515, 567);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox4.TabIndex = 16;
+            this.pictureBox4.TabStop = false;
+            // 
             // tabelaCadastroSenhasTableAdapter
             // 
             this.tabelaCadastroSenhasTableAdapter.ClearBeforeFill = true;
@@ -563,16 +574,6 @@ namespace segmentoOtoneurologia
             this.tableAdapterManager.tabelaReceituarioTableAdapter = null;
             this.tableAdapterManager.UpdateOrder = segmentoOtoneurologia.segmsaude001DataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
             // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = global::segmentoOtoneurologia.Properties.Resources.luaRecolorida2;
-            this.pictureBox4.Location = new System.Drawing.Point(371, -27);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(515, 567);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox4.TabIndex = 16;
-            this.pictureBox4.TabStop = false;
-            // 
             // frmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
@@ -594,9 +595,9 @@ namespace segmentoOtoneurologia
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.tabPage2.ResumeLayout(false);
             this.gbAdministrativo.ResumeLayout(false);
             this.gbAdministrativo.PerformLayout();

@@ -32,7 +32,7 @@ namespace segmentoOtoneurologia
         {
             for (int i = 0; i <= 500; i++)
             {
-                Thread.Sleep(10);
+                Thread.Sleep(5);
             }
         }
 
@@ -51,7 +51,7 @@ namespace segmentoOtoneurologia
 
                 dr = comando.ExecuteReader();
 
-                if (dr.Read())
+                if ((dr.Read()) && (cbProfissionais.Text == "Exames"))
                 {
                     autenticacao.Entrar(dr["novoUsuario"].ToString(), dr["tipoProfissional"].ToString(), dr["novaSenha"].ToString());
                 
@@ -75,7 +75,7 @@ namespace segmentoOtoneurologia
 
                 else
                 {
-                    MessageBox.Show("Dados incorretos. Preencha novamente.", "Atenção!", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                    MessageBox.Show("Dados incorretos. Preencha novamente. Verifique o usuário, a senha e se no campo 'Profissional / Atividade' está selecionado 'Exames'.", "Atenção!", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
 
                     txtUsuario.Clear();
                     txtSenha.Clear();

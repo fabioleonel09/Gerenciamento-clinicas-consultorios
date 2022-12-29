@@ -15,6 +15,8 @@ namespace segmentoOtoneurologia
         public frmContatos()
         {
             InitializeComponent();
+
+            gbAdicionarContato.Enabled = false;
         }
 
         private void tabelaContatosBindingNavigatorSaveItem_Click(object sender, EventArgs e)
@@ -23,6 +25,9 @@ namespace segmentoOtoneurologia
             this.tabelaContatosBindingSource.EndEdit();
             this.tableAdapterManager.UpdateAll(this.segmsaude001DataSet);
 
+            MessageBox.Show("Contato salvo com sucesso!", "Atenção!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+            gbAdicionarContato.Enabled = false;
         }
 
         private void frmContatos_Load(object sender, EventArgs e)
@@ -35,6 +40,36 @@ namespace segmentoOtoneurologia
         private void txtBuscarContato_TextChanged(object sender, EventArgs e)
         {
             tabelaContatosBindingSource.Filter = $"nomeContato like '*{txtBuscarContato.Text}*'";
+        }
+
+        private void bindingNavigatorAddNewItem_Click(object sender, EventArgs e)
+        {
+            gbAdicionarContato.Enabled = true;
+        }
+
+        private void bindingNavigatorDeleteItem_Click(object sender, EventArgs e)
+        {
+            this.Validate();
+            this.tabelaContatosBindingSource.EndEdit();
+            this.tableAdapterManager.UpdateAll(this.segmsaude001DataSet);
+
+            MessageBox.Show("Contato apagado com sucesso!", "Atenção!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+            gbAdicionarContato.Enabled = false;
+        }
+
+        private void toolStripButtonEditar_Click(object sender, EventArgs e)
+        {
+            gbAdicionarContato.Enabled = true;
+        }
+
+        private void toolStripButtonBloquear_Click(object sender, EventArgs e)
+        {
+            this.Validate();
+            this.tabelaContatosBindingSource.EndEdit();
+            this.tableAdapterManager.UpdateAll(this.segmsaude001DataSet);
+
+            gbAdicionarContato.Enabled = false;
         }
     }
 }

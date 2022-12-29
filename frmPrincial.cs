@@ -76,11 +76,25 @@ namespace segmentoOtoneurologia
                 btnOcupacional.Enabled = false;
                 ((Control)tabControl1.TabPages["tabPage2"]).Enabled = true;
             }
+            if (txtProfissionalLogado.Text == "Exames")
+            {
+                btnFinanceiroEstoque.Enabled = false;
+                btnRecepcao.Enabled = false;
+                btnProntuario.Enabled = false;
+                btnReceituario.Enabled = false;
+                btnOtoneuro.Enabled = true;
+                btnOcupacional.Enabled = false;
+                gbLembretes.Enabled = true;
+                tabelaAgendamentoBindingNavigator.Enabled = false;
+                ((Control)tabControl1.TabPages["tabPage1"]).Enabled = false;
+                ((Control)tabControl1.TabPages["tabPage2"]).Enabled = false;
+                ((Control)tabControl1.TabPages["tabPage3"]).Enabled = false;
+            }
         }
 
         void ConfigurarTimer()
         {
-            timer1.Interval = 350; //setar intervalo de 2 segundos...
+            timer1.Interval = 300; //setar intervalo de 2 segundos...
             timer1.Enabled = true;
         }
 
@@ -121,8 +135,11 @@ namespace segmentoOtoneurologia
 
         private void btnOtoneuro_Click(object sender, EventArgs e)// evento do btn otoneuro
         {
-            frmCadastroOtoneurologia fco = new frmCadastroOtoneurologia();//instancia o frm cadastro otoneuro
-            fco.ShowDialog();//abre o frm
+            frmExames fe = new frmExames();//instancia o frm exames
+            fe.ShowDialog();//abre o frm
+
+            //frmCadastroOtoneurologia fco = new frmCadastroOtoneurologia();//instancia o frm cadastro otoneuro
+            //fco.ShowDialog();//abre o frm
         }
 
         private void btnNotas_Click(object sender, EventArgs e)//evento do btn notas
