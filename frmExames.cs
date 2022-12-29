@@ -22,6 +22,27 @@ namespace segmentoOtoneurologia
             //do exame de impedanciometria
             curvaBodCheckBox.Checked = false;
             curvaBoeCheckBox.Checked = false;
+
+            gbDadosPaciente.Enabled = false;
+            gbTipoAudiograma.Enabled = false;            
+           
+            ((Control)tabControl1.TabPages["tabPage2"]).Enabled = false;
+            ((Control)tabControl1.TabPages["tabPage3"]).Enabled = false;
+            ((Control)tabControl1.TabPages["tabPage4"]).Enabled = false;
+            ((Control)tabControl1.TabPages["tabPage5"]).Enabled = false;
+            ((Control)tabControl1.TabPages["tabPage6"]).Enabled = false;
+            ((Control)tabControl1.TabPages["tabPage7"]).Enabled = false;
+            ((Control)tabControl1.TabPages["tabPage36"]).Enabled = false;
+
+            if (tabelaExamesDataGridView.SelectedRows.Count > 0)
+            {
+                int ativo = tabelaExamesDataGridView.SelectedRows[0].Index;
+
+                if (ativo >= 0)
+                {
+                    tabelaExamesDataGridView.Rows[ativo].Selected = false;
+                }
+            }
         }
 
         void OpenData()
@@ -38,6 +59,19 @@ namespace segmentoOtoneurologia
             this.tabelaExamesBindingSource.EndEdit();
             this.tableAdapterManager.UpdateAll(this.segmsaude001DataSet);
 
+            MessageBox.Show("Os exames foram salvos com sucesso!", "Atenção!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+            gbDadosPaciente.Enabled = false;
+            gbTipoAudiograma.Enabled = false;
+
+            tipoAudiometriaComboBox.SelectedIndex = -1;
+
+            ((Control)tabControl1.TabPages["tabPage3"]).Enabled = false;
+            ((Control)tabControl1.TabPages["tabPage4"]).Enabled = false;
+            ((Control)tabControl1.TabPages["tabPage5"]).Enabled = false;
+            ((Control)tabControl1.TabPages["tabPage6"]).Enabled = false;
+            ((Control)tabControl1.TabPages["tabPage7"]).Enabled = false;
+            ((Control)tabControl1.TabPages["tabPage36"]).Enabled = false;
         }
 
         private void frmExames_Load(object sender, EventArgs e)
@@ -47,8 +81,7 @@ namespace segmentoOtoneurologia
             // TODO: esta linha de código carrega dados na tabela 'segmsaude001DataSet.tabelaLaudario1'. Você pode movê-la ou removê-la conforme necessário.
             this.tabelaLaudario1TableAdapter.Fill(this.segmsaude001DataSet.tabelaLaudario1);
             // TODO: esta linha de código carrega dados na tabela 'segmsaude001DataSet.tabelaExames'. Você pode movê-la ou removê-la conforme necessário.
-            this.tabelaExamesTableAdapter.Fill(this.segmsaude001DataSet.tabelaExames);
-
+            this.tabelaExamesTableAdapter.Fill(this.segmsaude001DataSet.tabelaExames);           
         }
 
         private void frmExames_FormClosing(object sender, FormClosingEventArgs e)//evento do formClosing
@@ -10150,6 +10183,131 @@ namespace segmentoOtoneurologia
             dados.laudario = txtLaudario.Text;
             fpl.dados.Add(dados);
             fpl.ShowDialog();
+        }
+
+        private void bindingNavigatorAddNewItem_Click(object sender, EventArgs e)
+        {
+            dataExameDateTimePicker.CustomFormat = " ";
+            dataNascimentoDateTimePicker.CustomFormat = " ";
+            dataCalibracaoDateTimePicker.CustomFormat = " ";
+
+            gbDadosPaciente.Enabled = true;
+            gbTipoAudiograma.Enabled = true;           
+
+            ((Control)tabControl1.TabPages["tabPage3"]).Enabled = true;
+            ((Control)tabControl1.TabPages["tabPage4"]).Enabled = true;
+            ((Control)tabControl1.TabPages["tabPage5"]).Enabled = true;
+            ((Control)tabControl1.TabPages["tabPage6"]).Enabled = true;
+            ((Control)tabControl1.TabPages["tabPage7"]).Enabled = true;
+            ((Control)tabControl1.TabPages["tabPage36"]).Enabled = true;           
+        }
+
+        private void bindingNavigatorDeleteItem_Click(object sender, EventArgs e)
+        {
+            this.Validate();
+            this.tabelaExamesBindingSource.EndEdit();
+            this.tableAdapterManager.UpdateAll(this.segmsaude001DataSet);
+
+            MessageBox.Show("Os exames foram apagados com sucesso!", "Atenção!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+            gbDadosPaciente.Enabled = false;
+            gbTipoAudiograma.Enabled = false;
+
+            dataExameDateTimePicker.CustomFormat = " ";
+            dataNascimentoDateTimePicker.CustomFormat = " ";
+            dataCalibracaoDateTimePicker.CustomFormat = " ";
+
+            tipoAudiometriaComboBox.SelectedIndex = -1;
+
+            ((Control)tabControl1.TabPages["tabPage3"]).Enabled = false;
+            ((Control)tabControl1.TabPages["tabPage4"]).Enabled = false;
+            ((Control)tabControl1.TabPages["tabPage5"]).Enabled = false;
+            ((Control)tabControl1.TabPages["tabPage6"]).Enabled = false;
+            ((Control)tabControl1.TabPages["tabPage7"]).Enabled = false;
+            ((Control)tabControl1.TabPages["tabPage36"]).Enabled = false;
+        }
+
+        private void toolStripEditar_Click(object sender, EventArgs e)
+        {
+            gbDadosPaciente.Enabled = true;
+            gbTipoAudiograma.Enabled = true;
+
+            ((Control)tabControl1.TabPages["tabPage3"]).Enabled = true;
+            ((Control)tabControl1.TabPages["tabPage4"]).Enabled = true;
+            ((Control)tabControl1.TabPages["tabPage5"]).Enabled = true;
+            ((Control)tabControl1.TabPages["tabPage6"]).Enabled = true;
+            ((Control)tabControl1.TabPages["tabPage7"]).Enabled = true;
+            ((Control)tabControl1.TabPages["tabPage36"]).Enabled = true;
+        }
+
+        private void toolStripBloquear_Click(object sender, EventArgs e)
+        {
+            this.Validate();
+            this.tabelaExamesBindingSource.EndEdit();
+            this.tableAdapterManager.UpdateAll(this.segmsaude001DataSet);
+
+            gbDadosPaciente.Enabled = false;
+            gbTipoAudiograma.Enabled = false;
+
+            tipoAudiometriaComboBox.SelectedIndex = -1;
+
+            ((Control)tabControl1.TabPages["tabPage3"]).Enabled = false;
+            ((Control)tabControl1.TabPages["tabPage4"]).Enabled = false;
+            ((Control)tabControl1.TabPages["tabPage5"]).Enabled = false;
+            ((Control)tabControl1.TabPages["tabPage6"]).Enabled = false;
+            ((Control)tabControl1.TabPages["tabPage7"]).Enabled = false;
+            ((Control)tabControl1.TabPages["tabPage36"]).Enabled = false;
+        }
+
+        private void tipoAudiometriaComboBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (String.IsNullOrEmpty(tipoAudiometriaComboBox.Text))
+            {
+                ((Control)tabControl1.TabPages["tabPage2"]).Enabled = false;
+            }
+            else
+            {
+                ((Control)tabControl1.TabPages["tabPage2"]).Enabled = true;
+            }
+        }
+
+        private void dataExameDateTimePicker_ValueChanged(object sender, EventArgs e)
+        {
+            dataExameDateTimePicker.CustomFormat = "dd/MM/yyyy";
+        }
+
+        private void dataExameDateTimePicker_KeyDown(object sender, KeyEventArgs e)
+        {
+            if ((e.KeyCode == Keys.Back) || (e.KeyCode == Keys.Delete))
+            {
+                dataExameDateTimePicker.CustomFormat = " ";
+            }
+        }
+
+        private void dataNascimentoDateTimePicker_ValueChanged(object sender, EventArgs e)
+        {
+            dataNascimentoDateTimePicker.CustomFormat = "dd/MM/yyyy";
+        }
+
+        private void dataNascimentoDateTimePicker_KeyDown(object sender, KeyEventArgs e)
+        {
+            if ((e.KeyCode == Keys.Back) || (e.KeyCode == Keys.Delete))
+            {
+                dataNascimentoDateTimePicker.CustomFormat = " ";
+            }
+        }
+
+        private void dataCalibracaoDateTimePicker_ValueChanged(object sender, EventArgs e)
+        {
+            dataCalibracaoDateTimePicker.CustomFormat = "dd/MM/yyyy";
+        }
+
+        private void dataCalibracaoDateTimePicker_KeyDown(object sender, KeyEventArgs e)
+        {
+            if ((e.KeyCode == Keys.Back) || (e.KeyCode == Keys.Delete))
+            {
+                dataCalibracaoDateTimePicker.CustomFormat = " ";
+            }
         }
     }   
 }
