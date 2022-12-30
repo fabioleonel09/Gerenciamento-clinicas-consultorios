@@ -496,6 +496,10 @@
     <None Include="Resources\luaRecolorida1.png" />
     <None Include="Resources\luaRecolorida2.png" />
     <None Include="Resources\asfon.png" />
+    <None Include="Resources\Slide1.png" />
+    <None Include="Resources\Slide2.png" />
+    <None Include="Resources\Slide3.png" />
+    <None Include="Resources\Slide4.png" />
     <Content Include="usuarios.ico" />
     <None Include="Resources\voOEmascAusente.png" />
     <None Include="Resources\voOEmascPresente.png" />
