@@ -20,11 +20,14 @@ namespace segmentoOtoneurologia
 
             //deixa dos checks desmarcados ao iniciar
             //do exame de impedanciometria
-            curvaBodCheckBox.Checked = false;
-            curvaBoeCheckBox.Checked = false;
+            //curvaBodCheckBox.Checked = false;
+            //curvaBoeCheckBox.Checked = false;
+            
 
             gbDadosPaciente.Enabled = false;
-            gbTipoAudiograma.Enabled = false;            
+            gbTipoAudiograma.Enabled = false;
+
+            tsbPreencherAudio.Enabled = false;
            
             ((Control)tabControl1.TabPages["tabPage2"]).Enabled = false;
             ((Control)tabControl1.TabPages["tabPage3"]).Enabled = false;
@@ -33,16 +36,6 @@ namespace segmentoOtoneurologia
             ((Control)tabControl1.TabPages["tabPage6"]).Enabled = false;
             ((Control)tabControl1.TabPages["tabPage7"]).Enabled = false;
             ((Control)tabControl1.TabPages["tabPage36"]).Enabled = false;
-
-            if (tabelaExamesDataGridView.SelectedRows.Count > 0)
-            {
-                int ativo = tabelaExamesDataGridView.SelectedRows[0].Index;
-
-                if (ativo >= 0)
-                {
-                    tabelaExamesDataGridView.Rows[ativo].Selected = false;
-                }
-            }
         }
 
         void OpenData()
@@ -81,7 +74,9 @@ namespace segmentoOtoneurologia
             // TODO: esta linha de código carrega dados na tabela 'segmsaude001DataSet.tabelaLaudario1'. Você pode movê-la ou removê-la conforme necessário.
             this.tabelaLaudario1TableAdapter.Fill(this.segmsaude001DataSet.tabelaLaudario1);
             // TODO: esta linha de código carrega dados na tabela 'segmsaude001DataSet.tabelaExames'. Você pode movê-la ou removê-la conforme necessário.
-            this.tabelaExamesTableAdapter.Fill(this.segmsaude001DataSet.tabelaExames);           
+            this.tabelaExamesTableAdapter.Fill(this.segmsaude001DataSet.tabelaExames);
+
+            this.Controls.OfType<CheckBox>().All(chk => chk.Checked = false);
         }
 
         private void frmExames_FormClosing(object sender, FormClosingEventArgs e)//evento do formClosing
@@ -10187,12 +10182,16 @@ namespace segmentoOtoneurologia
 
         private void bindingNavigatorAddNewItem_Click(object sender, EventArgs e)
         {
+            this.Controls.OfType<CheckBox>().All(chk => chk.Checked = false);
+
             dataExameDateTimePicker.CustomFormat = " ";
             dataNascimentoDateTimePicker.CustomFormat = " ";
             dataCalibracaoDateTimePicker.CustomFormat = " ";
+            dataCalImpDateTimePicker.CustomFormat = " ";
 
             gbDadosPaciente.Enabled = true;
-            gbTipoAudiograma.Enabled = true;           
+            gbTipoAudiograma.Enabled = true;
+            tsbPreencherAudio.Enabled = true;
 
             ((Control)tabControl1.TabPages["tabPage3"]).Enabled = true;
             ((Control)tabControl1.TabPages["tabPage4"]).Enabled = true;
@@ -10212,10 +10211,12 @@ namespace segmentoOtoneurologia
 
             gbDadosPaciente.Enabled = false;
             gbTipoAudiograma.Enabled = false;
+            tsbPreencherAudio.Enabled = false;
 
             dataExameDateTimePicker.CustomFormat = " ";
             dataNascimentoDateTimePicker.CustomFormat = " ";
             dataCalibracaoDateTimePicker.CustomFormat = " ";
+            dataCalImpDateTimePicker.CustomFormat = " ";
 
             tipoAudiometriaComboBox.SelectedIndex = -1;
 
@@ -10231,6 +10232,7 @@ namespace segmentoOtoneurologia
         {
             gbDadosPaciente.Enabled = true;
             gbTipoAudiograma.Enabled = true;
+            tsbPreencherAudio.Enabled = true;
 
             ((Control)tabControl1.TabPages["tabPage3"]).Enabled = true;
             ((Control)tabControl1.TabPages["tabPage4"]).Enabled = true;
@@ -10248,6 +10250,7 @@ namespace segmentoOtoneurologia
 
             gbDadosPaciente.Enabled = false;
             gbTipoAudiograma.Enabled = false;
+            tsbPreencherAudio.Enabled = false;
 
             tipoAudiometriaComboBox.SelectedIndex = -1;
 
@@ -10257,18 +10260,6 @@ namespace segmentoOtoneurologia
             ((Control)tabControl1.TabPages["tabPage6"]).Enabled = false;
             ((Control)tabControl1.TabPages["tabPage7"]).Enabled = false;
             ((Control)tabControl1.TabPages["tabPage36"]).Enabled = false;
-        }
-
-        private void tipoAudiometriaComboBox_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            if (String.IsNullOrEmpty(tipoAudiometriaComboBox.Text))
-            {
-                ((Control)tabControl1.TabPages["tabPage2"]).Enabled = false;
-            }
-            else
-            {
-                ((Control)tabControl1.TabPages["tabPage2"]).Enabled = true;
-            }
         }
 
         private void dataExameDateTimePicker_ValueChanged(object sender, EventArgs e)
@@ -10308,6 +10299,39 @@ namespace segmentoOtoneurologia
             {
                 dataCalibracaoDateTimePicker.CustomFormat = " ";
             }
+        }
+
+        private void dataCalImpDateTimePicker_ValueChanged(object sender, EventArgs e)
+        {
+            dataCalImpDateTimePicker.CustomFormat = "dd/MM/yyyy";
+        }
+
+        private void dataCalImpDateTimePicker_KeyDown(object sender, KeyEventArgs e)
+        {
+            if ((e.KeyCode == Keys.Back) || (e.KeyCode == Keys.Delete))
+            {
+                dataCalImpDateTimePicker.CustomFormat = " ";
+            }
+        }
+
+        private void tsbPreencherAudio_Click(object sender, EventArgs e)
+        {
+            if (String.IsNullOrEmpty(tipoAudiometriaComboBox.Text))
+            {
+                MessageBox.Show("Selecione o 'Tipo de Audiometria' antes de realizar este processo!", "Atenção!", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
+            else
+            {
+                ((Control)tabControl1.TabPages["tabPage2"]).Enabled = true;
+                this.Controls.OfType<CheckBox>().All(chk => chk.Checked = false);
+            }
+        }
+
+        private void toolStripInternet_Click(object sender, EventArgs e)
+        {
+            string pagina = "http://www.google.com.br";
+
+            System.Diagnostics.Process.Start(pagina);
         }
     }   
 }

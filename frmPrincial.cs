@@ -136,7 +136,7 @@ namespace segmentoOtoneurologia
         private void btnOtoneuro_Click(object sender, EventArgs e)// evento do btn otoneuro
         {
             frmExames fe = new frmExames();//instancia o frm exames
-            fe.ShowDialog();//abre o frm
+            fe.Show();//abre o frm
 
             //frmCadastroOtoneurologia fco = new frmCadastroOtoneurologia();//instancia o frm cadastro otoneuro
             //fco.ShowDialog();//abre o frm
