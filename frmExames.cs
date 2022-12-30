@@ -20,7 +20,7 @@ namespace segmentoOtoneurologia
 
             //deixa dos checks desmarcados ao iniciar
             //do exame de impedanciometria
-            //curvaBodCheckBox.Checked = false;
+            curvaBodCheckBox.Checked = false;
             //curvaBoeCheckBox.Checked = false;
             
 
@@ -74,9 +74,7 @@ namespace segmentoOtoneurologia
             // TODO: esta linha de código carrega dados na tabela 'segmsaude001DataSet.tabelaLaudario1'. Você pode movê-la ou removê-la conforme necessário.
             this.tabelaLaudario1TableAdapter.Fill(this.segmsaude001DataSet.tabelaLaudario1);
             // TODO: esta linha de código carrega dados na tabela 'segmsaude001DataSet.tabelaExames'. Você pode movê-la ou removê-la conforme necessário.
-            this.tabelaExamesTableAdapter.Fill(this.segmsaude001DataSet.tabelaExames);
-
-            this.Controls.OfType<CheckBox>().All(chk => chk.Checked = false);
+            this.tabelaExamesTableAdapter.Fill(this.segmsaude001DataSet.tabelaExames);           
         }
 
         private void frmExames_FormClosing(object sender, FormClosingEventArgs e)//evento do formClosing
@@ -9997,7 +9995,7 @@ namespace segmentoOtoneurologia
             }
         }
 
-        private void btnMediaODconv_Click(object sender, EventArgs e)
+        private void btnMediaODconv_Click(object sender, EventArgs e)//Média tritonal
         {
             try//no bloco de tratamento de erros
             {
@@ -10025,7 +10023,7 @@ namespace segmentoOtoneurologia
 
                         resultado = ((valor1 + valor2 + valor3) / 3);
 
-                        mEDIAodTextBox.Text = Convert.ToString(resultado);
+                        mEDIAodTextBox.Text += Convert.ToString(resultado) + " dBNA";
                     }
                 }
             }
@@ -10035,7 +10033,7 @@ namespace segmentoOtoneurologia
             }   
         }
 
-        private void btnMediaconvenOE_Click(object sender, EventArgs e)
+        private void btnMediaconvenOE_Click(object sender, EventArgs e)//Média Tritonal
         {
             try//no bloco de tratamento de erros
             {
@@ -10063,7 +10061,7 @@ namespace segmentoOtoneurologia
 
                         resultado = ((valor1 + valor2 + valor3) / 3);
 
-                        mEDIAoeTextBox.Text = Convert.ToString(resultado);
+                        mEDIAoeTextBox.Text += Convert.ToString(resultado) + " dBNA";
                     }
                 }
             }
@@ -10182,8 +10180,6 @@ namespace segmentoOtoneurologia
 
         private void bindingNavigatorAddNewItem_Click(object sender, EventArgs e)
         {
-            this.Controls.OfType<CheckBox>().All(chk => chk.Checked = false);
-
             dataExameDateTimePicker.CustomFormat = " ";
             dataNascimentoDateTimePicker.CustomFormat = " ";
             dataCalibracaoDateTimePicker.CustomFormat = " ";
@@ -10323,7 +10319,6 @@ namespace segmentoOtoneurologia
             else
             {
                 ((Control)tabControl1.TabPages["tabPage2"]).Enabled = true;
-                this.Controls.OfType<CheckBox>().All(chk => chk.Checked = false);
             }
         }
 
@@ -10332,6 +10327,84 @@ namespace segmentoOtoneurologia
             string pagina = "http://www.google.com.br";
 
             System.Diagnostics.Process.Start(pagina);
+        }
+
+        private void btnMedia4ODconv_Click(object sender, EventArgs e)//Média quadritonal
+        {
+            try//no bloco de tratamento de erros
+            {
+                mEDIAodTextBox.Clear();//limpa o txt média tritonal com AASI
+
+                if ((va500odComboBox.Text == "") || (va1kodComboBox.Text == "") || (va2kodComboBox.Text == "") || (va4kodComboBox.Text == ""))//caso alguma das txt's de 500Hz, 1kHz e 2kHz estejam vazias
+                {
+                    MessageBox.Show("Por favor, escolha os valores para a média quadritonal de 500Hz, 1kHz, 2kHZ e 4kHz.", "Atenção!", MessageBoxButtons.OK, MessageBoxIcon.Information);//msg de aviso
+                }
+
+                else//do contrário
+                {
+                    if ((aus500vaODCheckBox.Checked == true) || (aus1kvaODCheckBox.Checked == true) || (aus2kvaODCheckBox.Checked == true) || (aus4kvaODCheckBox.Checked == true))//caso alguma das txt's de 500Hz, 1kHz ou 2kHz esteja com o texto AUS, de ausente
+                    {
+                        mEDIAodTextBox.Text = "Saída máxima";//atritui a frase à txt média com AASI
+                    }
+
+                    else//caso contrário
+                    {
+                        int valor1, valor2, valor3, valor4, resultado;
+
+                        valor1 = Convert.ToInt32(va500odComboBox.Text);
+                        valor2 = Convert.ToInt32(va1kodComboBox.Text);
+                        valor3 = Convert.ToInt32(va2kodComboBox.Text);
+                        valor4 = Convert.ToInt32(va4kodComboBox.Text);
+
+                        resultado = ((valor1 + valor2 + valor3 + valor4) / 4);
+
+                        mEDIAodTextBox.Text += Convert.ToString(resultado) + " dBNA";
+                    }
+                }
+            }
+            catch (Exception ex)//tratamento de erro
+            {
+                MessageBox.Show(ex.Message);//msg de erro
+            }
+        }
+
+        private void btnMedia4ConvenOE_Click(object sender, EventArgs e)//Média quadritonal
+        {
+            try//no bloco de tratamento de erros
+            {
+                mEDIAoeTextBox.Clear();//limpa o txt média tritonal com AASI
+
+                if ((va500oeComboBox.Text == "") || (va1koeComboBox.Text == "") || (va2koeComboBox.Text == "") || (va4koeComboBox.Text == ""))//caso alguma das txt's de 500Hz, 1kHz e 2kHz estejam vazias
+                {
+                    MessageBox.Show("Por favor, escolha os valores para a média quadritonal de 500Hz, 1kHz, 2kHZ e 4kHz.", "Atenção!", MessageBoxButtons.OK, MessageBoxIcon.Information);//msg de aviso
+                }
+
+                else//do contrário
+                {
+                    if ((aus500vaOECheckBox.Checked == true) || (aus1kvaOECheckBox.Checked == true) || (aus2kvaOECheckBox.Checked == true) ||(aus4kvaOECheckBox.Checked == true))//caso alguma das txt's de 500Hz, 1kHz ou 2kHz esteja com o texto AUS, de ausente
+                    {
+                        mEDIAoeTextBox.Text = "Saída máxima";//atritui a frase à txt média com AASI
+                    }
+
+                    else//caso contrário
+                    {
+                        int valor1, valor2, valor3, valor4, resultado;
+
+                        valor1 = Convert.ToInt32(va500oeComboBox.Text);
+                        valor2 = Convert.ToInt32(va1koeComboBox.Text);
+                        valor3 = Convert.ToInt32(va2koeComboBox.Text);
+                        valor4 = Convert.ToInt32(va4koeComboBox.Text);
+
+                        resultado = ((valor1 + valor2 + valor3 + valor4) / 4);
+
+                        mEDIAoeTextBox.Text += Convert.ToString(resultado) + " dBNA";
+                    }
+                }
+            }
+            catch (Exception ex)//tratamento de erro
+            {
+                MessageBox.Show(ex.Message);//msg de erro
+            }
         }
     }   
 }
