@@ -10406,5 +10406,163 @@ namespace segmentoOtoneurologia
                 MessageBox.Show(ex.Message);//msg de erro
             }
         }
+
+        private void btnCalcularMedia4Com_Click(object sender, EventArgs e)//Média quadritonal com AASI
+        {
+            try//no bloco de tratamento de erros
+            {
+                comMEDIATextBox.Clear();//limpa o txt média tritonal com AASI
+
+                if ((com500ComboBox.Text == "") || (com1kComboBox.Text == "") || (com2KComboBox.Text == "") || (com4kComboBox.Text == ""))//caso alguma das txt's de 500Hz, 1kHz, 2kHz e 4kHz estejam vazias
+                {
+                    MessageBox.Show("Por favor, escolha os valores para a média quadritonal de 500Hz, 1kHz, 2kHZ e 4kHz.", "Atenção!", MessageBoxButtons.OK, MessageBoxIcon.Information);//msg de aviso
+                }
+
+                else//do contrário
+                {
+                    if ((chkAusente500comCheckBox.Checked == true) || (chkAusente1kcomCheckBox.Checked == true) || (chkAusente2kcomCheckBox.Checked == true) || (chkAusente4kcomCheckBox.Checked == true))//caso alguma das txt's de 500Hz, 1kHz, 2kHz ou 4kHz esteja com o texto AUS, de ausente
+                    {
+                        comMEDIATextBox.Text = "Saída máxima";//atritui a frase à txt média com AASI
+                    }
+
+                    else//caso contrário
+                    {
+                        int valor1, valor2, valor3, valor4, media;//criam-se quatro variáveis
+
+                        //as variáveis são atribuídas aos respectivos txt's, convertendo-os em decimais
+                        valor1 = Convert.ToInt32(com500ComboBox.Text);
+                        valor2 = Convert.ToInt32(com1kComboBox.Text);
+                        valor3 = Convert.ToInt32(com2KComboBox.Text);
+                        valor4 = Convert.ToInt32(com4kComboBox.Text);
+
+                        media = ((valor1 + valor2 + valor3 + valor4) / 4);//cáculo da média quadritonal
+
+                        comMEDIATextBox.Text += Convert.ToString(media) + " dBNPS";//atribui o resultado da média ao txt média com AASI, convertendo-o para string
+                    }
+                }
+            }
+            catch (Exception ex)//tratamento de erro
+            {
+                MessageBox.Show(ex.Message);//msg de erro
+            }
+        }
+
+        private void btnCalcularMedia4SemAASI_Click(object sender, EventArgs e)//Média quadritonal sem AASI
+        {
+            try//no bloco de tratamento de erros
+            {
+                semMEDIATextBox.Clear();//limpa o txt média tritonal sem AASI
+
+                if ((sem500ComboBox.Text == "") || (sem1kComboBox.Text == "") || (sem2KComboBox.Text == "") || (sem4kComboBox.Text == ""))//caso alguma das txt's de 500Hz, 1kHz, 2kHz e 4kHz estejam vazias
+                {
+                    MessageBox.Show("Por favor, escolha os valores para a média quadritonal de 500Hz, 1kHz, 2kHZ e 4kHz.", "Atenção!", MessageBoxButtons.OK, MessageBoxIcon.Information);//msg de aviso
+                }
+
+                else//do contrário
+                {
+                    if ((chkAusente500semCheckBox.Checked == true) || (chkAusente1ksemCheckBox.Checked == true) || (chkAusente2ksemCheckBox.Checked == true) || (chkAusente4ksemCheckBox.Checked == true))//caso alguma das txt's de 500Hz, 1kHz, 2kHz ou 4kHz esteja com o texto AUS, de ausente
+                    {
+                        semMEDIATextBox.Text = "Saída máxima";//atritui a frase à txt média sem AASI
+                    }
+
+                    else//caso contrário
+                    {
+                        int valor1, valor2, valor3, valor4, media;//criam-se quatro variáveis
+
+                        //as variáveis são atribuídas aos respectivos txt's, convertendo-os em decimais
+                        valor1 = Convert.ToInt32(sem500ComboBox.Text);
+                        valor2 = Convert.ToInt32(sem1kComboBox.Text);
+                        valor3 = Convert.ToInt32(sem2KComboBox.Text);
+                        valor4 = Convert.ToInt32(sem4kComboBox.Text);
+
+                        media = ((valor1 + valor2 + valor3 + valor4) / 4);//cáculo da média quadritonal
+
+                        semMEDIATextBox.Text += Convert.ToString(media) + " dBNA";//atribui o resultado da média ao txt média sem AASI, convertendo-o para string
+                    }
+                }
+            }
+            catch (Exception ex)//tratamento de erro
+            {
+                MessageBox.Show(ex.Message);//msg de erro
+            }
+        }
+
+        private void btnMedia4CampoConvOD_Click(object sender, EventArgs e)//Média quadritonal
+        {
+            try//no bloco de tratamento de erros
+            {
+                campoMEDIATconvODTextBox.Clear();//limpa o txt média tritonal com AASI
+
+                if ((campo500odComboBox.Text == "") || (campo1kodComboBox.Text == "") || (campo2kodComboBox.Text == "") || (campo4kodComboBox.Text == ""))//caso alguma das txt's de 500Hz, 1kHz, 2kHz e 4kHz estejam vazias
+                {
+                    MessageBox.Show("Por favor, escolha os valores para a média quadritonal de 500Hz, 1kHz, 2kHZ e 4kHz.", "Atenção!", MessageBoxButtons.OK, MessageBoxIcon.Information);//msg de aviso
+                }
+
+                else//do contrário
+                {
+                    if ((campoVAodAus500CheckBox.Checked == true) || (campoVAodAus1kCheckBox.Checked == true) || (campoVAodAus2kCheckBox.Checked == true) || (campoVAodAus4kCheckBox.Checked == true))//caso alguma das txt's de 500Hz, 1kHz, 2kHz e 4kHz esteja com o texto AUS, de ausente
+                    {
+                        campoMEDIATconvODTextBox.Text = "Saída máxima";//atritui a frase à txt média com AASI
+                    }
+
+                    else//caso contrário
+                    {
+                        int valor1, valor2, valor3, valor4, resultado;
+
+                        valor1 = Convert.ToInt32(campo500odComboBox.Text);
+                        valor2 = Convert.ToInt32(campo1kodComboBox.Text);
+                        valor3 = Convert.ToInt32(campo2kodComboBox.Text);
+                        valor4 = Convert.ToInt32(campo4kodComboBox.Text);
+
+                        resultado = ((valor1 + valor2 + valor3 + valor4) / 4);
+
+                        campoMEDIATconvODTextBox.Text = Convert.ToString(resultado);
+                    }
+                }
+            }
+            catch (Exception ex)//tratamento de erro
+            {
+                MessageBox.Show(ex.Message);//msg de erro
+            }
+        }
+
+        private void btnMedia4CampoConvOE_Click(object sender, EventArgs e)//Média quadritonal
+        {
+            try//no bloco de tratamento de erros
+            {
+                campoMEDIATconvOETextBox.Clear();//limpa o txt média tritonal com AASI
+
+                if ((campo500oeComboBox.Text == "") || (campo1koeComboBox.Text == "") || (campo2koeComboBox.Text == "") || (campo4koeComboBox.Text == ""))//caso alguma das txt's de 500Hz, 1kHz, 2kHz e 4kHz estejam vazias
+                {
+                    MessageBox.Show("Por favor, escolha os valores para a média quadritonal de 500Hz, 1kHz, 2kHZ e 4kHz.", "Atenção!", MessageBoxButtons.OK, MessageBoxIcon.Information);//msg de aviso
+                }
+
+                else//do contrário
+                {
+                    if ((campoVAoeAus500CheckBox.Checked == true) || (campoVAoeAus1kCheckBox.Checked == true) || (campoVAoeAus2kCheckBox.Checked == true) || (campoVAoeAus4kCheckBox.Checked == true))//caso alguma das txt's de 500Hz, 1kHz, 2kHz e 4kHz esteja com o texto AUS, de ausente
+                    {
+                        campoMEDIATconvOETextBox.Text = "Saída máxima";//atritui a frase à txt média com AASI
+                    }
+
+                    else//caso contrário
+                    {
+                        int valor1, valor2, valor3, valor4, resultado;
+
+                        valor1 = Convert.ToInt32(campo500oeComboBox.Text);
+                        valor2 = Convert.ToInt32(campo1koeComboBox.Text);
+                        valor3 = Convert.ToInt32(campo2koeComboBox.Text);
+                        valor4 = Convert.ToInt32(campo4koeComboBox.Text);
+
+                        resultado = ((valor1 + valor2 + valor3 + valor4) / 4);
+
+                        campoMEDIATconvOETextBox.Text = Convert.ToString(resultado);
+                    }
+                }
+            }
+            catch (Exception ex)//tratamento de erro
+            {
+                MessageBox.Show(ex.Message);//msg de erro
+            }
+        }
     }   
 }
