@@ -483,8 +483,32 @@
   <metadata name="laudoAudioLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>False</value>
   </metadata>
+  <metadata name="nomePaciente.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="idadePacienteNovo.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="exameRealizado.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <metadata name="tabelaExamesBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>193, 17</value>
+  </metadata>
+  <metadata name="nomePaciente.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="idadePacienteNovo.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="exameRealizado.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="tabelaExamesBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>193, 17</value>
+  </metadata>
+  <metadata name="segmsaude001DataSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
   </metadata>
   <metadata name="segmsaude001DataSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
@@ -492,39 +516,6 @@
   <data name="laudoAudioComboBox.Items" xml:space="preserve">
     <value>Simbologia internacional proposta pela ASHA, 1990; Segundo SILMAN e SILVERMAN, 1997; Adap. de CARHART, 1945 e LLOYD e KAPLAN, 1978; Segundo NORTHERN e DOWNS, 1984; Segundo JERGER, SPEAKS e TRAMMELL, 1968.</value>
   </data>
-  <metadata name="tabelaExamesBindingNavigator.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>767, 17</value>
-  </metadata>
-  <metadata name="nomePaciente.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="idadePacienteNovo.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="exameRealizado.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="tabelaExamesBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>193, 17</value>
-  </metadata>
-  <metadata name="nomePaciente.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="idadePacienteNovo.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="exameRealizado.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="segmsaude001DataSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <metadata name="tabelaExamesBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>193, 17</value>
-  </metadata>
-  <metadata name="tabelaExamesBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>193, 17</value>
-  </metadata>
   <data name="textBox4.Text" xml:space="preserve">
     <value>Instrumentos soados em intensidade moderada a 20 cm da orelha do paciente.
 
@@ -546,6 +537,47 @@ Nível III (15 a 18 meses): “cadê a mão?”; “cadê o pé?”
   <metadata name="tabelaExamesBindingNavigator.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>767, 17</value>
   </metadata>
+  <metadata name="tabelaExamesBindingNavigator.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>767, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="tsbPreencherAudio.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        VvWrD7yLYb4AAAAASUVORK5CYII=
+</value>
+  </data>
   <metadata name="tabelaExamesTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>397, 17</value>
   </metadata>
@@ -558,7 +590,6 @@ Nível III (15 a 18 meses): “cadê a mão?”; “cadê o pé?”
   <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>39</value>
   </metadata>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAkAAAAAAAEAIAAacwAAlgAAAICAAAABACAAKAgBALBzAABgYAAAAQAgAKiUAADYewEASEgAAAEA

@@ -152,33 +152,33 @@ namespace segmentoOtoneurologia
             System.Windows.Forms.Label weber2kLabel;
             System.Windows.Forms.Label weber4kLabel;
             System.Windows.Forms.Label laudoAudioLabel;
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle23 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle24 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea89 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend89 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series89 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea90 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend90 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series90 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea33 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend33 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series33 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea34 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend34 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series34 = new System.Windows.Forms.DataVisualization.Charting.Series();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmExames));
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea91 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend91 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series91 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea92 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend92 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series92 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea93 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend93 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series93 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea94 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend94 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series94 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea95 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend95 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series95 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea96 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend96 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series96 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea35 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend35 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series35 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea36 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend36 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series36 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea37 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend37 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series37 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea38 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend38 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series38 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea39 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend39 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series39 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea40 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend40 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series40 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
@@ -940,6 +940,7 @@ namespace segmentoOtoneurologia
             this.tabelaExamesTableAdapter = new segmentoOtoneurologia.segmsaude001DataSetTableAdapters.tabelaExamesTableAdapter();
             this.tableAdapterManager = new segmentoOtoneurologia.segmsaude001DataSetTableAdapters.TableAdapterManager();
             this.tabelaLaudario1TableAdapter = new segmentoOtoneurologia.segmsaude001DataSetTableAdapters.tabelaLaudario1TableAdapter();
+            this.tsbPreencherAudio = new System.Windows.Forms.ToolStripButton();
             segundoAutorLabel = new System.Windows.Forms.Label();
             comentariosImpLabel = new System.Windows.Forms.Label();
             dataCalImpLabel = new System.Windows.Forms.Label();
@@ -2853,9 +2854,9 @@ namespace segmentoOtoneurologia
             // dataGridViewTextBoxColumn3
             // 
             this.dataGridViewTextBoxColumn3.DataPropertyName = "dataNascimento";
-            dataGridViewCellStyle23.Format = "d";
-            dataGridViewCellStyle23.NullValue = null;
-            this.dataGridViewTextBoxColumn3.DefaultCellStyle = dataGridViewCellStyle23;
+            dataGridViewCellStyle9.Format = "d";
+            dataGridViewCellStyle9.NullValue = null;
+            this.dataGridViewTextBoxColumn3.DefaultCellStyle = dataGridViewCellStyle9;
             this.dataGridViewTextBoxColumn3.HeaderText = "Data de nascimento";
             this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
             this.dataGridViewTextBoxColumn3.ReadOnly = true;
@@ -2880,9 +2881,9 @@ namespace segmentoOtoneurologia
             // dataGridViewTextBoxColumn5
             // 
             this.dataGridViewTextBoxColumn5.DataPropertyName = "dataExame";
-            dataGridViewCellStyle24.Format = "d";
-            dataGridViewCellStyle24.NullValue = null;
-            this.dataGridViewTextBoxColumn5.DefaultCellStyle = dataGridViewCellStyle24;
+            dataGridViewCellStyle10.Format = "d";
+            dataGridViewCellStyle10.NullValue = null;
+            this.dataGridViewTextBoxColumn5.DefaultCellStyle = dataGridViewCellStyle10;
             this.dataGridViewTextBoxColumn5.HeaderText = "Data";
             this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
             this.dataGridViewTextBoxColumn5.ReadOnly = true;
@@ -3197,37 +3198,37 @@ namespace segmentoOtoneurologia
             // 
             // chartAudioOD
             // 
-            chartArea89.AxisX.LabelStyle.Enabled = false;
-            chartArea89.AxisX.MajorGrid.LineColor = System.Drawing.Color.Silver;
-            chartArea89.AxisX.MajorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dash;
-            chartArea89.AxisX.MajorTickMark.Enabled = false;
-            chartArea89.AxisX.Maximum = 15D;
-            chartArea89.AxisX.Minimum = 1D;
-            chartArea89.AxisX.TextOrientation = System.Windows.Forms.DataVisualization.Charting.TextOrientation.Horizontal;
-            chartArea89.AxisX.Title = "      125            250             500     750  1k     1,5k  2k        3k   4k " +
+            chartArea33.AxisX.LabelStyle.Enabled = false;
+            chartArea33.AxisX.MajorGrid.LineColor = System.Drawing.Color.Silver;
+            chartArea33.AxisX.MajorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dash;
+            chartArea33.AxisX.MajorTickMark.Enabled = false;
+            chartArea33.AxisX.Maximum = 15D;
+            chartArea33.AxisX.Minimum = 1D;
+            chartArea33.AxisX.TextOrientation = System.Windows.Forms.DataVisualization.Charting.TextOrientation.Horizontal;
+            chartArea33.AxisX.Title = "      125            250             500     750  1k     1,5k  2k        3k   4k " +
     "      6k   8k";
-            chartArea89.AxisX.TitleAlignment = System.Drawing.StringAlignment.Near;
-            chartArea89.AxisY.Crossing = -1.7976931348623157E+308D;
-            chartArea89.AxisY.Interval = 10D;
-            chartArea89.AxisY.IsReversed = true;
-            chartArea89.AxisY.Maximum = 120D;
-            chartArea89.AxisY.Minimum = -10D;
-            chartArea89.AxisY.TextOrientation = System.Windows.Forms.DataVisualization.Charting.TextOrientation.Rotated270;
-            chartArea89.AxisY.Title = "Gráfico ISO/64 frequência (Hz) por decibel nível de audição (dBNA)";
-            chartArea89.Name = "ChartArea4";
-            this.chartAudioOD.ChartAreas.Add(chartArea89);
+            chartArea33.AxisX.TitleAlignment = System.Drawing.StringAlignment.Near;
+            chartArea33.AxisY.Crossing = -1.7976931348623157E+308D;
+            chartArea33.AxisY.Interval = 10D;
+            chartArea33.AxisY.IsReversed = true;
+            chartArea33.AxisY.Maximum = 120D;
+            chartArea33.AxisY.Minimum = -10D;
+            chartArea33.AxisY.TextOrientation = System.Windows.Forms.DataVisualization.Charting.TextOrientation.Rotated270;
+            chartArea33.AxisY.Title = "Gráfico ISO/64 frequência (Hz) por decibel nível de audição (dBNA)";
+            chartArea33.Name = "ChartArea4";
+            this.chartAudioOD.ChartAreas.Add(chartArea33);
             this.chartAudioOD.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend89.Enabled = false;
-            legend89.Name = "Legend1";
-            this.chartAudioOD.Legends.Add(legend89);
+            legend33.Enabled = false;
+            legend33.Name = "Legend1";
+            this.chartAudioOD.Legends.Add(legend33);
             this.chartAudioOD.Location = new System.Drawing.Point(3, 3);
             this.chartAudioOD.Name = "chartAudioOD";
-            series89.ChartArea = "ChartArea4";
-            series89.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Point;
-            series89.Color = System.Drawing.Color.Red;
-            series89.Legend = "Legend1";
-            series89.Name = "OD";
-            this.chartAudioOD.Series.Add(series89);
+            series33.ChartArea = "ChartArea4";
+            series33.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Point;
+            series33.Color = System.Drawing.Color.Red;
+            series33.Legend = "Legend1";
+            series33.Name = "OD";
+            this.chartAudioOD.Series.Add(series33);
             this.chartAudioOD.Size = new System.Drawing.Size(467, 416);
             this.chartAudioOD.TabIndex = 1;
             this.chartAudioOD.Text = "chart1";
@@ -5085,37 +5086,37 @@ namespace segmentoOtoneurologia
             // 
             // chartAudioOE
             // 
-            chartArea90.AxisX.LabelStyle.Enabled = false;
-            chartArea90.AxisX.MajorGrid.LineColor = System.Drawing.Color.Silver;
-            chartArea90.AxisX.MajorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dash;
-            chartArea90.AxisX.MajorTickMark.Enabled = false;
-            chartArea90.AxisX.Maximum = 15D;
-            chartArea90.AxisX.Minimum = 1D;
-            chartArea90.AxisX.TextOrientation = System.Windows.Forms.DataVisualization.Charting.TextOrientation.Horizontal;
-            chartArea90.AxisX.Title = "      125            250             500     750  1k     1,5k  2k        3k   4k " +
+            chartArea34.AxisX.LabelStyle.Enabled = false;
+            chartArea34.AxisX.MajorGrid.LineColor = System.Drawing.Color.Silver;
+            chartArea34.AxisX.MajorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dash;
+            chartArea34.AxisX.MajorTickMark.Enabled = false;
+            chartArea34.AxisX.Maximum = 15D;
+            chartArea34.AxisX.Minimum = 1D;
+            chartArea34.AxisX.TextOrientation = System.Windows.Forms.DataVisualization.Charting.TextOrientation.Horizontal;
+            chartArea34.AxisX.Title = "      125            250             500     750  1k     1,5k  2k        3k   4k " +
     "       6k  8k";
-            chartArea90.AxisX.TitleAlignment = System.Drawing.StringAlignment.Near;
-            chartArea90.AxisY.Crossing = -1.7976931348623157E+308D;
-            chartArea90.AxisY.Interval = 10D;
-            chartArea90.AxisY.IsReversed = true;
-            chartArea90.AxisY.Maximum = 120D;
-            chartArea90.AxisY.Minimum = -10D;
-            chartArea90.AxisY.TextOrientation = System.Windows.Forms.DataVisualization.Charting.TextOrientation.Rotated270;
-            chartArea90.AxisY.Title = "Gráfico ISO/64 frequência (Hz) por decibel nível de audição (dBNA)";
-            chartArea90.Name = "ChartArea5";
-            this.chartAudioOE.ChartAreas.Add(chartArea90);
+            chartArea34.AxisX.TitleAlignment = System.Drawing.StringAlignment.Near;
+            chartArea34.AxisY.Crossing = -1.7976931348623157E+308D;
+            chartArea34.AxisY.Interval = 10D;
+            chartArea34.AxisY.IsReversed = true;
+            chartArea34.AxisY.Maximum = 120D;
+            chartArea34.AxisY.Minimum = -10D;
+            chartArea34.AxisY.TextOrientation = System.Windows.Forms.DataVisualization.Charting.TextOrientation.Rotated270;
+            chartArea34.AxisY.Title = "Gráfico ISO/64 frequência (Hz) por decibel nível de audição (dBNA)";
+            chartArea34.Name = "ChartArea5";
+            this.chartAudioOE.ChartAreas.Add(chartArea34);
             this.chartAudioOE.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend90.Enabled = false;
-            legend90.Name = "Legend1";
-            this.chartAudioOE.Legends.Add(legend90);
+            legend34.Enabled = false;
+            legend34.Name = "Legend1";
+            this.chartAudioOE.Legends.Add(legend34);
             this.chartAudioOE.Location = new System.Drawing.Point(3, 3);
             this.chartAudioOE.Name = "chartAudioOE";
-            series90.ChartArea = "ChartArea5";
-            series90.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Point;
-            series90.Color = System.Drawing.Color.DodgerBlue;
-            series90.Legend = "Legend1";
-            series90.Name = "OE";
-            this.chartAudioOE.Series.Add(series90);
+            series34.ChartArea = "ChartArea5";
+            series34.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Point;
+            series34.Color = System.Drawing.Color.DodgerBlue;
+            series34.Legend = "Legend1";
+            series34.Name = "OE";
+            this.chartAudioOE.Series.Add(series34);
             this.chartAudioOE.Size = new System.Drawing.Size(466, 418);
             this.chartAudioOE.TabIndex = 1;
             this.chartAudioOE.Text = "chart1";
@@ -7575,35 +7576,35 @@ namespace segmentoOtoneurologia
             // 
             // chartAudioEmCampo
             // 
-            chartArea91.AxisX.LabelStyle.Enabled = false;
-            chartArea91.AxisX.MajorTickMark.Enabled = false;
-            chartArea91.AxisX.Maximum = 15D;
-            chartArea91.AxisX.Minimum = 1D;
-            chartArea91.AxisX.TextOrientation = System.Windows.Forms.DataVisualization.Charting.TextOrientation.Horizontal;
-            chartArea91.AxisX.Title = "      125            250             500    750   1k     1,5k  2k       3k    4k " +
+            chartArea35.AxisX.LabelStyle.Enabled = false;
+            chartArea35.AxisX.MajorTickMark.Enabled = false;
+            chartArea35.AxisX.Maximum = 15D;
+            chartArea35.AxisX.Minimum = 1D;
+            chartArea35.AxisX.TextOrientation = System.Windows.Forms.DataVisualization.Charting.TextOrientation.Horizontal;
+            chartArea35.AxisX.Title = "      125            250             500    750   1k     1,5k  2k       3k    4k " +
     "      6k   8k";
-            chartArea91.AxisX.TitleAlignment = System.Drawing.StringAlignment.Near;
-            chartArea91.AxisY.Crossing = -1.7976931348623157E+308D;
-            chartArea91.AxisY.Interval = 10D;
-            chartArea91.AxisY.IsReversed = true;
-            chartArea91.AxisY.Maximum = 120D;
-            chartArea91.AxisY.Minimum = -10D;
-            chartArea91.AxisY.TextOrientation = System.Windows.Forms.DataVisualization.Charting.TextOrientation.Rotated270;
-            chartArea91.AxisY.Title = "Gráfico ISO/64 frequência (Hz) por decibel nível de audição (dBNA)";
-            chartArea91.Name = "ChartArea3";
-            this.chartAudioEmCampo.ChartAreas.Add(chartArea91);
+            chartArea35.AxisX.TitleAlignment = System.Drawing.StringAlignment.Near;
+            chartArea35.AxisY.Crossing = -1.7976931348623157E+308D;
+            chartArea35.AxisY.Interval = 10D;
+            chartArea35.AxisY.IsReversed = true;
+            chartArea35.AxisY.Maximum = 120D;
+            chartArea35.AxisY.Minimum = -10D;
+            chartArea35.AxisY.TextOrientation = System.Windows.Forms.DataVisualization.Charting.TextOrientation.Rotated270;
+            chartArea35.AxisY.Title = "Gráfico ISO/64 frequência (Hz) por decibel nível de audição (dBNA)";
+            chartArea35.Name = "ChartArea3";
+            this.chartAudioEmCampo.ChartAreas.Add(chartArea35);
             this.chartAudioEmCampo.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend91.Enabled = false;
-            legend91.Name = "Legend1";
-            this.chartAudioEmCampo.Legends.Add(legend91);
+            legend35.Enabled = false;
+            legend35.Name = "Legend1";
+            this.chartAudioEmCampo.Legends.Add(legend35);
             this.chartAudioEmCampo.Location = new System.Drawing.Point(3, 3);
             this.chartAudioEmCampo.Name = "chartAudioEmCampo";
-            series91.ChartArea = "ChartArea3";
-            series91.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Point;
-            series91.Color = System.Drawing.Color.Black;
-            series91.Legend = "Legend1";
-            series91.Name = "Campo";
-            this.chartAudioEmCampo.Series.Add(series91);
+            series35.ChartArea = "ChartArea3";
+            series35.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Point;
+            series35.Color = System.Drawing.Color.Black;
+            series35.Legend = "Legend1";
+            series35.Name = "Campo";
+            this.chartAudioEmCampo.Series.Add(series35);
             this.chartAudioEmCampo.Size = new System.Drawing.Size(464, 403);
             this.chartAudioEmCampo.TabIndex = 1;
             this.chartAudioEmCampo.Text = "chart1";
@@ -8876,35 +8877,35 @@ namespace segmentoOtoneurologia
             // 
             // chartCampoConven
             // 
-            chartArea92.AxisX.LabelStyle.Enabled = false;
-            chartArea92.AxisX.MajorTickMark.Enabled = false;
-            chartArea92.AxisX.Maximum = 15D;
-            chartArea92.AxisX.Minimum = 1D;
-            chartArea92.AxisX.TextOrientation = System.Windows.Forms.DataVisualization.Charting.TextOrientation.Horizontal;
-            chartArea92.AxisX.Title = "      125            250             500    750   1k     1,5k  2k       3k    4k " +
+            chartArea36.AxisX.LabelStyle.Enabled = false;
+            chartArea36.AxisX.MajorTickMark.Enabled = false;
+            chartArea36.AxisX.Maximum = 15D;
+            chartArea36.AxisX.Minimum = 1D;
+            chartArea36.AxisX.TextOrientation = System.Windows.Forms.DataVisualization.Charting.TextOrientation.Horizontal;
+            chartArea36.AxisX.Title = "      125            250             500    750   1k     1,5k  2k       3k    4k " +
     "      6k   8k";
-            chartArea92.AxisX.TitleAlignment = System.Drawing.StringAlignment.Near;
-            chartArea92.AxisY.Crossing = -1.7976931348623157E+308D;
-            chartArea92.AxisY.Interval = 10D;
-            chartArea92.AxisY.IsReversed = true;
-            chartArea92.AxisY.Maximum = 120D;
-            chartArea92.AxisY.Minimum = -10D;
-            chartArea92.AxisY.TextOrientation = System.Windows.Forms.DataVisualization.Charting.TextOrientation.Rotated270;
-            chartArea92.AxisY.Title = "Gráfico ISO/64 frequência (Hz) por decibel nível de audição (dBNA)";
-            chartArea92.Name = "ChartArea3";
-            this.chartCampoConven.ChartAreas.Add(chartArea92);
+            chartArea36.AxisX.TitleAlignment = System.Drawing.StringAlignment.Near;
+            chartArea36.AxisY.Crossing = -1.7976931348623157E+308D;
+            chartArea36.AxisY.Interval = 10D;
+            chartArea36.AxisY.IsReversed = true;
+            chartArea36.AxisY.Maximum = 120D;
+            chartArea36.AxisY.Minimum = -10D;
+            chartArea36.AxisY.TextOrientation = System.Windows.Forms.DataVisualization.Charting.TextOrientation.Rotated270;
+            chartArea36.AxisY.Title = "Gráfico ISO/64 frequência (Hz) por decibel nível de audição (dBNA)";
+            chartArea36.Name = "ChartArea3";
+            this.chartCampoConven.ChartAreas.Add(chartArea36);
             this.chartCampoConven.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend92.Enabled = false;
-            legend92.Name = "Legend1";
-            this.chartCampoConven.Legends.Add(legend92);
+            legend36.Enabled = false;
+            legend36.Name = "Legend1";
+            this.chartCampoConven.Legends.Add(legend36);
             this.chartCampoConven.Location = new System.Drawing.Point(4, 4);
             this.chartCampoConven.Name = "chartCampoConven";
-            series92.ChartArea = "ChartArea3";
-            series92.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Point;
-            series92.Color = System.Drawing.Color.Black;
-            series92.Legend = "Legend1";
-            series92.Name = "Campo";
-            this.chartCampoConven.Series.Add(series92);
+            series36.ChartArea = "ChartArea3";
+            series36.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Point;
+            series36.Color = System.Drawing.Color.Black;
+            series36.Legend = "Legend1";
+            series36.Name = "Campo";
+            this.chartCampoConven.Series.Add(series36);
             this.chartCampoConven.Size = new System.Drawing.Size(463, 401);
             this.chartCampoConven.TabIndex = 1;
             this.chartCampoConven.Text = "chart1";
@@ -11058,37 +11059,37 @@ namespace segmentoOtoneurologia
             // 
             // chartAltOD
             // 
-            chartArea93.AxisX.LabelStyle.Enabled = false;
-            chartArea93.AxisX.MajorGrid.LineColor = System.Drawing.Color.Silver;
-            chartArea93.AxisX.MajorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dash;
-            chartArea93.AxisX.MajorTickMark.Enabled = false;
-            chartArea93.AxisX.Maximum = 9D;
-            chartArea93.AxisX.Minimum = 1D;
-            chartArea93.AxisX.TextOrientation = System.Windows.Forms.DataVisualization.Charting.TextOrientation.Horizontal;
-            chartArea93.AxisX.Title = "              9k            10k             12,5k     14k          16k          1" +
+            chartArea37.AxisX.LabelStyle.Enabled = false;
+            chartArea37.AxisX.MajorGrid.LineColor = System.Drawing.Color.Silver;
+            chartArea37.AxisX.MajorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dash;
+            chartArea37.AxisX.MajorTickMark.Enabled = false;
+            chartArea37.AxisX.Maximum = 9D;
+            chartArea37.AxisX.Minimum = 1D;
+            chartArea37.AxisX.TextOrientation = System.Windows.Forms.DataVisualization.Charting.TextOrientation.Horizontal;
+            chartArea37.AxisX.Title = "              9k            10k             12,5k     14k          16k          1" +
     "8k           20k ";
-            chartArea93.AxisX.TitleAlignment = System.Drawing.StringAlignment.Near;
-            chartArea93.AxisY.Crossing = -1.7976931348623157E+308D;
-            chartArea93.AxisY.Interval = 10D;
-            chartArea93.AxisY.IsReversed = true;
-            chartArea93.AxisY.Maximum = 120D;
-            chartArea93.AxisY.Minimum = -10D;
-            chartArea93.AxisY.TextOrientation = System.Windows.Forms.DataVisualization.Charting.TextOrientation.Rotated270;
-            chartArea93.AxisY.Title = "Gráfico ISO/64 frequência (Hz) por decibel nível de audição (dBNA)";
-            chartArea93.Name = "ChartArea2";
-            this.chartAltOD.ChartAreas.Add(chartArea93);
+            chartArea37.AxisX.TitleAlignment = System.Drawing.StringAlignment.Near;
+            chartArea37.AxisY.Crossing = -1.7976931348623157E+308D;
+            chartArea37.AxisY.Interval = 10D;
+            chartArea37.AxisY.IsReversed = true;
+            chartArea37.AxisY.Maximum = 120D;
+            chartArea37.AxisY.Minimum = -10D;
+            chartArea37.AxisY.TextOrientation = System.Windows.Forms.DataVisualization.Charting.TextOrientation.Rotated270;
+            chartArea37.AxisY.Title = "Gráfico ISO/64 frequência (Hz) por decibel nível de audição (dBNA)";
+            chartArea37.Name = "ChartArea2";
+            this.chartAltOD.ChartAreas.Add(chartArea37);
             this.chartAltOD.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend93.Enabled = false;
-            legend93.Name = "Legend1";
-            this.chartAltOD.Legends.Add(legend93);
+            legend37.Enabled = false;
+            legend37.Name = "Legend1";
+            this.chartAltOD.Legends.Add(legend37);
             this.chartAltOD.Location = new System.Drawing.Point(4, 4);
             this.chartAltOD.Name = "chartAltOD";
-            series93.ChartArea = "ChartArea2";
-            series93.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Point;
-            series93.Color = System.Drawing.Color.Red;
-            series93.Legend = "Legend1";
-            series93.Name = "ODalt";
-            this.chartAltOD.Series.Add(series93);
+            series37.ChartArea = "ChartArea2";
+            series37.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Point;
+            series37.Color = System.Drawing.Color.Red;
+            series37.Legend = "Legend1";
+            series37.Name = "ODalt";
+            this.chartAltOD.Series.Add(series37);
             this.chartAltOD.Size = new System.Drawing.Size(477, 422);
             this.chartAltOD.TabIndex = 1;
             this.chartAltOD.Text = "chart1";
@@ -11822,37 +11823,37 @@ namespace segmentoOtoneurologia
             // 
             // chartAltOE
             // 
-            chartArea94.AxisX.LabelStyle.Enabled = false;
-            chartArea94.AxisX.MajorGrid.LineColor = System.Drawing.Color.Silver;
-            chartArea94.AxisX.MajorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dash;
-            chartArea94.AxisX.MajorTickMark.Enabled = false;
-            chartArea94.AxisX.Maximum = 9D;
-            chartArea94.AxisX.Minimum = 1D;
-            chartArea94.AxisX.TextOrientation = System.Windows.Forms.DataVisualization.Charting.TextOrientation.Horizontal;
-            chartArea94.AxisX.Title = "              9k            10k           12,5k     14k          16k         18k " +
+            chartArea38.AxisX.LabelStyle.Enabled = false;
+            chartArea38.AxisX.MajorGrid.LineColor = System.Drawing.Color.Silver;
+            chartArea38.AxisX.MajorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dash;
+            chartArea38.AxisX.MajorTickMark.Enabled = false;
+            chartArea38.AxisX.Maximum = 9D;
+            chartArea38.AxisX.Minimum = 1D;
+            chartArea38.AxisX.TextOrientation = System.Windows.Forms.DataVisualization.Charting.TextOrientation.Horizontal;
+            chartArea38.AxisX.Title = "              9k            10k           12,5k     14k          16k         18k " +
     "          20k ";
-            chartArea94.AxisX.TitleAlignment = System.Drawing.StringAlignment.Near;
-            chartArea94.AxisY.Crossing = -1.7976931348623157E+308D;
-            chartArea94.AxisY.Interval = 10D;
-            chartArea94.AxisY.IsReversed = true;
-            chartArea94.AxisY.Maximum = 120D;
-            chartArea94.AxisY.Minimum = -10D;
-            chartArea94.AxisY.TextOrientation = System.Windows.Forms.DataVisualization.Charting.TextOrientation.Rotated270;
-            chartArea94.AxisY.Title = "Gráfico ISO/64 frequência (Hz) por decibel nível de audição (dBNA)";
-            chartArea94.Name = "ChartArea1";
-            this.chartAltOE.ChartAreas.Add(chartArea94);
+            chartArea38.AxisX.TitleAlignment = System.Drawing.StringAlignment.Near;
+            chartArea38.AxisY.Crossing = -1.7976931348623157E+308D;
+            chartArea38.AxisY.Interval = 10D;
+            chartArea38.AxisY.IsReversed = true;
+            chartArea38.AxisY.Maximum = 120D;
+            chartArea38.AxisY.Minimum = -10D;
+            chartArea38.AxisY.TextOrientation = System.Windows.Forms.DataVisualization.Charting.TextOrientation.Rotated270;
+            chartArea38.AxisY.Title = "Gráfico ISO/64 frequência (Hz) por decibel nível de audição (dBNA)";
+            chartArea38.Name = "ChartArea1";
+            this.chartAltOE.ChartAreas.Add(chartArea38);
             this.chartAltOE.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend94.Enabled = false;
-            legend94.Name = "Legend1";
-            this.chartAltOE.Legends.Add(legend94);
+            legend38.Enabled = false;
+            legend38.Name = "Legend1";
+            this.chartAltOE.Legends.Add(legend38);
             this.chartAltOE.Location = new System.Drawing.Point(4, 4);
             this.chartAltOE.Name = "chartAltOE";
-            series94.ChartArea = "ChartArea1";
-            series94.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Point;
-            series94.Color = System.Drawing.Color.DodgerBlue;
-            series94.Legend = "Legend1";
-            series94.Name = "OEalt";
-            this.chartAltOE.Series.Add(series94);
+            series38.ChartArea = "ChartArea1";
+            series38.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Point;
+            series38.Color = System.Drawing.Color.DodgerBlue;
+            series38.Legend = "Legend1";
+            series38.Name = "OEalt";
+            this.chartAltOE.Series.Add(series38);
             this.chartAltOE.Size = new System.Drawing.Size(464, 425);
             this.chartAltOE.TabIndex = 1;
             this.chartAltOE.Text = "chart1";
@@ -12680,41 +12681,41 @@ namespace segmentoOtoneurologia
             // 
             // chartODimp
             // 
-            chartArea95.AxisX.Crossing = 0D;
-            chartArea95.AxisX.Interval = 100D;
-            chartArea95.AxisX.LineWidth = 2;
-            chartArea95.AxisX.MajorGrid.LineColor = System.Drawing.Color.Gray;
-            chartArea95.AxisX.MajorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dash;
-            chartArea95.AxisX.Maximum = 200D;
-            chartArea95.AxisX.Minimum = -600D;
-            chartArea95.AxisX.Title = "Pressão (mml H2O = daPa)";
-            chartArea95.AxisX.TitleAlignment = System.Drawing.StringAlignment.Near;
-            chartArea95.AxisY.LabelStyle.Enabled = false;
-            chartArea95.AxisY.LineWidth = 2;
-            chartArea95.AxisY.MajorGrid.LineColor = System.Drawing.Color.Gray;
-            chartArea95.AxisY.MajorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dash;
-            chartArea95.AxisY.MajorTickMark.Enabled = false;
-            chartArea95.AxisY.Maximum = 2.5D;
-            chartArea95.AxisY.Minimum = 0D;
-            chartArea95.AxisY.TextOrientation = System.Windows.Forms.DataVisualization.Charting.TextOrientation.Horizontal;
-            chartArea95.AxisY.Title = "(ml) 2,5\\n\\n\\n\\n\\n\\n\\n          2,0\\n\\n\\n\\n\\n\\n          1,5\\n\\n\\n\\n\\n\\n\\n       " +
+            chartArea39.AxisX.Crossing = 0D;
+            chartArea39.AxisX.Interval = 100D;
+            chartArea39.AxisX.LineWidth = 2;
+            chartArea39.AxisX.MajorGrid.LineColor = System.Drawing.Color.Gray;
+            chartArea39.AxisX.MajorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dash;
+            chartArea39.AxisX.Maximum = 200D;
+            chartArea39.AxisX.Minimum = -600D;
+            chartArea39.AxisX.Title = "Pressão (mml H2O = daPa)";
+            chartArea39.AxisX.TitleAlignment = System.Drawing.StringAlignment.Near;
+            chartArea39.AxisY.LabelStyle.Enabled = false;
+            chartArea39.AxisY.LineWidth = 2;
+            chartArea39.AxisY.MajorGrid.LineColor = System.Drawing.Color.Gray;
+            chartArea39.AxisY.MajorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dash;
+            chartArea39.AxisY.MajorTickMark.Enabled = false;
+            chartArea39.AxisY.Maximum = 2.5D;
+            chartArea39.AxisY.Minimum = 0D;
+            chartArea39.AxisY.TextOrientation = System.Windows.Forms.DataVisualization.Charting.TextOrientation.Horizontal;
+            chartArea39.AxisY.Title = "(ml) 2,5\\n\\n\\n\\n\\n\\n\\n          2,0\\n\\n\\n\\n\\n\\n          1,5\\n\\n\\n\\n\\n\\n\\n       " +
     "   1,0\\n\\n\\n\\n\\n\\n\\n          0,5\\n\\n\\n\\n\\n\\n\\n\\n\\n          ";
-            chartArea95.AxisY.TitleAlignment = System.Drawing.StringAlignment.Near;
-            chartArea95.AxisY.TitleFont = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            chartArea95.Name = "ChartArea1";
-            this.chartODimp.ChartAreas.Add(chartArea95);
+            chartArea39.AxisY.TitleAlignment = System.Drawing.StringAlignment.Near;
+            chartArea39.AxisY.TitleFont = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            chartArea39.Name = "ChartArea1";
+            this.chartODimp.ChartAreas.Add(chartArea39);
             this.chartODimp.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend95.Name = "Legend1";
-            this.chartODimp.Legends.Add(legend95);
+            legend39.Name = "Legend1";
+            this.chartODimp.Legends.Add(legend39);
             this.chartODimp.Location = new System.Drawing.Point(4, 4);
             this.chartODimp.Name = "chartODimp";
-            series95.BorderWidth = 2;
-            series95.ChartArea = "ChartArea1";
-            series95.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series95.Color = System.Drawing.Color.Red;
-            series95.Legend = "Legend1";
-            series95.Name = "OD";
-            this.chartODimp.Series.Add(series95);
+            series39.BorderWidth = 2;
+            series39.ChartArea = "ChartArea1";
+            series39.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series39.Color = System.Drawing.Color.Red;
+            series39.Legend = "Legend1";
+            series39.Name = "OD";
+            this.chartODimp.Series.Add(series39);
             this.chartODimp.Size = new System.Drawing.Size(620, 566);
             this.chartODimp.TabIndex = 0;
             this.chartODimp.Text = "chart1";
@@ -14055,40 +14056,40 @@ namespace segmentoOtoneurologia
             // 
             // chartOEimp
             // 
-            chartArea96.AxisX.Crossing = 0D;
-            chartArea96.AxisX.Interval = 100D;
-            chartArea96.AxisX.LineWidth = 2;
-            chartArea96.AxisX.MajorGrid.LineColor = System.Drawing.Color.Gray;
-            chartArea96.AxisX.MajorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dash;
-            chartArea96.AxisX.Maximum = 200D;
-            chartArea96.AxisX.Minimum = -600D;
-            chartArea96.AxisX.TextOrientation = System.Windows.Forms.DataVisualization.Charting.TextOrientation.Horizontal;
-            chartArea96.AxisX.Title = "Pressão (mml H2O = daPa)";
-            chartArea96.AxisX.TitleAlignment = System.Drawing.StringAlignment.Near;
-            chartArea96.AxisY.LabelStyle.Enabled = false;
-            chartArea96.AxisY.LineWidth = 2;
-            chartArea96.AxisY.MajorGrid.LineColor = System.Drawing.Color.Gray;
-            chartArea96.AxisY.MajorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dash;
-            chartArea96.AxisY.MajorTickMark.Enabled = false;
-            chartArea96.AxisY.Maximum = 2.5D;
-            chartArea96.AxisY.Minimum = 0D;
-            chartArea96.AxisY.TextOrientation = System.Windows.Forms.DataVisualization.Charting.TextOrientation.Horizontal;
-            chartArea96.AxisY.Title = "(ml) 2,5\\n\\n\\n\\n\\n\\n          2,0\\n\\n\\n\\n\\n\\n\\n          1,5\\n\\n\\n\\n\\n\\n\\n       " +
+            chartArea40.AxisX.Crossing = 0D;
+            chartArea40.AxisX.Interval = 100D;
+            chartArea40.AxisX.LineWidth = 2;
+            chartArea40.AxisX.MajorGrid.LineColor = System.Drawing.Color.Gray;
+            chartArea40.AxisX.MajorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dash;
+            chartArea40.AxisX.Maximum = 200D;
+            chartArea40.AxisX.Minimum = -600D;
+            chartArea40.AxisX.TextOrientation = System.Windows.Forms.DataVisualization.Charting.TextOrientation.Horizontal;
+            chartArea40.AxisX.Title = "Pressão (mml H2O = daPa)";
+            chartArea40.AxisX.TitleAlignment = System.Drawing.StringAlignment.Near;
+            chartArea40.AxisY.LabelStyle.Enabled = false;
+            chartArea40.AxisY.LineWidth = 2;
+            chartArea40.AxisY.MajorGrid.LineColor = System.Drawing.Color.Gray;
+            chartArea40.AxisY.MajorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dash;
+            chartArea40.AxisY.MajorTickMark.Enabled = false;
+            chartArea40.AxisY.Maximum = 2.5D;
+            chartArea40.AxisY.Minimum = 0D;
+            chartArea40.AxisY.TextOrientation = System.Windows.Forms.DataVisualization.Charting.TextOrientation.Horizontal;
+            chartArea40.AxisY.Title = "(ml) 2,5\\n\\n\\n\\n\\n\\n          2,0\\n\\n\\n\\n\\n\\n\\n          1,5\\n\\n\\n\\n\\n\\n\\n       " +
     "   1,0\\n\\n\\n\\n\\n\\n\\n          0,5\\n\\n\\n\\n\\n\\n\\n\\n\\n          ";
-            chartArea96.AxisY.TitleAlignment = System.Drawing.StringAlignment.Near;
-            chartArea96.AxisY.TitleFont = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            chartArea96.Name = "ChartArea1";
-            this.chartOEimp.ChartAreas.Add(chartArea96);
+            chartArea40.AxisY.TitleAlignment = System.Drawing.StringAlignment.Near;
+            chartArea40.AxisY.TitleFont = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            chartArea40.Name = "ChartArea1";
+            this.chartOEimp.ChartAreas.Add(chartArea40);
             this.chartOEimp.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend96.Name = "Legend1";
-            this.chartOEimp.Legends.Add(legend96);
+            legend40.Name = "Legend1";
+            this.chartOEimp.Legends.Add(legend40);
             this.chartOEimp.Location = new System.Drawing.Point(4, 4);
             this.chartOEimp.Name = "chartOEimp";
-            series96.ChartArea = "ChartArea1";
-            series96.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Point;
-            series96.Legend = "Legend1";
-            series96.Name = "Series1";
-            this.chartOEimp.Series.Add(series96);
+            series40.ChartArea = "ChartArea1";
+            series40.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Point;
+            series40.Legend = "Legend1";
+            series40.Name = "Series1";
+            this.chartOEimp.Series.Add(series40);
             this.chartOEimp.Size = new System.Drawing.Size(620, 566);
             this.chartOEimp.TabIndex = 0;
             this.chartOEimp.Text = "chart1";
@@ -14731,12 +14732,15 @@ namespace segmentoOtoneurologia
             // 
             this.dataCalImpDateTimePicker.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.dataCalImpDateTimePicker.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.dataCalImpDateTimePicker.CustomFormat = " ";
             this.dataCalImpDateTimePicker.DataBindings.Add(new System.Windows.Forms.Binding("Value", this.tabelaExamesBindingSource, "dataCalImp", true));
-            this.dataCalImpDateTimePicker.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dataCalImpDateTimePicker.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dataCalImpDateTimePicker.Location = new System.Drawing.Point(655, 23);
             this.dataCalImpDateTimePicker.Name = "dataCalImpDateTimePicker";
             this.dataCalImpDateTimePicker.Size = new System.Drawing.Size(211, 26);
             this.dataCalImpDateTimePicker.TabIndex = 5;
+            this.dataCalImpDateTimePicker.ValueChanged += new System.EventHandler(this.dataCalImpDateTimePicker_ValueChanged);
+            this.dataCalImpDateTimePicker.KeyDown += new System.Windows.Forms.KeyEventHandler(this.dataCalImpDateTimePicker_KeyDown);
             // 
             // comentariosImpTextBox
             // 
@@ -16209,7 +16213,8 @@ namespace segmentoOtoneurologia
             this.tabelaExamesBindingNavigatorSaveItem,
             this.toolStripEditar,
             this.toolStripBloquear,
-            this.toolStripInternet});
+            this.toolStripInternet,
+            this.tsbPreencherAudio});
             this.tabelaExamesBindingNavigator.Location = new System.Drawing.Point(319, 1);
             this.tabelaExamesBindingNavigator.MoveFirstItem = this.bindingNavigatorMoveFirstItem;
             this.tabelaExamesBindingNavigator.MoveLastItem = this.bindingNavigatorMoveLastItem;
@@ -16344,6 +16349,7 @@ namespace segmentoOtoneurologia
             this.toolStripInternet.Name = "toolStripInternet";
             this.toolStripInternet.Size = new System.Drawing.Size(52, 64);
             this.toolStripInternet.Text = "Acessar a internet";
+            this.toolStripInternet.Click += new System.EventHandler(this.toolStripInternet_Click);
             // 
             // gbTipoAudiograma
             // 
@@ -16376,7 +16382,6 @@ namespace segmentoOtoneurologia
             this.tipoAudiometriaComboBox.Name = "tipoAudiometriaComboBox";
             this.tipoAudiometriaComboBox.Size = new System.Drawing.Size(299, 24);
             this.tipoAudiometriaComboBox.TabIndex = 1;
-            this.tipoAudiometriaComboBox.SelectedIndexChanged += new System.EventHandler(this.tipoAudiometriaComboBox_SelectedIndexChanged);
             // 
             // tabelaExamesTableAdapter
             // 
@@ -16404,6 +16409,17 @@ namespace segmentoOtoneurologia
             // 
             this.tabelaLaudario1TableAdapter.ClearBeforeFill = true;
             // 
+            // tsbPreencherAudio
+            // 
+            this.tsbPreencherAudio.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.tsbPreencherAudio.Image = ((System.Drawing.Image)(resources.GetObject("tsbPreencherAudio.Image")));
+            this.tsbPreencherAudio.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.tsbPreencherAudio.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tsbPreencherAudio.Name = "tsbPreencherAudio";
+            this.tsbPreencherAudio.Size = new System.Drawing.Size(52, 64);
+            this.tsbPreencherAudio.ToolTipText = "Preencher Audiogramas";
+            this.tsbPreencherAudio.Click += new System.EventHandler(this.tsbPreencherAudio_Click);
+            // 
             // frmExames
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -16412,7 +16428,7 @@ namespace segmentoOtoneurologia
             this.ClientSize = new System.Drawing.Size(1089, 742);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "frmExames";
@@ -17431,5 +17447,6 @@ namespace segmentoOtoneurologia
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn6;
         private System.Windows.Forms.Label label121;
         private System.Windows.Forms.Label label120;
+        private System.Windows.Forms.ToolStripButton tsbPreencherAudio;
     }
 }

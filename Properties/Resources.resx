@@ -127,8 +127,11 @@
   <data name="luaRecolorida" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\luaRecolorida.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="bloquear" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bloquear.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="receituario" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\receituario.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imprimir" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imprimir.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Users" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Users.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -163,6 +166,9 @@
   <data name="laudos" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\laudos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="chavesMaior" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chavesMaior.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="vaOEmascPresente" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\vaOEmascPresente.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -178,17 +184,14 @@
   <data name="plotar" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\plotar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="receituario" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\receituario.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="campoSemAASIpresente" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\campoSemAASIpresente.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="voODmascAusente" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\voODmascAusente.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="campoLivreOEausente" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\campoLivreOEausente.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="voFRONTEausente" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\voFRONTEausente.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="unnamed" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\unnamed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -202,8 +205,8 @@
   <data name="fonesMenores" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fonesMenores.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="notas" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\notas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="calendario1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\calendario1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="campoLivreODausente" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\campoLivreODausente.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -214,8 +217,8 @@
   <data name="voFRONTEmascPresenteOD" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\voFRONTEmascPresenteOD.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="imprimir" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\imprimir.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="vaODausente" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vaODausente.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Engineering" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Engineering.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -223,11 +226,11 @@
   <data name="fones1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fones1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="voOEausente" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\voOEausente.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="voFRONTEmascAusenteOD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\voFRONTEmascAusenteOD.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="campoSemAASIpresente" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\campoSemAASIpresente.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bloquear" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bloquear.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="voFRONTEpresente" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\voFRONTEpresente.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -247,20 +250,29 @@
   <data name="aula" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\aula.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="luaRecolorida2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\luaRecolorida2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="campoLivreOEpresente" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\campoLivreOEpresente.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="voFRONTEmascPresenteOE" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\voFRONTEmascPresenteOE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="voOEausente" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\voOEausente.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="chavesMaior" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\chavesMaior.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="laudos2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\laudos2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Whatsapp" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Whatsapp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="volta" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\volta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vaODmascAusente" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vaODmascAusente.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="add" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="salve2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\salve2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -274,11 +286,11 @@
   <data name="fones" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fones.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="laudos2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\laudos2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="vaODmascPresente" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vaODmascPresente.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="add" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="calendario" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\calendario.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="voODpresente" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\voODpresente.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -289,17 +301,11 @@
   <data name="vazio" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\vazio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="calendario1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\calendario1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="voFRONTEmascPresenteOE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\voFRONTEmascPresenteOE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="calendario" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\calendario.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="vaODmascPresente" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\vaODmascPresente.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="vaODausente" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\vaODausente.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="voFRONTEausente" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\voFRONTEausente.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="fundo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fundo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -334,9 +340,6 @@
   <data name="printMenor" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\printMenor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="voFRONTEmascAusenteOD" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\voFRONTEmascAusenteOD.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="gmail" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\gmail.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -349,8 +352,8 @@
   <data name="agendamento" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\agendamento.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="vaODmascAusente" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\vaODmascAusente.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="notas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\notas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Chart" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Chart.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -415,7 +418,7 @@
   <data name="boletins" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\boletins.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="luaRecolorida2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\luaRecolorida2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="asfon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\asfon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
