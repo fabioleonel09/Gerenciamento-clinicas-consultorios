@@ -500,6 +500,8 @@
     <None Include="Resources\Slide2.png" />
     <None Include="Resources\Slide3.png" />
     <None Include="Resources\Slide4.png" />
+    <None Include="Resources\sombraTimpanoOD.png" />
+    <None Include="Resources\sombraTimpanoOE.png" />
     <Content Include="usuarios.ico" />
     <None Include="Resources\voOEmascAusente.png" />
     <None Include="Resources\voOEmascPresente.png" />
