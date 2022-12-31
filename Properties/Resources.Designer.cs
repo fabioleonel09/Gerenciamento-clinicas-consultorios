@@ -813,6 +813,26 @@ namespace segmentoOtoneurologia.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap sombraTimpanoOD {
+            get {
+                object obj = ResourceManager.GetObject("sombraTimpanoOD", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sombraTimpanoOE {
+            get {
+                object obj = ResourceManager.GetObject("sombraTimpanoOE", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Twitter {
             get {
                 object obj = ResourceManager.GetObject("Twitter", resourceCulture);
