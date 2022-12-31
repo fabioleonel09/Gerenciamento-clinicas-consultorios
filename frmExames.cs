@@ -28,7 +28,8 @@ namespace segmentoOtoneurologia
             gbTipoAudiograma.Enabled = false;
 
             tsbPreencherAudio.Enabled = false;
-           
+            tsbPreencherTimpanogramas.Enabled = false;
+
             ((Control)tabControl1.TabPages["tabPage2"]).Enabled = false;
             ((Control)tabControl1.TabPages["tabPage3"]).Enabled = false;
             ((Control)tabControl1.TabPages["tabPage4"]).Enabled = false;
@@ -112,6 +113,9 @@ namespace segmentoOtoneurologia
                 valorB = Convert.ToDecimal(complodTextBox.Text);
                 valorC = Convert.ToDecimal(fechaodTextBox.Text);
 
+                var fundoImpOD = new NamedImage("sombraTimpanoOD", Properties.Resources.sombraTimpanoOD);
+                chartODimp.Images.Add(fundoImpOD);
+                chartODimp.ChartAreas[0].BackImage = "sombraTimpanoOD";
 
                 string seriesNameA = "liga A";
                 Series serA = chartODimp.Series.Add(seriesNameA);
@@ -208,7 +212,10 @@ namespace segmentoOtoneurologia
                 valorB = Convert.ToDecimal(comploeTextBox.Text);
                 valorC = Convert.ToDecimal(fechaoeTextBox.Text);
 
-           
+                var fundoImpOE = new NamedImage("sombraTimpanoOE", Properties.Resources.sombraTimpanoOE);
+                chartOEimp.Images.Add(fundoImpOE);
+                chartOEimp.ChartAreas[0].BackImage = "sombraTimpanoOE";
+
                 string seriesNameA = "liga A";
                 Series serA = chartOEimp.Series.Add(seriesNameA);
 
@@ -426,7 +433,7 @@ namespace segmentoOtoneurologia
             int finalizar = 9;
            
             chartAltOD.ChartAreas[0].AxisX.MajorGrid.LineDashStyle = ChartDashStyle.Dash;
-            chartAltOD.ChartAreas[0].AxisX.MajorGrid.LineColor = Color.Transparent;
+            chartAltOD.ChartAreas[0].AxisX.MajorGrid.LineColor = Color.Transparent;           
 
             string seriesName1 = "grade1";
             Series ser1 = chartAltOD.Series.Add(seriesName1);
@@ -1823,6 +1830,10 @@ namespace segmentoOtoneurologia
             chartAudioEmCampo.ChartAreas[0].AxisX.MajorGrid.LineDashStyle = ChartDashStyle.Dash;
             chartAudioEmCampo.ChartAreas[0].AxisX.MajorGrid.LineColor = Color.Transparent;
 
+            var fundoAudioCampoGanhoFunc = new NamedImage("Slide1", Properties.Resources.Slide1);
+            chartAudioEmCampo.Images.Add(fundoAudioCampoGanhoFunc);
+            chartAudioEmCampo.ChartAreas[0].BackImage = "Slide1";
+
             string seriesName1 = "grade1camp";
             Series ser1 = chartAudioEmCampo.Series.Add(seriesName1);
 
@@ -2658,6 +2669,10 @@ namespace segmentoOtoneurologia
 
             chartAudioOD.ChartAreas[0].AxisX.MajorGrid.LineDashStyle = ChartDashStyle.Dash;
             chartAudioOD.ChartAreas[0].AxisX.MajorGrid.LineColor = Color.Transparent;
+
+            var fundoAudioOD = new NamedImage("Slide3", Properties.Resources.Slide3);
+            chartAudioOD.Images.Add(fundoAudioOD);
+            chartAudioOD.ChartAreas[0].BackImage = "Slide3";
 
             string seriesName1 = "grade1OD";
             Series ser1 = chartAudioOD.Series.Add(seriesName1);
@@ -5753,6 +5768,10 @@ namespace segmentoOtoneurologia
             chartAudioOE.ChartAreas[0].AxisX.MajorGrid.LineDashStyle = ChartDashStyle.Dash;
             chartAudioOE.ChartAreas[0].AxisX.MajorGrid.LineColor = Color.Transparent;
 
+            var fundoAudioOE = new NamedImage("Slide2", Properties.Resources.Slide2);
+            chartAudioOE.Images.Add(fundoAudioOE);
+            chartAudioOE.ChartAreas[0].BackImage = "Slide2";
+
             string seriesName1 = "grade1OE";
             Series ser1 = chartAudioOE.Series.Add(seriesName1);
 
@@ -8846,6 +8865,10 @@ namespace segmentoOtoneurologia
             chartCampoConven.ChartAreas[0].AxisX.MajorGrid.LineDashStyle = ChartDashStyle.Dash;
             chartCampoConven.ChartAreas[0].AxisX.MajorGrid.LineColor = Color.Transparent;
 
+            var fundoAudioCampoConv = new NamedImage("Slide4", Properties.Resources.Slide4);
+            chartCampoConven.Images.Add(fundoAudioCampoConv);
+            chartCampoConven.ChartAreas[0].BackImage = "Slide4";
+
             string seriesName1 = "grade1campConv";
             Series ser1 = chartCampoConven.Series.Add(seriesName1);
 
@@ -10187,16 +10210,15 @@ namespace segmentoOtoneurologia
 
             gbDadosPaciente.Enabled = true;
             gbTipoAudiograma.Enabled = true;
-            tsbPreencherAudio.Enabled = true;
 
-            ((Control)tabControl1.TabPages["tabPage3"]).Enabled = true;
+            tsbPreencherAudio.Enabled = true;
+            tsbPreencherTimpanogramas.Enabled = true;
+
             ((Control)tabControl1.TabPages["tabPage4"]).Enabled = true;
             ((Control)tabControl1.TabPages["tabPage5"]).Enabled = true;
             ((Control)tabControl1.TabPages["tabPage6"]).Enabled = true;
             ((Control)tabControl1.TabPages["tabPage7"]).Enabled = true;
-            ((Control)tabControl1.TabPages["tabPage36"]).Enabled = true;
-
-            desabilitaMarcacaoImpedancio();          
+            ((Control)tabControl1.TabPages["tabPage36"]).Enabled = true;                    
         }
 
         private void bindingNavigatorDeleteItem_Click(object sender, EventArgs e)
@@ -10209,7 +10231,9 @@ namespace segmentoOtoneurologia
 
             gbDadosPaciente.Enabled = false;
             gbTipoAudiograma.Enabled = false;
+
             tsbPreencherAudio.Enabled = false;
+            tsbPreencherTimpanogramas.Enabled = false;
 
             dataExameDateTimePicker.CustomFormat = " ";
             dataNascimentoDateTimePicker.CustomFormat = " ";
@@ -10230,7 +10254,9 @@ namespace segmentoOtoneurologia
         {
             gbDadosPaciente.Enabled = true;
             gbTipoAudiograma.Enabled = true;
+
             tsbPreencherAudio.Enabled = true;
+            tsbPreencherTimpanogramas.Enabled = true;
 
             ((Control)tabControl1.TabPages["tabPage3"]).Enabled = true;
             ((Control)tabControl1.TabPages["tabPage4"]).Enabled = true;
@@ -10248,7 +10274,9 @@ namespace segmentoOtoneurologia
 
             gbDadosPaciente.Enabled = false;
             gbTipoAudiograma.Enabled = false;
+
             tsbPreencherAudio.Enabled = false;
+            tsbPreencherTimpanogramas.Enabled = false;
 
             tipoAudiometriaComboBox.SelectedIndex = -1;
 
@@ -10620,6 +10648,13 @@ namespace segmentoOtoneurologia
 
             //Ausência de VA OD
 
+        }
+
+        private void tsbPreencherTimpanogramas_Click(object sender, EventArgs e)
+        {
+            ((Control)tabControl1.TabPages["tabPage3"]).Enabled = true;           
+
+            desabilitaMarcacaoImpedancio();
         }
     }   
 }
