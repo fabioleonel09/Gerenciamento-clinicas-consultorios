@@ -10023,7 +10023,7 @@ namespace segmentoOtoneurologia
 
                         resultado = ((valor1 + valor2 + valor3) / 3);
 
-                        mEDIAodTextBox.Text += Convert.ToString(resultado) + " dBNA";
+                        mEDIAodTextBox.Text = Convert.ToString(resultado);
                     }
                 }
             }
@@ -10061,7 +10061,7 @@ namespace segmentoOtoneurologia
 
                         resultado = ((valor1 + valor2 + valor3) / 3);
 
-                        mEDIAoeTextBox.Text += Convert.ToString(resultado) + " dBNA";
+                        mEDIAoeTextBox.Text = Convert.ToString(resultado);
                     }
                 }
             }
@@ -10194,7 +10194,9 @@ namespace segmentoOtoneurologia
             ((Control)tabControl1.TabPages["tabPage5"]).Enabled = true;
             ((Control)tabControl1.TabPages["tabPage6"]).Enabled = true;
             ((Control)tabControl1.TabPages["tabPage7"]).Enabled = true;
-            ((Control)tabControl1.TabPages["tabPage36"]).Enabled = true;           
+            ((Control)tabControl1.TabPages["tabPage36"]).Enabled = true;
+
+            desabilitaMarcacaoImpedancio();          
         }
 
         private void bindingNavigatorDeleteItem_Click(object sender, EventArgs e)
@@ -10320,6 +10322,8 @@ namespace segmentoOtoneurologia
             {
                 ((Control)tabControl1.TabPages["tabPage2"]).Enabled = true;
             }
+
+            desabilitaMarcacao();
         }
 
         private void toolStripInternet_Click(object sender, EventArgs e)
@@ -10358,7 +10362,7 @@ namespace segmentoOtoneurologia
 
                         resultado = ((valor1 + valor2 + valor3 + valor4) / 4);
 
-                        mEDIAodTextBox.Text += Convert.ToString(resultado) + " dBNA";
+                        mEDIAodTextBox.Text = Convert.ToString(resultado);
                     }
                 }
             }
@@ -10397,7 +10401,7 @@ namespace segmentoOtoneurologia
 
                         resultado = ((valor1 + valor2 + valor3 + valor4) / 4);
 
-                        mEDIAoeTextBox.Text += Convert.ToString(resultado) + " dBNA";
+                        mEDIAoeTextBox.Text = Convert.ToString(resultado);
                     }
                 }
             }
@@ -10437,7 +10441,7 @@ namespace segmentoOtoneurologia
 
                         media = ((valor1 + valor2 + valor3 + valor4) / 4);//cáculo da média quadritonal
 
-                        comMEDIATextBox.Text += Convert.ToString(media) + " dBNPS";//atribui o resultado da média ao txt média com AASI, convertendo-o para string
+                        comMEDIATextBox.Text = Convert.ToString(media);//atribui o resultado da média ao txt média com AASI, convertendo-o para string
                     }
                 }
             }
@@ -10477,7 +10481,7 @@ namespace segmentoOtoneurologia
 
                         media = ((valor1 + valor2 + valor3 + valor4) / 4);//cáculo da média quadritonal
 
-                        semMEDIATextBox.Text += Convert.ToString(media) + " dBNA";//atribui o resultado da média ao txt média sem AASI, convertendo-o para string
+                        semMEDIATextBox.Text = Convert.ToString(media);//atribui o resultado da média ao txt média sem AASI, convertendo-o para string
                     }
                 }
             }
@@ -10563,6 +10567,59 @@ namespace segmentoOtoneurologia
             {
                 MessageBox.Show(ex.Message);//msg de erro
             }
+        }
+
+        private void desabilitaMarcacaoImpedancio()
+        {
+            curvaBodCheckBox.Checked = false;
+            curvaBoeCheckBox.Checked = false;
+        }
+
+        private void desabilitaMarcacao()
+        {
+            //mascaramento VA OD
+            masc125vaODCheckBox.Checked = false;
+            masc250vaODCheckBox.Checked = false;
+            masc500vaODCheckBox.Checked = false;
+            masc750vaODCheckBox.Checked = false;
+            masc1kvaODCheckBox.Checked = false;
+            masc1_5kvaODCheckBox.Checked = false;
+            masc2kvaODCheckBox.Checked = false;
+            masc3kvaODCheckBox.Checked = false;
+            masc4kvaODCheckBox.Checked = false;
+            masc6kvaODCheckBox.Checked = false;
+            masc8kvaODCheckBox.Checked = false;
+
+            //mascaramento VA OD altas frequências
+            chkMasc9kODCheckBox.Checked = false;
+            chkMasc12_5kODCheckBox.Checked = false;
+            chkMasc14kODCheckBox.Checked = false;
+            chkMasc16kODCheckBox.Checked = false;
+            chkMasc18kODCheckBox.Checked = false;
+            chkMasc20kODCheckBox.Checked = false;
+
+            //liga VA OD
+            liga125_250vaODCheckBox.Checked = false;
+            liga250_500vaODCheckBox.Checked = false;
+            liga500_750vaODCheckBox.Checked = false;
+            liga750_1kvaODCheckBox.Checked = false;
+            liga1k_1_5kvaODCheckBox.Checked = false;
+            liga1_5k_2kvaODCheckBox.Checked = false;
+            liga2k_3kvaODCheckBox.Checked = false;
+            liga3k_4kvaODCheckBox.Checked = false;
+            liga4k_6kvaODCheckBox.Checked = false;
+            liga6k_8kvaODCheckBox.Checked = false;
+
+            //liga VA OD altas frequências
+            chkliga9_10ODCheckBox.Checked = false;
+            chkliga10_12_5ODCheckBox.Checked = false;
+            chkliga12_5_14ODCheckBox.Checked = false;
+            chkliga14_16ODCheckBox.Checked = false;
+            chkliga16_18ODCheckBox.Checked = false;
+            chkliga18_20ODCheckBox.Checked = false;
+
+            //Ausência de VA OD
+
         }
     }   
 }
