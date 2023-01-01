@@ -18,6 +18,8 @@ namespace segmentoOtoneurologia
 
             txtPacienteAltasFreq.Text = valor1;//associa a variável ao txt
 
+            tabelaExamesBindingSource.Filter = $"identificacao like '*{txtPacienteAltasFreq.Text}*'";
+
             reportViewer1.Visible = false;
         }
 
