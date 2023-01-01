@@ -49,6 +49,11 @@ namespace segmentoOtoneurologia
 
         private void tabelaExamesBindingNavigatorSaveItem_Click(object sender, EventArgs e)//evento do boTão salvar na barra de ferramentas
         {
+            if (string.IsNullOrEmpty(identificacaoTextBox.Text))
+            {
+                MessageBox.Show("O campo 'Identificação' não está preenchido!", "Atenção!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+
             this.Validate();
             this.tabelaExamesBindingSource.EndEdit();
             this.tableAdapterManager.UpdateAll(this.segmsaude001DataSet);
@@ -10130,7 +10135,10 @@ namespace segmentoOtoneurologia
             chartAltOD.SaveImage("C:\\users/public/documents/chartODAltasFreq.png", System.Windows.Forms.DataVisualization.Charting.ChartImageFormat.Png);
             chartAltOE.SaveImage("C:\\users/public/documents/chartOEAltasFreq.png", System.Windows.Forms.DataVisualization.Charting.ChartImageFormat.Png);
 
-            frmPrintAudioAltasFreq fpaaf = new frmPrintAudioAltasFreq();
+            string valor1 = identificacaoTextBox.Text;//atribui o txt a uma variável
+
+            var fpaaf = new frmPrintAudioAltasFreq(valor1);//instancia o frm que abrirá com a variável
+           
             fpaaf.ShowDialog();
         }
 
@@ -10268,6 +10276,11 @@ namespace segmentoOtoneurologia
 
         private void toolStripBloquear_Click(object sender, EventArgs e)
         {
+            if (string.IsNullOrEmpty(identificacaoTextBox.Text))
+            {
+                MessageBox.Show("O campo 'Identificação' não está preenchido!", "Atenção!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+
             this.Validate();
             this.tabelaExamesBindingSource.EndEdit();
             this.tableAdapterManager.UpdateAll(this.segmsaude001DataSet);
