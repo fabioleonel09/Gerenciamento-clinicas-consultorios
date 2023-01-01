@@ -483,27 +483,6 @@
   <metadata name="laudoAudioLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>False</value>
   </metadata>
-  <metadata name="toolTip3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>641, 56</value>
-  </metadata>
-  <data name="laudoAudioComboBox.Items" xml:space="preserve">
-    <value>* Simbologia internacional proposta pela ASHA, 1990; Segundo SILMAN e SILVERMAN, 1997; Segundo LLOYD e KAPLAN, 1978; Adap. de CARHART, 1945 e LLOYD e KAPLAN, 1978; Segundo NORTHERN e DOWNS, 1984; Segundo JERGER, SPEAKS e TRAMMELL, 1968.</value>
-  </data>
-  <data name="laudoAudioComboBox.ToolTip" xml:space="preserve">
-    <value>Nesta ordem -&gt; "simbologia internacional" / "tipo de perda auditiva" / "grau de perda auditiva (adulto e/ou criança)" / "configuração audiométrica" / "logoaudiometria":
-
-* Simbologia internacional proposta pela ASHA, 1990. / Segundo SILMAN e SILVERMAN, 1997; Segundo LLOYD e KAPLAN, 1978; Segundo NORTHERN e DOWNS, 1984. / Adap. de CARHART, 1945 e LLOYD e KAPLAN, 1978. / Segundo JERGER, SPEAKS e TRAMMELL, 1968.
-
-** Simbologia internacional proposta pela ASHA, 1990. / Segundo SILMAN e SILVERMAN, 1997. / Segundo BIAP, 1996; Adap. de CARHART, 1945 e LLOYD e KAPLAN, 1978. / Segundo JERGER, SPEAKS e TRAMMELL, 1968.
-
-*** Simbologia internacional proposta pela ASHA, 1990. / Segundo SILMAN e SILVERMAN, 1997. / Segundo OMS, 2020; Adap. de CARHART, 1945 e LLOYD e KAPLAN, 1978. / Segundo JERGER, SPEAKS e TRAMMELL, 1968.</value>
-  </data>
-  <metadata name="tabelaExamesBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>193, 17</value>
-  </metadata>
-  <metadata name="segmsaude001DataSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
   <metadata name="tabelaExamesBindingNavigator.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>767, 17</value>
   </metadata>
@@ -527,6 +506,12 @@
   </metadata>
   <metadata name="exameRealizado.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
+  </metadata>
+  <metadata name="tabelaExamesBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>193, 17</value>
+  </metadata>
+  <metadata name="segmsaude001DataSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
   </metadata>
   <metadata name="segmsaude001DataSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
@@ -591,6 +576,24 @@ Deficiência auditiva muito severa - Grau II
 Deficiência auditiva muito severa - Grau III
 Deficiência auditiva total / Cofose</value>
   </data>
+  <metadata name="toolTip3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>641, 56</value>
+  </metadata>
+  <data name="laudoAudioComboBox.Items" xml:space="preserve">
+    <value>* Simbologia internacional proposta pela ASHA, 1990; Segundo SILMAN e SILVERMAN, 1997; Segundo LLOYD e KAPLAN, 1978; Adap. de CARHART, 1945 e LLOYD e KAPLAN, 1978; Segundo NORTHERN e DOWNS, 1984; Segundo JERGER, SPEAKS e TRAMMELL, 1968.</value>
+  </data>
+  <data name="laudoAudioComboBox.ToolTip" xml:space="preserve">
+    <value>Nesta ordem -&gt; "simbologia internacional" / "tipo de perda auditiva" / "grau de perda auditiva (adulto e/ou criança)" / "configuração audiométrica" / "logoaudiometria":
+
+* Simbologia internacional proposta pela ASHA, 1990. / Segundo SILMAN e SILVERMAN, 1997; Segundo LLOYD e KAPLAN, 1978; Segundo NORTHERN e DOWNS, 1984. / Adap. de CARHART, 1945 e LLOYD e KAPLAN, 1978. / Segundo JERGER, SPEAKS e TRAMMELL, 1968.
+
+** Simbologia internacional proposta pela ASHA, 1990. / Segundo SILMAN e SILVERMAN, 1997. / Segundo BIAP, 1996; Adap. de CARHART, 1945 e LLOYD e KAPLAN, 1978. / Segundo JERGER, SPEAKS e TRAMMELL, 1968.
+
+*** Simbologia internacional proposta pela ASHA, 1990. / Segundo SILMAN e SILVERMAN, 1997. / Segundo OMS, 2020; Adap. de CARHART, 1945 e LLOYD e KAPLAN, 1978. / Segundo JERGER, SPEAKS e TRAMMELL, 1968.</value>
+  </data>
+  <metadata name="tabelaExamesBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>193, 17</value>
+  </metadata>
   <data name="textBox4.Text" xml:space="preserve">
     <value>Instrumentos soados em intensidade moderada a 20 cm da orelha do paciente.
 
