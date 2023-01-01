@@ -18,12 +18,6 @@ namespace segmentoOtoneurologia
         {
             InitializeComponent();
 
-            //deixa dos checks desmarcados ao iniciar
-            //do exame de impedanciometria
-            curvaBodCheckBox.Checked = false;
-            //curvaBoeCheckBox.Checked = false;
-            
-
             gbDadosPaciente.Enabled = false;
             gbTipoAudiograma.Enabled = false;
 
@@ -8870,9 +8864,9 @@ namespace segmentoOtoneurologia
             chartCampoConven.ChartAreas[0].AxisX.MajorGrid.LineDashStyle = ChartDashStyle.Dash;
             chartCampoConven.ChartAreas[0].AxisX.MajorGrid.LineColor = Color.Transparent;
 
-            var fundoAudioCampoConv = new NamedImage("Slide4", Properties.Resources.Slide4);
+            var fundoAudioCampoConv = new NamedImage("Slide4.png", Properties.Resources.Slide4);
             chartCampoConven.Images.Add(fundoAudioCampoConv);
-            chartCampoConven.ChartAreas[0].BackImage = "Slide4";
+            chartCampoConven.ChartAreas[0].BackImage = "Slide4.png";
 
             string seriesName1 = "grade1campConv";
             Series ser1 = chartCampoConven.Series.Add(seriesName1);
@@ -10101,37 +10095,74 @@ namespace segmentoOtoneurologia
 
         private void btnPrintAudioCampoAASI_Click(object sender, EventArgs e)
         {
+            using (frmAguarde fa = new frmAguarde(OpenData))
+            {
+                fa.ShowDialog(this);
+            }
+
             chartAudioEmCampo.SaveImage("C:\\users/public/documents/chartAudioCampoAASI.png", System.Windows.Forms.DataVisualization.Charting.ChartImageFormat.Png);
-            
-            frmPrintCampoLivreAASI fpcla = new frmPrintCampoLivreAASI();
+
+            string valor1 = identificacaoTextBox.Text;//atribui o txt a uma variável
+
+            var fpcla = new frmPrintCampoLivreAASI(valor1);//instancia o frm que abrirá com a variável
+
             fpcla.ShowDialog();
         }
 
         private void btnPrintImpedancio_Click(object sender, EventArgs e)
         {
+            using (frmAguarde fa = new frmAguarde(OpenData))
+            {
+                fa.ShowDialog(this);
+            }
+
             chartODimp.SaveImage("C:\\users/public/documents/chartODimp.png", System.Windows.Forms.DataVisualization.Charting.ChartImageFormat.Png);
             chartOEimp.SaveImage("C:\\users/public/documents/chartOEimp.png", System.Windows.Forms.DataVisualization.Charting.ChartImageFormat.Png);
 
-            frmPrintImpedancioODeOE fpi = new frmPrintImpedancioODeOE();
+            string valor1 = identificacaoTextBox.Text;//atribui o txt a uma variável
+
+            var fpi = new frmPrintImpedancioODeOE(valor1);//instancia o frm que abrirá com a variável
+
             fpi.ShowDialog();
         }
 
         private void btnPrintComport_Click(object sender, EventArgs e)
         {
-            frmPrintComportamental fpc = new frmPrintComportamental();
+            using (frmAguarde fa = new frmAguarde(OpenData))
+            {
+                fa.ShowDialog(this);
+            }
+
+            string valor1 = identificacaoTextBox.Text;//atribui o txt a uma variável
+
+            var fpc = new frmPrintComportamental(valor1);//instancia o frm que abrirá com a variável
+            
             fpc.ShowDialog();
         }
 
         private void btnPrintAudioCampoConven_Click(object sender, EventArgs e)
         {
+            using (frmAguarde fa = new frmAguarde(OpenData))
+            {
+                fa.ShowDialog(this);
+            }
+
             chartCampoConven.SaveImage("C:\\users/public/documents/chartAudioCampoConven.png", System.Windows.Forms.DataVisualization.Charting.ChartImageFormat.Png);
 
-            frmPrintAudioCampoConven fpac = new frmPrintAudioCampoConven();
+            string valor1 = identificacaoTextBox.Text;//atribui o txt a uma variável
+
+            var fpac = new frmPrintAudioCampoConven(valor1);//instancia o frm que abrirá com a variável
+            
             fpac.ShowDialog();
         }
 
         private void btnPrintAltasFreq_Click(object sender, EventArgs e)
         {
+            using (frmAguarde fa = new frmAguarde(OpenData))
+            {
+                fa.ShowDialog(this);
+            }
+
             chartAltOD.SaveImage("C:\\users/public/documents/chartODAltasFreq.png", System.Windows.Forms.DataVisualization.Charting.ChartImageFormat.Png);
             chartAltOE.SaveImage("C:\\users/public/documents/chartOEAltasFreq.png", System.Windows.Forms.DataVisualization.Charting.ChartImageFormat.Png);
 
@@ -10144,10 +10175,18 @@ namespace segmentoOtoneurologia
 
         private void btnPrintAudioTonal_Click(object sender, EventArgs e)
         {
+            using (frmAguarde fa = new frmAguarde(OpenData))
+            {
+                fa.ShowDialog(this);
+            }
+
             chartAudioOD.SaveImage("C:\\users/public/documents/chartODAudioClinica.png", System.Windows.Forms.DataVisualization.Charting.ChartImageFormat.Png);
             chartAudioOE.SaveImage("C:\\users/public/documents/chartOEAudioClinica.png", System.Windows.Forms.DataVisualization.Charting.ChartImageFormat.Png);
 
-            frmPrintAudioClinica fpacn = new frmPrintAudioClinica();
+            string valor1 = identificacaoTextBox.Text;//atribui o txt a uma variável
+
+            var fpacn = new frmPrintAudioClinica(valor1);//instancia o frm que abrirá com a variável
+
             fpacn.ShowDialog();
         }
    

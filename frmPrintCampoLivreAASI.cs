@@ -12,9 +12,14 @@ namespace segmentoOtoneurologia
 {
     public partial class frmPrintCampoLivreAASI : Form
     {
-        public frmPrintCampoLivreAASI()
+        public frmPrintCampoLivreAASI(string valor1)
         {
             InitializeComponent();
+
+            txtPacienteAudioCampoAASI.Text = valor1;
+
+            tabelaExamesBindingSource.Filter = $"identificacao like '*{txtPacienteAudioCampoAASI.Text}*'";
+
             reportViewer1.Visible = false;
         }
 
@@ -32,13 +37,13 @@ namespace segmentoOtoneurologia
         {
             if (txtPacienteAudioCampoAASI.Text == "")
             {
-                MessageBox.Show("O campo correspondente ao nome do paciente está vazio!", "Atenção!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("O campo correspondente à identificação do paciente está vazio!", "Atenção!", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             else
             {
                 reportViewer1.Visible = true;
                 this.reportViewer1.RefreshReport();
-                tabelaExamesBindingSource.Filter = $"nomePaciente like '*{txtPacienteAudioCampoAASI.Text}*'";
+                tabelaExamesBindingSource.Filter = $"identificacao like '*{txtPacienteAudioCampoAASI.Text}*'";
             }
         }
 
