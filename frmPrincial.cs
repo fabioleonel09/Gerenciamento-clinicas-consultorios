@@ -135,6 +135,12 @@ namespace segmentoOtoneurologia
 
         private void btnOtoneuro_Click(object sender, EventArgs e)// evento do btn otoneuro
         {
+            if (Application.OpenForms.OfType<frmExames>().Count() > 0)
+            {
+                Application.OpenForms["frmExames"].BringToFront();
+                Application.OpenForms["frmExames"].WindowState = FormWindowState.Normal;
+            }
+
             frmExames fe = new frmExames();//instancia o frm exames
             fe.Show();//abre o frm
 
