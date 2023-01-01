@@ -141,8 +141,11 @@ namespace segmentoOtoneurologia
                 Application.OpenForms["frmExames"].WindowState = FormWindowState.Normal;
             }
 
-            frmExames fe = new frmExames();//instancia o frm exames
-            fe.Show();//abre o frm
+            else
+            {
+                frmExames fe = new frmExames();//instancia o frm exames
+                fe.Show();//abre o frm
+            }
 
             //frmCadastroOtoneurologia fco = new frmCadastroOtoneurologia();//instancia o frm cadastro otoneuro
             //fco.ShowDialog();//abre o frm

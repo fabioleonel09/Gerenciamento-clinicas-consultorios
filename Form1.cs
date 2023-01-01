@@ -30,9 +30,9 @@ namespace segmentoOtoneurologia
 
         void OpenData()
         {
-            for (int i = 0; i <= 500; i++)
+            for (int i = 0; i <= 400; i++)
             {
-                Thread.Sleep(5);
+                Thread.Sleep(2);
             }
         }
 
