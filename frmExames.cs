@@ -35,9 +35,9 @@ namespace segmentoOtoneurologia
 
         void OpenData()
         {
-            for (int i = 0; i <= 1200; i++)
+            for (int i = 0; i <= 400; i++)
             {
-                Thread.Sleep(10);
+                Thread.Sleep(2);
             }
         }
 
@@ -306,6 +306,7 @@ namespace segmentoOtoneurologia
             if (tabControl1.SelectedTab == tabPage36)//se a aba 36 for selecionada com o mouse
             {
                 tabelaExamesBindingNavigator.Enabled = false;//a barra de ferramentas fica inabilitada
+
             }
 
             else//caso contrário
@@ -8864,9 +8865,9 @@ namespace segmentoOtoneurologia
             chartCampoConven.ChartAreas[0].AxisX.MajorGrid.LineDashStyle = ChartDashStyle.Dash;
             chartCampoConven.ChartAreas[0].AxisX.MajorGrid.LineColor = Color.Transparent;
 
-            var fundoAudioCampoConv = new NamedImage("Slide4.png", Properties.Resources.Slide4);
+            var fundoAudioCampoConv = new NamedImage("Slide4", Properties.Resources.Slide4);
             chartCampoConven.Images.Add(fundoAudioCampoConv);
-            chartCampoConven.ChartAreas[0].BackImage = "Slide4.png";
+            chartCampoConven.BackImage = "Slide4";
 
             string seriesName1 = "grade1campConv";
             Series ser1 = chartCampoConven.Series.Add(seriesName1);
@@ -9773,6 +9774,8 @@ namespace segmentoOtoneurologia
                 {
                     fa.ShowDialog(this);
                 }
+
+                SetStyle(ControlStyles.OptimizedDoubleBuffer, true);
             }
         }
 
@@ -9784,6 +9787,8 @@ namespace segmentoOtoneurologia
                 {
                     fa.ShowDialog(this);
                 }
+             
+                SetStyle(ControlStyles.OptimizedDoubleBuffer, true);    
             }
         }
 
@@ -9795,6 +9800,8 @@ namespace segmentoOtoneurologia
                 {
                     fa.ShowDialog(this);
                 }
+
+                SetStyle(ControlStyles.OptimizedDoubleBuffer, true);
             }
         }
 
@@ -9806,6 +9813,8 @@ namespace segmentoOtoneurologia
                 {
                     fa.ShowDialog(this);
                 }
+
+                SetStyle(ControlStyles.OptimizedDoubleBuffer, true);
             }
         }
 
@@ -9817,6 +9826,8 @@ namespace segmentoOtoneurologia
                 {
                     fa.ShowDialog(this);
                 }
+
+                SetStyle(ControlStyles.OptimizedDoubleBuffer, true);
             }
         }
 
@@ -9828,6 +9839,8 @@ namespace segmentoOtoneurologia
                 {
                     fa.ShowDialog(this);
                 }
+
+                SetStyle(ControlStyles.OptimizedDoubleBuffer, true);
             }
         }
 
