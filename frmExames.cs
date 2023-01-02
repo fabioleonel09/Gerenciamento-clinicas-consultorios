@@ -1853,26 +1853,19 @@ namespace segmentoOtoneurologia
             chartAudioEmCampo.ChartAreas[0].AxisX.MajorGrid.LineDashStyle = ChartDashStyle.Dash;
             chartAudioEmCampo.ChartAreas[0].AxisX.MajorGrid.LineColor = Color.Transparent;
 
-            string fundoChart = "fundoChartTransp";
-            Series imgFundo = chartAudioEmCampo.Series.Add(fundoChart);
-
-            imgFundo.ChartArea = chartAudioEmCampo.ChartAreas[0].Name;
-            imgFundo.Name = fundoChart;
-            imgFundo.ChartType = SeriesChartType.Point;
-
             if (rbExibeBananaAudioGanhoFuncio.Checked == true)
             {
-                var fundoAudioEmCampoFuncio = new NamedImage("bananaCinza", Properties.Resources.bananaCinza);
+                var fundoAudioEmCampoFuncio = new NamedImage("Slide1", Properties.Resources.Slide1);
                 chartAudioEmCampo.Images.Clear();
                 chartAudioEmCampo.Images.Add(fundoAudioEmCampoFuncio);
-                imgFundo.MarkerImage = "bananaCinza";
-                imgFundo.Points.AddXY(7.50, 45);
+                chartAudioEmCampo.ChartAreas[0].BackImage = "Slide1";
             }
             else if (rbEscondeBananaAudioGanhoFuncio.Checked == true)
             {
-                var fundoAudioEmCampoFuncio = new NamedImage("bananaCinza", Properties.Resources.bananaCinza);
+                var fundoAudioEmCampoFuncio = new NamedImage("brancoTimpano", Properties.Resources.brancoTimpano);
                 chartAudioEmCampo.Images.Clear();
-                chartAudioEmCampo.Images.Remove(fundoAudioEmCampoFuncio);
+                chartAudioEmCampo.Images.Add(fundoAudioEmCampoFuncio);
+                chartAudioEmCampo.ChartAreas[0].BackImage = "brancoTimpano";
             }
 
             string seriesName1 = "grade1camp";
@@ -2027,675 +2020,686 @@ namespace segmentoOtoneurologia
             //*******SIMBOLOGIA*******
             //**** COM AASI *******
 
-            string seriesName13 = "simbol_500com";
-            Series ser13 = chartAudioEmCampo.Series.Add(seriesName13);
-
-            ser13.ChartArea = chartAudioEmCampo.ChartAreas[0].Name;
-            ser13.Name = seriesName13;
-            ser13.ChartType = SeriesChartType.Point;
-
-            if (com500ComboBox.Text == "")
+            if (string.IsNullOrEmpty(tipoAudiometriaComboBox.Text))
             {
-                var vaOEpresente13vaz = new NamedImage("vazio", Properties.Resources.vazio);
-                chartAudioEmCampo.Images.Clear();
-                chartAudioEmCampo.Images.Add(vaOEpresente13vaz);
-                ser13.MarkerImage = "vazio";
+                MessageBox.Show("Escolha 'Audiometria de Ganho Funcional'.", "Atenção!", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
-
-            else if (com500ComboBox.Text != "")
+            else if (tipoAudiometriaComboBox.Text == "Audiometria de ganho funcional")
             {
-                int valor13;
-                valor13 = Convert.ToInt32(com500ComboBox.Text);
-                ser13.Points.AddXY(6, valor13);  // x, high
+                string seriesName13 = "simbol_500com";
+                Series ser13 = chartAudioEmCampo.Series.Add(seriesName13);
+
+                ser13.ChartArea = chartAudioEmCampo.ChartAreas[0].Name;
+                ser13.Name = seriesName13;
+                ser13.ChartType = SeriesChartType.Point;
+
+                if (com500ComboBox.Text == "")
+                {
+                    var vaOEpresente13vaz = new NamedImage("vazio", Properties.Resources.vazio);
+                    chartAudioEmCampo.Images.Clear();
+                    chartAudioEmCampo.Images.Add(vaOEpresente13vaz);
+                    ser13.MarkerImage = "vazio";
+                }
+
+                else if (com500ComboBox.Text != "")
+                {
+                    int valor13;
+                    valor13 = Convert.ToInt32(com500ComboBox.Text);
+                    ser13.Points.AddXY(6, valor13);  // x, high
+                }
+
+
+                if (chkAusente500comCheckBox.Checked == true)
+                {
+                    var com500a = new NamedImage("campoComAASIausente", Properties.Resources.campoComAASIausente);
+                    chartAudioEmCampo.Images.Clear();
+                    chartAudioEmCampo.Images.Add(com500a);
+                    ser13.MarkerImage = "campoComAASIausente";
+                }
+
+                else if (chkAusente500comCheckBox.Checked == false)
+                {
+                    var com500p = new NamedImage("campoComAASIpresente", Properties.Resources.campoComAASIpresente);
+                    chartAudioEmCampo.Images.Clear();
+                    chartAudioEmCampo.Images.Add(com500p);
+                    ser13.MarkerImage = "campoComAASIpresente";
+                }
+
+                //*****
+
+                string seriesName14 = "simbol_1kcom";
+                Series ser14 = chartAudioEmCampo.Series.Add(seriesName14);
+
+                ser14.ChartArea = chartAudioEmCampo.ChartAreas[0].Name;
+                ser14.Name = seriesName14;
+                ser14.ChartType = SeriesChartType.Point;
+
+                if (com1kComboBox.Text == "")
+                {
+                    var vaOEpresente14vaz = new NamedImage("vazio", Properties.Resources.vazio);
+                    chartAudioEmCampo.Images.Clear();
+                    chartAudioEmCampo.Images.Add(vaOEpresente14vaz);
+                    ser14.MarkerImage = "vazio";
+                }
+
+                else if (com1kComboBox.Text != "")
+                {
+                    int valor14;
+                    valor14 = Convert.ToInt32(com1kComboBox.Text);
+                    ser14.Points.AddXY(8, valor14);  // x, high
+                }
+
+
+                if (chkAusente1kcomCheckBox.Checked == true)
+                {
+                    var com1ka = new NamedImage("campoComAASIausente", Properties.Resources.campoComAASIausente);
+                    chartAudioEmCampo.Images.Clear();
+                    chartAudioEmCampo.Images.Add(com1ka);
+                    ser14.MarkerImage = "campoComAASIausente";
+                }
+
+                else if (chkAusente1kcomCheckBox.Checked == false)
+                {
+                    var com1kp = new NamedImage("campoComAASIpresente", Properties.Resources.campoComAASIpresente);
+                    chartAudioEmCampo.Images.Clear();
+                    chartAudioEmCampo.Images.Add(com1kp);
+                    ser14.MarkerImage = "campoComAASIpresente";
+                }
+
+                //*****
+
+                string seriesName15 = "simbol_2kcom";
+                Series ser15 = chartAudioEmCampo.Series.Add(seriesName15);
+
+                ser15.ChartArea = chartAudioEmCampo.ChartAreas[0].Name;
+                ser15.Name = seriesName15;
+                ser15.ChartType = SeriesChartType.Point;
+
+                if (com2KComboBox.Text == "")
+                {
+                    var vaOEpresente15vaz = new NamedImage("vazio", Properties.Resources.vazio);
+                    chartAudioEmCampo.Images.Clear();
+                    chartAudioEmCampo.Images.Add(vaOEpresente15vaz);
+                    ser15.MarkerImage = "vazio";
+                }
+
+                else if (com2KComboBox.Text != "")
+                {
+                    int valor15;
+                    valor15 = Convert.ToInt32(com2KComboBox.Text);
+                    ser15.Points.AddXY(10, valor15);  // x, high
+                }
+
+
+                if (chkAusente2kcomCheckBox.Checked == true)
+                {
+                    var com2ka = new NamedImage("campoComAASIausente", Properties.Resources.campoComAASIausente);
+                    chartAudioEmCampo.Images.Clear();
+                    chartAudioEmCampo.Images.Add(com2ka);
+                    ser15.MarkerImage = "campoComAASIausente";
+                }
+
+                else if (chkAusente2kcomCheckBox.Checked == false)
+                {
+                    var com2kp = new NamedImage("campoComAASIpresente", Properties.Resources.campoComAASIpresente);
+                    chartAudioEmCampo.Images.Clear();
+                    chartAudioEmCampo.Images.Add(com2kp);
+                    ser15.MarkerImage = "campoComAASIpresente";
+                }
+
+
+                //*****
+
+                string seriesName16 = "simbol_3kcom";
+                Series ser16 = chartAudioEmCampo.Series.Add(seriesName16);
+
+                ser16.ChartArea = chartAudioEmCampo.ChartAreas[0].Name;
+                ser16.Name = seriesName16;
+                ser16.ChartType = SeriesChartType.Point;
+
+                if (com3kComboBox.Text == "")
+                {
+                    var vaOEpresente16vaz = new NamedImage("vazio", Properties.Resources.vazio);
+                    chartAudioEmCampo.Images.Clear();
+                    chartAudioEmCampo.Images.Add(vaOEpresente16vaz);
+                    ser16.MarkerImage = "vazio";
+                }
+
+                else if (com3kComboBox.Text != "")
+                {
+                    int valor16;
+                    valor16 = Convert.ToInt32(com3kComboBox.Text);
+                    ser16.Points.AddXY(11.25, valor16);  // x, high
+                }
+
+
+                if (chkAusente3kcomCheckBox.Checked == true)
+                {
+                    var com3ka = new NamedImage("campoComAASIausente", Properties.Resources.campoComAASIausente);
+                    chartAudioEmCampo.Images.Clear();
+                    chartAudioEmCampo.Images.Add(com3ka);
+                    ser16.MarkerImage = "campoComAASIausente";
+                }
+
+                else if (chkAusente3kcomCheckBox.Checked == false)
+                {
+                    var com3kp = new NamedImage("campoComAASIpresente", Properties.Resources.campoComAASIpresente);
+                    chartAudioEmCampo.Images.Clear();
+                    chartAudioEmCampo.Images.Add(com3kp);
+                    ser16.MarkerImage = "campoComAASIpresente";
+                }
+
+                //******
+
+                string seriesName17 = "simbol_4kcom";
+                Series ser17 = chartAudioEmCampo.Series.Add(seriesName17);
+
+                ser17.ChartArea = chartAudioEmCampo.ChartAreas[0].Name;
+                ser17.Name = seriesName17;
+                ser17.ChartType = SeriesChartType.Point;
+
+                if (com4kComboBox.Text == "")
+                {
+                    var vaOEpresente17vaz = new NamedImage("vazio", Properties.Resources.vazio);
+                    chartAudioEmCampo.Images.Clear();
+                    chartAudioEmCampo.Images.Add(vaOEpresente17vaz);
+                    ser17.MarkerImage = "vazio";
+                }
+
+                else if (com4kComboBox.Text != "")
+                {
+                    int valor17;
+                    valor17 = Convert.ToInt32(com4kComboBox.Text);
+                    ser17.Points.AddXY(12, valor17);  // x, high
+                }
+
+
+                if (chkAusente4kcomCheckBox.Checked == true)
+                {
+                    var com4ka = new NamedImage("campoComAASIausente", Properties.Resources.campoComAASIausente);
+                    chartAudioEmCampo.Images.Clear();
+                    chartAudioEmCampo.Images.Add(com4ka);
+                    ser17.MarkerImage = "campoComAASIausente";
+                }
+
+                else if (chkAusente4kcomCheckBox.Checked == false)
+                {
+                    var com4kp = new NamedImage("campoComAASIpresente", Properties.Resources.campoComAASIpresente);
+                    chartAudioEmCampo.Images.Clear();
+                    chartAudioEmCampo.Images.Add(com4kp);
+                    ser17.MarkerImage = "campoComAASIpresente";
+                }
+
+
+                //*******SIMBOLOGIA*******
+                //**** SEM AASI *******
+
+                string seriesName18 = "simbol_500sem";
+                Series ser18 = chartAudioEmCampo.Series.Add(seriesName18);
+
+                ser18.ChartArea = chartAudioEmCampo.ChartAreas[0].Name;
+                ser18.Name = seriesName18;
+                ser18.ChartType = SeriesChartType.Point;
+
+                if (sem500ComboBox.Text == "")
+                {
+                    var vaOEpresente18vaz = new NamedImage("vazio", Properties.Resources.vazio);
+                    chartAudioEmCampo.Images.Clear();
+                    chartAudioEmCampo.Images.Add(vaOEpresente18vaz);
+                    ser18.MarkerImage = "vazio";
+                }
+
+                else if (sem500ComboBox.Text != "")
+                {
+                    int valor18;
+                    valor18 = Convert.ToInt32(sem500ComboBox.Text);
+                    ser18.Points.AddXY(6, valor18);  // x, high
+                }
+
+
+                if (chkAusente500semCheckBox.Checked == true)
+                {
+                    var sem500a = new NamedImage("campoSemAASIausente", Properties.Resources.campoSemAASIausente);
+                    chartAudioEmCampo.Images.Clear();
+                    chartAudioEmCampo.Images.Add(sem500a);
+                    ser18.MarkerImage = "campoSemAASIausente";
+                }
+
+                else if (chkAusente500semCheckBox.Checked == false)
+                {
+                    var sem500p = new NamedImage("campoSemAASIpresente", Properties.Resources.campoSemAASIpresente);
+                    chartAudioEmCampo.Images.Clear();
+                    chartAudioEmCampo.Images.Add(sem500p);
+                    ser18.MarkerImage = "campoSemAASIpresente";
+                }
+
+                //*****
+
+                string seriesName19 = "simbol_1ksem";
+                Series ser19 = chartAudioEmCampo.Series.Add(seriesName19);
+
+                ser19.ChartArea = chartAudioEmCampo.ChartAreas[0].Name;
+                ser19.Name = seriesName19;
+                ser19.ChartType = SeriesChartType.Point;
+
+                if (sem1kComboBox.Text == "")
+                {
+                    var vaOEpresente19vaz = new NamedImage("vazio", Properties.Resources.vazio);
+                    chartAudioEmCampo.Images.Clear();
+                    chartAudioEmCampo.Images.Add(vaOEpresente19vaz);
+                    ser19.MarkerImage = "vazio";
+                }
+
+                else if (sem1kComboBox.Text != "")
+                {
+                    int valor19;
+                    valor19 = Convert.ToInt32(sem1kComboBox.Text);
+                    ser19.Points.AddXY(8, valor19);  // x, high
+                }
+
+
+                if (chkAusente1ksemCheckBox.Checked == true)
+                {
+                    var sem1ka = new NamedImage("campoSemAASIausente", Properties.Resources.campoSemAASIausente);
+                    chartAudioEmCampo.Images.Clear();
+                    chartAudioEmCampo.Images.Add(sem1ka);
+                    ser19.MarkerImage = "campoSemAASIausente";
+                }
+
+                else if (chkAusente1ksemCheckBox.Checked == false)
+                {
+                    var sem1kp = new NamedImage("campoSemAASIpresente", Properties.Resources.campoSemAASIpresente);
+                    chartAudioEmCampo.Images.Clear();
+                    chartAudioEmCampo.Images.Add(sem1kp);
+                    ser19.MarkerImage = "campoSemAASIpresente";
+                }
+
+                //*****
+
+                string seriesName20 = "simbol_2ksem";
+                Series ser20 = chartAudioEmCampo.Series.Add(seriesName20);
+
+                ser20.ChartArea = chartAudioEmCampo.ChartAreas[0].Name;
+                ser20.Name = seriesName20;
+                ser20.ChartType = SeriesChartType.Point;
+
+                if (sem2KComboBox.Text == "")
+                {
+                    var vaOEpresente20vaz = new NamedImage("vazio", Properties.Resources.vazio);
+                    chartAudioEmCampo.Images.Clear();
+                    chartAudioEmCampo.Images.Add(vaOEpresente20vaz);
+                    ser20.MarkerImage = "vazio";
+                }
+
+                else if (sem2KComboBox.Text != "")
+                {
+                    int valor20;
+                    valor20 = Convert.ToInt32(sem2KComboBox.Text);
+                    ser20.Points.AddXY(10, valor20);  // x, high
+                }
+
+
+                if (chkAusente2ksemCheckBox.Checked == true)
+                {
+                    var sem2ka = new NamedImage("campoSemAASIausente", Properties.Resources.campoSemAASIausente);
+                    chartAudioEmCampo.Images.Clear();
+                    chartAudioEmCampo.Images.Add(sem2ka);
+                    ser20.MarkerImage = "campoSemAASIausente";
+                }
+
+                else if (chkAusente2ksemCheckBox.Checked == false)
+                {
+                    var sem2kp = new NamedImage("campoSemAASIpresente", Properties.Resources.campoSemAASIpresente);
+                    chartAudioEmCampo.Images.Clear();
+                    chartAudioEmCampo.Images.Add(sem2kp);
+                    ser20.MarkerImage = "campoSemAASIpresente";
+                }
+
+
+                //*****
+
+                string seriesName21 = "simbol_3ksem";
+                Series ser21 = chartAudioEmCampo.Series.Add(seriesName21);
+
+                ser21.ChartArea = chartAudioEmCampo.ChartAreas[0].Name;
+                ser21.Name = seriesName21;
+                ser21.ChartType = SeriesChartType.Point;
+
+                if (sem3kComboBox.Text == "")
+                {
+                    var vaOEpresente21vaz = new NamedImage("vazio", Properties.Resources.vazio);
+                    chartAudioEmCampo.Images.Clear();
+                    chartAudioEmCampo.Images.Add(vaOEpresente21vaz);
+                    ser21.MarkerImage = "vazio";
+                }
+
+                else if (sem3kComboBox.Text != "")
+                {
+                    int valor21;
+                    valor21 = Convert.ToInt32(sem3kComboBox.Text);
+                    ser21.Points.AddXY(11.25, valor21);  // x, high
+                }
+
+
+                if (chkAusente3ksemCheckBox.Checked == true)
+                {
+                    var sem3ka = new NamedImage("campoSemAASIausente", Properties.Resources.campoSemAASIausente);
+                    chartAudioEmCampo.Images.Clear();
+                    chartAudioEmCampo.Images.Add(sem3ka);
+                    ser21.MarkerImage = "campoSemAASIausente";
+                }
+
+                else if (chkAusente3ksemCheckBox.Checked == false)
+                {
+                    var sem3kp = new NamedImage("campoSemAASIpresente", Properties.Resources.campoSemAASIpresente);
+                    chartAudioEmCampo.Images.Clear();
+                    chartAudioEmCampo.Images.Add(sem3kp);
+                    ser21.MarkerImage = "campoSemAASIpresente";
+                }
+
+                //******
+
+                string seriesName22 = "simbol_4ksem";
+                Series ser22 = chartAudioEmCampo.Series.Add(seriesName22);
+
+                ser22.ChartArea = chartAudioEmCampo.ChartAreas[0].Name;
+                ser22.Name = seriesName22;
+                ser22.ChartType = SeriesChartType.Point;
+
+                if (sem4kComboBox.Text == "")
+                {
+                    var vaOEpresente22vaz = new NamedImage("vazio", Properties.Resources.vazio);
+                    chartAudioEmCampo.Images.Clear();
+                    chartAudioEmCampo.Images.Add(vaOEpresente22vaz);
+                    ser22.MarkerImage = "vazio";
+                }
+
+                else if (sem4kComboBox.Text != "")
+                {
+                    int valor22;
+                    valor22 = Convert.ToInt32(sem4kComboBox.Text);
+                    ser22.Points.AddXY(12, valor22);  // x, high
+                }
+
+
+                if (chkAusente4ksemCheckBox.Checked == true)
+                {
+                    var sem4ka = new NamedImage("campoSemAASIausente", Properties.Resources.campoSemAASIausente);
+                    chartAudioEmCampo.Images.Clear();
+                    chartAudioEmCampo.Images.Add(sem4ka);
+                    ser22.MarkerImage = "campoSemAASIausente";
+                }
+
+                else if (chkAusente4ksemCheckBox.Checked == false)
+                {
+                    var sem4kp = new NamedImage("campoSemAASIpresente", Properties.Resources.campoSemAASIpresente);
+                    chartAudioEmCampo.Images.Clear();
+                    chartAudioEmCampo.Images.Add(sem4kp);
+                    ser22.MarkerImage = "campoSemAASIpresente";
+                }
+
+
+                //***SEQUÊNCIA PARA LIGAR SIMBOLOGIA COM AASSI
+
+                try
+                {
+
+                    string seriesName23 = "liga 500_1kcom";
+                    Series ser23 = chartAudioEmCampo.Series.Add(seriesName23);
+
+                    ser23.ChartArea = chartAudioEmCampo.ChartAreas[0].Name;
+                    ser23.Name = seriesName23;
+                    ser23.ChartType = SeriesChartType.Line;
+
+                    if (chbLiga500_1k_comCheckBox.Checked == true)
+                    {
+                        int valorA, valorB;
+
+                        valorA = Convert.ToInt32(com500ComboBox.Text);
+                        valorB = Convert.ToInt32(com1kComboBox.Text);
+
+                        ser23.Points.AddXY(6, valorA);
+                        ser23.Points.AddXY(8, valorB);
+
+                        ser23.BorderColor = Color.Transparent;
+                        ser23.Color = Color.Black;
+                        ser23.BorderWidth = Convert.ToInt32(1.5);
+                    }
+
+                    else if (chbLiga500_1k_comCheckBox.Checked == false)
+                    {
+                        ser23.Points.Clear();
+                    }
+
+                    //*******
+
+                    string seriesName24 = "liga 1k_2kcom";
+                    Series ser24 = chartAudioEmCampo.Series.Add(seriesName24);
+
+                    ser24.ChartArea = chartAudioEmCampo.ChartAreas[0].Name;
+                    ser24.Name = seriesName24;
+                    ser24.ChartType = SeriesChartType.Line;
+
+                    if (chbLiga1k_2k_comCheckBox.Checked == true)
+                    {
+                        int valorA, valorB;
+
+                        valorA = Convert.ToInt32(com1kComboBox.Text);
+                        valorB = Convert.ToInt32(com2KComboBox.Text);
+
+                        ser24.Points.AddXY(8, valorA);
+                        ser24.Points.AddXY(10, valorB);
+
+                        ser24.BorderColor = Color.Transparent;
+                        ser24.Color = Color.Black;
+                        ser24.BorderWidth = Convert.ToInt32(1.5);
+                    }
+
+                    else if (chbLiga1k_2k_comCheckBox.Checked == false)
+                    {
+                        ser24.Points.Clear();
+                    }
+
+                    //*******
+
+                    string seriesName25 = "liga 2k_3kcom";
+                    Series ser25 = chartAudioEmCampo.Series.Add(seriesName25);
+
+                    ser25.ChartArea = chartAudioEmCampo.ChartAreas[0].Name;
+                    ser25.Name = seriesName25;
+                    ser25.ChartType = SeriesChartType.Line;
+
+                    if (chbLiga2k_3k_comCheckBox.Checked == true)
+                    {
+                        int valorA, valorB;
+
+                        valorA = Convert.ToInt32(com2KComboBox.Text);
+                        valorB = Convert.ToInt32(com3kComboBox.Text);
+
+                        ser25.Points.AddXY(10, valorA);
+                        ser25.Points.AddXY(11.25, valorB);
+
+                        ser25.BorderColor = Color.Transparent;
+                        ser25.Color = Color.Black;
+                        ser25.BorderWidth = Convert.ToInt32(1.5);
+                    }
+
+                    else if (chbLiga2k_3k_comCheckBox.Checked == false)
+                    {
+                        ser25.Points.Clear();
+                    }
+
+                    //******
+
+                    string seriesName26 = "liga 3k_4kcom";
+                    Series ser26 = chartAudioEmCampo.Series.Add(seriesName26);
+
+                    ser26.ChartArea = chartAudioEmCampo.ChartAreas[0].Name;
+                    ser26.Name = seriesName26;
+                    ser26.ChartType = SeriesChartType.Line;
+
+                    if (chbLiga3k_4k_comCheckBox.Checked == true)
+                    {
+                        int valorA, valorB;
+
+                        valorA = Convert.ToInt32(com3kComboBox.Text);
+                        valorB = Convert.ToInt32(com4kComboBox.Text);
+
+                        ser26.Points.AddXY(11.25, valorA);
+                        ser26.Points.AddXY(12, valorB);
+
+                        ser26.BorderColor = Color.Transparent;
+                        ser26.Color = Color.Black;
+                        ser26.BorderWidth = Convert.ToInt32(1.5);
+                    }
+
+                    else if (chbLiga3k_4k_comCheckBox.Checked == false)
+                    {
+                        ser26.Points.Clear();
+                    }
+                }
+                catch
+                {
+                    MessageBox.Show("Não é possível ligar a simbologia!", "Erro!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+                    chbLiga500_1k_comCheckBox.Checked = false;
+                    chbLiga1k_2k_comCheckBox.Checked = false;
+                    chbLiga2k_3k_comCheckBox.Checked = false;
+                    chbLiga3k_4k_comCheckBox.Checked = false;
+                }
+
+                //***SEQUÊNCIA PARA LIGAR SIMBOLOGIA SEM AASSI
+
+                try
+                {
+
+                    string seriesName27 = "liga 500_1ksem";
+                    Series ser27 = chartAudioEmCampo.Series.Add(seriesName27);
+
+                    ser27.ChartArea = chartAudioEmCampo.ChartAreas[0].Name;
+                    ser27.Name = seriesName27;
+                    ser27.ChartType = SeriesChartType.Line;
+
+                    if (chbLiga500_1k_semCheckBox.Checked == true)
+                    {
+                        int valorA, valorB;
+
+                        valorA = Convert.ToInt32(sem500ComboBox.Text);
+                        valorB = Convert.ToInt32(sem1kComboBox.Text);
+
+                        ser27.Points.AddXY(6, valorA);
+                        ser27.Points.AddXY(8, valorB);
+
+                        ser27.BorderColor = Color.Transparent;
+                        ser27.Color = Color.Black;
+                        ser27.BorderWidth = Convert.ToInt32(1.5);
+                    }
+
+                    else if (chbLiga500_1k_semCheckBox.Checked == false)
+                    {
+                        ser27.Points.Clear();
+                    }
+
+                    //*******
+
+                    string seriesName28 = "liga 1k_2ksem";
+                    Series ser28 = chartAudioEmCampo.Series.Add(seriesName28);
+
+                    ser28.ChartArea = chartAudioEmCampo.ChartAreas[0].Name;
+                    ser28.Name = seriesName28;
+                    ser28.ChartType = SeriesChartType.Line;
+
+                    if (chbLiga1k_2k_semCheckBox.Checked == true)
+                    {
+                        int valorA, valorB;
+
+                        valorA = Convert.ToInt32(sem1kComboBox.Text);
+                        valorB = Convert.ToInt32(sem2KComboBox.Text);
+
+                        ser28.Points.AddXY(8, valorA);
+                        ser28.Points.AddXY(10, valorB);
+
+                        ser28.BorderColor = Color.Transparent;
+                        ser28.Color = Color.Black;
+                        ser28.BorderWidth = Convert.ToInt32(1.5);
+                    }
+
+                    else if (chbLiga1k_2k_semCheckBox.Checked == false)
+                    {
+                        ser28.Points.Clear();
+                    }
+
+                    //*******
+
+                    string seriesName29 = "liga 2k_3ksem";
+                    Series ser29 = chartAudioEmCampo.Series.Add(seriesName29);
+
+                    ser29.ChartArea = chartAudioEmCampo.ChartAreas[0].Name;
+                    ser29.Name = seriesName29;
+                    ser29.ChartType = SeriesChartType.Line;
+
+                    if (chbLiga2k_3k_semCheckBox.Checked == true)
+                    {
+                        int valorA, valorB;
+
+                        valorA = Convert.ToInt32(sem2KComboBox.Text);
+                        valorB = Convert.ToInt32(sem3kComboBox.Text);
+
+                        ser29.Points.AddXY(10, valorA);
+                        ser29.Points.AddXY(11.25, valorB);
+
+                        ser29.BorderColor = Color.Transparent;
+                        ser29.Color = Color.Black;
+                        ser29.BorderWidth = Convert.ToInt32(1.5);
+                    }
+
+                    else if (chbLiga2k_3k_semCheckBox.Checked == false)
+                    {
+                        ser29.Points.Clear();
+                    }
+
+                    //******
+
+                    string seriesName30 = "liga 3k_4ksem";
+                    Series ser30 = chartAudioEmCampo.Series.Add(seriesName30);
+
+                    ser30.ChartArea = chartAudioEmCampo.ChartAreas[0].Name;
+                    ser30.Name = seriesName30;
+                    ser30.ChartType = SeriesChartType.Line;
+
+                    if (chbLiga3k_4k_semCheckBox.Checked == true)
+                    {
+                        int valorA, valorB;
+
+                        valorA = Convert.ToInt32(sem3kComboBox.Text);
+                        valorB = Convert.ToInt32(sem4kComboBox.Text);
+
+                        ser30.Points.AddXY(11.25, valorA);
+                        ser30.Points.AddXY(12, valorB);
+
+                        ser30.BorderColor = Color.Transparent;
+                        ser30.Color = Color.Black;
+                        ser30.BorderWidth = Convert.ToInt32(1.5);
+                    }
+
+                    else if (chbLiga3k_4k_semCheckBox.Checked == false)
+                    {
+                        ser30.Points.Clear();
+                    }
+                }
+                catch
+                {
+                    MessageBox.Show("Não é possível ligar a simbologia!", "Erro!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+                    chbLiga500_1k_semCheckBox.Checked = false;
+                    chbLiga1k_2k_semCheckBox.Checked = false;
+                    chbLiga2k_3k_semCheckBox.Checked = false;
+                    chbLiga3k_4k_semCheckBox.Checked = false;
+                }
             }
-
-
-            if (chkAusente500comCheckBox.Checked == true)
+            else
             {
-                var com500a = new NamedImage("campoComAASIausente", Properties.Resources.campoComAASIausente);
-                chartAudioEmCampo.Images.Clear();
-                chartAudioEmCampo.Images.Add(com500a);
-                ser13.MarkerImage = "campoComAASIausente";
-            }
-
-            else if (chkAusente500comCheckBox.Checked == false)
-            {
-                var com500p = new NamedImage("campoComAASIpresente", Properties.Resources.campoComAASIpresente);
-                chartAudioEmCampo.Images.Clear();
-                chartAudioEmCampo.Images.Add(com500p);
-                ser13.MarkerImage = "campoComAASIpresente";
-            }
-
-            //*****
-
-            string seriesName14 = "simbol_1kcom";
-            Series ser14 = chartAudioEmCampo.Series.Add(seriesName14);
-
-            ser14.ChartArea = chartAudioEmCampo.ChartAreas[0].Name;
-            ser14.Name = seriesName14;
-            ser14.ChartType = SeriesChartType.Point;
-
-            if (com1kComboBox.Text == "")
-            {
-                var vaOEpresente14vaz = new NamedImage("vazio", Properties.Resources.vazio);
-                chartAudioEmCampo.Images.Clear();
-                chartAudioEmCampo.Images.Add(vaOEpresente14vaz);
-                ser14.MarkerImage = "vazio";
-            }
-
-            else if (com1kComboBox.Text != "")
-            {
-                int valor14;
-                valor14 = Convert.ToInt32(com1kComboBox.Text);
-                ser14.Points.AddXY(8, valor14);  // x, high
-            }
-
-
-            if (chkAusente1kcomCheckBox.Checked == true)
-            {
-                var com1ka = new NamedImage("campoComAASIausente", Properties.Resources.campoComAASIausente);
-                chartAudioEmCampo.Images.Clear();
-                chartAudioEmCampo.Images.Add(com1ka);
-                ser14.MarkerImage = "campoComAASIausente";
-            }
-
-            else if (chkAusente1kcomCheckBox.Checked == false)
-            {
-                var com1kp = new NamedImage("campoComAASIpresente", Properties.Resources.campoComAASIpresente);
-                chartAudioEmCampo.Images.Clear();
-                chartAudioEmCampo.Images.Add(com1kp);
-                ser14.MarkerImage = "campoComAASIpresente";
-            }
-
-            //*****
-
-            string seriesName15 = "simbol_2kcom";
-            Series ser15 = chartAudioEmCampo.Series.Add(seriesName15);
-
-            ser15.ChartArea = chartAudioEmCampo.ChartAreas[0].Name;
-            ser15.Name = seriesName15;
-            ser15.ChartType = SeriesChartType.Point;
-
-            if (com2KComboBox.Text == "")
-            {
-                var vaOEpresente15vaz = new NamedImage("vazio", Properties.Resources.vazio);
-                chartAudioEmCampo.Images.Clear();
-                chartAudioEmCampo.Images.Add(vaOEpresente15vaz);
-                ser15.MarkerImage = "vazio";
-            }
-
-            else if (com2KComboBox.Text != "")
-            {
-                int valor15;
-                valor15 = Convert.ToInt32(com2KComboBox.Text);
-                ser15.Points.AddXY(10, valor15);  // x, high
-            }
-
-
-            if (chkAusente2kcomCheckBox.Checked == true)
-            {
-                var com2ka = new NamedImage("campoComAASIausente", Properties.Resources.campoComAASIausente);
-                chartAudioEmCampo.Images.Clear();
-                chartAudioEmCampo.Images.Add(com2ka);
-                ser15.MarkerImage = "campoComAASIausente";
-            }
-
-            else if (chkAusente2kcomCheckBox.Checked == false)
-            {
-                var com2kp = new NamedImage("campoComAASIpresente", Properties.Resources.campoComAASIpresente);
-                chartAudioEmCampo.Images.Clear();
-                chartAudioEmCampo.Images.Add(com2kp);
-                ser15.MarkerImage = "campoComAASIpresente";
-            }
-
-
-            //*****
-
-            string seriesName16 = "simbol_3kcom";
-            Series ser16 = chartAudioEmCampo.Series.Add(seriesName16);
-
-            ser16.ChartArea = chartAudioEmCampo.ChartAreas[0].Name;
-            ser16.Name = seriesName16;
-            ser16.ChartType = SeriesChartType.Point;
-
-            if (com3kComboBox.Text == "")
-            {
-                var vaOEpresente16vaz = new NamedImage("vazio", Properties.Resources.vazio);
-                chartAudioEmCampo.Images.Clear();
-                chartAudioEmCampo.Images.Add(vaOEpresente16vaz);
-                ser16.MarkerImage = "vazio";
-            }
-
-            else if (com3kComboBox.Text != "")
-            {
-                int valor16;
-                valor16 = Convert.ToInt32(com3kComboBox.Text);
-                ser16.Points.AddXY(11.25, valor16);  // x, high
-            }
-
-
-            if (chkAusente3kcomCheckBox.Checked == true)
-            {
-                var com3ka = new NamedImage("campoComAASIausente", Properties.Resources.campoComAASIausente);
-                chartAudioEmCampo.Images.Clear();
-                chartAudioEmCampo.Images.Add(com3ka);
-                ser16.MarkerImage = "campoComAASIausente";
-            }
-
-            else if (chkAusente3kcomCheckBox.Checked == false)
-            {
-                var com3kp = new NamedImage("campoComAASIpresente", Properties.Resources.campoComAASIpresente);
-                chartAudioEmCampo.Images.Clear();
-                chartAudioEmCampo.Images.Add(com3kp);
-                ser16.MarkerImage = "campoComAASIpresente";
-            }
-
-            //******
-
-            string seriesName17 = "simbol_4kcom";
-            Series ser17 = chartAudioEmCampo.Series.Add(seriesName17);
-
-            ser17.ChartArea = chartAudioEmCampo.ChartAreas[0].Name;
-            ser17.Name = seriesName17;
-            ser17.ChartType = SeriesChartType.Point;
-
-            if (com4kComboBox.Text == "")
-            {
-                var vaOEpresente17vaz = new NamedImage("vazio", Properties.Resources.vazio);
-                chartAudioEmCampo.Images.Clear();
-                chartAudioEmCampo.Images.Add(vaOEpresente17vaz);
-                ser17.MarkerImage = "vazio";
-            }
-
-            else if (com4kComboBox.Text != "")
-            {
-                int valor17;
-                valor17 = Convert.ToInt32(com4kComboBox.Text);
-                ser17.Points.AddXY(12, valor17);  // x, high
-            }
-
-
-            if (chkAusente4kcomCheckBox.Checked == true)
-            {
-                var com4ka = new NamedImage("campoComAASIausente", Properties.Resources.campoComAASIausente);
-                chartAudioEmCampo.Images.Clear();
-                chartAudioEmCampo.Images.Add(com4ka);
-                ser17.MarkerImage = "campoComAASIausente";
-            }
-
-            else if (chkAusente4kcomCheckBox.Checked == false)
-            {
-                var com4kp = new NamedImage("campoComAASIpresente", Properties.Resources.campoComAASIpresente);
-                chartAudioEmCampo.Images.Clear();
-                chartAudioEmCampo.Images.Add(com4kp);
-                ser17.MarkerImage = "campoComAASIpresente";
-            }
-
-
-            //*******SIMBOLOGIA*******
-            //**** SEM AASI *******
-
-            string seriesName18 = "simbol_500sem";
-            Series ser18 = chartAudioEmCampo.Series.Add(seriesName18);
-
-            ser18.ChartArea = chartAudioEmCampo.ChartAreas[0].Name;
-            ser18.Name = seriesName18;
-            ser18.ChartType = SeriesChartType.Point;
-
-            if (sem500ComboBox.Text == "")
-            {
-                var vaOEpresente18vaz = new NamedImage("vazio", Properties.Resources.vazio);
-                chartAudioEmCampo.Images.Clear();
-                chartAudioEmCampo.Images.Add(vaOEpresente18vaz);
-                ser18.MarkerImage = "vazio";
-            }
-
-            else if (sem500ComboBox.Text != "")
-            {
-                int valor18;
-                valor18 = Convert.ToInt32(sem500ComboBox.Text);
-                ser18.Points.AddXY(6, valor18);  // x, high
-            }
-
-
-            if (chkAusente500semCheckBox.Checked == true)
-            {
-                var sem500a = new NamedImage("campoSemAASIausente", Properties.Resources.campoSemAASIausente);
-                chartAudioEmCampo.Images.Clear();
-                chartAudioEmCampo.Images.Add(sem500a);
-                ser18.MarkerImage = "campoSemAASIausente";
-            }
-
-            else if (chkAusente500semCheckBox.Checked == false)
-            {
-                var sem500p = new NamedImage("campoSemAASIpresente", Properties.Resources.campoSemAASIpresente);
-                chartAudioEmCampo.Images.Clear();
-                chartAudioEmCampo.Images.Add(sem500p);
-                ser18.MarkerImage = "campoSemAASIpresente";
-            }
-
-            //*****
-
-            string seriesName19 = "simbol_1ksem";
-            Series ser19 = chartAudioEmCampo.Series.Add(seriesName19);
-
-            ser19.ChartArea = chartAudioEmCampo.ChartAreas[0].Name;
-            ser19.Name = seriesName19;
-            ser19.ChartType = SeriesChartType.Point;
-
-            if (sem1kComboBox.Text == "")
-            {
-                var vaOEpresente19vaz = new NamedImage("vazio", Properties.Resources.vazio);
-                chartAudioEmCampo.Images.Clear();
-                chartAudioEmCampo.Images.Add(vaOEpresente19vaz);
-                ser19.MarkerImage = "vazio";
-            }
-
-            else if (sem1kComboBox.Text != "")
-            {
-                int valor19;
-                valor19 = Convert.ToInt32(sem1kComboBox.Text);
-                ser19.Points.AddXY(8, valor19);  // x, high
-            }
-
-
-            if (chkAusente1ksemCheckBox.Checked == true)
-            {
-                var sem1ka = new NamedImage("campoSemAASIausente", Properties.Resources.campoSemAASIausente);
-                chartAudioEmCampo.Images.Clear();
-                chartAudioEmCampo.Images.Add(sem1ka);
-                ser19.MarkerImage = "campoSemAASIausente";
-            }
-
-            else if (chkAusente1ksemCheckBox.Checked == false)
-            {
-                var sem1kp = new NamedImage("campoSemAASIpresente", Properties.Resources.campoSemAASIpresente);
-                chartAudioEmCampo.Images.Clear();
-                chartAudioEmCampo.Images.Add(sem1kp);
-                ser19.MarkerImage = "campoSemAASIpresente";
-            }
-
-            //*****
-
-            string seriesName20 = "simbol_2ksem";
-            Series ser20 = chartAudioEmCampo.Series.Add(seriesName20);
-
-            ser20.ChartArea = chartAudioEmCampo.ChartAreas[0].Name;
-            ser20.Name = seriesName20;
-            ser20.ChartType = SeriesChartType.Point;
-
-            if (sem2KComboBox.Text == "")
-            {
-                var vaOEpresente20vaz = new NamedImage("vazio", Properties.Resources.vazio);
-                chartAudioEmCampo.Images.Clear();
-                chartAudioEmCampo.Images.Add(vaOEpresente20vaz);
-                ser20.MarkerImage = "vazio";
-            }
-
-            else if (sem2KComboBox.Text != "")
-            {
-                int valor20;
-                valor20 = Convert.ToInt32(sem2KComboBox.Text);
-                ser20.Points.AddXY(10, valor20);  // x, high
-            }
-
-
-            if (chkAusente2ksemCheckBox.Checked == true)
-            {
-                var sem2ka = new NamedImage("campoSemAASIausente", Properties.Resources.campoSemAASIausente);
-                chartAudioEmCampo.Images.Clear();
-                chartAudioEmCampo.Images.Add(sem2ka);
-                ser20.MarkerImage = "campoSemAASIausente";
-            }
-
-            else if (chkAusente2ksemCheckBox.Checked == false)
-            {
-                var sem2kp = new NamedImage("campoSemAASIpresente", Properties.Resources.campoSemAASIpresente);
-                chartAudioEmCampo.Images.Clear();
-                chartAudioEmCampo.Images.Add(sem2kp);
-                ser20.MarkerImage = "campoSemAASIpresente";
-            }
-
-
-            //*****
-
-            string seriesName21 = "simbol_3ksem";
-            Series ser21 = chartAudioEmCampo.Series.Add(seriesName21);
-
-            ser21.ChartArea = chartAudioEmCampo.ChartAreas[0].Name;
-            ser21.Name = seriesName21;
-            ser21.ChartType = SeriesChartType.Point;
-
-            if (sem3kComboBox.Text == "")
-            {
-                var vaOEpresente21vaz = new NamedImage("vazio", Properties.Resources.vazio);
-                chartAudioEmCampo.Images.Clear();
-                chartAudioEmCampo.Images.Add(vaOEpresente21vaz);
-                ser21.MarkerImage = "vazio";
-            }
-
-            else if (sem3kComboBox.Text != "")
-            {
-                int valor21;
-                valor21 = Convert.ToInt32(sem3kComboBox.Text);
-                ser21.Points.AddXY(11.25, valor21);  // x, high
-            }
-
-
-            if (chkAusente3ksemCheckBox.Checked == true)
-            {
-                var sem3ka = new NamedImage("campoSemAASIausente", Properties.Resources.campoSemAASIausente);
-                chartAudioEmCampo.Images.Clear();
-                chartAudioEmCampo.Images.Add(sem3ka);
-                ser21.MarkerImage = "campoSemAASIausente";
-            }
-
-            else if (chkAusente3ksemCheckBox.Checked == false)
-            {
-                var sem3kp = new NamedImage("campoSemAASIpresente", Properties.Resources.campoSemAASIpresente);
-                chartAudioEmCampo.Images.Clear();
-                chartAudioEmCampo.Images.Add(sem3kp);
-                ser21.MarkerImage = "campoSemAASIpresente";
-            }
-
-            //******
-
-            string seriesName22 = "simbol_4ksem";
-            Series ser22 = chartAudioEmCampo.Series.Add(seriesName22);
-
-            ser22.ChartArea = chartAudioEmCampo.ChartAreas[0].Name;
-            ser22.Name = seriesName22;
-            ser22.ChartType = SeriesChartType.Point;
-
-            if (sem4kComboBox.Text == "")
-            {
-                var vaOEpresente22vaz = new NamedImage("vazio", Properties.Resources.vazio);
-                chartAudioEmCampo.Images.Clear();
-                chartAudioEmCampo.Images.Add(vaOEpresente22vaz);
-                ser22.MarkerImage = "vazio";
-            }
-
-            else if (sem4kComboBox.Text != "")
-            {
-                int valor22;
-                valor22 = Convert.ToInt32(sem4kComboBox.Text);
-                ser22.Points.AddXY(12, valor22);  // x, high
-            }
-
-
-            if (chkAusente4ksemCheckBox.Checked == true)
-            {
-                var sem4ka = new NamedImage("campoSemAASIausente", Properties.Resources.campoSemAASIausente);
-                chartAudioEmCampo.Images.Clear();
-                chartAudioEmCampo.Images.Add(sem4ka);
-                ser22.MarkerImage = "campoSemAASIausente";
-            }
-
-            else if (chkAusente4ksemCheckBox.Checked == false)
-            {
-                var sem4kp = new NamedImage("campoSemAASIpresente", Properties.Resources.campoSemAASIpresente);
-                chartAudioEmCampo.Images.Clear();
-                chartAudioEmCampo.Images.Add(sem4kp);
-                ser22.MarkerImage = "campoSemAASIpresente";
-            }
-
-
-            //***SEQUÊNCIA PARA LIGAR SIMBOLOGIA COM AASSI
-
-            try
-            {
-
-            string seriesName23 = "liga 500_1kcom";
-            Series ser23 = chartAudioEmCampo.Series.Add(seriesName23);
-
-            ser23.ChartArea = chartAudioEmCampo.ChartAreas[0].Name;
-            ser23.Name = seriesName23;
-            ser23.ChartType = SeriesChartType.Line;
-
-            if (chbLiga500_1k_comCheckBox.Checked == true)
-            {
-                int valorA, valorB;
-
-                valorA = Convert.ToInt32(com500ComboBox.Text);
-                valorB = Convert.ToInt32(com1kComboBox.Text);
-
-                ser23.Points.AddXY(6, valorA);
-                ser23.Points.AddXY(8, valorB);
-
-                ser23.BorderColor = Color.Transparent;
-                ser23.Color = Color.Black;
-                ser23.BorderWidth = Convert.ToInt32(1.5);
-            }
-
-            else if (chbLiga500_1k_comCheckBox.Checked == false)
-            {
-                ser23.Points.Clear();
-            }
-
-            //*******
-
-            string seriesName24 = "liga 1k_2kcom";
-            Series ser24 = chartAudioEmCampo.Series.Add(seriesName24);
-
-            ser24.ChartArea = chartAudioEmCampo.ChartAreas[0].Name;
-            ser24.Name = seriesName24;
-            ser24.ChartType = SeriesChartType.Line;
-
-            if (chbLiga1k_2k_comCheckBox.Checked == true)
-            {
-                int valorA, valorB;
-
-                valorA = Convert.ToInt32(com1kComboBox.Text);
-                valorB = Convert.ToInt32(com2KComboBox.Text);
-
-                ser24.Points.AddXY(8, valorA);
-                ser24.Points.AddXY(10, valorB);
-
-                ser24.BorderColor = Color.Transparent;
-                ser24.Color = Color.Black;
-                ser24.BorderWidth = Convert.ToInt32(1.5);
-            }
-
-            else if (chbLiga1k_2k_comCheckBox.Checked == false)
-            {
-                ser24.Points.Clear();
-            }
-
-            //*******
-
-            string seriesName25 = "liga 2k_3kcom";
-            Series ser25 = chartAudioEmCampo.Series.Add(seriesName25);
-
-            ser25.ChartArea = chartAudioEmCampo.ChartAreas[0].Name;
-            ser25.Name = seriesName25;
-            ser25.ChartType = SeriesChartType.Line;
-
-            if (chbLiga2k_3k_comCheckBox.Checked == true)
-            {
-                int valorA, valorB;
-
-                valorA = Convert.ToInt32(com2KComboBox.Text);
-                valorB = Convert.ToInt32(com3kComboBox.Text);
-
-                ser25.Points.AddXY(10, valorA);
-                ser25.Points.AddXY(11.25, valorB);
-
-                ser25.BorderColor = Color.Transparent;
-                ser25.Color = Color.Black;
-                ser25.BorderWidth = Convert.ToInt32(1.5);
-            }
-
-            else if (chbLiga2k_3k_comCheckBox.Checked == false)
-            {
-                ser25.Points.Clear();
-            }
-
-            //******
-
-            string seriesName26 = "liga 3k_4kcom";
-            Series ser26 = chartAudioEmCampo.Series.Add(seriesName26);
-
-            ser26.ChartArea = chartAudioEmCampo.ChartAreas[0].Name;
-            ser26.Name = seriesName26;
-            ser26.ChartType = SeriesChartType.Line;
-
-            if (chbLiga3k_4k_comCheckBox.Checked == true)
-            {
-                int valorA, valorB;
-
-                valorA = Convert.ToInt32(com3kComboBox.Text);
-                valorB = Convert.ToInt32(com4kComboBox.Text);
-
-                ser26.Points.AddXY(11.25, valorA);
-                ser26.Points.AddXY(12, valorB);
-
-                ser26.BorderColor = Color.Transparent;
-                ser26.Color = Color.Black;
-                ser26.BorderWidth = Convert.ToInt32(1.5);
-            }
-
-            else if (chbLiga3k_4k_comCheckBox.Checked == false)
-            {
-                ser26.Points.Clear();
-            }
-            }
-            catch
-            {
-                MessageBox.Show("Não é possível ligar a simbologia!", "Erro!", MessageBoxButtons.OK, MessageBoxIcon.Error);
-
-                chbLiga500_1k_comCheckBox.Checked = false;
-                chbLiga1k_2k_comCheckBox.Checked = false;
-                chbLiga2k_3k_comCheckBox.Checked = false;
-                chbLiga3k_4k_comCheckBox.Checked = false;
-            }
-
-            //***SEQUÊNCIA PARA LIGAR SIMBOLOGIA SEM AASSI
-
-            try
-            {
-
-            string seriesName27 = "liga 500_1ksem";
-            Series ser27 = chartAudioEmCampo.Series.Add(seriesName27);
-
-            ser27.ChartArea = chartAudioEmCampo.ChartAreas[0].Name;
-            ser27.Name = seriesName27;
-            ser27.ChartType = SeriesChartType.Line;
-
-            if (chbLiga500_1k_semCheckBox.Checked == true)
-            {
-                int valorA, valorB;
-
-                valorA = Convert.ToInt32(sem500ComboBox.Text);
-                valorB = Convert.ToInt32(sem1kComboBox.Text);
-
-                ser27.Points.AddXY(6, valorA);
-                ser27.Points.AddXY(8, valorB);
-
-                ser27.BorderColor = Color.Transparent;
-                ser27.Color = Color.Black;
-                ser27.BorderWidth = Convert.ToInt32(1.5);
-            }
-
-            else if (chbLiga500_1k_semCheckBox.Checked == false)
-            {
-                ser27.Points.Clear();
-            }
-
-            //*******
-
-            string seriesName28 = "liga 1k_2ksem";
-            Series ser28 = chartAudioEmCampo.Series.Add(seriesName28);
-
-            ser28.ChartArea = chartAudioEmCampo.ChartAreas[0].Name;
-            ser28.Name = seriesName28;
-            ser28.ChartType = SeriesChartType.Line;
-
-            if (chbLiga1k_2k_semCheckBox.Checked == true)
-            {
-                int valorA, valorB;
-
-                valorA = Convert.ToInt32(sem1kComboBox.Text);
-                valorB = Convert.ToInt32(sem2KComboBox.Text);
-
-                ser28.Points.AddXY(8, valorA);
-                ser28.Points.AddXY(10, valorB);
-
-                ser28.BorderColor = Color.Transparent;
-                ser28.Color = Color.Black;
-                ser28.BorderWidth = Convert.ToInt32(1.5);
-            }
-
-            else if (chbLiga1k_2k_semCheckBox.Checked == false)
-            {
-                ser28.Points.Clear();
-            }
-
-            //*******
-
-            string seriesName29 = "liga 2k_3ksem";
-            Series ser29 = chartAudioEmCampo.Series.Add(seriesName29);
-
-            ser29.ChartArea = chartAudioEmCampo.ChartAreas[0].Name;
-            ser29.Name = seriesName29;
-            ser29.ChartType = SeriesChartType.Line;
-
-            if (chbLiga2k_3k_semCheckBox.Checked == true)
-            {
-                int valorA, valorB;
-
-                valorA = Convert.ToInt32(sem2KComboBox.Text);
-                valorB = Convert.ToInt32(sem3kComboBox.Text);
-
-                ser29.Points.AddXY(10, valorA);
-                ser29.Points.AddXY(11.25, valorB);
-
-                ser29.BorderColor = Color.Transparent;
-                ser29.Color = Color.Black;
-                ser29.BorderWidth = Convert.ToInt32(1.5);
-            }
-
-            else if (chbLiga2k_3k_semCheckBox.Checked == false)
-            {
-                ser29.Points.Clear();
-            }
-
-            //******
-
-            string seriesName30 = "liga 3k_4ksem";
-            Series ser30 = chartAudioEmCampo.Series.Add(seriesName30);
-
-            ser30.ChartArea = chartAudioEmCampo.ChartAreas[0].Name;
-            ser30.Name = seriesName30;
-            ser30.ChartType = SeriesChartType.Line;
-
-            if (chbLiga3k_4k_semCheckBox.Checked == true)
-            {
-                int valorA, valorB;
-
-                valorA = Convert.ToInt32(sem3kComboBox.Text);
-                valorB = Convert.ToInt32(sem4kComboBox.Text);
-
-                ser30.Points.AddXY(11.25, valorA);
-                ser30.Points.AddXY(12, valorB);
-
-                ser30.BorderColor = Color.Transparent;
-                ser30.Color = Color.Black;
-                ser30.BorderWidth = Convert.ToInt32(1.5);
-            }
-
-            else if (chbLiga3k_4k_semCheckBox.Checked == false)
-            {
-                ser30.Points.Clear();
-            }
-            }
-            catch
-            {
-                MessageBox.Show("Não é possível ligar a simbologia!", "Erro!", MessageBoxButtons.OK, MessageBoxIcon.Error);
-
-                chbLiga500_1k_semCheckBox.Checked = false;
-                chbLiga1k_2k_semCheckBox.Checked = false;
-                chbLiga2k_3k_semCheckBox.Checked = false;
-                chbLiga3k_4k_semCheckBox.Checked = false;
+                MessageBox.Show("Escolha 'Audiometria de Ganho Funcional'.", "Atenção!", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
 
@@ -2704,34 +2708,27 @@ namespace segmentoOtoneurologia
             chartAudioOD.Series.Clear();// limpa o chart
 
             //***PARA MONTAR O GRÁFICO***
-
-            string fundoChart = "fundoChartTransp";
-            Series imgFundo = chartAudioOD.Series.Add(fundoChart);
-
-            imgFundo.ChartArea = chartAudioOD.ChartAreas[0].Name;
-            imgFundo.Name = fundoChart;
-            imgFundo.ChartType = SeriesChartType.Point;
-
-            if (rbExibeBananaAudioClinicaOD.Checked == true)
-            {
-                var fundoAudioOD = new NamedImage("bananaVermelha", Properties.Resources.bananaVermelha);
-                chartAudioOD.Images.Clear();
-                chartAudioOD.Images.Add(fundoAudioOD);
-                imgFundo.MarkerImage = "bananaVermelha";
-                imgFundo.Points.AddXY(7.50, 45);
-            }
-            else if (rbEscondeBananaAudioClinicaOD.Checked == true)
-            {
-                var fundoAudioOD = new NamedImage("bananaVermelha", Properties.Resources.bananaVermelha);
-                chartAudioOD.Images.Clear();
-                chartAudioOD.Images.Remove(fundoAudioOD);
-            }
-
+  
             int iniciar = 1;
             int finalizar = 15;
 
             chartAudioOD.ChartAreas[0].AxisX.MajorGrid.LineDashStyle = ChartDashStyle.Dash;
-            chartAudioOD.ChartAreas[0].AxisX.MajorGrid.LineColor = Color.Transparent;           
+            chartAudioOD.ChartAreas[0].AxisX.MajorGrid.LineColor = Color.Transparent;
+
+            if (rbExibeBananaAudioClinicaOD.Checked == true)
+            {
+                var fundoAudioOD = new NamedImage("Slide3", Properties.Resources.Slide3);
+                chartAudioOD.Images.Clear();
+                chartAudioOD.Images.Add(fundoAudioOD);
+                chartAudioOD.ChartAreas[0].BackImage = "Slide3";
+            }
+            else if (rbEscondeBananaAudioClinicaOD.Checked == true)
+            {
+                var fundoAudioOD = new NamedImage("brancoTimpano", Properties.Resources.brancoTimpano);
+                chartAudioOD.Images.Clear();
+                chartAudioOD.Images.Add(fundoAudioOD);
+                chartAudioOD.ChartAreas[0].BackImage = "brancoTimpano";
+            }
 
             string seriesName1 = "grade1OD";
             Series ser1 = chartAudioOD.Series.Add(seriesName1);
@@ -5812,7 +5809,11 @@ namespace segmentoOtoneurologia
                     liga2k_3kvo_ODCheckBox.Checked = false;
                     liga3k_4kvo_ODCheckBox.Checked = false;
                 }
-            }          
+            }
+            else
+            {
+                MessageBox.Show("Escolha entre 'Audiometria Clínica Convencional' ou 'Audiomeria Clínica Todas as Frequências'.", "Atenção!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
         }
 
         private void btnPlotarAudioOE_Click(object sender, EventArgs e)
@@ -5827,26 +5828,19 @@ namespace segmentoOtoneurologia
             chartAudioOE.ChartAreas[0].AxisX.MajorGrid.LineDashStyle = ChartDashStyle.Dash;
             chartAudioOE.ChartAreas[0].AxisX.MajorGrid.LineColor = Color.Transparent;
 
-            string fundoChart = "fundoChartTransp";
-            Series imgFundo = chartAudioOE.Series.Add(fundoChart);
-
-            imgFundo.ChartArea = chartAudioOE.ChartAreas[0].Name;
-            imgFundo.Name = fundoChart;
-            imgFundo.ChartType = SeriesChartType.Point;
-
             if (rbExibeBananaAudioClinicaOE.Checked == true)
             {
-                var fundoAudioOE = new NamedImage("bananaAzul", Properties.Resources.bananaAzul);
+                var fundoAudioOE = new NamedImage("Slide2", Properties.Resources.Slide2);
                 chartAudioOE.Images.Clear();
                 chartAudioOE.Images.Add(fundoAudioOE);
-                imgFundo.MarkerImage = "bananaAzul";
-                imgFundo.Points.AddXY(7.50, 45);
+                chartAudioOE.ChartAreas[0].BackImage = "Slide2";               
             }
             else if (rbEscondeBananaAudioClinicaOE.Checked == true)
             {
-                var fundoAudioOE = new NamedImage("bananaAzul", Properties.Resources.bananaAzul);
+                var fundoAudioOE = new NamedImage("brancoTimpano", Properties.Resources.brancoTimpano);
                 chartAudioOE.Images.Clear();
-                chartAudioOE.Images.Remove(fundoAudioOE);
+                chartAudioOE.Images.Add(fundoAudioOE);
+                chartAudioOE.ChartAreas[0].BackImage = "brancoTimpano";
             }
 
             string seriesName1 = "grade1OE";
@@ -8928,6 +8922,10 @@ namespace segmentoOtoneurologia
                     liga3k_4kvo_OECheckBox.Checked = false;
                 }
             }
+            else
+            {
+                MessageBox.Show("Escolha entre 'Audiometria Clínica Convencional' ou 'Audiomeria Clínica Todas as Frequências'.", "Atenção!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
         }
 
         private void btnPlotarCampoConv_Click(object sender, EventArgs e)
@@ -8942,26 +8940,19 @@ namespace segmentoOtoneurologia
             chartCampoConven.ChartAreas[0].AxisX.MajorGrid.LineDashStyle = ChartDashStyle.Dash;
             chartCampoConven.ChartAreas[0].AxisX.MajorGrid.LineColor = Color.Transparent;
 
-            string fundoChart = "fundoChartTransp";
-            Series imgFundo = chartCampoConven.Series.Add(fundoChart);
-
-            imgFundo.ChartArea = chartCampoConven.ChartAreas[0].Name;
-            imgFundo.Name = fundoChart;
-            imgFundo.ChartType = SeriesChartType.Point;
-
             if (rbExibeBananaAudioCampoConvenc.Checked == true)
             {
-                var fundoAudioCampoConvenc = new NamedImage("bananaVerde", Properties.Resources.bananaVerde);
+                var fundoAudioCampoConvenc = new NamedImage("Slide4", Properties.Resources.Slide4);
                 chartCampoConven.Images.Clear();
                 chartCampoConven.Images.Add(fundoAudioCampoConvenc);
-                imgFundo.MarkerImage = "bananaVerde";
-                imgFundo.Points.AddXY(7.50, 45);
+                chartCampoConven.ChartAreas[0].BackImage = "Slide4";
             }
             else if (rbEscondeBananaFalaAudioCampoConvenc.Checked == true)
             {
-                var fundoAudioCampoConvenc = new NamedImage("bananaVerde", Properties.Resources.bananaVerde);
+                var fundoAudioCampoConvenc = new NamedImage("brancoTimpano", Properties.Resources.brancoTimpano);
                 chartCampoConven.Images.Clear();
-                chartCampoConven.Images.Remove(fundoAudioCampoConvenc);
+                chartCampoConven.Images.Add(fundoAudioCampoConvenc);
+                chartCampoConven.ChartAreas[0].BackImage = "brancoTimpano";
             }
 
             string seriesName1 = "grade1campConv";
@@ -9116,673 +9107,684 @@ namespace segmentoOtoneurologia
             //*******SIMBOLOGIA*******
             //**** ORELHA DIREITA *******
 
-            string seriesName13 = "simbol_500campo";
-            Series ser13 = chartCampoConven.Series.Add(seriesName13);
-
-            ser13.ChartArea = chartCampoConven.ChartAreas[0].Name;
-            ser13.Name = seriesName13;
-            ser13.ChartType = SeriesChartType.Point;
-
-            if (campo500odComboBox.Text == "")
+            if (string.IsNullOrEmpty(tipoAudiometriaComboBox.Text))
             {
-                var vaOEpresente13vaz = new NamedImage("vazio", Properties.Resources.vazio);
-                chartCampoConven.Images.Clear();
-                chartCampoConven.Images.Add(vaOEpresente13vaz);
-                ser13.MarkerImage = "vazio";
+                MessageBox.Show("Escolha 'Audiometria em campo livre convencional'.", "Atenção!", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
-
-            else if (campo500odComboBox.Text != "")
+            else if (tipoAudiometriaComboBox.Text == "Audiometria em campo livre convencional")
             {
-                int valor13;
-                valor13 = Convert.ToInt32(campo500odComboBox.Text);
-                ser13.Points.AddXY(6, valor13);  // x, high
+                string seriesName13 = "simbol_500campo";
+                Series ser13 = chartCampoConven.Series.Add(seriesName13);
+
+                ser13.ChartArea = chartCampoConven.ChartAreas[0].Name;
+                ser13.Name = seriesName13;
+                ser13.ChartType = SeriesChartType.Point;
+
+                if (campo500odComboBox.Text == "")
+                {
+                    var vaOEpresente13vaz = new NamedImage("vazio", Properties.Resources.vazio);
+                    chartCampoConven.Images.Clear();
+                    chartCampoConven.Images.Add(vaOEpresente13vaz);
+                    ser13.MarkerImage = "vazio";
+                }
+
+                else if (campo500odComboBox.Text != "")
+                {
+                    int valor13;
+                    valor13 = Convert.ToInt32(campo500odComboBox.Text);
+                    ser13.Points.AddXY(6, valor13);  // x, high
+                }
+
+
+                if (campoVAodAus500CheckBox.Checked == true)
+                {
+                    var com500a = new NamedImage("campoLivreODausente", Properties.Resources.campoLivreODausente);
+                    chartCampoConven.Images.Clear();
+                    chartCampoConven.Images.Add(com500a);
+                    ser13.MarkerImage = "campoLivreODausente";
+                }
+
+                else if (campoVAodAus500CheckBox.Checked == false)
+                {
+                    var com500p = new NamedImage("campoLivreODpresente", Properties.Resources.campoLivreODpresente);
+                    chartCampoConven.Images.Clear();
+                    chartCampoConven.Images.Add(com500p);
+                    ser13.MarkerImage = "campoLivreODpresente";
+                }
+
+                //*****
+
+                string seriesName14 = "simbol_1kcampo";
+                Series ser14 = chartCampoConven.Series.Add(seriesName14);
+
+                ser14.ChartArea = chartCampoConven.ChartAreas[0].Name;
+                ser14.Name = seriesName14;
+                ser14.ChartType = SeriesChartType.Point;
+
+                if (campo1kodComboBox.Text == "")
+                {
+                    var vaOEpresente14vaz = new NamedImage("vazio", Properties.Resources.vazio);
+                    chartCampoConven.Images.Clear();
+                    chartCampoConven.Images.Add(vaOEpresente14vaz);
+                    ser14.MarkerImage = "vazio";
+                }
+
+                else if (campo1kodComboBox.Text != "")
+                {
+                    int valor14;
+                    valor14 = Convert.ToInt32(campo1kodComboBox.Text);
+                    ser14.Points.AddXY(8, valor14);  // x, high
+                }
+
+
+                if (campoVAodAus1kCheckBox.Checked == true)
+                {
+                    var com1ka = new NamedImage("campoLivreODausente", Properties.Resources.campoLivreODausente);
+                    chartCampoConven.Images.Clear();
+                    chartCampoConven.Images.Add(com1ka);
+                    ser14.MarkerImage = "campoLivreODausente";
+                }
+
+                else if (campoVAodAus1kCheckBox.Checked == false)
+                {
+                    var com1kp = new NamedImage("campoLivreODpresente", Properties.Resources.campoLivreODpresente);
+                    chartCampoConven.Images.Clear();
+                    chartCampoConven.Images.Add(com1kp);
+                    ser14.MarkerImage = "campoLivreODpresente";
+                }
+
+                //*****
+
+                string seriesName15 = "simbol_2kcampo";
+                Series ser15 = chartCampoConven.Series.Add(seriesName15);
+
+                ser15.ChartArea = chartCampoConven.ChartAreas[0].Name;
+                ser15.Name = seriesName15;
+                ser15.ChartType = SeriesChartType.Point;
+
+                if (campo2kodComboBox.Text == "")
+                {
+                    var vaOEpresente15vaz = new NamedImage("vazio", Properties.Resources.vazio);
+                    chartCampoConven.Images.Clear();
+                    chartCampoConven.Images.Add(vaOEpresente15vaz);
+                    ser15.MarkerImage = "vazio";
+                }
+
+                else if (campo2kodComboBox.Text != "")
+                {
+                    int valor15;
+                    valor15 = Convert.ToInt32(campo2kodComboBox.Text);
+                    ser15.Points.AddXY(10, valor15);  // x, high
+                }
+
+
+                if (campoVAodAus2kCheckBox.Checked == true)
+                {
+                    var com2ka = new NamedImage("campoLivreODausente", Properties.Resources.campoLivreODausente);
+                    chartCampoConven.Images.Clear();
+                    chartCampoConven.Images.Add(com2ka);
+                    ser15.MarkerImage = "campoLivreODausente";
+                }
+
+                else if (campoVAodAus2kCheckBox.Checked == false)
+                {
+                    var com2kp = new NamedImage("campoLivreODpresente", Properties.Resources.campoLivreODpresente);
+                    chartCampoConven.Images.Clear();
+                    chartCampoConven.Images.Add(com2kp);
+                    ser15.MarkerImage = "campoLivreODpresente";
+                }
+
+
+                //*****
+
+                string seriesName16 = "simbol_3kcampo";
+                Series ser16 = chartCampoConven.Series.Add(seriesName16);
+
+                ser16.ChartArea = chartCampoConven.ChartAreas[0].Name;
+                ser16.Name = seriesName16;
+                ser16.ChartType = SeriesChartType.Point;
+
+                if (campo3kodComboBox.Text == "")
+                {
+                    var vaOEpresente16vaz = new NamedImage("vazio", Properties.Resources.vazio);
+                    chartCampoConven.Images.Clear();
+                    chartCampoConven.Images.Add(vaOEpresente16vaz);
+                    ser16.MarkerImage = "vazio";
+                }
+
+                else if (campo3kodComboBox.Text != "")
+                {
+                    int valor16;
+                    valor16 = Convert.ToInt32(campo3kodComboBox.Text);
+                    ser16.Points.AddXY(11.25, valor16);  // x, high
+                }
+
+
+                if (campoVAodAus3kCheckBox.Checked == true)
+                {
+                    var com3ka = new NamedImage("campoLivreODausente", Properties.Resources.campoLivreODausente);
+                    chartCampoConven.Images.Clear();
+                    chartCampoConven.Images.Add(com3ka);
+                    ser16.MarkerImage = "campoLivreODausente";
+                }
+
+                else if (campoVAodAus3kCheckBox.Checked == false)
+                {
+                    var com3kp = new NamedImage("campoLivreODpresente", Properties.Resources.campoLivreODpresente);
+                    chartCampoConven.Images.Clear();
+                    chartCampoConven.Images.Add(com3kp);
+                    ser16.MarkerImage = "campoLivreODpresente";
+                }
+
+                //******
+
+                string seriesName17 = "simbol_4kcampo";
+                Series ser17 = chartCampoConven.Series.Add(seriesName17);
+
+                ser17.ChartArea = chartCampoConven.ChartAreas[0].Name;
+                ser17.Name = seriesName17;
+                ser17.ChartType = SeriesChartType.Point;
+
+                if (campo4kodComboBox.Text == "")
+                {
+                    var vaOEpresente17vaz = new NamedImage("vazio", Properties.Resources.vazio);
+                    chartCampoConven.Images.Clear();
+                    chartCampoConven.Images.Add(vaOEpresente17vaz);
+                    ser17.MarkerImage = "vazio";
+                }
+
+                else if (campo4kodComboBox.Text != "")
+                {
+                    int valor17;
+                    valor17 = Convert.ToInt32(campo4kodComboBox.Text);
+                    ser17.Points.AddXY(12, valor17);  // x, high
+                }
+
+
+                if (campoVAodAus4kCheckBox.Checked == true)
+                {
+                    var com4ka = new NamedImage("campoLivreODausente", Properties.Resources.campoLivreODausente);
+                    chartCampoConven.Images.Clear();
+                    chartCampoConven.Images.Add(com4ka);
+                    ser17.MarkerImage = "campoLivreODausente";
+                }
+
+                else if (campoVAodAus4kCheckBox.Checked == false)
+                {
+                    var com4kp = new NamedImage("campoLivreODpresente", Properties.Resources.campoLivreODpresente);
+                    chartCampoConven.Images.Clear();
+                    chartCampoConven.Images.Add(com4kp);
+                    ser17.MarkerImage = "campoLivreODpresente";
+                }
+
+                //**** ORELHA ESQUERDA *******
+
+                string seriesName18 = "simbol_500campoOE";
+                Series ser18 = chartCampoConven.Series.Add(seriesName18);
+
+                ser18.ChartArea = chartCampoConven.ChartAreas[0].Name;
+                ser18.Name = seriesName18;
+                ser18.ChartType = SeriesChartType.Point;
+
+                if (campo500oeComboBox.Text == "")
+                {
+                    var vaOEpresente18vaz = new NamedImage("vazio", Properties.Resources.vazio);
+                    chartCampoConven.Images.Clear();
+                    chartCampoConven.Images.Add(vaOEpresente18vaz);
+                    ser18.MarkerImage = "vazio";
+                }
+
+                else if (campo500oeComboBox.Text != "")
+                {
+                    int valor18;
+                    valor18 = Convert.ToInt32(campo500oeComboBox.Text);
+                    ser18.Points.AddXY(6, valor18);  // x, high
+                }
+
+
+                if (campoVAoeAus500CheckBox.Checked == true)
+                {
+                    var com500acampo = new NamedImage("campoLivreOEausente", Properties.Resources.campoLivreOEausente);
+                    chartCampoConven.Images.Clear();
+                    chartCampoConven.Images.Add(com500acampo);
+                    ser18.MarkerImage = "campoLivreOEausente";
+                }
+
+                else if (campoVAoeAus500CheckBox.Checked == false)
+                {
+                    var com500pcampo = new NamedImage("campoLivreOEpresente", Properties.Resources.campoLivreOEpresente);
+                    chartCampoConven.Images.Clear();
+                    chartCampoConven.Images.Add(com500pcampo);
+                    ser18.MarkerImage = "campoLivreOEpresente";
+                }
+
+                //*****
+
+                string seriesName19 = "simbol_1kcampoOE";
+                Series ser19 = chartCampoConven.Series.Add(seriesName19);
+
+                ser19.ChartArea = chartCampoConven.ChartAreas[0].Name;
+                ser19.Name = seriesName19;
+                ser19.ChartType = SeriesChartType.Point;
+
+                if (campo1koeComboBox.Text == "")
+                {
+                    var vaOEpresente14vaz = new NamedImage("vazio", Properties.Resources.vazio);
+                    chartCampoConven.Images.Clear();
+                    chartCampoConven.Images.Add(vaOEpresente14vaz);
+                    ser19.MarkerImage = "vazio";
+                }
+
+                else if (campo1koeComboBox.Text != "")
+                {
+                    int valor19;
+                    valor19 = Convert.ToInt32(campo1koeComboBox.Text);
+                    ser19.Points.AddXY(8, valor19);  // x, high
+                }
+
+
+                if (campoVAoeAus1kCheckBox.Checked == true)
+                {
+                    var com1kacampo = new NamedImage("campoLivreOEausente", Properties.Resources.campoLivreOEausente);
+                    chartCampoConven.Images.Clear();
+                    chartCampoConven.Images.Add(com1kacampo);
+                    ser19.MarkerImage = "campoLivreOEausente";
+                }
+
+                else if (campoVAoeAus1kCheckBox.Checked == false)
+                {
+                    var com1kpcampo = new NamedImage("campoLivreOEpresente", Properties.Resources.campoLivreOEpresente);
+                    chartCampoConven.Images.Clear();
+                    chartCampoConven.Images.Add(com1kpcampo);
+                    ser19.MarkerImage = "campoLivreOEpresente";
+                }
+
+                //*****
+
+                string seriesName20 = "simbol_2kcampoOE";
+                Series ser20 = chartCampoConven.Series.Add(seriesName20);
+
+                ser20.ChartArea = chartCampoConven.ChartAreas[0].Name;
+                ser20.Name = seriesName20;
+                ser20.ChartType = SeriesChartType.Point;
+
+                if (campo2koeComboBox.Text == "")
+                {
+                    var vaOEpresente15vaz = new NamedImage("vazio", Properties.Resources.vazio);
+                    chartCampoConven.Images.Clear();
+                    chartCampoConven.Images.Add(vaOEpresente15vaz);
+                    ser20.MarkerImage = "vazio";
+                }
+
+                else if (campo2koeComboBox.Text != "")
+                {
+                    int valor20;
+                    valor20 = Convert.ToInt32(campo2koeComboBox.Text);
+                    ser20.Points.AddXY(10, valor20);  // x, high
+                }
+
+
+                if (campoVAoeAus2kCheckBox.Checked == true)
+                {
+                    var com2kacampo = new NamedImage("campoLivreOEausente", Properties.Resources.campoLivreOEausente);
+                    chartCampoConven.Images.Clear();
+                    chartCampoConven.Images.Add(com2kacampo);
+                    ser20.MarkerImage = "campoLivreOEausente";
+                }
+
+                else if (campoVAoeAus2kCheckBox.Checked == false)
+                {
+                    var com2kpcampo = new NamedImage("campoLivreOEpresente", Properties.Resources.campoLivreOEpresente);
+                    chartCampoConven.Images.Clear();
+                    chartCampoConven.Images.Add(com2kpcampo);
+                    ser20.MarkerImage = "campoLivreOEpresente";
+                }
+
+
+                //*****
+
+                string seriesName21 = "simbol_3kcampoOE";
+                Series ser21 = chartCampoConven.Series.Add(seriesName21);
+
+                ser21.ChartArea = chartCampoConven.ChartAreas[0].Name;
+                ser21.Name = seriesName21;
+                ser21.ChartType = SeriesChartType.Point;
+
+                if (campo3koeComboBox.Text == "")
+                {
+                    var vaOEpresente16vaz = new NamedImage("vazio", Properties.Resources.vazio);
+                    chartCampoConven.Images.Clear();
+                    chartCampoConven.Images.Add(vaOEpresente16vaz);
+                    ser21.MarkerImage = "vazio";
+                }
+
+                else if (campo3koeComboBox.Text != "")
+                {
+                    int valor21;
+                    valor21 = Convert.ToInt32(campo3koeComboBox.Text);
+                    ser21.Points.AddXY(11.25, valor21);  // x, high
+                }
+
+
+                if (campoVAoeAus3kCheckBox.Checked == true)
+                {
+                    var com3kacampo = new NamedImage("campoLivreOEausente", Properties.Resources.campoLivreOEausente);
+                    chartCampoConven.Images.Clear();
+                    chartCampoConven.Images.Add(com3kacampo);
+                    ser21.MarkerImage = "campoLivreOEausente";
+                }
+
+                else if (campoVAoeAus3kCheckBox.Checked == false)
+                {
+                    var com3kpcampo = new NamedImage("campoLivreOEpresente", Properties.Resources.campoLivreOEpresente);
+                    chartCampoConven.Images.Clear();
+                    chartCampoConven.Images.Add(com3kpcampo);
+                    ser21.MarkerImage = "campoLivreOEpresente";
+                }
+
+                //******
+
+                string seriesName22 = "simbol_4kcampoOE";
+                Series ser22 = chartCampoConven.Series.Add(seriesName22);
+
+                ser22.ChartArea = chartCampoConven.ChartAreas[0].Name;
+                ser22.Name = seriesName22;
+                ser22.ChartType = SeriesChartType.Point;
+
+                if (campo4koeComboBox.Text == "")
+                {
+                    var vaOEpresente22vaz = new NamedImage("vazio", Properties.Resources.vazio);
+                    chartCampoConven.Images.Clear();
+                    chartCampoConven.Images.Add(vaOEpresente22vaz);
+                    ser22.MarkerImage = "vazio";
+                }
+
+                else if (campo4koeComboBox.Text != "")
+                {
+                    int valor22;
+                    valor22 = Convert.ToInt32(campo4koeComboBox.Text);
+                    ser22.Points.AddXY(12, valor22);  // x, high
+                }
+
+
+                if (campoVAoeAus4kCheckBox.Checked == true)
+                {
+                    var com4kacampo = new NamedImage("campoLivreOEausente", Properties.Resources.campoLivreOEausente);
+                    chartCampoConven.Images.Clear();
+                    chartCampoConven.Images.Add(com4kacampo);
+                    ser22.MarkerImage = "campoLivreOEausente";
+                }
+
+                else if (campoVAoeAus4kCheckBox.Checked == false)
+                {
+                    var com4kpcampo = new NamedImage("campoLivreOEpresente", Properties.Resources.campoLivreOEpresente);
+                    chartCampoConven.Images.Clear();
+                    chartCampoConven.Images.Add(com4kpcampo);
+                    ser22.MarkerImage = "campoLivreOEpresente";
+                }
+
+                //***SEQUÊNCIA PARA LIGAR SIMBOLOGIA CAMPO OD
+
+                try
+                {
+
+                    string seriesName23 = "liga 500_1kCAMPOOD";
+                    Series ser23 = chartCampoConven.Series.Add(seriesName23);
+
+                    ser23.ChartArea = chartCampoConven.ChartAreas[0].Name;
+                    ser23.Name = seriesName23;
+                    ser23.ChartType = SeriesChartType.Line;
+
+                    if (campoLiga500_1kodCheckBox.Checked == true)
+                    {
+                        int valorA, valorB;
+
+                        valorA = Convert.ToInt32(campo500odComboBox.Text);
+                        valorB = Convert.ToInt32(campo1kodComboBox.Text);
+
+                        ser23.Points.AddXY(6, valorA);
+                        ser23.Points.AddXY(8, valorB);
+
+                        ser23.BorderColor = Color.Transparent;
+                        ser23.Color = Color.Red;
+                        ser23.BorderWidth = Convert.ToInt32(1.5);
+                    }
+
+                    else if (campoLiga500_1kodCheckBox.Checked == false)
+                    {
+                        ser23.Points.Clear();
+                    }
+
+                    //*******
+
+                    string seriesName24 = "liga 1k_2kCAMPOOD";
+                    Series ser24 = chartCampoConven.Series.Add(seriesName24);
+
+                    ser24.ChartArea = chartCampoConven.ChartAreas[0].Name;
+                    ser24.Name = seriesName24;
+                    ser24.ChartType = SeriesChartType.Line;
+
+                    if (campoLiga1k_2kodCheckBox.Checked == true)
+                    {
+                        int valorA, valorB;
+
+                        valorA = Convert.ToInt32(campo1kodComboBox.Text);
+                        valorB = Convert.ToInt32(campo2kodComboBox.Text);
+
+                        ser24.Points.AddXY(8, valorA);
+                        ser24.Points.AddXY(10, valorB);
+
+                        ser24.BorderColor = Color.Transparent;
+                        ser24.Color = Color.Red;
+                        ser24.BorderWidth = Convert.ToInt32(1.5);
+                    }
+
+                    else if (campoLiga1k_2kodCheckBox.Checked == false)
+                    {
+                        ser24.Points.Clear();
+                    }
+
+                    //*******
+
+                    string seriesName25 = "liga 2k_3kCAMPOOD";
+                    Series ser25 = chartCampoConven.Series.Add(seriesName25);
+
+                    ser25.ChartArea = chartCampoConven.ChartAreas[0].Name;
+                    ser25.Name = seriesName25;
+                    ser25.ChartType = SeriesChartType.Line;
+
+                    if (campoLiga2k_3kodCheckBox.Checked == true)
+                    {
+                        int valorA, valorB;
+
+                        valorA = Convert.ToInt32(campo2kodComboBox.Text);
+                        valorB = Convert.ToInt32(campo3kodComboBox.Text);
+
+                        ser25.Points.AddXY(10, valorA);
+                        ser25.Points.AddXY(11.25, valorB);
+
+                        ser25.BorderColor = Color.Transparent;
+                        ser25.Color = Color.Red;
+                        ser25.BorderWidth = Convert.ToInt32(1.5);
+                    }
+
+                    else if (campoLiga2k_3kodCheckBox.Checked == false)
+                    {
+                        ser25.Points.Clear();
+                    }
+
+                    //******
+
+                    string seriesName26 = "liga 3k_4kCAMPOOD";
+                    Series ser26 = chartCampoConven.Series.Add(seriesName26);
+
+                    ser26.ChartArea = chartCampoConven.ChartAreas[0].Name;
+                    ser26.Name = seriesName26;
+                    ser26.ChartType = SeriesChartType.Line;
+
+                    if (campoLiga3k_4kodCheckBox.Checked == true)
+                    {
+                        int valorA, valorB;
+
+                        valorA = Convert.ToInt32(campo3kodComboBox.Text);
+                        valorB = Convert.ToInt32(campo4kodComboBox.Text);
+
+                        ser26.Points.AddXY(11.25, valorA);
+                        ser26.Points.AddXY(12, valorB);
+
+                        ser26.BorderColor = Color.Transparent;
+                        ser26.Color = Color.Red;
+                        ser26.BorderWidth = Convert.ToInt32(1.5);
+                    }
+
+                    else if (campoLiga3k_4kodCheckBox.Checked == false)
+                    {
+                        ser26.Points.Clear();
+                    }
+                }
+                catch
+                {
+                    MessageBox.Show("Não é possível ligar a simbologia!", "Erro!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+                    campoLiga500_1kodCheckBox.Checked = false;
+                    campoLiga1k_2kodCheckBox.Checked = false;
+                    campoLiga2k_3kodCheckBox.Checked = false;
+                    campoLiga3k_4kodCheckBox.Checked = false;
+                }
+
+                //***SEQUÊNCIA PARA LIGAR SIMBOLOGIA ORELHA ESQUERDA
+
+                try
+                {
+
+                    string seriesName27 = "liga 500_1kCAMPOOE";
+                    Series ser27 = chartCampoConven.Series.Add(seriesName27);
+
+                    ser27.ChartArea = chartCampoConven.ChartAreas[0].Name;
+                    ser27.Name = seriesName27;
+                    ser27.ChartType = SeriesChartType.Line;
+
+                    if (campoLiga500_1koeCheckBox.Checked == true)
+                    {
+                        int valorA, valorB;
+
+                        valorA = Convert.ToInt32(campo500oeComboBox.Text);
+                        valorB = Convert.ToInt32(campo1koeComboBox.Text);
+
+                        ser27.Points.AddXY(6, valorA);
+                        ser27.Points.AddXY(8, valorB);
+
+                        ser27.BorderColor = Color.Transparent;
+                        ser27.Color = Color.DodgerBlue;
+                        ser27.BorderWidth = Convert.ToInt32(1.5);
+                    }
+
+                    else if (campoLiga500_1koeCheckBox.Checked == false)
+                    {
+                        ser27.Points.Clear();
+                    }
+
+                    //*******
+
+                    string seriesName28 = "liga 1k_2kCAMPOOE";
+                    Series ser28 = chartCampoConven.Series.Add(seriesName28);
+
+                    ser28.ChartArea = chartCampoConven.ChartAreas[0].Name;
+                    ser28.Name = seriesName28;
+                    ser28.ChartType = SeriesChartType.Line;
+
+                    if (campoLiga1k_2koeCheckBox.Checked == true)
+                    {
+                        int valorA, valorB;
+
+                        valorA = Convert.ToInt32(campo1koeComboBox.Text);
+                        valorB = Convert.ToInt32(campo2koeComboBox.Text);
+
+                        ser28.Points.AddXY(8, valorA);
+                        ser28.Points.AddXY(10, valorB);
+
+                        ser28.BorderColor = Color.Transparent;
+                        ser28.Color = Color.DodgerBlue;
+                        ser28.BorderWidth = Convert.ToInt32(1.5);
+                    }
+
+                    else if (campoLiga1k_2koeCheckBox.Checked == false)
+                    {
+                        ser28.Points.Clear();
+                    }
+
+                    //*******
+
+                    string seriesName29 = "liga 2k_3kCAMPOOE";
+                    Series ser29 = chartCampoConven.Series.Add(seriesName29);
+
+                    ser29.ChartArea = chartCampoConven.ChartAreas[0].Name;
+                    ser29.Name = seriesName29;
+                    ser29.ChartType = SeriesChartType.Line;
+
+                    if (campoLiga2k_3koeCheckBox.Checked == true)
+                    {
+                        int valorA, valorB;
+
+                        valorA = Convert.ToInt32(campo2koeComboBox.Text);
+                        valorB = Convert.ToInt32(campo3koeComboBox.Text);
+
+                        ser29.Points.AddXY(10, valorA);
+                        ser29.Points.AddXY(11.25, valorB);
+
+                        ser29.BorderColor = Color.Transparent;
+                        ser29.Color = Color.DodgerBlue;
+                        ser29.BorderWidth = Convert.ToInt32(1.5);
+                    }
+
+                    else if (campoLiga2k_3koeCheckBox.Checked == false)
+                    {
+                        ser29.Points.Clear();
+                    }
+
+                    //******
+
+                    string seriesName30 = "liga 3k_4kCAMPOOE";
+                    Series ser30 = chartCampoConven.Series.Add(seriesName30);
+
+                    ser30.ChartArea = chartCampoConven.ChartAreas[0].Name;
+                    ser30.Name = seriesName30;
+                    ser30.ChartType = SeriesChartType.Line;
+
+                    if (campoLiga3k_4koeCheckBox.Checked == true)
+                    {
+                        int valorA, valorB;
+
+                        valorA = Convert.ToInt32(campo3koeComboBox.Text);
+                        valorB = Convert.ToInt32(campo4koeComboBox.Text);
+
+                        ser30.Points.AddXY(11.25, valorA);
+                        ser30.Points.AddXY(12, valorB);
+
+                        ser30.BorderColor = Color.Transparent;
+                        ser30.Color = Color.DodgerBlue;
+                        ser30.BorderWidth = Convert.ToInt32(1.5);
+                    }
+
+                    else if (campoLiga3k_4koeCheckBox.Checked == false)
+                    {
+                        ser30.Points.Clear();
+                    }
+                }
+                catch
+                {
+                    MessageBox.Show("Não é possível ligar a simbologia!", "Erro!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+                    campoLiga500_1koeCheckBox.Checked = false;
+                    campoLiga1k_2koeCheckBox.Checked = false;
+                    campoLiga2k_3koeCheckBox.Checked = false;
+                    campoLiga3k_4koeCheckBox.Checked = false;
+                }
             }
-
-
-            if (campoVAodAus500CheckBox.Checked == true)
+            else
             {
-                var com500a = new NamedImage("campoLivreODausente", Properties.Resources.campoLivreODausente);
-                chartCampoConven.Images.Clear();
-                chartCampoConven.Images.Add(com500a);
-                ser13.MarkerImage = "campoLivreODausente";
-            }
-
-            else if (campoVAodAus500CheckBox.Checked == false)
-            {
-                var com500p = new NamedImage("campoLivreODpresente", Properties.Resources.campoLivreODpresente);
-                chartCampoConven.Images.Clear();
-                chartCampoConven.Images.Add(com500p);
-                ser13.MarkerImage = "campoLivreODpresente";
-            }
-
-            //*****
-
-            string seriesName14 = "simbol_1kcampo";
-            Series ser14 = chartCampoConven.Series.Add(seriesName14);
-
-            ser14.ChartArea = chartCampoConven.ChartAreas[0].Name;
-            ser14.Name = seriesName14;
-            ser14.ChartType = SeriesChartType.Point;
-
-            if (campo1kodComboBox.Text == "")
-            {
-                var vaOEpresente14vaz = new NamedImage("vazio", Properties.Resources.vazio);
-                chartCampoConven.Images.Clear();
-                chartCampoConven.Images.Add(vaOEpresente14vaz);
-                ser14.MarkerImage = "vazio";
-            }
-
-            else if (campo1kodComboBox.Text != "")
-            {
-                int valor14;
-                valor14 = Convert.ToInt32(campo1kodComboBox.Text);
-                ser14.Points.AddXY(8, valor14);  // x, high
-            }
-
-
-            if (campoVAodAus1kCheckBox.Checked == true)
-            {
-                var com1ka = new NamedImage("campoLivreODausente", Properties.Resources.campoLivreODausente);
-                chartCampoConven.Images.Clear();
-                chartCampoConven.Images.Add(com1ka);
-                ser14.MarkerImage = "campoLivreODausente";
-            }
-
-            else if (campoVAodAus1kCheckBox.Checked == false)
-            {
-                var com1kp = new NamedImage("campoLivreODpresente", Properties.Resources.campoLivreODpresente);
-                chartCampoConven.Images.Clear();
-                chartCampoConven.Images.Add(com1kp);
-                ser14.MarkerImage = "campoLivreODpresente";
-            }
-
-            //*****
-
-            string seriesName15 = "simbol_2kcampo";
-            Series ser15 = chartCampoConven.Series.Add(seriesName15);
-
-            ser15.ChartArea = chartCampoConven.ChartAreas[0].Name;
-            ser15.Name = seriesName15;
-            ser15.ChartType = SeriesChartType.Point;
-
-            if (campo2kodComboBox.Text == "")
-            {
-                var vaOEpresente15vaz = new NamedImage("vazio", Properties.Resources.vazio);
-                chartCampoConven.Images.Clear();
-                chartCampoConven.Images.Add(vaOEpresente15vaz);
-                ser15.MarkerImage = "vazio";
-            }
-
-            else if (campo2kodComboBox.Text != "")
-            {
-                int valor15;
-                valor15 = Convert.ToInt32(campo2kodComboBox.Text);
-                ser15.Points.AddXY(10, valor15);  // x, high
-            }
-
-
-            if (campoVAodAus2kCheckBox.Checked == true)
-            {
-                var com2ka = new NamedImage("campoLivreODausente", Properties.Resources.campoLivreODausente);
-                chartCampoConven.Images.Clear();
-                chartCampoConven.Images.Add(com2ka);
-                ser15.MarkerImage = "campoLivreODausente";
-            }
-
-            else if (campoVAodAus2kCheckBox.Checked == false)
-            {
-                var com2kp = new NamedImage("campoLivreODpresente", Properties.Resources.campoLivreODpresente);
-                chartCampoConven.Images.Clear();
-                chartCampoConven.Images.Add(com2kp);
-                ser15.MarkerImage = "campoLivreODpresente";
-            }
-
-
-            //*****
-
-            string seriesName16 = "simbol_3kcampo";
-            Series ser16 = chartCampoConven.Series.Add(seriesName16);
-
-            ser16.ChartArea = chartCampoConven.ChartAreas[0].Name;
-            ser16.Name = seriesName16;
-            ser16.ChartType = SeriesChartType.Point;
-
-            if (campo3kodComboBox.Text == "")
-            {
-                var vaOEpresente16vaz = new NamedImage("vazio", Properties.Resources.vazio);
-                chartCampoConven.Images.Clear();
-                chartCampoConven.Images.Add(vaOEpresente16vaz);
-                ser16.MarkerImage = "vazio";
-            }
-
-            else if (campo3kodComboBox.Text != "")
-            {
-                int valor16;
-                valor16 = Convert.ToInt32(campo3kodComboBox.Text);
-                ser16.Points.AddXY(11.25, valor16);  // x, high
-            }
-
-
-            if (campoVAodAus3kCheckBox.Checked == true)
-            {
-                var com3ka = new NamedImage("campoLivreODausente", Properties.Resources.campoLivreODausente);
-                chartCampoConven.Images.Clear();
-                chartCampoConven.Images.Add(com3ka);
-                ser16.MarkerImage = "campoLivreODausente";
-            }
-
-            else if (campoVAodAus3kCheckBox.Checked == false)
-            {
-                var com3kp = new NamedImage("campoLivreODpresente", Properties.Resources.campoLivreODpresente);
-                chartCampoConven.Images.Clear();
-                chartCampoConven.Images.Add(com3kp);
-                ser16.MarkerImage = "campoLivreODpresente";
-            }
-
-            //******
-
-            string seriesName17 = "simbol_4kcampo";
-            Series ser17 = chartCampoConven.Series.Add(seriesName17);
-
-            ser17.ChartArea = chartCampoConven.ChartAreas[0].Name;
-            ser17.Name = seriesName17;
-            ser17.ChartType = SeriesChartType.Point;
-
-            if (campo4kodComboBox.Text == "")
-            {
-                var vaOEpresente17vaz = new NamedImage("vazio", Properties.Resources.vazio);
-                chartCampoConven.Images.Clear();
-                chartCampoConven.Images.Add(vaOEpresente17vaz);
-                ser17.MarkerImage = "vazio";
-            }
-
-            else if (campo4kodComboBox.Text != "")
-            {
-                int valor17;
-                valor17 = Convert.ToInt32(campo4kodComboBox.Text);
-                ser17.Points.AddXY(12, valor17);  // x, high
-            }
-
-
-            if (campoVAodAus4kCheckBox.Checked == true)
-            {
-                var com4ka = new NamedImage("campoLivreODausente", Properties.Resources.campoLivreODausente);
-                chartCampoConven.Images.Clear();
-                chartCampoConven.Images.Add(com4ka);
-                ser17.MarkerImage = "campoLivreODausente";
-            }
-
-            else if (campoVAodAus4kCheckBox.Checked == false)
-            {
-                var com4kp = new NamedImage("campoLivreODpresente", Properties.Resources.campoLivreODpresente);
-                chartCampoConven.Images.Clear();
-                chartCampoConven.Images.Add(com4kp);
-                ser17.MarkerImage = "campoLivreODpresente";
-            }
-
-            //**** ORELHA ESQUERDA *******
-
-            string seriesName18 = "simbol_500campoOE";
-            Series ser18 = chartCampoConven.Series.Add(seriesName18);
-
-            ser18.ChartArea = chartCampoConven.ChartAreas[0].Name;
-            ser18.Name = seriesName18;
-            ser18.ChartType = SeriesChartType.Point;
-
-            if (campo500oeComboBox.Text == "")
-            {
-                var vaOEpresente18vaz = new NamedImage("vazio", Properties.Resources.vazio);
-                chartCampoConven.Images.Clear();
-                chartCampoConven.Images.Add(vaOEpresente18vaz);
-                ser18.MarkerImage = "vazio";
-            }
-
-            else if (campo500oeComboBox.Text != "")
-            {
-                int valor18;
-                valor18 = Convert.ToInt32(campo500oeComboBox.Text);
-                ser18.Points.AddXY(6, valor18);  // x, high
-            }
-
-
-            if (campoVAoeAus500CheckBox.Checked == true)
-            {
-                var com500acampo = new NamedImage("campoLivreOEausente", Properties.Resources.campoLivreOEausente);
-                chartCampoConven.Images.Clear();
-                chartCampoConven.Images.Add(com500acampo);
-                ser18.MarkerImage = "campoLivreOEausente";
-            }
-
-            else if (campoVAoeAus500CheckBox.Checked == false)
-            {
-                var com500pcampo = new NamedImage("campoLivreOEpresente", Properties.Resources.campoLivreOEpresente);
-                chartCampoConven.Images.Clear();
-                chartCampoConven.Images.Add(com500pcampo);
-                ser18.MarkerImage = "campoLivreOEpresente";
-            }
-
-            //*****
-
-            string seriesName19 = "simbol_1kcampoOE";
-            Series ser19 = chartCampoConven.Series.Add(seriesName19);
-
-            ser19.ChartArea = chartCampoConven.ChartAreas[0].Name;
-            ser19.Name = seriesName19;
-            ser19.ChartType = SeriesChartType.Point;
-
-            if (campo1koeComboBox.Text == "")
-            {
-                var vaOEpresente14vaz = new NamedImage("vazio", Properties.Resources.vazio);
-                chartCampoConven.Images.Clear();
-                chartCampoConven.Images.Add(vaOEpresente14vaz);
-                ser19.MarkerImage = "vazio";
-            }
-
-            else if (campo1koeComboBox.Text != "")
-            {
-                int valor19;
-                valor19 = Convert.ToInt32(campo1koeComboBox.Text);
-                ser19.Points.AddXY(8, valor19);  // x, high
-            }
-
-
-            if (campoVAoeAus1kCheckBox.Checked == true)
-            {
-                var com1kacampo = new NamedImage("campoLivreOEausente", Properties.Resources.campoLivreOEausente);
-                chartCampoConven.Images.Clear();
-                chartCampoConven.Images.Add(com1kacampo);
-                ser19.MarkerImage = "campoLivreOEausente";
-            }
-
-            else if (campoVAoeAus1kCheckBox.Checked == false)
-            {
-                var com1kpcampo = new NamedImage("campoLivreOEpresente", Properties.Resources.campoLivreOEpresente);
-                chartCampoConven.Images.Clear();
-                chartCampoConven.Images.Add(com1kpcampo);
-                ser19.MarkerImage = "campoLivreOEpresente";
-            }
-
-            //*****
-
-            string seriesName20 = "simbol_2kcampoOE";
-            Series ser20 = chartCampoConven.Series.Add(seriesName20);
-
-            ser20.ChartArea = chartCampoConven.ChartAreas[0].Name;
-            ser20.Name = seriesName20;
-            ser20.ChartType = SeriesChartType.Point;
-
-            if (campo2koeComboBox.Text == "")
-            {
-                var vaOEpresente15vaz = new NamedImage("vazio", Properties.Resources.vazio);
-                chartCampoConven.Images.Clear();
-                chartCampoConven.Images.Add(vaOEpresente15vaz);
-                ser20.MarkerImage = "vazio";
-            }
-
-            else if (campo2koeComboBox.Text != "")
-            {
-                int valor20;
-                valor20 = Convert.ToInt32(campo2koeComboBox.Text);
-                ser20.Points.AddXY(10, valor20);  // x, high
-            }
-
-
-            if (campoVAoeAus2kCheckBox.Checked == true)
-            {
-                var com2kacampo = new NamedImage("campoLivreOEausente", Properties.Resources.campoLivreOEausente);
-                chartCampoConven.Images.Clear();
-                chartCampoConven.Images.Add(com2kacampo);
-                ser20.MarkerImage = "campoLivreOEausente";
-            }
-
-            else if (campoVAoeAus2kCheckBox.Checked == false)
-            {
-                var com2kpcampo = new NamedImage("campoLivreOEpresente", Properties.Resources.campoLivreOEpresente);
-                chartCampoConven.Images.Clear();
-                chartCampoConven.Images.Add(com2kpcampo);
-                ser20.MarkerImage = "campoLivreOEpresente";
-            }
-
-
-            //*****
-
-            string seriesName21 = "simbol_3kcampoOE";
-            Series ser21 = chartCampoConven.Series.Add(seriesName21);
-
-            ser21.ChartArea = chartCampoConven.ChartAreas[0].Name;
-            ser21.Name = seriesName21;
-            ser21.ChartType = SeriesChartType.Point;
-
-            if (campo3koeComboBox.Text == "")
-            {
-                var vaOEpresente16vaz = new NamedImage("vazio", Properties.Resources.vazio);
-                chartCampoConven.Images.Clear();
-                chartCampoConven.Images.Add(vaOEpresente16vaz);
-                ser21.MarkerImage = "vazio";
-            }
-
-            else if (campo3koeComboBox.Text != "")
-            {
-                int valor21;
-                valor21 = Convert.ToInt32(campo3koeComboBox.Text);
-                ser21.Points.AddXY(11.25, valor21);  // x, high
-            }
-
-
-            if (campoVAoeAus3kCheckBox.Checked == true)
-            {
-                var com3kacampo = new NamedImage("campoLivreOEausente", Properties.Resources.campoLivreOEausente);
-                chartCampoConven.Images.Clear();
-                chartCampoConven.Images.Add(com3kacampo);
-                ser21.MarkerImage = "campoLivreOEausente";
-            }
-
-            else if (campoVAoeAus3kCheckBox.Checked == false)
-            {
-                var com3kpcampo = new NamedImage("campoLivreOEpresente", Properties.Resources.campoLivreOEpresente);
-                chartCampoConven.Images.Clear();
-                chartCampoConven.Images.Add(com3kpcampo);
-                ser21.MarkerImage = "campoLivreOEpresente";
-            }
-
-            //******
-
-            string seriesName22 = "simbol_4kcampoOE";
-            Series ser22 = chartCampoConven.Series.Add(seriesName22);
-
-            ser22.ChartArea = chartCampoConven.ChartAreas[0].Name;
-            ser22.Name = seriesName22;
-            ser22.ChartType = SeriesChartType.Point;
-
-            if (campo4koeComboBox.Text == "")
-            {
-                var vaOEpresente22vaz = new NamedImage("vazio", Properties.Resources.vazio);
-                chartCampoConven.Images.Clear();
-                chartCampoConven.Images.Add(vaOEpresente22vaz);
-                ser22.MarkerImage = "vazio";
-            }
-
-            else if (campo4koeComboBox.Text != "")
-            {
-                int valor22;
-                valor22 = Convert.ToInt32(campo4koeComboBox.Text);
-                ser22.Points.AddXY(12, valor22);  // x, high
-            }
-
-
-            if (campoVAoeAus4kCheckBox.Checked == true)
-            {
-                var com4kacampo = new NamedImage("campoLivreOEausente", Properties.Resources.campoLivreOEausente);
-                chartCampoConven.Images.Clear();
-                chartCampoConven.Images.Add(com4kacampo);
-                ser22.MarkerImage = "campoLivreOEausente";
-            }
-
-            else if (campoVAoeAus4kCheckBox.Checked == false)
-            {
-                var com4kpcampo = new NamedImage("campoLivreOEpresente", Properties.Resources.campoLivreOEpresente);
-                chartCampoConven.Images.Clear();
-                chartCampoConven.Images.Add(com4kpcampo);
-                ser22.MarkerImage = "campoLivreOEpresente";
-            }
-
-            //***SEQUÊNCIA PARA LIGAR SIMBOLOGIA CAMPO OD
-
-            try
-            {
-
-            string seriesName23 = "liga 500_1kCAMPOOD";
-            Series ser23 = chartCampoConven.Series.Add(seriesName23);
-
-            ser23.ChartArea = chartCampoConven.ChartAreas[0].Name;
-            ser23.Name = seriesName23;
-            ser23.ChartType = SeriesChartType.Line;
-
-            if (campoLiga500_1kodCheckBox.Checked == true)
-            {
-                int valorA, valorB;
-
-                valorA = Convert.ToInt32(campo500odComboBox.Text);
-                valorB = Convert.ToInt32(campo1kodComboBox.Text);
-
-                ser23.Points.AddXY(6, valorA);
-                ser23.Points.AddXY(8, valorB);
-
-                ser23.BorderColor = Color.Transparent;
-                ser23.Color = Color.Red;
-                ser23.BorderWidth = Convert.ToInt32(1.5);
-            }
-
-            else if (campoLiga500_1kodCheckBox.Checked == false)
-            {
-                ser23.Points.Clear();
-            }
-
-            //*******
-
-            string seriesName24 = "liga 1k_2kCAMPOOD";
-            Series ser24 = chartCampoConven.Series.Add(seriesName24);
-
-            ser24.ChartArea = chartCampoConven.ChartAreas[0].Name;
-            ser24.Name = seriesName24;
-            ser24.ChartType = SeriesChartType.Line;
-
-            if (campoLiga1k_2kodCheckBox.Checked == true)
-            {
-                int valorA, valorB;
-
-                valorA = Convert.ToInt32(campo1kodComboBox.Text);
-                valorB = Convert.ToInt32(campo2kodComboBox.Text);
-
-                ser24.Points.AddXY(8, valorA);
-                ser24.Points.AddXY(10, valorB);
-
-                ser24.BorderColor = Color.Transparent;
-                ser24.Color = Color.Red;
-                ser24.BorderWidth = Convert.ToInt32(1.5);
-            }
-
-            else if (campoLiga1k_2kodCheckBox.Checked == false)
-            {
-                ser24.Points.Clear();
-            }
-
-            //*******
-
-            string seriesName25 = "liga 2k_3kCAMPOOD";
-            Series ser25 = chartCampoConven.Series.Add(seriesName25);
-
-            ser25.ChartArea = chartCampoConven.ChartAreas[0].Name;
-            ser25.Name = seriesName25;
-            ser25.ChartType = SeriesChartType.Line;
-
-            if (campoLiga2k_3kodCheckBox.Checked == true)
-            {
-                int valorA, valorB;
-
-                valorA = Convert.ToInt32(campo2kodComboBox.Text);
-                valorB = Convert.ToInt32(campo3kodComboBox.Text);
-
-                ser25.Points.AddXY(10, valorA);
-                ser25.Points.AddXY(11.25, valorB);
-
-                ser25.BorderColor = Color.Transparent;
-                ser25.Color = Color.Red;
-                ser25.BorderWidth = Convert.ToInt32(1.5);
-            }
-
-            else if (campoLiga2k_3kodCheckBox.Checked == false)
-            {
-                ser25.Points.Clear();
-            }
-
-            //******
-
-            string seriesName26 = "liga 3k_4kCAMPOOD";
-            Series ser26 = chartCampoConven.Series.Add(seriesName26);
-
-            ser26.ChartArea = chartCampoConven.ChartAreas[0].Name;
-            ser26.Name = seriesName26;
-            ser26.ChartType = SeriesChartType.Line;
-
-            if (campoLiga3k_4kodCheckBox.Checked == true)
-            {
-                int valorA, valorB;
-
-                valorA = Convert.ToInt32(campo3kodComboBox.Text);
-                valorB = Convert.ToInt32(campo4kodComboBox.Text);
-
-                ser26.Points.AddXY(11.25, valorA);
-                ser26.Points.AddXY(12, valorB);
-
-                ser26.BorderColor = Color.Transparent;
-                ser26.Color = Color.Red;
-                ser26.BorderWidth = Convert.ToInt32(1.5);
-            }
-
-            else if (campoLiga3k_4kodCheckBox.Checked == false)
-            {
-                ser26.Points.Clear();
-            }
-            }
-            catch
-            {
-                MessageBox.Show("Não é possível ligar a simbologia!", "Erro!", MessageBoxButtons.OK, MessageBoxIcon.Error);
-
-                campoLiga500_1kodCheckBox.Checked = false;
-                campoLiga1k_2kodCheckBox.Checked = false;
-                campoLiga2k_3kodCheckBox.Checked = false;
-                campoLiga3k_4kodCheckBox.Checked = false;
-            }
-
-            //***SEQUÊNCIA PARA LIGAR SIMBOLOGIA ORELHA ESQUERDA
-
-            try
-            {
-
-            string seriesName27 = "liga 500_1kCAMPOOE";
-            Series ser27 = chartCampoConven.Series.Add(seriesName27);
-
-            ser27.ChartArea = chartCampoConven.ChartAreas[0].Name;
-            ser27.Name = seriesName27;
-            ser27.ChartType = SeriesChartType.Line;
-
-            if (campoLiga500_1koeCheckBox.Checked == true)
-            {
-                int valorA, valorB;
-
-                valorA = Convert.ToInt32(campo500oeComboBox.Text);
-                valorB = Convert.ToInt32(campo1koeComboBox.Text);
-
-                ser27.Points.AddXY(6, valorA);
-                ser27.Points.AddXY(8, valorB);
-
-                ser27.BorderColor = Color.Transparent;
-                ser27.Color = Color.DodgerBlue;
-                ser27.BorderWidth = Convert.ToInt32(1.5);
-            }
-
-            else if (campoLiga500_1koeCheckBox.Checked == false)
-            {
-                ser27.Points.Clear();
-            }
-
-            //*******
-
-            string seriesName28 = "liga 1k_2kCAMPOOE";
-            Series ser28 = chartCampoConven.Series.Add(seriesName28);
-
-            ser28.ChartArea = chartCampoConven.ChartAreas[0].Name;
-            ser28.Name = seriesName28;
-            ser28.ChartType = SeriesChartType.Line;
-
-            if (campoLiga1k_2koeCheckBox.Checked == true)
-            {
-                int valorA, valorB;
-
-                valorA = Convert.ToInt32(campo1koeComboBox.Text);
-                valorB = Convert.ToInt32(campo2koeComboBox.Text);
-
-                ser28.Points.AddXY(8, valorA);
-                ser28.Points.AddXY(10, valorB);
-
-                ser28.BorderColor = Color.Transparent;
-                ser28.Color = Color.DodgerBlue;
-                ser28.BorderWidth = Convert.ToInt32(1.5);
-            }
-
-            else if (campoLiga1k_2koeCheckBox.Checked == false)
-            {
-                ser28.Points.Clear();
-            }
-
-            //*******
-
-            string seriesName29 = "liga 2k_3kCAMPOOE";
-            Series ser29 = chartCampoConven.Series.Add(seriesName29);
-
-            ser29.ChartArea = chartCampoConven.ChartAreas[0].Name;
-            ser29.Name = seriesName29;
-            ser29.ChartType = SeriesChartType.Line;
-
-            if (campoLiga2k_3koeCheckBox.Checked == true)
-            {
-                int valorA, valorB;
-
-                valorA = Convert.ToInt32(campo2koeComboBox.Text);
-                valorB = Convert.ToInt32(campo3koeComboBox.Text);
-
-                ser29.Points.AddXY(10, valorA);
-                ser29.Points.AddXY(11.25, valorB);
-
-                ser29.BorderColor = Color.Transparent;
-                ser29.Color = Color.DodgerBlue;
-                ser29.BorderWidth = Convert.ToInt32(1.5);
-            }
-
-            else if (campoLiga2k_3koeCheckBox.Checked == false)
-            {
-                ser29.Points.Clear();
-            }
-
-            //******
-
-            string seriesName30 = "liga 3k_4kCAMPOOE";
-            Series ser30 = chartCampoConven.Series.Add(seriesName30);
-
-            ser30.ChartArea = chartCampoConven.ChartAreas[0].Name;
-            ser30.Name = seriesName30;
-            ser30.ChartType = SeriesChartType.Line;
-
-            if (campoLiga3k_4koeCheckBox.Checked == true)
-            {
-                int valorA, valorB;
-
-                valorA = Convert.ToInt32(campo3koeComboBox.Text);
-                valorB = Convert.ToInt32(campo4koeComboBox.Text);
-
-                ser30.Points.AddXY(11.25, valorA);
-                ser30.Points.AddXY(12, valorB);
-
-                ser30.BorderColor = Color.Transparent;
-                ser30.Color = Color.DodgerBlue;
-                ser30.BorderWidth = Convert.ToInt32(1.5);
-            }
-
-            else if (campoLiga3k_4koeCheckBox.Checked == false)
-            {
-                ser30.Points.Clear();
-            }
-            }
-            catch
-            {
-                MessageBox.Show("Não é possível ligar a simbologia!", "Erro!", MessageBoxButtons.OK, MessageBoxIcon.Error);
-
-                campoLiga500_1koeCheckBox.Checked = false;
-                campoLiga1k_2koeCheckBox.Checked = false;
-                campoLiga2k_3koeCheckBox.Checked = false;
-                campoLiga3k_4koeCheckBox.Checked = false;
-            }
+                MessageBox.Show("Escolha 'Audiometria em campo livre convencional'.", "Atenção!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }            
         }
 
         private void btnMediaCampoConvOD_Click(object sender, EventArgs e)
@@ -10413,7 +10415,6 @@ namespace segmentoOtoneurologia
             tsbPreencherAudio.Enabled = true;
             tsbPreencherTimpanogramas.Enabled = true;
 
-            ((Control)tabControl1.TabPages["tabPage3"]).Enabled = true;
             ((Control)tabControl1.TabPages["tabPage4"]).Enabled = true;
             ((Control)tabControl1.TabPages["tabPage5"]).Enabled = true;
             ((Control)tabControl1.TabPages["tabPage6"]).Enabled = true;
