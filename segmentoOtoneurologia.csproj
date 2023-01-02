@@ -502,6 +502,13 @@
     <None Include="Resources\Slide4.png" />
     <None Include="Resources\sombraTimpanoOD.png" />
     <None Include="Resources\sombraTimpanoOE.png" />
+    <None Include="Resources\bananaAzul.png" />
+    <None Include="Resources\bananaCinza.png" />
+    <None Include="Resources\bananaVerde.png" />
+    <None Include="Resources\bananaVermelha.png" />
+    <None Include="Resources\sombraImpedancioOD.png" />
+    <None Include="Resources\sombraImpedancioOE.png" />
+    <None Include="Resources\brancoTimpano.png" />
     <Content Include="usuarios.ico" />
     <None Include="Resources\voOEmascAusente.png" />
     <None Include="Resources\voOEmascPresente.png" />

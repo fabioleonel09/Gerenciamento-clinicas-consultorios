@@ -153,6 +153,46 @@ namespace segmentoOtoneurologia.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap bananaAzul {
+            get {
+                object obj = ResourceManager.GetObject("bananaAzul", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bananaCinza {
+            get {
+                object obj = ResourceManager.GetObject("bananaCinza", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bananaVerde {
+            get {
+                object obj = ResourceManager.GetObject("bananaVerde", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bananaVermelha {
+            get {
+                object obj = ResourceManager.GetObject("bananaVermelha", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap blocoNotasMaior {
             get {
                 object obj = ResourceManager.GetObject("blocoNotasMaior", resourceCulture);
@@ -186,6 +226,16 @@ namespace segmentoOtoneurologia.Properties {
         internal static System.Drawing.Bitmap borracha {
             get {
                 object obj = ResourceManager.GetObject("borracha", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap brancoTimpano {
+            get {
+                object obj = ResourceManager.GetObject("brancoTimpano", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

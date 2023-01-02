@@ -103,7 +103,8 @@ namespace segmentoOtoneurologia
         {
             try
             {
-                chartODimp.Series.Clear();//limpa o gráfico
+                chartODimp.Series.Clear();//limpa o gráfico               
+
                 fechaodTextBox.Visible = true;
 
                 decimal valorA, valorB, valorC;
@@ -111,10 +112,21 @@ namespace segmentoOtoneurologia
                 valorA = Convert.ToDecimal(pressaoodTextBox.Text);
                 valorB = Convert.ToDecimal(complodTextBox.Text);
                 valorC = Convert.ToDecimal(fechaodTextBox.Text);
-
-                var fundoImpOD = new NamedImage("sombraTimpanoOD", Properties.Resources.sombraTimpanoOD);
-                chartODimp.Images.Add(fundoImpOD);
-                chartODimp.ChartAreas[0].BackImage = "sombraTimpanoOD";
+             
+                if (rbExibeEstimativaOD.Checked == true)
+                {
+                    var fundoODimp = new NamedImage("sombraTimpanoOD", Properties.Resources.sombraTimpanoOD);
+                    chartODimp.Images.Clear();
+                    chartODimp.Images.Add(fundoODimp);
+                    chartODimp.ChartAreas[0].BackImage = "sombraTimpanoOD";                 
+                }
+                else if (rbOcultaEstimativaOD.Checked == true)
+                {
+                    var fundoODimp = new NamedImage("brancoTimpano", Properties.Resources.brancoTimpano);
+                    chartODimp.Images.Clear();
+                    chartODimp.Images.Add(fundoODimp);
+                    chartODimp.ChartAreas[0].BackImage = "brancoTimpano";
+                }
 
                 string seriesNameA = "liga A";
                 Series serA = chartODimp.Series.Add(seriesNameA);
@@ -211,9 +223,20 @@ namespace segmentoOtoneurologia
                 valorB = Convert.ToDecimal(comploeTextBox.Text);
                 valorC = Convert.ToDecimal(fechaoeTextBox.Text);
 
-                var fundoImpOE = new NamedImage("sombraTimpanoOE", Properties.Resources.sombraTimpanoOE);
-                chartOEimp.Images.Add(fundoImpOE);
-                chartOEimp.ChartAreas[0].BackImage = "sombraTimpanoOE";
+                if (rbExibeEstimativaOE.Checked == true)
+                {
+                    var fundoOEimp = new NamedImage("sombraTimpanoOE", Properties.Resources.sombraTimpanoOE);
+                    chartOEimp.Images.Clear();
+                    chartOEimp.Images.Add(fundoOEimp);
+                    chartOEimp.ChartAreas[0].BackImage = "sombraTimpanoOE";
+                }
+                else if (rbOcultaEstimativaOE.Checked == true)
+                {
+                    var fundoOEimp = new NamedImage("brancoTimpano", Properties.Resources.brancoTimpano);
+                    chartOEimp.Images.Clear();
+                    chartOEimp.Images.Add(fundoOEimp);
+                    chartOEimp.ChartAreas[0].BackImage = "brancoTimpano";
+                }
 
                 string seriesNameA = "liga A";
                 Series serA = chartOEimp.Series.Add(seriesNameA);
@@ -1830,9 +1853,27 @@ namespace segmentoOtoneurologia
             chartAudioEmCampo.ChartAreas[0].AxisX.MajorGrid.LineDashStyle = ChartDashStyle.Dash;
             chartAudioEmCampo.ChartAreas[0].AxisX.MajorGrid.LineColor = Color.Transparent;
 
-            var fundoAudioCampoGanhoFunc = new NamedImage("Slide1", Properties.Resources.Slide1);
-            chartAudioEmCampo.Images.Add(fundoAudioCampoGanhoFunc);
-            chartAudioEmCampo.ChartAreas[0].BackImage = "Slide1";
+            string fundoChart = "fundoChartTransp";
+            Series imgFundo = chartAudioEmCampo.Series.Add(fundoChart);
+
+            imgFundo.ChartArea = chartAudioEmCampo.ChartAreas[0].Name;
+            imgFundo.Name = fundoChart;
+            imgFundo.ChartType = SeriesChartType.Point;
+
+            if (rbExibeBananaAudioGanhoFuncio.Checked == true)
+            {
+                var fundoAudioEmCampoFuncio = new NamedImage("bananaCinza", Properties.Resources.bananaCinza);
+                chartAudioEmCampo.Images.Clear();
+                chartAudioEmCampo.Images.Add(fundoAudioEmCampoFuncio);
+                imgFundo.MarkerImage = "bananaCinza";
+                imgFundo.Points.AddXY(7.50, 45);
+            }
+            else if (rbEscondeBananaAudioGanhoFuncio.Checked == true)
+            {
+                var fundoAudioEmCampoFuncio = new NamedImage("bananaCinza", Properties.Resources.bananaCinza);
+                chartAudioEmCampo.Images.Clear();
+                chartAudioEmCampo.Images.Remove(fundoAudioEmCampoFuncio);
+            }
 
             string seriesName1 = "grade1camp";
             Series ser1 = chartAudioEmCampo.Series.Add(seriesName1);
@@ -2664,15 +2705,33 @@ namespace segmentoOtoneurologia
 
             //***PARA MONTAR O GRÁFICO***
 
+            string fundoChart = "fundoChartTransp";
+            Series imgFundo = chartAudioOD.Series.Add(fundoChart);
+
+            imgFundo.ChartArea = chartAudioOD.ChartAreas[0].Name;
+            imgFundo.Name = fundoChart;
+            imgFundo.ChartType = SeriesChartType.Point;
+
+            if (rbExibeBananaAudioClinicaOD.Checked == true)
+            {
+                var fundoAudioOD = new NamedImage("bananaVermelha", Properties.Resources.bananaVermelha);
+                chartAudioOD.Images.Clear();
+                chartAudioOD.Images.Add(fundoAudioOD);
+                imgFundo.MarkerImage = "bananaVermelha";
+                imgFundo.Points.AddXY(7.50, 45);
+            }
+            else if (rbEscondeBananaAudioClinicaOD.Checked == true)
+            {
+                var fundoAudioOD = new NamedImage("bananaVermelha", Properties.Resources.bananaVermelha);
+                chartAudioOD.Images.Clear();
+                chartAudioOD.Images.Remove(fundoAudioOD);
+            }
+
             int iniciar = 1;
             int finalizar = 15;
 
             chartAudioOD.ChartAreas[0].AxisX.MajorGrid.LineDashStyle = ChartDashStyle.Dash;
-            chartAudioOD.ChartAreas[0].AxisX.MajorGrid.LineColor = Color.Transparent;
-
-            var fundoAudioOD = new NamedImage("Slide3", Properties.Resources.Slide3);
-            chartAudioOD.Images.Add(fundoAudioOD);
-            chartAudioOD.ChartAreas[0].BackImage = "Slide3";
+            chartAudioOD.ChartAreas[0].AxisX.MajorGrid.LineColor = Color.Transparent;           
 
             string seriesName1 = "grade1OD";
             Series ser1 = chartAudioOD.Series.Add(seriesName1);
@@ -5753,7 +5812,7 @@ namespace segmentoOtoneurologia
                     liga2k_3kvo_ODCheckBox.Checked = false;
                     liga3k_4kvo_ODCheckBox.Checked = false;
                 }
-            }
+            }          
         }
 
         private void btnPlotarAudioOE_Click(object sender, EventArgs e)
@@ -5768,9 +5827,27 @@ namespace segmentoOtoneurologia
             chartAudioOE.ChartAreas[0].AxisX.MajorGrid.LineDashStyle = ChartDashStyle.Dash;
             chartAudioOE.ChartAreas[0].AxisX.MajorGrid.LineColor = Color.Transparent;
 
-            var fundoAudioOE = new NamedImage("Slide2", Properties.Resources.Slide2);
-            chartAudioOE.Images.Add(fundoAudioOE);
-            chartAudioOE.ChartAreas[0].BackImage = "Slide2";
+            string fundoChart = "fundoChartTransp";
+            Series imgFundo = chartAudioOE.Series.Add(fundoChart);
+
+            imgFundo.ChartArea = chartAudioOE.ChartAreas[0].Name;
+            imgFundo.Name = fundoChart;
+            imgFundo.ChartType = SeriesChartType.Point;
+
+            if (rbExibeBananaAudioClinicaOE.Checked == true)
+            {
+                var fundoAudioOE = new NamedImage("bananaAzul", Properties.Resources.bananaAzul);
+                chartAudioOE.Images.Clear();
+                chartAudioOE.Images.Add(fundoAudioOE);
+                imgFundo.MarkerImage = "bananaAzul";
+                imgFundo.Points.AddXY(7.50, 45);
+            }
+            else if (rbEscondeBananaAudioClinicaOE.Checked == true)
+            {
+                var fundoAudioOE = new NamedImage("bananaAzul", Properties.Resources.bananaAzul);
+                chartAudioOE.Images.Clear();
+                chartAudioOE.Images.Remove(fundoAudioOE);
+            }
 
             string seriesName1 = "grade1OE";
             Series ser1 = chartAudioOE.Series.Add(seriesName1);
@@ -8865,9 +8942,27 @@ namespace segmentoOtoneurologia
             chartCampoConven.ChartAreas[0].AxisX.MajorGrid.LineDashStyle = ChartDashStyle.Dash;
             chartCampoConven.ChartAreas[0].AxisX.MajorGrid.LineColor = Color.Transparent;
 
-            var fundoAudioCampoConv = new NamedImage("Slide4", Properties.Resources.Slide4);
-            chartCampoConven.Images.Add(fundoAudioCampoConv);
-            chartCampoConven.BackImage = "Slide4";
+            string fundoChart = "fundoChartTransp";
+            Series imgFundo = chartCampoConven.Series.Add(fundoChart);
+
+            imgFundo.ChartArea = chartCampoConven.ChartAreas[0].Name;
+            imgFundo.Name = fundoChart;
+            imgFundo.ChartType = SeriesChartType.Point;
+
+            if (rbExibeBananaAudioCampoConvenc.Checked == true)
+            {
+                var fundoAudioCampoConvenc = new NamedImage("bananaVerde", Properties.Resources.bananaVerde);
+                chartCampoConven.Images.Clear();
+                chartCampoConven.Images.Add(fundoAudioCampoConvenc);
+                imgFundo.MarkerImage = "bananaVerde";
+                imgFundo.Points.AddXY(7.50, 45);
+            }
+            else if (rbEscondeBananaFalaAudioCampoConvenc.Checked == true)
+            {
+                var fundoAudioCampoConvenc = new NamedImage("bananaVerde", Properties.Resources.bananaVerde);
+                chartCampoConven.Images.Clear();
+                chartCampoConven.Images.Remove(fundoAudioCampoConvenc);
+            }
 
             string seriesName1 = "grade1campConv";
             Series ser1 = chartCampoConven.Series.Add(seriesName1);
