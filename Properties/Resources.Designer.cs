@@ -693,6 +693,16 @@ namespace segmentoOtoneurologia.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap materDei {
+            get {
+                object obj = ResourceManager.GetObject("materDei", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap notas {
             get {
                 object obj = ResourceManager.GetObject("notas", resourceCulture);
@@ -816,46 +826,6 @@ namespace segmentoOtoneurologia.Properties {
         internal static System.Drawing.Bitmap salve2 {
             get {
                 object obj = ResourceManager.GetObject("salve2", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Slide1 {
-            get {
-                object obj = ResourceManager.GetObject("Slide1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Slide2 {
-            get {
-                object obj = ResourceManager.GetObject("Slide2", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Slide3 {
-            get {
-                object obj = ResourceManager.GetObject("Slide3", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Slide4 {
-            get {
-                object obj = ResourceManager.GetObject("Slide4", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
