@@ -112,13 +112,13 @@ namespace segmentoOtoneurologia
                 valorA = Convert.ToDecimal(pressaoodTextBox.Text);
                 valorB = Convert.ToDecimal(complodTextBox.Text);
                 valorC = Convert.ToDecimal(fechaodTextBox.Text);
-             
+
                 if (rbExibeEstimativaOD.Checked == true)
                 {
                     var fundoODimp = new NamedImage("sombraTimpanoOD", Properties.Resources.sombraTimpanoOD);
                     chartODimp.Images.Clear();
                     chartODimp.Images.Add(fundoODimp);
-                    chartODimp.ChartAreas[0].BackImage = "sombraTimpanoOD";                 
+                    chartODimp.ChartAreas[0].BackImage = "sombraTimpanoOD";
                 }
                 else if (rbOcultaEstimativaOD.Checked == true)
                 {
@@ -559,588 +559,600 @@ namespace segmentoOtoneurologia
             //***PARA A SIMBOLOGIA***
 
             //***
-            string seriesName8 = "simbol_9k";
-            Series ser8 = chartAltOD.Series.Add(seriesName8);
 
-            ser8.ChartArea = chartAltOD.ChartAreas[0].Name;
-            ser8.Name = seriesName8;
-            ser8.ChartType = SeriesChartType.Point;
-
-            if (va9kodComboBox.Text == "")
+            if (string.IsNullOrEmpty(tipoAudiometriaComboBox.Text))
             {
-                var vaODpresente9vaz = new NamedImage("vazio", Properties.Resources.vazio);
-                chartAltOD.Images.Clear();
-                chartAltOD.Images.Add(vaODpresente9vaz);
-                ser8.MarkerImage = "vazio";
+                MessageBox.Show("Escolha 'Audiometria de altas frequências' para a plotagem da simbologia.", "Atenção!", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
-
-            else if (va9kodComboBox.Text != "")
+            else if (tipoAudiometriaComboBox.Text == "Audiometria de altas frequências")
             {
-                int valor8;
-                valor8 = Convert.ToInt32(va9kodComboBox.Text);
-                ser8.Points.AddXY(2, valor8);  // x, high
-            }
-            
-            if ((chkAusente9kODCheckBox.Checked == false) && (chkMasc9kODCheckBox.Checked == false))
-            {              
-                var vaODpresente8p = new NamedImage("vaODpresente", Properties.Resources.vaODpresente);
-                chartAltOD.Images.Clear();
-                chartAltOD.Images.Add(vaODpresente8p);
-                ser8.MarkerImage = "vaODpresente";
-            }
+                string seriesName8 = "simbol_9k";
+                Series ser8 = chartAltOD.Series.Add(seriesName8);
 
-            else if ((chkAusente9kODCheckBox.Checked == true) && (chkMasc9kODCheckBox.Checked == false))
+                ser8.ChartArea = chartAltOD.ChartAreas[0].Name;
+                ser8.Name = seriesName8;
+                ser8.ChartType = SeriesChartType.Point;
+
+                if (va9kodComboBox.Text == "")
+                {
+                    var vaODpresente9vaz = new NamedImage("vazio", Properties.Resources.vazio);
+                    chartAltOD.Images.Clear();
+                    chartAltOD.Images.Add(vaODpresente9vaz);
+                    ser8.MarkerImage = "vazio";
+                }
+
+                else if (va9kodComboBox.Text != "")
+                {
+                    int valor8;
+                    valor8 = Convert.ToInt32(va9kodComboBox.Text);
+                    ser8.Points.AddXY(2, valor8);  // x, high
+                }
+
+                if ((chkAusente9kODCheckBox.Checked == false) && (chkMasc9kODCheckBox.Checked == false))
+                {
+                    var vaODpresente8p = new NamedImage("vaODpresente", Properties.Resources.vaODpresente);
+                    chartAltOD.Images.Clear();
+                    chartAltOD.Images.Add(vaODpresente8p);
+                    ser8.MarkerImage = "vaODpresente";
+                }
+
+                else if ((chkAusente9kODCheckBox.Checked == true) && (chkMasc9kODCheckBox.Checked == false))
+                {
+                    var vaODausente8a = new NamedImage("vaODausente", Properties.Resources.vaODausente);
+                    chartAltOD.Images.Clear();
+                    chartAltOD.Images.Add(vaODausente8a);
+                    ser8.MarkerImage = "vaODausente";
+                }
+
+                else if ((chkAusente9kODCheckBox.Checked == false) && (chkMasc9kODCheckBox.Checked == true))
+                {
+                    var vaODpresente8m = new NamedImage("vaODmascPresente", Properties.Resources.vaODmascPresente);
+                    chartAltOD.Images.Clear();
+                    chartAltOD.Images.Add(vaODpresente8m);
+                    ser8.MarkerImage = "vaODmascPresente";
+                }
+
+                else if ((chkMasc9kODCheckBox.Checked == true) && (chkAusente9kODCheckBox.Checked == true))
+                {
+                    var vaODpresente8ma = new NamedImage("vaODmascAusente", Properties.Resources.vaODmascAusente);
+                    chartAltOD.Images.Clear();
+                    chartAltOD.Images.Add(vaODpresente8ma);
+                    ser8.MarkerImage = "vaODmascAusente";
+                }
+
+
+                //***
+                string seriesName9 = "simbol_10k";
+                Series ser9 = chartAltOD.Series.Add(seriesName9);
+
+                ser9.ChartArea = chartAltOD.ChartAreas[0].Name;
+                ser9.Name = seriesName9;
+                ser9.ChartType = SeriesChartType.Point;
+
+                if (va10kodComboBox.Text == "")
+                {
+                    var vaODpresente10vaz = new NamedImage("vazio", Properties.Resources.vazio);
+                    chartAltOD.Images.Clear();
+                    chartAltOD.Images.Add(vaODpresente10vaz);
+                    ser9.MarkerImage = "vazio";
+                }
+
+                else if (va10kodComboBox.Text != "")
+                {
+                    int valor9;
+                    valor9 = Convert.ToInt32(va10kodComboBox.Text);
+                    ser9.Points.AddXY(3, valor9);  // x, high
+                }
+
+                if ((chkAusente10kODCheckBox.Checked == false) && (chkMasc10kODCheckBox.Checked == false))
+                {
+                    var vaODpresente9p = new NamedImage("vaODpresente", Properties.Resources.vaODpresente);
+                    chartAltOD.Images.Clear();
+                    chartAltOD.Images.Add(vaODpresente9p);
+                    ser9.MarkerImage = "vaODpresente";
+                }
+
+                else if ((chkAusente10kODCheckBox.Checked == true) && (chkMasc10kODCheckBox.Checked == false))
+                {
+                    var vaODausente9a = new NamedImage("vaODausente", Properties.Resources.vaODausente);
+                    chartAltOD.Images.Clear();
+                    chartAltOD.Images.Add(vaODausente9a);
+                    ser9.MarkerImage = "vaODausente";
+                }
+
+                else if ((chkAusente10kODCheckBox.Checked == false) && (chkMasc10kODCheckBox.Checked == true))
+                {
+                    var vaODpresente9m = new NamedImage("vaODmascPresente", Properties.Resources.vaODmascPresente);
+                    chartAltOD.Images.Clear();
+                    chartAltOD.Images.Add(vaODpresente9m);
+                    ser9.MarkerImage = "vaODmascPresente";
+                }
+
+                else if ((chkMasc10kODCheckBox.Checked == true) && (chkAusente10kODCheckBox.Checked == true))
+                {
+                    var vaODpresente9ma = new NamedImage("vaODmascAusente", Properties.Resources.vaODmascAusente);
+                    chartAltOD.Images.Clear();
+                    chartAltOD.Images.Add(vaODpresente9ma);
+                    ser9.MarkerImage = "vaODmascAusente";
+                }
+
+
+                //***
+                string seriesName10 = "simbol_12_5k";
+                Series ser10 = chartAltOD.Series.Add(seriesName10);
+
+                ser10.ChartArea = chartAltOD.ChartAreas[0].Name;
+                ser10.Name = seriesName10;
+                ser10.ChartType = SeriesChartType.Point;
+
+                if (va12e5kodComboBox.Text == "")
+                {
+                    var vaODpresente12_5vaz = new NamedImage("vazio", Properties.Resources.vazio);
+                    chartAltOD.Images.Clear();
+                    chartAltOD.Images.Add(vaODpresente12_5vaz);
+                    ser10.MarkerImage = "vazio";
+                }
+
+                else if (va12e5kodComboBox.Text != "")
+                {
+                    int valor10;
+                    valor10 = Convert.ToInt32(va12e5kodComboBox.Text);
+                    ser10.Points.AddXY(4.25, valor10);  // x, high
+                }
+
+                if ((chkAusente12_5kODCheckBox.Checked == false) && (chkMasc12_5kODCheckBox.Checked == false))
+                {
+                    var vaODpresente10p = new NamedImage("vaODpresente", Properties.Resources.vaODpresente);
+                    chartAltOD.Images.Clear();
+                    chartAltOD.Images.Add(vaODpresente10p);
+                    ser10.MarkerImage = "vaODpresente";
+                }
+
+                else if ((chkAusente12_5kODCheckBox.Checked == true) && (chkMasc12_5kODCheckBox.Checked == false))
+                {
+                    var vaODausente10a = new NamedImage("vaODausente", Properties.Resources.vaODausente);
+                    chartAltOD.Images.Clear();
+                    chartAltOD.Images.Add(vaODausente10a);
+                    ser10.MarkerImage = "vaODausente";
+                }
+
+                else if ((chkAusente12_5kODCheckBox.Checked == false) && (chkMasc12_5kODCheckBox.Checked == true))
+                {
+                    var vaODpresente10m = new NamedImage("vaODmascPresente", Properties.Resources.vaODmascPresente);
+                    chartAltOD.Images.Clear();
+                    chartAltOD.Images.Add(vaODpresente10m);
+                    ser10.MarkerImage = "vaODmascPresente";
+                }
+
+                else if ((chkMasc12_5kODCheckBox.Checked == true) && (chkAusente12_5kODCheckBox.Checked == true))
+                {
+                    var vaODpresente10ma = new NamedImage("vaODmascAusente", Properties.Resources.vaODmascAusente);
+                    chartAltOD.Images.Clear();
+                    chartAltOD.Images.Add(vaODpresente10ma);
+                    ser10.MarkerImage = "vaODmascAusente";
+                }
+
+
+                //***
+                string seriesName11 = "simbol_14k";
+                Series ser11 = chartAltOD.Series.Add(seriesName11);
+
+                ser11.ChartArea = chartAltOD.ChartAreas[0].Name;
+                ser11.Name = seriesName11;
+                ser11.ChartType = SeriesChartType.Point;
+
+                if (va14kodComboBox.Text == "")
+                {
+                    var vaODpresente14vaz = new NamedImage("vazio", Properties.Resources.vazio);
+                    chartAltOD.Images.Clear();
+                    chartAltOD.Images.Add(vaODpresente14vaz);
+                    ser11.MarkerImage = "vazio";
+                }
+
+                else if (va14kodComboBox.Text != "")
+                {
+                    int valor11;
+                    valor11 = Convert.ToInt32(va14kodComboBox.Text);
+                    ser11.Points.AddXY(5, valor11);  // x, high
+                }
+
+                if ((chkAusente14kODCheckBox.Checked == false) && (chkMasc14kODCheckBox.Checked == false))
+                {
+                    var vaODpresente11p = new NamedImage("vaODpresente", Properties.Resources.vaODpresente);
+                    chartAltOD.Images.Clear();
+                    chartAltOD.Images.Add(vaODpresente11p);
+                    ser11.MarkerImage = "vaODpresente";
+                }
+
+                else if ((chkAusente14kODCheckBox.Checked == true) && (chkMasc14kODCheckBox.Checked == false))
+                {
+                    var vaODausente11a = new NamedImage("vaODausente", Properties.Resources.vaODausente);
+                    chartAltOD.Images.Clear();
+                    chartAltOD.Images.Add(vaODausente11a);
+                    ser11.MarkerImage = "vaODausente";
+                }
+
+                else if ((chkAusente14kODCheckBox.Checked == false) && (chkMasc14kODCheckBox.Checked == true))
+                {
+                    var vaODpresente11m = new NamedImage("vaODmascPresente", Properties.Resources.vaODmascPresente);
+                    chartAltOD.Images.Clear();
+                    chartAltOD.Images.Add(vaODpresente11m);
+                    ser11.MarkerImage = "vaODmascPresente";
+                }
+
+                else if ((chkMasc14kODCheckBox.Checked == true) && (chkAusente14kODCheckBox.Checked == true))
+                {
+                    var vaODpresente11ma = new NamedImage("vaODmascAusente", Properties.Resources.vaODmascAusente);
+                    chartAltOD.Images.Clear();
+                    chartAltOD.Images.Add(vaODpresente11ma);
+                    ser11.MarkerImage = "vaODmascAusente";
+                }
+
+
+                //***
+                string seriesName12 = "simbol_16k";
+                Series ser12 = chartAltOD.Series.Add(seriesName12);
+
+                ser12.ChartArea = chartAltOD.ChartAreas[0].Name;
+                ser12.Name = seriesName12;
+                ser12.ChartType = SeriesChartType.Point;
+
+                if (va16kodComboBox.Text == "")
+                {
+                    var vaODpresente16vaz = new NamedImage("vazio", Properties.Resources.vazio);
+                    chartAltOD.Images.Clear();
+                    chartAltOD.Images.Add(vaODpresente16vaz);
+                    ser12.MarkerImage = "vazio";
+                }
+
+                else if (va16kodComboBox.Text != "")
+                {
+                    int valor12;
+                    valor12 = Convert.ToInt32(va16kodComboBox.Text);
+                    ser12.Points.AddXY(6, valor12);  // x, high
+                }
+
+                if ((chkAusente16kODCheckBox.Checked == false) && (chkMasc16kODCheckBox.Checked == false))
+                {
+                    var vaODpresente12p = new NamedImage("vaODpresente", Properties.Resources.vaODpresente);
+                    chartAltOD.Images.Clear();
+                    chartAltOD.Images.Add(vaODpresente12p);
+                    ser12.MarkerImage = "vaODpresente";
+                }
+
+                else if ((chkAusente16kODCheckBox.Checked == true) && (chkMasc16kODCheckBox.Checked == false))
+                {
+                    var vaODausente12a = new NamedImage("vaODausente", Properties.Resources.vaODausente);
+                    chartAltOD.Images.Clear();
+                    chartAltOD.Images.Add(vaODausente12a);
+                    ser12.MarkerImage = "vaODausente";
+                }
+
+                else if ((chkAusente16kODCheckBox.Checked == false) && (chkMasc16kODCheckBox.Checked == true))
+                {
+                    var vaODpresente12m = new NamedImage("vaODmascPresente", Properties.Resources.vaODmascPresente);
+                    chartAltOD.Images.Clear();
+                    chartAltOD.Images.Add(vaODpresente12m);
+                    ser12.MarkerImage = "vaODmascPresente";
+                }
+
+                else if ((chkMasc16kODCheckBox.Checked == true) && (chkAusente16kODCheckBox.Checked == true))
+                {
+                    var vaODpresente12ma = new NamedImage("vaODmascAusente", Properties.Resources.vaODmascAusente);
+                    chartAltOD.Images.Clear();
+                    chartAltOD.Images.Add(vaODpresente12ma);
+                    ser12.MarkerImage = "vaODmascAusente";
+                }
+
+
+                //***
+                string seriesName13 = "simbol_18k";
+                Series ser13 = chartAltOD.Series.Add(seriesName13);
+
+                ser13.ChartArea = chartAltOD.ChartAreas[0].Name;
+                ser13.Name = seriesName13;
+                ser13.ChartType = SeriesChartType.Point;
+
+                if (va18kodComboBox.Text == "")
+                {
+                    var vaODpresente13vaz = new NamedImage("vazio", Properties.Resources.vazio);
+                    chartAltOD.Images.Clear();
+                    chartAltOD.Images.Add(vaODpresente13vaz);
+                    ser13.MarkerImage = "vazio";
+                }
+
+                else if (va18kodComboBox.Text != "")
+                {
+                    int valor13;
+                    valor13 = Convert.ToInt32(va18kodComboBox.Text);
+                    ser13.Points.AddXY(7, valor13);  // x, high
+                }
+
+
+                if ((chkAusente18kODCheckBox.Checked == false) && (chkMasc18kODCheckBox.Checked == false))
+                {
+                    var vaODpresente13p = new NamedImage("vaODpresente", Properties.Resources.vaODpresente);
+                    chartAltOD.Images.Clear();
+                    chartAltOD.Images.Add(vaODpresente13p);
+                    ser13.MarkerImage = "vaODpresente";
+                }
+
+                else if ((chkAusente18kODCheckBox.Checked == true) && (chkMasc18kODCheckBox.Checked == false))
+                {
+                    var vaODausente13a = new NamedImage("vaODausente", Properties.Resources.vaODausente);
+                    chartAltOD.Images.Clear();
+                    chartAltOD.Images.Add(vaODausente13a);
+                    ser13.MarkerImage = "vaODausente";
+                }
+
+                else if ((chkAusente18kODCheckBox.Checked == false) && (chkMasc18kODCheckBox.Checked == true))
+                {
+                    var vaODpresente13m = new NamedImage("vaODmascPresente", Properties.Resources.vaODmascPresente);
+                    chartAltOD.Images.Clear();
+                    chartAltOD.Images.Add(vaODpresente13m);
+                    ser13.MarkerImage = "vaODmascPresente";
+                }
+
+                else if ((chkMasc18kODCheckBox.Checked == true) && (chkAusente18kODCheckBox.Checked == true))
+                {
+                    var vaODpresente13ma = new NamedImage("vaODmascAusente", Properties.Resources.vaODmascAusente);
+                    chartAltOD.Images.Clear();
+                    chartAltOD.Images.Add(vaODpresente13ma);
+                    ser13.MarkerImage = "vaODmascAusente";
+                }
+
+
+                //***
+                string seriesName14 = "simbol_20k";
+                Series ser14 = chartAltOD.Series.Add(seriesName14);
+
+                ser14.ChartArea = chartAltOD.ChartAreas[0].Name;
+                ser14.Name = seriesName14;
+                ser14.ChartType = SeriesChartType.Point;
+
+                if (va20kodComboBox.Text == "")
+                {
+                    var vaODpresente14vaz = new NamedImage("vazio", Properties.Resources.vazio);
+                    chartAltOD.Images.Clear();
+                    chartAltOD.Images.Add(vaODpresente14vaz);
+                    ser14.MarkerImage = "vazio";
+                }
+
+                else if (va20kodComboBox.Text != "")
+                {
+                    int valor14;
+                    valor14 = Convert.ToInt32(va20kodComboBox.Text);
+                    ser14.Points.AddXY(8, valor14);  // x, high
+                }
+
+
+                if ((chkAusente20kODCheckBox.Checked == false) && (chkMasc20kODCheckBox.Checked == false))
+                {
+                    var vaODpresente14p = new NamedImage("vaODpresente", Properties.Resources.vaODpresente);
+                    chartAltOD.Images.Clear();
+                    chartAltOD.Images.Add(vaODpresente14p);
+                    ser14.MarkerImage = "vaODpresente";
+                }
+
+                else if ((chkAusente20kODCheckBox.Checked == true) && (chkMasc20kODCheckBox.Checked == false))
+                {
+                    var vaODausente14a = new NamedImage("vaODausente", Properties.Resources.vaODausente);
+                    chartAltOD.Images.Clear();
+                    chartAltOD.Images.Add(vaODausente14a);
+                    ser14.MarkerImage = "vaODausente";
+                }
+
+                else if ((chkAusente20kODCheckBox.Checked == false) && (chkMasc20kODCheckBox.Checked == true))
+                {
+                    var vaODpresente14m = new NamedImage("vaODmascPresente", Properties.Resources.vaODmascPresente);
+                    chartAltOD.Images.Clear();
+                    chartAltOD.Images.Add(vaODpresente14m);
+                    ser14.MarkerImage = "vaODmascPresente";
+                }
+
+                else if ((chkMasc20kODCheckBox.Checked == true) && (chkAusente20kODCheckBox.Checked == true))
+                {
+                    var vaODpresente14ma = new NamedImage("vaODmascAusente", Properties.Resources.vaODmascAusente);
+                    chartAltOD.Images.Clear();
+                    chartAltOD.Images.Add(vaODpresente14ma);
+                    ser14.MarkerImage = "vaODmascAusente";
+                }
+
+
+                //***SEQUÊNCIA PARA LIGAR SIMBOLOGIA
+
+                try
+                {
+                    string seriesName15 = "liga 9k_10K";
+                    Series ser15 = chartAltOD.Series.Add(seriesName15);
+
+                    ser15.ChartArea = chartAltOD.ChartAreas[0].Name;
+                    ser15.Name = seriesName15;
+                    ser15.ChartType = SeriesChartType.Line;
+
+                    if (chkliga9_10ODCheckBox.Checked == true)
+                    {
+                        int valorA, valorB;
+
+                        valorA = Convert.ToInt32(va9kodComboBox.Text);
+                        valorB = Convert.ToInt32(va10kodComboBox.Text);
+
+                        ser15.Points.AddXY(2, valorA);
+                        ser15.Points.AddXY(3, valorB);
+
+                        ser15.BorderColor = Color.Transparent;
+                        ser15.Color = Color.Red;
+                        ser15.BorderWidth = Convert.ToInt32(1.5);
+                    }
+
+                    else if (chkliga9_10ODCheckBox.Checked == false)
+                    {
+                        ser15.Points.Clear();
+                    }
+
+                    //*******
+
+                    string seriesName16 = "liga 10k_12_5K";
+                    Series ser16 = chartAltOD.Series.Add(seriesName16);
+
+                    ser16.ChartArea = chartAltOD.ChartAreas[0].Name;
+                    ser16.Name = seriesName16;
+                    ser16.ChartType = SeriesChartType.Line;
+
+                    if (chkliga10_12_5ODCheckBox.Checked == true)
+                    {
+                        int valorA, valorB;
+
+                        valorA = Convert.ToInt32(va10kodComboBox.Text);
+                        valorB = Convert.ToInt32(va12e5kodComboBox.Text);
+
+                        ser16.Points.AddXY(3, valorA);
+                        ser16.Points.AddXY(4.25, valorB);
+
+                        ser16.BorderColor = Color.Transparent;
+                        ser16.Color = Color.Red;
+                        ser16.BorderWidth = Convert.ToInt32(1.5);
+                    }
+
+                    else if (chkliga10_12_5ODCheckBox.Checked == false)
+                    {
+                        ser16.Points.Clear();
+                    }
+
+                    //******
+
+
+                    string seriesName17 = "liga 12_5k_14K";
+                    Series ser17 = chartAltOD.Series.Add(seriesName17);
+
+                    ser17.ChartArea = chartAltOD.ChartAreas[0].Name;
+                    ser17.Name = seriesName17;
+                    ser17.ChartType = SeriesChartType.Line;
+
+                    if (chkliga12_5_14ODCheckBox.Checked == true)
+                    {
+                        int valorA, valorB;
+
+                        valorA = Convert.ToInt32(va12e5kodComboBox.Text);
+                        valorB = Convert.ToInt32(va14kodComboBox.Text);
+
+                        ser17.Points.AddXY(4.25, valorA);
+                        ser17.Points.AddXY(5, valorB);
+
+                        ser17.BorderColor = Color.Transparent;
+                        ser17.Color = Color.Red;
+                        ser17.BorderWidth = Convert.ToInt32(1.5);
+                    }
+
+                    else if (chkliga12_5_14ODCheckBox.Checked == false)
+                    {
+                        ser17.Points.Clear();
+                    }
+
+                    //*****
+
+                    string seriesName18 = "liga 14k_16K";
+                    Series ser18 = chartAltOD.Series.Add(seriesName18);
+
+                    ser18.ChartArea = chartAltOD.ChartAreas[0].Name;
+                    ser18.Name = seriesName18;
+                    ser18.ChartType = SeriesChartType.Line;
+
+                    if (chkliga14_16ODCheckBox.Checked == true)
+                    {
+                        int valorA, valorB;
+
+                        valorA = Convert.ToInt32(va14kodComboBox.Text);
+                        valorB = Convert.ToInt32(va16kodComboBox.Text);
+
+                        ser18.Points.AddXY(5, valorA);
+                        ser18.Points.AddXY(6, valorB);
+
+                        ser18.BorderColor = Color.Transparent;
+                        ser18.Color = Color.Red;
+                        ser18.BorderWidth = Convert.ToInt32(1.5);
+                    }
+
+                    else if (chkliga14_16ODCheckBox.Checked == false)
+                    {
+                        ser18.Points.Clear();
+                    }
+
+
+                    //******
+
+                    string seriesName19 = "liga 16k_18K";
+                    Series ser19 = chartAltOD.Series.Add(seriesName19);
+
+                    ser19.ChartArea = chartAltOD.ChartAreas[0].Name;
+                    ser19.Name = seriesName19;
+                    ser19.ChartType = SeriesChartType.Line;
+
+                    if (chkliga16_18ODCheckBox.Checked == true)
+                    {
+                        int valorA, valorB;
+
+                        valorA = Convert.ToInt32(va16kodComboBox.Text);
+                        valorB = Convert.ToInt32(va18kodComboBox.Text);
+
+                        ser19.Points.AddXY(6, valorA);
+                        ser19.Points.AddXY(7, valorB);
+
+                        ser19.BorderColor = Color.Transparent;
+                        ser19.Color = Color.Red;
+                        ser19.BorderWidth = Convert.ToInt32(1.5);
+                    }
+
+                    else if (chkliga16_18ODCheckBox.Checked == false)
+                    {
+                        ser19.Points.Clear();
+                    }
+
+                    //******
+
+                    string seriesName20 = "liga 18k_20K";
+                    Series ser20 = chartAltOD.Series.Add(seriesName20);
+
+                    ser20.ChartArea = chartAltOD.ChartAreas[0].Name;
+                    ser20.Name = seriesName20;
+                    ser20.ChartType = SeriesChartType.Line;
+
+                    if (chkliga18_20ODCheckBox.Checked == true)
+                    {
+                        int valorA, valorB;
+
+                        valorA = Convert.ToInt32(va18kodComboBox.Text);
+                        valorB = Convert.ToInt32(va20kodComboBox.Text);
+
+                        ser20.Points.AddXY(7, valorA);
+                        ser20.Points.AddXY(8, valorB);
+
+                        ser20.BorderColor = Color.Transparent;
+                        ser20.Color = Color.Red;
+                        ser20.BorderWidth = Convert.ToInt32(1.5);
+                    }
+
+                    else if (chkliga18_20ODCheckBox.Checked == false)
+                    {
+                        ser20.Points.Clear();
+                    }
+                }
+                catch
+                {
+                    MessageBox.Show("Não é possível ligar a simbologia!", "Erro!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+                    chkliga9_10ODCheckBox.Checked = false;
+                    chkliga10_12_5ODCheckBox.Checked = false;
+                    chkliga12_5_14ODCheckBox.Checked = false;
+                    chkliga14_16ODCheckBox.Checked = false;
+                    chkliga16_18ODCheckBox.Checked = false;
+                    chkliga18_20ODCheckBox.Checked = false;
+                }
+            }
+            else
             {
-                var vaODausente8a = new NamedImage("vaODausente", Properties.Resources.vaODausente);
-                chartAltOD.Images.Clear();
-                chartAltOD.Images.Add(vaODausente8a);
-                ser8.MarkerImage = "vaODausente";
-            }
-
-            else if ((chkAusente9kODCheckBox.Checked == false) && (chkMasc9kODCheckBox.Checked == true))
-            {              
-                var vaODpresente8m = new NamedImage("vaODmascPresente", Properties.Resources.vaODmascPresente);
-                chartAltOD.Images.Clear();
-                chartAltOD.Images.Add(vaODpresente8m);
-                ser8.MarkerImage = "vaODmascPresente";
-            }
-
-            else if ((chkMasc9kODCheckBox.Checked == true) && (chkAusente9kODCheckBox.Checked == true))
-            {
-                var vaODpresente8ma = new NamedImage("vaODmascAusente", Properties.Resources.vaODmascAusente);
-                chartAltOD.Images.Clear();
-                chartAltOD.Images.Add(vaODpresente8ma);
-                ser8.MarkerImage = "vaODmascAusente";
-            }
-            
-
-            //***
-            string seriesName9 = "simbol_10k";
-            Series ser9 = chartAltOD.Series.Add(seriesName9);
-
-            ser9.ChartArea = chartAltOD.ChartAreas[0].Name;
-            ser9.Name = seriesName9;
-            ser9.ChartType = SeriesChartType.Point;
-
-            if (va10kodComboBox.Text == "")
-            {
-                var vaODpresente10vaz = new NamedImage("vazio", Properties.Resources.vazio);
-                chartAltOD.Images.Clear();
-                chartAltOD.Images.Add(vaODpresente10vaz);
-                ser9.MarkerImage = "vazio";
-            }
-
-            else if (va10kodComboBox.Text != "")
-            {
-                int valor9;
-                valor9 = Convert.ToInt32(va10kodComboBox.Text);
-                ser9.Points.AddXY(3, valor9);  // x, high
-            }
-            
-            if ((chkAusente10kODCheckBox.Checked == false) && (chkMasc10kODCheckBox.Checked == false))
-            {
-                var vaODpresente9p = new NamedImage("vaODpresente", Properties.Resources.vaODpresente);
-                chartAltOD.Images.Clear();
-                chartAltOD.Images.Add(vaODpresente9p);
-                ser9.MarkerImage = "vaODpresente";
-            }
-
-            else if ((chkAusente10kODCheckBox.Checked == true) && (chkMasc10kODCheckBox.Checked == false))
-            {
-                var vaODausente9a = new NamedImage("vaODausente", Properties.Resources.vaODausente);
-                chartAltOD.Images.Clear();
-                chartAltOD.Images.Add(vaODausente9a);
-                ser9.MarkerImage = "vaODausente";
-            }
-
-            else if ((chkAusente10kODCheckBox.Checked == false) && (chkMasc10kODCheckBox.Checked == true))
-            {
-                var vaODpresente9m = new NamedImage("vaODmascPresente", Properties.Resources.vaODmascPresente);
-                chartAltOD.Images.Clear();
-                chartAltOD.Images.Add(vaODpresente9m);
-                ser9.MarkerImage = "vaODmascPresente";
-            }
-
-            else if ((chkMasc10kODCheckBox.Checked == true) && (chkAusente10kODCheckBox.Checked == true))
-            {
-                var vaODpresente9ma = new NamedImage("vaODmascAusente", Properties.Resources.vaODmascAusente);
-                chartAltOD.Images.Clear();
-                chartAltOD.Images.Add(vaODpresente9ma);
-                ser9.MarkerImage = "vaODmascAusente";
-            }
-            
-
-            //***
-            string seriesName10 = "simbol_12_5k";
-            Series ser10 = chartAltOD.Series.Add(seriesName10);
-
-            ser10.ChartArea = chartAltOD.ChartAreas[0].Name;
-            ser10.Name = seriesName10;
-            ser10.ChartType = SeriesChartType.Point;
-
-            if (va12e5kodComboBox.Text == "")
-            {
-                var vaODpresente12_5vaz = new NamedImage("vazio", Properties.Resources.vazio);
-                chartAltOD.Images.Clear();
-                chartAltOD.Images.Add(vaODpresente12_5vaz);
-                ser10.MarkerImage = "vazio";
-            }
-
-            else if (va12e5kodComboBox.Text != "")
-            {
-                int valor10;
-                valor10 = Convert.ToInt32(va12e5kodComboBox.Text);
-                ser10.Points.AddXY(4.25, valor10);  // x, high
-            }
-            
-            if ((chkAusente12_5kODCheckBox.Checked == false) && (chkMasc12_5kODCheckBox.Checked == false))
-            {
-                var vaODpresente10p = new NamedImage("vaODpresente", Properties.Resources.vaODpresente);
-                chartAltOD.Images.Clear();
-                chartAltOD.Images.Add(vaODpresente10p);
-                ser10.MarkerImage = "vaODpresente";
-            }
-
-            else if ((chkAusente12_5kODCheckBox.Checked == true) && (chkMasc12_5kODCheckBox.Checked == false))
-            {
-                var vaODausente10a = new NamedImage("vaODausente", Properties.Resources.vaODausente);
-                chartAltOD.Images.Clear();
-                chartAltOD.Images.Add(vaODausente10a);
-                ser10.MarkerImage = "vaODausente";
-            }
-
-            else if ((chkAusente12_5kODCheckBox.Checked == false) && (chkMasc12_5kODCheckBox.Checked == true))
-            {
-                var vaODpresente10m = new NamedImage("vaODmascPresente", Properties.Resources.vaODmascPresente);
-                chartAltOD.Images.Clear();
-                chartAltOD.Images.Add(vaODpresente10m);
-                ser10.MarkerImage = "vaODmascPresente";
-            }
-
-            else if ((chkMasc12_5kODCheckBox.Checked == true) && (chkAusente12_5kODCheckBox.Checked == true))
-            {
-                var vaODpresente10ma = new NamedImage("vaODmascAusente", Properties.Resources.vaODmascAusente);
-                chartAltOD.Images.Clear();
-                chartAltOD.Images.Add(vaODpresente10ma);
-                ser10.MarkerImage = "vaODmascAusente";
-            }
-           
-
-            //***
-            string seriesName11 = "simbol_14k";
-            Series ser11 = chartAltOD.Series.Add(seriesName11);
-
-            ser11.ChartArea = chartAltOD.ChartAreas[0].Name;
-            ser11.Name = seriesName11;
-            ser11.ChartType = SeriesChartType.Point;
-
-            if (va14kodComboBox.Text == "")
-            {
-                var vaODpresente14vaz = new NamedImage("vazio", Properties.Resources.vazio);
-                chartAltOD.Images.Clear();
-                chartAltOD.Images.Add(vaODpresente14vaz);
-                ser11.MarkerImage = "vazio";
-            }
-
-            else if (va14kodComboBox.Text != "")
-            {
-                int valor11;
-                valor11 = Convert.ToInt32(va14kodComboBox.Text);
-                ser11.Points.AddXY(5, valor11);  // x, high
-            }
-            
-            if ((chkAusente14kODCheckBox.Checked == false) && (chkMasc14kODCheckBox.Checked == false))
-            {
-                var vaODpresente11p = new NamedImage("vaODpresente", Properties.Resources.vaODpresente);
-                chartAltOD.Images.Clear();
-                chartAltOD.Images.Add(vaODpresente11p);
-                ser11.MarkerImage = "vaODpresente";
-            }
-
-            else if ((chkAusente14kODCheckBox.Checked == true) && (chkMasc14kODCheckBox.Checked == false))
-            {
-                var vaODausente11a = new NamedImage("vaODausente", Properties.Resources.vaODausente);
-                chartAltOD.Images.Clear();
-                chartAltOD.Images.Add(vaODausente11a);
-                ser11.MarkerImage = "vaODausente";
-            }
-
-            else if ((chkAusente14kODCheckBox.Checked == false) && (chkMasc14kODCheckBox.Checked == true))
-            {
-                var vaODpresente11m = new NamedImage("vaODmascPresente", Properties.Resources.vaODmascPresente);
-                chartAltOD.Images.Clear();
-                chartAltOD.Images.Add(vaODpresente11m);
-                ser11.MarkerImage = "vaODmascPresente";
-            }
-
-            else if ((chkMasc14kODCheckBox.Checked == true) && (chkAusente14kODCheckBox.Checked == true))
-            {
-                var vaODpresente11ma = new NamedImage("vaODmascAusente", Properties.Resources.vaODmascAusente);
-                chartAltOD.Images.Clear();
-                chartAltOD.Images.Add(vaODpresente11ma);
-                ser11.MarkerImage = "vaODmascAusente";
-            }
-            
-
-            //***
-            string seriesName12 = "simbol_16k";
-            Series ser12 = chartAltOD.Series.Add(seriesName12);
-
-            ser12.ChartArea = chartAltOD.ChartAreas[0].Name;
-            ser12.Name = seriesName12;
-            ser12.ChartType = SeriesChartType.Point;
-
-            if (va16kodComboBox.Text == "")
-            {
-                var vaODpresente16vaz = new NamedImage("vazio", Properties.Resources.vazio);
-                chartAltOD.Images.Clear();
-                chartAltOD.Images.Add(vaODpresente16vaz);
-                ser12.MarkerImage = "vazio";
-            }
-
-            else if (va16kodComboBox.Text != "")
-            {
-                int valor12;
-                valor12 = Convert.ToInt32(va16kodComboBox.Text);
-                ser12.Points.AddXY(6, valor12);  // x, high
-            }
-            
-            if ((chkAusente16kODCheckBox.Checked == false) && (chkMasc16kODCheckBox.Checked == false))
-            {
-                var vaODpresente12p = new NamedImage("vaODpresente", Properties.Resources.vaODpresente);
-                chartAltOD.Images.Clear();
-                chartAltOD.Images.Add(vaODpresente12p);
-                ser12.MarkerImage = "vaODpresente";
-            }
-
-            else if ((chkAusente16kODCheckBox.Checked == true) && (chkMasc16kODCheckBox.Checked == false))
-            {
-                var vaODausente12a = new NamedImage("vaODausente", Properties.Resources.vaODausente);
-                chartAltOD.Images.Clear();
-                chartAltOD.Images.Add(vaODausente12a);
-                ser12.MarkerImage = "vaODausente";
-            }
-
-            else if ((chkAusente16kODCheckBox.Checked == false) && (chkMasc16kODCheckBox.Checked == true))
-            {
-                var vaODpresente12m = new NamedImage("vaODmascPresente", Properties.Resources.vaODmascPresente);
-                chartAltOD.Images.Clear();
-                chartAltOD.Images.Add(vaODpresente12m);
-                ser12.MarkerImage = "vaODmascPresente";
-            }
-
-            else if ((chkMasc16kODCheckBox.Checked == true) && (chkAusente16kODCheckBox.Checked == true))
-            {
-                var vaODpresente12ma = new NamedImage("vaODmascAusente", Properties.Resources.vaODmascAusente);
-                chartAltOD.Images.Clear();
-                chartAltOD.Images.Add(vaODpresente12ma);
-                ser12.MarkerImage = "vaODmascAusente";
-            }
-            
-
-            //***
-            string seriesName13 = "simbol_18k";
-            Series ser13 = chartAltOD.Series.Add(seriesName13);
-
-            ser13.ChartArea = chartAltOD.ChartAreas[0].Name;
-            ser13.Name = seriesName13;
-            ser13.ChartType = SeriesChartType.Point;
-
-            if (va18kodComboBox.Text == "")
-            {
-                var vaODpresente13vaz = new NamedImage("vazio", Properties.Resources.vazio);
-                chartAltOD.Images.Clear();
-                chartAltOD.Images.Add(vaODpresente13vaz);
-                ser13.MarkerImage = "vazio";
-            }
-
-            else if (va18kodComboBox.Text != "")
-            {
-                int valor13;
-                valor13 = Convert.ToInt32(va18kodComboBox.Text);
-                ser13.Points.AddXY(7, valor13);  // x, high
-            }
-            
-
-            if ((chkAusente18kODCheckBox.Checked == false) && (chkMasc18kODCheckBox.Checked == false))
-            {
-                var vaODpresente13p = new NamedImage("vaODpresente", Properties.Resources.vaODpresente);
-                chartAltOD.Images.Clear();
-                chartAltOD.Images.Add(vaODpresente13p);
-                ser13.MarkerImage = "vaODpresente";
-            }
-
-            else if ((chkAusente18kODCheckBox.Checked == true) && (chkMasc18kODCheckBox.Checked == false))
-            {
-                var vaODausente13a = new NamedImage("vaODausente", Properties.Resources.vaODausente);
-                chartAltOD.Images.Clear();
-                chartAltOD.Images.Add(vaODausente13a);
-                ser13.MarkerImage = "vaODausente";
-            }
-
-            else if ((chkAusente18kODCheckBox.Checked == false) && (chkMasc18kODCheckBox.Checked == true))
-            {
-                var vaODpresente13m = new NamedImage("vaODmascPresente", Properties.Resources.vaODmascPresente);
-                chartAltOD.Images.Clear();
-                chartAltOD.Images.Add(vaODpresente13m);
-                ser13.MarkerImage = "vaODmascPresente";
-            }
-
-            else if ((chkMasc18kODCheckBox.Checked == true) && (chkAusente18kODCheckBox.Checked == true))
-            {
-                var vaODpresente13ma = new NamedImage("vaODmascAusente", Properties.Resources.vaODmascAusente);
-                chartAltOD.Images.Clear();
-                chartAltOD.Images.Add(vaODpresente13ma);
-                ser13.MarkerImage = "vaODmascAusente";
-            }
-            
-
-            //***
-            string seriesName14 = "simbol_20k";
-            Series ser14 = chartAltOD.Series.Add(seriesName14);
-
-            ser14.ChartArea = chartAltOD.ChartAreas[0].Name;
-            ser14.Name = seriesName14;
-            ser14.ChartType = SeriesChartType.Point;
-
-            if (va20kodComboBox.Text == "")
-            {
-                var vaODpresente14vaz = new NamedImage("vazio", Properties.Resources.vazio);
-                chartAltOD.Images.Clear();
-                chartAltOD.Images.Add(vaODpresente14vaz);
-                ser14.MarkerImage = "vazio";   
-            }
-
-            else if (va20kodComboBox.Text != "")
-            {
-                int valor14;
-                valor14 = Convert.ToInt32(va20kodComboBox.Text);
-                ser14.Points.AddXY(8, valor14);  // x, high
-            }
-            
-
-            if ((chkAusente20kODCheckBox.Checked == false) && (chkMasc20kODCheckBox.Checked == false))
-            {
-                var vaODpresente14p = new NamedImage("vaODpresente", Properties.Resources.vaODpresente);
-                chartAltOD.Images.Clear();
-                chartAltOD.Images.Add(vaODpresente14p);
-                ser14.MarkerImage = "vaODpresente";
-            }
-
-            else if ((chkAusente20kODCheckBox.Checked == true) && (chkMasc20kODCheckBox.Checked == false))
-            {
-                var vaODausente14a = new NamedImage("vaODausente", Properties.Resources.vaODausente);
-                chartAltOD.Images.Clear();
-                chartAltOD.Images.Add(vaODausente14a);
-                ser14.MarkerImage = "vaODausente";
-            }
-
-            else if ((chkAusente20kODCheckBox.Checked == false) && (chkMasc20kODCheckBox.Checked == true))
-            {
-                var vaODpresente14m = new NamedImage("vaODmascPresente", Properties.Resources.vaODmascPresente);
-                chartAltOD.Images.Clear();
-                chartAltOD.Images.Add(vaODpresente14m);
-                ser14.MarkerImage = "vaODmascPresente";
-            }
-
-            else if ((chkMasc20kODCheckBox.Checked == true) && (chkAusente20kODCheckBox.Checked == true))
-            {
-                var vaODpresente14ma = new NamedImage("vaODmascAusente", Properties.Resources.vaODmascAusente);
-                chartAltOD.Images.Clear();
-                chartAltOD.Images.Add(vaODpresente14ma);
-                ser14.MarkerImage = "vaODmascAusente";
-            }
-
-
-            //***SEQUÊNCIA PARA LIGAR SIMBOLOGIA
-
-            try
-            {          
-            string seriesName15 = "liga 9k_10K";
-            Series ser15 = chartAltOD.Series.Add(seriesName15);
-
-            ser15.ChartArea = chartAltOD.ChartAreas[0].Name;
-            ser15.Name = seriesName15;
-            ser15.ChartType = SeriesChartType.Line;
-            
-            if (chkliga9_10ODCheckBox.Checked == true)
-            {
-                int valorA, valorB;
-
-                valorA = Convert.ToInt32(va9kodComboBox.Text);
-                valorB = Convert.ToInt32(va10kodComboBox.Text);
-
-                ser15.Points.AddXY(2, valorA);
-                ser15.Points.AddXY(3, valorB);
-
-                ser15.BorderColor = Color.Transparent;
-                ser15.Color = Color.Red;
-                ser15.BorderWidth = Convert.ToInt32(1.5);
-            }
-
-            else if (chkliga9_10ODCheckBox.Checked == false)
-            {
-                ser15.Points.Clear();
-            }
-
-            //*******
-
-            string seriesName16 = "liga 10k_12_5K";
-            Series ser16 = chartAltOD.Series.Add(seriesName16);
-
-            ser16.ChartArea = chartAltOD.ChartAreas[0].Name;
-            ser16.Name = seriesName16;
-            ser16.ChartType = SeriesChartType.Line;
-
-            if (chkliga10_12_5ODCheckBox.Checked == true)
-            {
-                int valorA, valorB;
-
-                valorA = Convert.ToInt32(va10kodComboBox.Text);
-                valorB = Convert.ToInt32(va12e5kodComboBox.Text);
-
-                ser16.Points.AddXY(3, valorA);
-                ser16.Points.AddXY(4.25, valorB);
-
-                ser16.BorderColor = Color.Transparent;
-                ser16.Color = Color.Red;
-                ser16.BorderWidth = Convert.ToInt32(1.5);
-            }
-
-            else if (chkliga10_12_5ODCheckBox.Checked == false)
-            {
-                ser16.Points.Clear();
-            }
-
-            //******
-
-
-            string seriesName17 = "liga 12_5k_14K";
-            Series ser17 = chartAltOD.Series.Add(seriesName17);
-
-            ser17.ChartArea = chartAltOD.ChartAreas[0].Name;
-            ser17.Name = seriesName17;
-            ser17.ChartType = SeriesChartType.Line;
-
-            if (chkliga12_5_14ODCheckBox.Checked == true)
-            {
-                int valorA, valorB;
-
-                valorA = Convert.ToInt32(va12e5kodComboBox.Text);
-                valorB = Convert.ToInt32(va14kodComboBox.Text);
-
-                ser17.Points.AddXY(4.25, valorA);
-                ser17.Points.AddXY(5, valorB);
-
-                ser17.BorderColor = Color.Transparent;
-                ser17.Color = Color.Red;
-                ser17.BorderWidth = Convert.ToInt32(1.5);
-            }
-
-            else if (chkliga12_5_14ODCheckBox.Checked == false)
-            {
-                ser17.Points.Clear();
-            }
-
-            //*****
-
-            string seriesName18 = "liga 14k_16K";
-            Series ser18 = chartAltOD.Series.Add(seriesName18);
-
-            ser18.ChartArea = chartAltOD.ChartAreas[0].Name;
-            ser18.Name = seriesName18;
-            ser18.ChartType = SeriesChartType.Line;
-
-            if (chkliga14_16ODCheckBox.Checked == true)
-            {
-                int valorA, valorB;
-
-                valorA = Convert.ToInt32(va14kodComboBox.Text);
-                valorB = Convert.ToInt32(va16kodComboBox.Text);
-
-                ser18.Points.AddXY(5, valorA);
-                ser18.Points.AddXY(6, valorB);
-
-                ser18.BorderColor = Color.Transparent;
-                ser18.Color = Color.Red;
-                ser18.BorderWidth = Convert.ToInt32(1.5);
-            }
-
-            else if (chkliga14_16ODCheckBox.Checked == false)
-            {
-                ser18.Points.Clear();
-            }
-
-
-            //******
-
-            string seriesName19 = "liga 16k_18K";
-            Series ser19 = chartAltOD.Series.Add(seriesName19);
-
-            ser19.ChartArea = chartAltOD.ChartAreas[0].Name;
-            ser19.Name = seriesName19;
-            ser19.ChartType = SeriesChartType.Line;
-
-            if (chkliga16_18ODCheckBox.Checked == true)
-            {
-                int valorA, valorB;
-
-                valorA = Convert.ToInt32(va16kodComboBox.Text);
-                valorB = Convert.ToInt32(va18kodComboBox.Text);
-
-                ser19.Points.AddXY(6, valorA);
-                ser19.Points.AddXY(7, valorB);
-
-                ser19.BorderColor = Color.Transparent;
-                ser19.Color = Color.Red;
-                ser19.BorderWidth = Convert.ToInt32(1.5);
-            }
-
-            else if (chkliga16_18ODCheckBox.Checked == false)
-            {
-                ser19.Points.Clear();
-            }
-
-            //******
-
-            string seriesName20 = "liga 18k_20K";
-            Series ser20 = chartAltOD.Series.Add(seriesName20);
-
-            ser20.ChartArea = chartAltOD.ChartAreas[0].Name;
-            ser20.Name = seriesName20;
-            ser20.ChartType = SeriesChartType.Line;
-
-            if (chkliga18_20ODCheckBox.Checked == true)
-            {
-                int valorA, valorB;
-
-                valorA = Convert.ToInt32(va18kodComboBox.Text);
-                valorB = Convert.ToInt32(va20kodComboBox.Text);
-
-                ser20.Points.AddXY(7, valorA);
-                ser20.Points.AddXY(8, valorB);
-
-                ser20.BorderColor = Color.Transparent;
-                ser20.Color = Color.Red;
-                ser20.BorderWidth = Convert.ToInt32(1.5);
-            }
-
-            else if (chkliga18_20ODCheckBox.Checked == false)
-            {
-                ser20.Points.Clear();
-            }
-            }
-            catch 
-            {
-                MessageBox.Show("Não é possível ligar a simbologia!", "Erro!", MessageBoxButtons.OK, MessageBoxIcon.Error);
-
-                chkliga9_10ODCheckBox.Checked = false;
-                chkliga10_12_5ODCheckBox.Checked = false;
-                chkliga12_5_14ODCheckBox.Checked = false;
-                chkliga14_16ODCheckBox.Checked = false;
-                chkliga16_18ODCheckBox.Checked = false;
-                chkliga18_20ODCheckBox.Checked = false;
-            }
+                MessageBox.Show("Escolha 'Audiometria de altas frequências' para a plotagem da simbologia.", "Atenção!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }              
         }
 
         private void btnPlotarAudioAltOE_Click(object sender, EventArgs e)
@@ -1256,589 +1268,601 @@ namespace segmentoOtoneurologia
             //***PARA A SIMBOLOGIA***
 
             //***
-            string seriesName8 = "simbol_9k";
-            Series ser8 = chartAltOE.Series.Add(seriesName8);
 
-            ser8.ChartArea = chartAltOE.ChartAreas[0].Name;
-            ser8.Name = seriesName8;
-            ser8.ChartType = SeriesChartType.Point;
-
-            if (va9koeComboBox.Text == "")
+            if (string.IsNullOrEmpty(tipoAudiometriaComboBox.Text))
             {
-                var vaODpresente9vaz = new NamedImage("vazio", Properties.Resources.vazio);
-                chartAltOE.Images.Clear();
-                chartAltOE.Images.Add(vaODpresente9vaz);
-                ser8.MarkerImage = "vazio";
+                MessageBox.Show("Escolha 'Audiometria de altas frequências' para a plotagem da simbologia.", "Atenção!", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
-
-            else if (va9koeComboBox.Text != "")
+            else if (tipoAudiometriaComboBox.Text == "Audiometria de altas frequências")
             {
-                int valor8;
-                valor8 = Convert.ToInt32(va9koeComboBox.Text);
-                ser8.Points.AddXY(2, valor8);  // x, high
+                string seriesName8 = "simbol_9k";
+                Series ser8 = chartAltOE.Series.Add(seriesName8);
+
+                ser8.ChartArea = chartAltOE.ChartAreas[0].Name;
+                ser8.Name = seriesName8;
+                ser8.ChartType = SeriesChartType.Point;
+
+                if (va9koeComboBox.Text == "")
+                {
+                    var vaODpresente9vaz = new NamedImage("vazio", Properties.Resources.vazio);
+                    chartAltOE.Images.Clear();
+                    chartAltOE.Images.Add(vaODpresente9vaz);
+                    ser8.MarkerImage = "vazio";
+                }
+
+                else if (va9koeComboBox.Text != "")
+                {
+                    int valor8;
+                    valor8 = Convert.ToInt32(va9koeComboBox.Text);
+                    ser8.Points.AddXY(2, valor8);  // x, high
+                }
+
+                if ((chkAusente9kOECheckBox.Checked == false) && (chkMasc9kOECheckBox.Checked == false))
+                {
+                    var vaOEpresente8p = new NamedImage("vaOEpresente", Properties.Resources.vaOEpresente);
+                    chartAltOE.Images.Clear();
+                    chartAltOE.Images.Add(vaOEpresente8p);
+                    ser8.MarkerImage = "vaOEpresente";
+                }
+
+                else if ((chkAusente9kOECheckBox.Checked == true) && (chkMasc9kOECheckBox.Checked == false))
+                {
+                    var vaOEausente8a = new NamedImage("vaOEausente", Properties.Resources.vaOEausente);
+                    chartAltOE.Images.Clear();
+                    chartAltOE.Images.Add(vaOEausente8a);
+                    ser8.MarkerImage = "vaOEausente";
+                }
+
+                else if ((chkAusente9kOECheckBox.Checked == false) && (chkMasc9kOECheckBox.Checked == true))
+                {
+                    var vaOEpresente8m = new NamedImage("vaOEmascPresente", Properties.Resources.vaOEmascPresente);
+                    chartAltOE.Images.Clear();
+                    chartAltOE.Images.Add(vaOEpresente8m);
+                    ser8.MarkerImage = "vaOEmascPresente";
+                }
+
+                else if ((chkMasc9kOECheckBox.Checked == true) && (chkAusente9kOECheckBox.Checked == true))
+                {
+                    var vaOEpresente8ma = new NamedImage("vaOEmascAusente", Properties.Resources.vaOEmascAusente);
+                    chartAltOE.Images.Clear();
+                    chartAltOE.Images.Add(vaOEpresente8ma);
+                    ser8.MarkerImage = "vaOEmascAusente";
+                }
+
+
+                //***
+                string seriesName9 = "simbol_10k";
+                Series ser9 = chartAltOE.Series.Add(seriesName9);
+
+                ser9.ChartArea = chartAltOE.ChartAreas[0].Name;
+                ser9.Name = seriesName9;
+                ser9.ChartType = SeriesChartType.Point;
+
+                if (va10koeComboBox.Text == "")
+                {
+                    var vaODpresente10vaz = new NamedImage("vazio", Properties.Resources.vazio);
+                    chartAltOE.Images.Clear();
+                    chartAltOE.Images.Add(vaODpresente10vaz);
+                    ser9.MarkerImage = "vazio";
+                }
+
+                else if (va10koeComboBox.Text != "")
+                {
+                    int valor9;
+                    valor9 = Convert.ToInt32(va10koeComboBox.Text);
+                    ser9.Points.AddXY(3, valor9);  // x, high
+                }
+
+                if ((chkAusente10kOECheckBox.Checked == false) && (chkMasc10kOECheckBox.Checked == false))
+                {
+                    var vaOEpresente9p = new NamedImage("vaOEpresente", Properties.Resources.vaOEpresente);
+                    chartAltOE.Images.Clear();
+                    chartAltOE.Images.Add(vaOEpresente9p);
+                    ser9.MarkerImage = "vaOEpresente";
+                }
+
+                else if ((chkAusente10kOECheckBox.Checked == true) && (chkMasc10kOECheckBox.Checked == false))
+                {
+                    var vaOEausente9a = new NamedImage("vaOEausente", Properties.Resources.vaOEausente);
+                    chartAltOE.Images.Clear();
+                    chartAltOE.Images.Add(vaOEausente9a);
+                    ser9.MarkerImage = "vaOEausente";
+                }
+
+                else if ((chkAusente10kOECheckBox.Checked == false) && (chkMasc10kOECheckBox.Checked == true))
+                {
+                    var vaOEpresente9m = new NamedImage("vaOEmascPresente", Properties.Resources.vaOEmascPresente);
+                    chartAltOE.Images.Clear();
+                    chartAltOE.Images.Add(vaOEpresente9m);
+                    ser9.MarkerImage = "vaOEmascPresente";
+                }
+
+                else if ((chkMasc10kOECheckBox.Checked == true) && (chkAusente10kOECheckBox.Checked == true))
+                {
+                    var vaOEpresente9ma = new NamedImage("vaOEmascAusente", Properties.Resources.vaOEmascAusente);
+                    chartAltOE.Images.Clear();
+                    chartAltOE.Images.Add(vaOEpresente9ma);
+                    ser9.MarkerImage = "vaOEmascAusente";
+                }
+
+
+                //***
+                string seriesName10 = "simbol_12_5k";
+                Series ser10 = chartAltOE.Series.Add(seriesName10);
+
+                ser10.ChartArea = chartAltOE.ChartAreas[0].Name;
+                ser10.Name = seriesName10;
+                ser10.ChartType = SeriesChartType.Point;
+
+                if (va12e5koeComboBox.Text == "")
+                {
+                    var vaODpresente12_5vaz = new NamedImage("vazio", Properties.Resources.vazio);
+                    chartAltOE.Images.Clear();
+                    chartAltOE.Images.Add(vaODpresente12_5vaz);
+                    ser10.MarkerImage = "vazio";
+                }
+
+                else if (va12e5koeComboBox.Text != "")
+                {
+                    int valor10;
+                    valor10 = Convert.ToInt32(va12e5koeComboBox.Text);
+                    ser10.Points.AddXY(4.25, valor10);  // x, high
+                }
+
+                if ((chkAusente12_5kOECheckBox.Checked == false) && (chkMasc12_5kOECheckBox.Checked == false))
+                {
+                    var vaOEpresente10p = new NamedImage("vaOEpresente", Properties.Resources.vaOEpresente);
+                    chartAltOE.Images.Clear();
+                    chartAltOE.Images.Add(vaOEpresente10p);
+                    ser10.MarkerImage = "vaOEpresente";
+                }
+
+                else if ((chkAusente12_5kOECheckBox.Checked == true) && (chkMasc12_5kOECheckBox.Checked == false))
+                {
+                    var vaOEausente10a = new NamedImage("vaOEausente", Properties.Resources.vaOEausente);
+                    chartAltOE.Images.Clear();
+                    chartAltOE.Images.Add(vaOEausente10a);
+                    ser10.MarkerImage = "vaOEausente";
+                }
+
+                else if ((chkAusente12_5kOECheckBox.Checked == false) && (chkMasc12_5kOECheckBox.Checked == true))
+                {
+                    var vaOEpresente10m = new NamedImage("vaOEmascPresente", Properties.Resources.vaOEmascPresente);
+                    chartAltOD.Images.Clear();
+                    chartAltOD.Images.Add(vaOEpresente10m);
+                    ser10.MarkerImage = "vaOEmascPresente";
+                }
+
+                else if ((chkMasc12_5kOECheckBox.Checked == true) && (chkAusente12_5kOECheckBox.Checked == true))
+                {
+                    var vaOEpresente10ma = new NamedImage("vaOEmascAusente", Properties.Resources.vaOEmascAusente);
+                    chartAltOE.Images.Clear();
+                    chartAltOE.Images.Add(vaOEpresente10ma);
+                    ser10.MarkerImage = "vaOEmascAusente";
+                }
+
+
+                //***
+                string seriesName11 = "simbol_14k";
+                Series ser11 = chartAltOE.Series.Add(seriesName11);
+
+                ser11.ChartArea = chartAltOE.ChartAreas[0].Name;
+                ser11.Name = seriesName11;
+                ser11.ChartType = SeriesChartType.Point;
+
+                if (va14koeComboBox.Text == "")
+                {
+                    var vaODpresente14vaz = new NamedImage("vazio", Properties.Resources.vazio);
+                    chartAltOE.Images.Clear();
+                    chartAltOE.Images.Add(vaODpresente14vaz);
+                    ser11.MarkerImage = "vazio";
+                }
+
+                else if (va14koeComboBox.Text != "")
+                {
+                    int valor11;
+                    valor11 = Convert.ToInt32(va14koeComboBox.Text);
+                    ser11.Points.AddXY(5, valor11);  // x, high
+                }
+
+                if ((chkAusente14kOECheckBox.Checked == false) && (chkMasc14kOECheckBox.Checked == false))
+                {
+                    var vaOEpresente11p = new NamedImage("vaOEpresente", Properties.Resources.vaOEpresente);
+                    chartAltOE.Images.Clear();
+                    chartAltOE.Images.Add(vaOEpresente11p);
+                    ser11.MarkerImage = "vaOEpresente";
+                }
+
+                else if ((chkAusente14kOECheckBox.Checked == true) && (chkMasc14kOECheckBox.Checked == false))
+                {
+                    var vaOEausente11a = new NamedImage("vaOEausente", Properties.Resources.vaOEausente);
+                    chartAltOE.Images.Clear();
+                    chartAltOE.Images.Add(vaOEausente11a);
+                    ser11.MarkerImage = "vaOEausente";
+                }
+
+                else if ((chkAusente14kOECheckBox.Checked == false) && (chkMasc14kOECheckBox.Checked == true))
+                {
+                    var vaOEpresente11m = new NamedImage("vaOEmascPresente", Properties.Resources.vaOEmascPresente);
+                    chartAltOE.Images.Clear();
+                    chartAltOE.Images.Add(vaOEpresente11m);
+                    ser11.MarkerImage = "vaOEmascPresente";
+                }
+
+                else if ((chkMasc14kOECheckBox.Checked == true) && (chkAusente14kOECheckBox.Checked == true))
+                {
+                    var vaOEpresente11ma = new NamedImage("vaOEmascAusente", Properties.Resources.vaOEmascAusente);
+                    chartAltOE.Images.Clear();
+                    chartAltOE.Images.Add(vaOEpresente11ma);
+                    ser11.MarkerImage = "vaOEmascAusente";
+                }
+
+
+                //***
+                string seriesName12 = "simbol_16k";
+                Series ser12 = chartAltOE.Series.Add(seriesName12);
+
+                ser12.ChartArea = chartAltOE.ChartAreas[0].Name;
+                ser12.Name = seriesName12;
+                ser12.ChartType = SeriesChartType.Point;
+
+                if (va16koeComboBox.Text == "")
+                {
+                    var vaODpresente16vaz = new NamedImage("vazio", Properties.Resources.vazio);
+                    chartAltOE.Images.Clear();
+                    chartAltOE.Images.Add(vaODpresente16vaz);
+                    ser12.MarkerImage = "vazio";
+                }
+
+                else if (va16koeComboBox.Text != "")
+                {
+                    int valor12;
+                    valor12 = Convert.ToInt32(va16koeComboBox.Text);
+                    ser12.Points.AddXY(6, valor12);  // x, high
+                }
+
+                if ((chkAusente16kOECheckBox.Checked == false) && (chkMasc16kOECheckBox.Checked == false))
+                {
+                    var vaOEpresente12p = new NamedImage("vaOEpresente", Properties.Resources.vaOEpresente);
+                    chartAltOE.Images.Clear();
+                    chartAltOE.Images.Add(vaOEpresente12p);
+                    ser12.MarkerImage = "vaOEpresente";
+                }
+
+                else if ((chkAusente16kOECheckBox.Checked == true) && (chkMasc16kOECheckBox.Checked == false))
+                {
+                    var vaOEausente12a = new NamedImage("vaOEausente", Properties.Resources.vaOEausente);
+                    chartAltOE.Images.Clear();
+                    chartAltOE.Images.Add(vaOEausente12a);
+                    ser12.MarkerImage = "vaOEausente";
+                }
+
+                else if ((chkAusente16kOECheckBox.Checked == false) && (chkMasc16kOECheckBox.Checked == true))
+                {
+                    var vaOEpresente12m = new NamedImage("vaOEmascPresente", Properties.Resources.vaOEmascPresente);
+                    chartAltOE.Images.Clear();
+                    chartAltOE.Images.Add(vaOEpresente12m);
+                    ser12.MarkerImage = "vaOEmascPresente";
+                }
+
+                else if ((chkMasc16kOECheckBox.Checked == true) && (chkAusente16kOECheckBox.Checked == true))
+                {
+                    var vaOEpresente12ma = new NamedImage("vaOEmascAusente", Properties.Resources.vaOEmascAusente);
+                    chartAltOE.Images.Clear();
+                    chartAltOE.Images.Add(vaOEpresente12ma);
+                    ser12.MarkerImage = "vaOEmascAusente";
+                }
+
+
+                //***
+                string seriesName13 = "simbol_18k";
+                Series ser13 = chartAltOE.Series.Add(seriesName13);
+
+                ser13.ChartArea = chartAltOE.ChartAreas[0].Name;
+                ser13.Name = seriesName13;
+                ser13.ChartType = SeriesChartType.Point;
+
+                if (va18koeComboBox.Text == "")
+                {
+                    var vaOEpresente13vaz = new NamedImage("vazio", Properties.Resources.vazio);
+                    chartAltOE.Images.Clear();
+                    chartAltOE.Images.Add(vaOEpresente13vaz);
+                    ser13.MarkerImage = "vazio";
+                }
+
+                else if (va18koeComboBox.Text != "")
+                {
+                    int valor13;
+                    valor13 = Convert.ToInt32(va18koeComboBox.Text);
+                    ser13.Points.AddXY(7, valor13);  // x, high
+                }
+
+
+                if ((chkAusente18kOECheckBox.Checked == false) && (chkMasc18kOECheckBox.Checked == false))
+                {
+                    var vaOEpresente13p = new NamedImage("vaOEpresente", Properties.Resources.vaOEpresente);
+                    chartAltOE.Images.Clear();
+                    chartAltOE.Images.Add(vaOEpresente13p);
+                    ser13.MarkerImage = "vaOEpresente";
+                }
+
+                else if ((chkAusente18kOECheckBox.Checked == true) && (chkMasc18kOECheckBox.Checked == false))
+                {
+                    var vaOEausente13a = new NamedImage("vaOEausente", Properties.Resources.vaOEausente);
+                    chartAltOE.Images.Clear();
+                    chartAltOE.Images.Add(vaOEausente13a);
+                    ser13.MarkerImage = "vaOEausente";
+                }
+
+                else if ((chkAusente18kOECheckBox.Checked == false) && (chkMasc18kOECheckBox.Checked == true))
+                {
+                    var vaOEpresente13m = new NamedImage("vaOEmascPresente", Properties.Resources.vaOEmascPresente);
+                    chartAltOE.Images.Clear();
+                    chartAltOE.Images.Add(vaOEpresente13m);
+                    ser13.MarkerImage = "vaOEmascPresente";
+                }
+
+                else if ((chkMasc18kOECheckBox.Checked == true) && (chkAusente18kOECheckBox.Checked == true))
+                {
+                    var vaOEpresente13ma = new NamedImage("vaOEmascAusente", Properties.Resources.vaOEmascAusente);
+                    chartAltOE.Images.Clear();
+                    chartAltOE.Images.Add(vaOEpresente13ma);
+                    ser13.MarkerImage = "vaOEmascAusente";
+                }
+
+
+                //***
+                string seriesName14 = "simbol_20k";
+                Series ser14 = chartAltOE.Series.Add(seriesName14);
+
+                ser14.ChartArea = chartAltOE.ChartAreas[0].Name;
+                ser14.Name = seriesName14;
+                ser14.ChartType = SeriesChartType.Point;
+
+                if (va20koeComboBox.Text == "")
+                {
+                    var vaOEpresente14vaz = new NamedImage("vazio", Properties.Resources.vazio);
+                    chartAltOE.Images.Clear();
+                    chartAltOE.Images.Add(vaOEpresente14vaz);
+                    ser14.MarkerImage = "vazio";
+                }
+
+                else if (va20koeComboBox.Text != "")
+                {
+                    int valor14;
+                    valor14 = Convert.ToInt32(va20koeComboBox.Text);
+                    ser14.Points.AddXY(8, valor14);  // x, high
+                }
+
+
+                if ((chkAusente20kOECheckBox.Checked == false) && (chkMasc20kOECheckBox.Checked == false))
+                {
+                    var vaOEpresente14p = new NamedImage("vaOEpresente", Properties.Resources.vaOEpresente);
+                    chartAltOE.Images.Clear();
+                    chartAltOE.Images.Add(vaOEpresente14p);
+                    ser14.MarkerImage = "vaOEpresente";
+                }
+
+                else if ((chkAusente20kOECheckBox.Checked == true) && (chkMasc20kOECheckBox.Checked == false))
+                {
+                    var vaOEausente14a = new NamedImage("vaOEausente", Properties.Resources.vaOEausente);
+                    chartAltOE.Images.Clear();
+                    chartAltOE.Images.Add(vaOEausente14a);
+                    ser14.MarkerImage = "vaOEausente";
+                }
+
+                else if ((chkAusente20kOECheckBox.Checked == false) && (chkMasc20kOECheckBox.Checked == true))
+                {
+                    var vaOEpresente14m = new NamedImage("vaOEmascPresente", Properties.Resources.vaOEmascPresente);
+                    chartAltOE.Images.Clear();
+                    chartAltOE.Images.Add(vaOEpresente14m);
+                    ser14.MarkerImage = "vaOEmascPresente";
+                }
+
+                else if ((chkMasc20kOECheckBox.Checked == true) && (chkAusente20kOECheckBox.Checked == true))
+                {
+                    var vaOEpresente14ma = new NamedImage("vaOEmascAusente", Properties.Resources.vaOEmascAusente);
+                    chartAltOE.Images.Clear();
+                    chartAltOE.Images.Add(vaOEpresente14ma);
+                    ser14.MarkerImage = "vaOEmascAusente";
+                }
+
+
+                //***SEQUÊNCIA PARA LIGAR SIMBOLOGIA
+
+                try
+                {
+
+                    string seriesName15 = "liga 9k_10K";
+                    Series ser15 = chartAltOE.Series.Add(seriesName15);
+
+                    ser15.ChartArea = chartAltOE.ChartAreas[0].Name;
+                    ser15.Name = seriesName15;
+                    ser15.ChartType = SeriesChartType.Line;
+
+                    if (chkliga9_10OECheckBox.Checked == true)
+                    {
+                        int valorA, valorB;
+
+                        valorA = Convert.ToInt32(va9koeComboBox.Text);
+                        valorB = Convert.ToInt32(va10koeComboBox.Text);
+
+                        ser15.Points.AddXY(2, valorA);
+                        ser15.Points.AddXY(3, valorB);
+
+                        ser15.BorderColor = Color.Transparent;
+                        ser15.Color = Color.DodgerBlue;
+                        ser15.BorderWidth = Convert.ToInt32(1.5);
+                    }
+
+                    else if (chkliga9_10OECheckBox.Checked == false)
+                    {
+                        ser15.Points.Clear();
+                    }
+
+                    //*******
+
+                    string seriesName16 = "liga 10k_12_5K";
+                    Series ser16 = chartAltOE.Series.Add(seriesName16);
+
+                    ser16.ChartArea = chartAltOE.ChartAreas[0].Name;
+                    ser16.Name = seriesName16;
+                    ser16.ChartType = SeriesChartType.Line;
+
+                    if (chkliga10_12_5OECheckBox.Checked == true)
+                    {
+                        int valorA, valorB;
+
+                        valorA = Convert.ToInt32(va10koeComboBox.Text);
+                        valorB = Convert.ToInt32(va12e5koeComboBox.Text);
+
+                        ser16.Points.AddXY(3, valorA);
+                        ser16.Points.AddXY(4.25, valorB);
+
+                        ser16.BorderColor = Color.Transparent;
+                        ser16.Color = Color.DodgerBlue;
+                        ser16.BorderWidth = Convert.ToInt32(1.5);
+                    }
+
+                    else if (chkliga10_12_5OECheckBox.Checked == false)
+                    {
+                        ser16.Points.Clear();
+                    }
+
+                    //******
+
+
+                    string seriesName17 = "liga 12_5k_14K";
+                    Series ser17 = chartAltOE.Series.Add(seriesName17);
+
+                    ser17.ChartArea = chartAltOE.ChartAreas[0].Name;
+                    ser17.Name = seriesName17;
+                    ser17.ChartType = SeriesChartType.Line;
+
+                    if (chkliga12_5_14OECheckBox.Checked == true)
+                    {
+                        int valorA, valorB;
+
+                        valorA = Convert.ToInt32(va12e5koeComboBox.Text);
+                        valorB = Convert.ToInt32(va14koeComboBox.Text);
+
+                        ser17.Points.AddXY(4.25, valorA);
+                        ser17.Points.AddXY(5, valorB);
+
+                        ser17.BorderColor = Color.Transparent;
+                        ser17.Color = Color.DodgerBlue;
+                        ser17.BorderWidth = Convert.ToInt32(1.5);
+                    }
+
+                    else if (chkliga12_5_14OECheckBox.Checked == false)
+                    {
+                        ser17.Points.Clear();
+                    }
+
+                    //*****
+
+                    string seriesName18 = "liga 14k_16K";
+                    Series ser18 = chartAltOE.Series.Add(seriesName18);
+
+                    ser18.ChartArea = chartAltOE.ChartAreas[0].Name;
+                    ser18.Name = seriesName18;
+                    ser18.ChartType = SeriesChartType.Line;
+
+                    if (chkliga14_16OECheckBox.Checked == true)
+                    {
+                        int valorA, valorB;
+
+                        valorA = Convert.ToInt32(va14koeComboBox.Text);
+                        valorB = Convert.ToInt32(va16koeComboBox.Text);
+
+                        ser18.Points.AddXY(5, valorA);
+                        ser18.Points.AddXY(6, valorB);
+
+                        ser18.BorderColor = Color.Transparent;
+                        ser18.Color = Color.DodgerBlue;
+                        ser18.BorderWidth = Convert.ToInt32(1.5);
+                    }
+
+                    else if (chkliga14_16OECheckBox.Checked == false)
+                    {
+                        ser18.Points.Clear();
+                    }
+
+
+                    //******
+
+                    string seriesName19 = "liga 16k_18K";
+                    Series ser19 = chartAltOE.Series.Add(seriesName19);
+
+                    ser19.ChartArea = chartAltOE.ChartAreas[0].Name;
+                    ser19.Name = seriesName19;
+                    ser19.ChartType = SeriesChartType.Line;
+
+                    if (chkliga16_18OECheckBox.Checked == true)
+                    {
+                        int valorA, valorB;
+
+                        valorA = Convert.ToInt32(va16koeComboBox.Text);
+                        valorB = Convert.ToInt32(va18koeComboBox.Text);
+
+                        ser19.Points.AddXY(6, valorA);
+                        ser19.Points.AddXY(7, valorB);
+
+                        ser19.BorderColor = Color.Transparent;
+                        ser19.Color = Color.DodgerBlue;
+                        ser19.BorderWidth = Convert.ToInt32(1.5);
+                    }
+
+                    else if (chkliga16_18OECheckBox.Checked == false)
+                    {
+                        ser19.Points.Clear();
+                    }
+
+                    //******
+
+                    string seriesName20 = "liga 18k_20K";
+                    Series ser20 = chartAltOE.Series.Add(seriesName20);
+
+                    ser20.ChartArea = chartAltOE.ChartAreas[0].Name;
+                    ser20.Name = seriesName20;
+                    ser20.ChartType = SeriesChartType.Line;
+
+                    if (chkliga18_20OECheckBox.Checked == true)
+                    {
+                        int valorA, valorB;
+
+                        valorA = Convert.ToInt32(va18koeComboBox.Text);
+                        valorB = Convert.ToInt32(va20koeComboBox.Text);
+
+                        ser20.Points.AddXY(7, valorA);
+                        ser20.Points.AddXY(8, valorB);
+
+                        ser20.BorderColor = Color.Transparent;
+                        ser20.Color = Color.DodgerBlue;
+                        ser20.BorderWidth = Convert.ToInt32(1.5);
+                    }
+
+                    else if (chkliga18_20OECheckBox.Checked == false)
+                    {
+                        ser20.Points.Clear();
+                    }
+                }
+                catch
+                {
+                    MessageBox.Show("Não é possível ligar a simbologia!", "Erro!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+                    chkliga9_10OECheckBox.Checked = false;
+                    chkliga10_12_5OECheckBox.Checked = false;
+                    chkliga12_5_14OECheckBox.Checked = false;
+                    chkliga14_16OECheckBox.Checked = false;
+                    chkliga16_18OECheckBox.Checked = false;
+                    chkliga18_20OECheckBox.Checked = false;
+                }
             }
-            
-            if ((chkAusente9kOECheckBox.Checked == false) && (chkMasc9kOECheckBox.Checked == false))
+            else
             {
-                var vaOEpresente8p = new NamedImage("vaOEpresente", Properties.Resources.vaOEpresente);
-                chartAltOE.Images.Clear();
-                chartAltOE.Images.Add(vaOEpresente8p);
-                ser8.MarkerImage = "vaOEpresente";
-            }
-
-            else if ((chkAusente9kOECheckBox.Checked == true) && (chkMasc9kOECheckBox.Checked == false))
-            {
-                var vaOEausente8a = new NamedImage("vaOEausente", Properties.Resources.vaOEausente);
-                chartAltOE.Images.Clear();
-                chartAltOE.Images.Add(vaOEausente8a);
-                ser8.MarkerImage = "vaOEausente";
-            }
-
-            else if ((chkAusente9kOECheckBox.Checked == false) && (chkMasc9kOECheckBox.Checked == true))
-            {
-                var vaOEpresente8m = new NamedImage("vaOEmascPresente", Properties.Resources.vaOEmascPresente);
-                chartAltOE.Images.Clear();
-                chartAltOE.Images.Add(vaOEpresente8m);
-                ser8.MarkerImage = "vaOEmascPresente";
-            }
-
-            else if ((chkMasc9kOECheckBox.Checked == true) && (chkAusente9kOECheckBox.Checked == true))
-            {
-                var vaOEpresente8ma = new NamedImage("vaOEmascAusente", Properties.Resources.vaOEmascAusente);
-                chartAltOE.Images.Clear();
-                chartAltOE.Images.Add(vaOEpresente8ma);
-                ser8.MarkerImage = "vaOEmascAusente";
-            }
-
-
-            //***
-            string seriesName9 = "simbol_10k";
-            Series ser9 = chartAltOE.Series.Add(seriesName9);
-
-            ser9.ChartArea = chartAltOE.ChartAreas[0].Name;
-            ser9.Name = seriesName9;
-            ser9.ChartType = SeriesChartType.Point;
-
-            if (va10koeComboBox.Text == "")
-            {
-                var vaODpresente10vaz = new NamedImage("vazio", Properties.Resources.vazio);
-                chartAltOE.Images.Clear();
-                chartAltOE.Images.Add(vaODpresente10vaz);
-                ser9.MarkerImage = "vazio";
-            }
-
-            else if (va10koeComboBox.Text != "")
-            {
-                int valor9;
-                valor9 = Convert.ToInt32(va10koeComboBox.Text);
-                ser9.Points.AddXY(3, valor9);  // x, high
-            }
-            
-            if ((chkAusente10kOECheckBox.Checked == false) && (chkMasc10kOECheckBox.Checked == false))
-            {
-                var vaOEpresente9p = new NamedImage("vaOEpresente", Properties.Resources.vaOEpresente);
-                chartAltOE.Images.Clear();
-                chartAltOE.Images.Add(vaOEpresente9p);
-                ser9.MarkerImage = "vaOEpresente";
-            }
-
-            else if ((chkAusente10kOECheckBox.Checked == true) && (chkMasc10kOECheckBox.Checked == false))
-            {
-                var vaOEausente9a = new NamedImage("vaOEausente", Properties.Resources.vaOEausente);
-                chartAltOE.Images.Clear();
-                chartAltOE.Images.Add(vaOEausente9a);
-                ser9.MarkerImage = "vaOEausente";
-            }
-
-            else if ((chkAusente10kOECheckBox.Checked == false) && (chkMasc10kOECheckBox.Checked == true))
-            {
-                var vaOEpresente9m = new NamedImage("vaOEmascPresente", Properties.Resources.vaOEmascPresente);
-                chartAltOE.Images.Clear();
-                chartAltOE.Images.Add(vaOEpresente9m);
-                ser9.MarkerImage = "vaOEmascPresente";
-            }
-
-            else if ((chkMasc10kOECheckBox.Checked == true) && (chkAusente10kOECheckBox.Checked == true))
-            {
-                var vaOEpresente9ma = new NamedImage("vaOEmascAusente", Properties.Resources.vaOEmascAusente);
-                chartAltOE.Images.Clear();
-                chartAltOE.Images.Add(vaOEpresente9ma);
-                ser9.MarkerImage = "vaOEmascAusente";
-            }
-
-
-            //***
-            string seriesName10 = "simbol_12_5k";
-            Series ser10 = chartAltOE.Series.Add(seriesName10);
-
-            ser10.ChartArea = chartAltOE.ChartAreas[0].Name;
-            ser10.Name = seriesName10;
-            ser10.ChartType = SeriesChartType.Point;
-
-            if (va12e5koeComboBox.Text == "")
-            {
-                var vaODpresente12_5vaz = new NamedImage("vazio", Properties.Resources.vazio);
-                chartAltOE.Images.Clear();
-                chartAltOE.Images.Add(vaODpresente12_5vaz);
-                ser10.MarkerImage = "vazio";
-            }
-
-            else if (va12e5koeComboBox.Text != "")
-            {
-                int valor10;
-                valor10 = Convert.ToInt32(va12e5koeComboBox.Text);
-                ser10.Points.AddXY(4.25, valor10);  // x, high
-            }
-            
-            if ((chkAusente12_5kOECheckBox.Checked == false) && (chkMasc12_5kOECheckBox.Checked == false))
-            {
-                var vaOEpresente10p = new NamedImage("vaOEpresente", Properties.Resources.vaOEpresente);
-                chartAltOE.Images.Clear();
-                chartAltOE.Images.Add(vaOEpresente10p);
-                ser10.MarkerImage = "vaOEpresente";
-            }
-
-            else if ((chkAusente12_5kOECheckBox.Checked == true) && (chkMasc12_5kOECheckBox.Checked == false))
-            {
-                var vaOEausente10a = new NamedImage("vaOEausente", Properties.Resources.vaOEausente);
-                chartAltOE.Images.Clear();
-                chartAltOE.Images.Add(vaOEausente10a);
-                ser10.MarkerImage = "vaOEausente";
-            }
-
-            else if ((chkAusente12_5kOECheckBox.Checked == false) && (chkMasc12_5kOECheckBox.Checked == true))
-            {
-                var vaOEpresente10m = new NamedImage("vaOEmascPresente", Properties.Resources.vaOEmascPresente);
-                chartAltOD.Images.Clear();
-                chartAltOD.Images.Add(vaOEpresente10m);
-                ser10.MarkerImage = "vaOEmascPresente";
-            }
-
-            else if ((chkMasc12_5kOECheckBox.Checked == true) && (chkAusente12_5kOECheckBox.Checked == true))
-            {
-                var vaOEpresente10ma = new NamedImage("vaOEmascAusente", Properties.Resources.vaOEmascAusente);
-                chartAltOE.Images.Clear();
-                chartAltOE.Images.Add(vaOEpresente10ma);
-                ser10.MarkerImage = "vaOEmascAusente";
-            }
-
-
-            //***
-            string seriesName11 = "simbol_14k";
-            Series ser11 = chartAltOE.Series.Add(seriesName11);
-
-            ser11.ChartArea = chartAltOE.ChartAreas[0].Name;
-            ser11.Name = seriesName11;
-            ser11.ChartType = SeriesChartType.Point;
-
-            if (va14koeComboBox.Text == "")
-            {
-                var vaODpresente14vaz = new NamedImage("vazio", Properties.Resources.vazio);
-                chartAltOE.Images.Clear();
-                chartAltOE.Images.Add(vaODpresente14vaz);
-                ser11.MarkerImage = "vazio";
-            }
-
-            else if (va14koeComboBox.Text != "")
-            {
-                int valor11;
-                valor11 = Convert.ToInt32(va14koeComboBox.Text);
-                ser11.Points.AddXY(5, valor11);  // x, high
-            }
-            
-            if ((chkAusente14kOECheckBox.Checked == false) && (chkMasc14kOECheckBox.Checked == false))
-            {
-                var vaOEpresente11p = new NamedImage("vaOEpresente", Properties.Resources.vaOEpresente);
-                chartAltOE.Images.Clear();
-                chartAltOE.Images.Add(vaOEpresente11p);
-                ser11.MarkerImage = "vaOEpresente";
-            }
-
-            else if ((chkAusente14kOECheckBox.Checked == true) && (chkMasc14kOECheckBox.Checked == false))
-            {
-                var vaOEausente11a = new NamedImage("vaOEausente", Properties.Resources.vaOEausente);
-                chartAltOE.Images.Clear();
-                chartAltOE.Images.Add(vaOEausente11a);
-                ser11.MarkerImage = "vaOEausente";
-            }
-
-            else if ((chkAusente14kOECheckBox.Checked == false) && (chkMasc14kOECheckBox.Checked == true))
-            {
-                var vaOEpresente11m = new NamedImage("vaOEmascPresente", Properties.Resources.vaOEmascPresente);
-                chartAltOE.Images.Clear();
-                chartAltOE.Images.Add(vaOEpresente11m);
-                ser11.MarkerImage = "vaOEmascPresente";
-            }
-
-            else if ((chkMasc14kOECheckBox.Checked == true) && (chkAusente14kOECheckBox.Checked == true))
-            {
-                var vaOEpresente11ma = new NamedImage("vaOEmascAusente", Properties.Resources.vaOEmascAusente);
-                chartAltOE.Images.Clear();
-                chartAltOE.Images.Add(vaOEpresente11ma);
-                ser11.MarkerImage = "vaOEmascAusente";
-            }
-
-
-            //***
-            string seriesName12 = "simbol_16k";
-            Series ser12 = chartAltOE.Series.Add(seriesName12);
-
-            ser12.ChartArea = chartAltOE.ChartAreas[0].Name;
-            ser12.Name = seriesName12;
-            ser12.ChartType = SeriesChartType.Point;
-
-            if (va16koeComboBox.Text == "")
-            {
-                var vaODpresente16vaz = new NamedImage("vazio", Properties.Resources.vazio);
-                chartAltOE.Images.Clear();
-                chartAltOE.Images.Add(vaODpresente16vaz);
-                ser12.MarkerImage = "vazio";
-            }
-
-            else if (va16koeComboBox.Text != "")
-            {
-                int valor12;
-                valor12 = Convert.ToInt32(va16koeComboBox.Text);
-                ser12.Points.AddXY(6, valor12);  // x, high
-            }
-            
-            if ((chkAusente16kOECheckBox.Checked == false) && (chkMasc16kOECheckBox.Checked == false))
-            {
-                var vaOEpresente12p = new NamedImage("vaOEpresente", Properties.Resources.vaOEpresente);
-                chartAltOE.Images.Clear();
-                chartAltOE.Images.Add(vaOEpresente12p);
-                ser12.MarkerImage = "vaOEpresente";
-            }
-
-            else if ((chkAusente16kOECheckBox.Checked == true) && (chkMasc16kOECheckBox.Checked == false))
-            {
-                var vaOEausente12a = new NamedImage("vaOEausente", Properties.Resources.vaOEausente);
-                chartAltOE.Images.Clear();
-                chartAltOE.Images.Add(vaOEausente12a);
-                ser12.MarkerImage = "vaOEausente";
-            }
-
-            else if ((chkAusente16kOECheckBox.Checked == false) && (chkMasc16kOECheckBox.Checked == true))
-            {
-                var vaOEpresente12m = new NamedImage("vaOEmascPresente", Properties.Resources.vaOEmascPresente);
-                chartAltOE.Images.Clear();
-                chartAltOE.Images.Add(vaOEpresente12m);
-                ser12.MarkerImage = "vaOEmascPresente";
-            }
-
-            else if ((chkMasc16kOECheckBox.Checked == true) && (chkAusente16kOECheckBox.Checked == true))
-            {
-                var vaOEpresente12ma = new NamedImage("vaOEmascAusente", Properties.Resources.vaOEmascAusente);
-                chartAltOE.Images.Clear();
-                chartAltOE.Images.Add(vaOEpresente12ma);
-                ser12.MarkerImage = "vaOEmascAusente";
-            }
-
-
-            //***
-            string seriesName13 = "simbol_18k";
-            Series ser13 = chartAltOE.Series.Add(seriesName13);
-
-            ser13.ChartArea = chartAltOE.ChartAreas[0].Name;
-            ser13.Name = seriesName13;
-            ser13.ChartType = SeriesChartType.Point;
-
-            if (va18koeComboBox.Text == "")
-            {
-                var vaOEpresente13vaz = new NamedImage("vazio", Properties.Resources.vazio);
-                chartAltOE.Images.Clear();
-                chartAltOE.Images.Add(vaOEpresente13vaz);
-                ser13.MarkerImage = "vazio";
-            }
-
-            else if (va18koeComboBox.Text != "")
-            {
-                int valor13;
-                valor13 = Convert.ToInt32(va18koeComboBox.Text);
-                ser13.Points.AddXY(7, valor13);  // x, high
-            }
-
-
-            if ((chkAusente18kOECheckBox.Checked == false) && (chkMasc18kOECheckBox.Checked == false))
-            {
-                var vaOEpresente13p = new NamedImage("vaOEpresente", Properties.Resources.vaOEpresente);
-                chartAltOE.Images.Clear();
-                chartAltOE.Images.Add(vaOEpresente13p);
-                ser13.MarkerImage = "vaOEpresente";
-            }
-
-            else if ((chkAusente18kOECheckBox.Checked == true) && (chkMasc18kOECheckBox.Checked == false))
-            {
-                var vaOEausente13a = new NamedImage("vaOEausente", Properties.Resources.vaOEausente);
-                chartAltOE.Images.Clear();
-                chartAltOE.Images.Add(vaOEausente13a);
-                ser13.MarkerImage = "vaOEausente";
-            }
-
-            else if ((chkAusente18kOECheckBox.Checked == false) && (chkMasc18kOECheckBox.Checked == true))
-            {
-                var vaOEpresente13m = new NamedImage("vaOEmascPresente", Properties.Resources.vaOEmascPresente);
-                chartAltOE.Images.Clear();
-                chartAltOE.Images.Add(vaOEpresente13m);
-                ser13.MarkerImage = "vaOEmascPresente";
-            }
-
-            else if ((chkMasc18kOECheckBox.Checked == true) && (chkAusente18kOECheckBox.Checked == true))
-            {
-                var vaOEpresente13ma = new NamedImage("vaOEmascAusente", Properties.Resources.vaOEmascAusente);
-                chartAltOE.Images.Clear();
-                chartAltOE.Images.Add(vaOEpresente13ma);
-                ser13.MarkerImage = "vaOEmascAusente";
-            }
-
-
-            //***
-            string seriesName14 = "simbol_20k";
-            Series ser14 = chartAltOE.Series.Add(seriesName14);
-
-            ser14.ChartArea = chartAltOE.ChartAreas[0].Name;
-            ser14.Name = seriesName14;
-            ser14.ChartType = SeriesChartType.Point;
-
-            if (va20koeComboBox.Text == "")
-            {
-                var vaOEpresente14vaz = new NamedImage("vazio", Properties.Resources.vazio);
-                chartAltOE.Images.Clear();
-                chartAltOE.Images.Add(vaOEpresente14vaz);
-                ser14.MarkerImage = "vazio";
-            }
-
-            else if (va20koeComboBox.Text != "")
-            {
-                int valor14;
-                valor14 = Convert.ToInt32(va20koeComboBox.Text);
-                ser14.Points.AddXY(8, valor14);  // x, high
-            }
-
-
-            if ((chkAusente20kOECheckBox.Checked == false) && (chkMasc20kOECheckBox.Checked == false))
-            {
-                var vaOEpresente14p = new NamedImage("vaOEpresente", Properties.Resources.vaOEpresente);
-                chartAltOE.Images.Clear();
-                chartAltOE.Images.Add(vaOEpresente14p);
-                ser14.MarkerImage = "vaOEpresente";
-            }
-
-            else if ((chkAusente20kOECheckBox.Checked == true) && (chkMasc20kOECheckBox.Checked == false))
-            {
-                var vaOEausente14a = new NamedImage("vaOEausente", Properties.Resources.vaOEausente);
-                chartAltOE.Images.Clear();
-                chartAltOE.Images.Add(vaOEausente14a);
-                ser14.MarkerImage = "vaOEausente";
-            }
-
-            else if ((chkAusente20kOECheckBox.Checked == false) && (chkMasc20kOECheckBox.Checked == true))
-            {
-                var vaOEpresente14m = new NamedImage("vaOEmascPresente", Properties.Resources.vaOEmascPresente);
-                chartAltOE.Images.Clear();
-                chartAltOE.Images.Add(vaOEpresente14m);
-                ser14.MarkerImage = "vaOEmascPresente";
-            }
-
-            else if ((chkMasc20kOECheckBox.Checked == true) && (chkAusente20kOECheckBox.Checked == true))
-            {
-                var vaOEpresente14ma = new NamedImage("vaOEmascAusente", Properties.Resources.vaOEmascAusente);
-                chartAltOE.Images.Clear();
-                chartAltOE.Images.Add(vaOEpresente14ma);
-                ser14.MarkerImage = "vaOEmascAusente";
-            }
-
-
-            //***SEQUÊNCIA PARA LIGAR SIMBOLOGIA
-
-            try
-            {
-                
-            string seriesName15 = "liga 9k_10K";
-            Series ser15 = chartAltOE.Series.Add(seriesName15);
-
-            ser15.ChartArea = chartAltOE.ChartAreas[0].Name;
-            ser15.Name = seriesName15;
-            ser15.ChartType = SeriesChartType.Line;
-
-            if (chkliga9_10OECheckBox.Checked == true)
-            {
-                int valorA, valorB;
-
-                valorA = Convert.ToInt32(va9koeComboBox.Text);
-                valorB = Convert.ToInt32(va10koeComboBox.Text);
-
-                ser15.Points.AddXY(2, valorA);
-                ser15.Points.AddXY(3, valorB);
-
-                ser15.BorderColor = Color.Transparent;
-                ser15.Color = Color.DodgerBlue;
-                ser15.BorderWidth = Convert.ToInt32(1.5);
-            }
-
-            else if (chkliga9_10OECheckBox.Checked == false)
-            {
-                ser15.Points.Clear();
-            }
-
-            //*******
-
-            string seriesName16 = "liga 10k_12_5K";
-            Series ser16 = chartAltOE.Series.Add(seriesName16);
-
-            ser16.ChartArea = chartAltOE.ChartAreas[0].Name;
-            ser16.Name = seriesName16;
-            ser16.ChartType = SeriesChartType.Line;
-
-            if (chkliga10_12_5OECheckBox.Checked == true)
-            {
-                int valorA, valorB;
-
-                valorA = Convert.ToInt32(va10koeComboBox.Text);
-                valorB = Convert.ToInt32(va12e5koeComboBox.Text);
-
-                ser16.Points.AddXY(3, valorA);
-                ser16.Points.AddXY(4.25, valorB);
-
-                ser16.BorderColor = Color.Transparent;
-                ser16.Color = Color.DodgerBlue;
-                ser16.BorderWidth = Convert.ToInt32(1.5);
-            }
-
-            else if (chkliga10_12_5OECheckBox.Checked == false)
-            {
-                ser16.Points.Clear();
-            }
-
-            //******
-
-
-            string seriesName17 = "liga 12_5k_14K";
-            Series ser17 = chartAltOE.Series.Add(seriesName17);
-
-            ser17.ChartArea = chartAltOE.ChartAreas[0].Name;
-            ser17.Name = seriesName17;
-            ser17.ChartType = SeriesChartType.Line;
-
-            if (chkliga12_5_14OECheckBox.Checked == true)
-            {
-                int valorA, valorB;
-
-                valorA = Convert.ToInt32(va12e5koeComboBox.Text);
-                valorB = Convert.ToInt32(va14koeComboBox.Text);
-
-                ser17.Points.AddXY(4.25, valorA);
-                ser17.Points.AddXY(5, valorB);
-
-                ser17.BorderColor = Color.Transparent;
-                ser17.Color = Color.DodgerBlue;
-                ser17.BorderWidth = Convert.ToInt32(1.5);
-            }
-
-            else if (chkliga12_5_14OECheckBox.Checked == false)
-            {
-                ser17.Points.Clear();
-            }
-
-            //*****
-
-            string seriesName18 = "liga 14k_16K";
-            Series ser18 = chartAltOE.Series.Add(seriesName18);
-
-            ser18.ChartArea = chartAltOE.ChartAreas[0].Name;
-            ser18.Name = seriesName18;
-            ser18.ChartType = SeriesChartType.Line;
-
-            if (chkliga14_16OECheckBox.Checked == true)
-            {
-                int valorA, valorB;
-
-                valorA = Convert.ToInt32(va14koeComboBox.Text);
-                valorB = Convert.ToInt32(va16koeComboBox.Text);
-
-                ser18.Points.AddXY(5, valorA);
-                ser18.Points.AddXY(6, valorB);
-
-                ser18.BorderColor = Color.Transparent;
-                ser18.Color = Color.DodgerBlue;
-                ser18.BorderWidth = Convert.ToInt32(1.5);
-            }
-
-            else if (chkliga14_16OECheckBox.Checked == false)
-            {
-                ser18.Points.Clear();
-            }
-
-
-            //******
-
-            string seriesName19 = "liga 16k_18K";
-            Series ser19 = chartAltOE.Series.Add(seriesName19);
-
-            ser19.ChartArea = chartAltOE.ChartAreas[0].Name;
-            ser19.Name = seriesName19;
-            ser19.ChartType = SeriesChartType.Line;
-
-            if (chkliga16_18OECheckBox.Checked == true)
-            {
-                int valorA, valorB;
-
-                valorA = Convert.ToInt32(va16koeComboBox.Text);
-                valorB = Convert.ToInt32(va18koeComboBox.Text);
-
-                ser19.Points.AddXY(6, valorA);
-                ser19.Points.AddXY(7, valorB);
-
-                ser19.BorderColor = Color.Transparent;
-                ser19.Color = Color.DodgerBlue;
-                ser19.BorderWidth = Convert.ToInt32(1.5);
-            }
-
-            else if (chkliga16_18OECheckBox.Checked == false)
-            {
-                ser19.Points.Clear();
-            }
-
-            //******
-
-            string seriesName20 = "liga 18k_20K";
-            Series ser20 = chartAltOE.Series.Add(seriesName20);
-
-            ser20.ChartArea = chartAltOE.ChartAreas[0].Name;
-            ser20.Name = seriesName20;
-            ser20.ChartType = SeriesChartType.Line;
-
-            if (chkliga18_20OECheckBox.Checked == true)
-            {
-                int valorA, valorB;
-
-                valorA = Convert.ToInt32(va18koeComboBox.Text);
-                valorB = Convert.ToInt32(va20koeComboBox.Text);
-
-                ser20.Points.AddXY(7, valorA);
-                ser20.Points.AddXY(8, valorB);
-
-                ser20.BorderColor = Color.Transparent;
-                ser20.Color = Color.DodgerBlue;
-                ser20.BorderWidth = Convert.ToInt32(1.5);
-            }
-
-            else if (chkliga18_20OECheckBox.Checked == false)
-            {
-                ser20.Points.Clear();
-            }
-            }
-            catch
-            {
-                MessageBox.Show("Não é possível ligar a simbologia!", "Erro!", MessageBoxButtons.OK, MessageBoxIcon.Error);
-
-                chkliga9_10OECheckBox.Checked = false;
-                chkliga10_12_5OECheckBox.Checked = false;
-                chkliga12_5_14OECheckBox.Checked = false;
-                chkliga14_16OECheckBox.Checked = false;
-                chkliga16_18OECheckBox.Checked = false;
-                chkliga18_20OECheckBox.Checked = false;
-            }
+                MessageBox.Show("Escolha 'Audiometria de altas frequências' para a plotagem da simbologia.", "Atenção!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }           
         }
 
         private void btnPlotarCampoLivre_Click(object sender, EventArgs e)
@@ -1853,19 +1877,24 @@ namespace segmentoOtoneurologia
             chartAudioEmCampo.ChartAreas[0].AxisX.MajorGrid.LineDashStyle = ChartDashStyle.Dash;
             chartAudioEmCampo.ChartAreas[0].AxisX.MajorGrid.LineColor = Color.Transparent;
 
+            string fundoChart = "fundoChartTransp";
+            Series imgFundo = chartAudioEmCampo.Series.Add(fundoChart);
+
+            imgFundo.ChartArea = chartAudioEmCampo.ChartAreas[0].Name;
+            imgFundo.Name = fundoChart;
+            imgFundo.ChartType = SeriesChartType.Point;
+
             if (rbExibeBananaAudioGanhoFuncio.Checked == true)
             {
-                var fundoAudioEmCampoFuncio = new NamedImage("Slide1", Properties.Resources.Slide1);
+                var fundoAudioEmCampoFuncio = new NamedImage("bananaCinza", Properties.Resources.bananaCinza);
                 chartAudioEmCampo.Images.Clear();
                 chartAudioEmCampo.Images.Add(fundoAudioEmCampoFuncio);
-                chartAudioEmCampo.ChartAreas[0].BackImage = "Slide1";
+                imgFundo.MarkerImage = "bananaCinza";
+                imgFundo.Points.AddXY(7.50, 45);
             }
             else if (rbEscondeBananaAudioGanhoFuncio.Checked == true)
             {
-                var fundoAudioEmCampoFuncio = new NamedImage("brancoTimpano", Properties.Resources.brancoTimpano);
-                chartAudioEmCampo.Images.Clear();
-                chartAudioEmCampo.Images.Add(fundoAudioEmCampoFuncio);
-                chartAudioEmCampo.ChartAreas[0].BackImage = "brancoTimpano";
+                chartAudioEmCampo.Series[fundoChart].Points.Clear();
             }
 
             string seriesName1 = "grade1camp";
@@ -2715,20 +2744,25 @@ namespace segmentoOtoneurologia
             chartAudioOD.ChartAreas[0].AxisX.MajorGrid.LineDashStyle = ChartDashStyle.Dash;
             chartAudioOD.ChartAreas[0].AxisX.MajorGrid.LineColor = Color.Transparent;
 
+            string fundoChart = "fundoChartTransp";
+            Series imgFundo = chartAudioOD.Series.Add(fundoChart);
+
+            imgFundo.ChartArea = chartAudioOD.ChartAreas[0].Name;
+            imgFundo.Name = fundoChart;
+            imgFundo.ChartType = SeriesChartType.Point;
+
             if (rbExibeBananaAudioClinicaOD.Checked == true)
             {
-                var fundoAudioOD = new NamedImage("Slide3", Properties.Resources.Slide3);
+                var fundoAudioOD = new NamedImage("bananaVermelha", Properties.Resources.bananaVermelha);
                 chartAudioOD.Images.Clear();
                 chartAudioOD.Images.Add(fundoAudioOD);
-                chartAudioOD.ChartAreas[0].BackImage = "Slide3";
+                imgFundo.MarkerImage = "bananaVermelha";
+                imgFundo.Points.AddXY(7.50, 45);
             }
             else if (rbEscondeBananaAudioClinicaOD.Checked == true)
             {
-                var fundoAudioOD = new NamedImage("brancoTimpano", Properties.Resources.brancoTimpano);
-                chartAudioOD.Images.Clear();
-                chartAudioOD.Images.Add(fundoAudioOD);
-                chartAudioOD.ChartAreas[0].BackImage = "brancoTimpano";
-            }
+                chartAudioOD.Series[fundoChart].Points.Clear();
+            }           
 
             string seriesName1 = "grade1OD";
             Series ser1 = chartAudioOD.Series.Add(seriesName1);
@@ -5828,19 +5862,24 @@ namespace segmentoOtoneurologia
             chartAudioOE.ChartAreas[0].AxisX.MajorGrid.LineDashStyle = ChartDashStyle.Dash;
             chartAudioOE.ChartAreas[0].AxisX.MajorGrid.LineColor = Color.Transparent;
 
+            string fundoChart = "fundoChartTransp";
+            Series imgFundo = chartAudioOE.Series.Add(fundoChart);
+
+            imgFundo.ChartArea = chartAudioOE.ChartAreas[0].Name;
+            imgFundo.Name = fundoChart;
+            imgFundo.ChartType = SeriesChartType.Point;
+
             if (rbExibeBananaAudioClinicaOE.Checked == true)
             {
-                var fundoAudioOE = new NamedImage("Slide2", Properties.Resources.Slide2);
+                var fundoAudioOE = new NamedImage("bananaAzul", Properties.Resources.bananaAzul);
                 chartAudioOE.Images.Clear();
                 chartAudioOE.Images.Add(fundoAudioOE);
-                chartAudioOE.ChartAreas[0].BackImage = "Slide2";               
+                imgFundo.MarkerImage = "bananaAzul";
+                imgFundo.Points.AddXY(7.50, 45);
             }
             else if (rbEscondeBananaAudioClinicaOE.Checked == true)
             {
-                var fundoAudioOE = new NamedImage("brancoTimpano", Properties.Resources.brancoTimpano);
-                chartAudioOE.Images.Clear();
-                chartAudioOE.Images.Add(fundoAudioOE);
-                chartAudioOE.ChartAreas[0].BackImage = "brancoTimpano";
+                chartAudioOE.Series[fundoChart].Points.Clear();
             }
 
             string seriesName1 = "grade1OE";
@@ -8940,20 +8979,25 @@ namespace segmentoOtoneurologia
             chartCampoConven.ChartAreas[0].AxisX.MajorGrid.LineDashStyle = ChartDashStyle.Dash;
             chartCampoConven.ChartAreas[0].AxisX.MajorGrid.LineColor = Color.Transparent;
 
+            string fundoChart = "fundoChartTransp";
+            Series imgFundo = chartCampoConven.Series.Add(fundoChart);
+
+            imgFundo.ChartArea = chartCampoConven.ChartAreas[0].Name;
+            imgFundo.Name = fundoChart;
+            imgFundo.ChartType = SeriesChartType.Point;
+
             if (rbExibeBananaAudioCampoConvenc.Checked == true)
             {
-                var fundoAudioCampoConvenc = new NamedImage("Slide4", Properties.Resources.Slide4);
+                var fundoAudioCampoConvenc = new NamedImage("bananaVerde", Properties.Resources.bananaVerde);
                 chartCampoConven.Images.Clear();
                 chartCampoConven.Images.Add(fundoAudioCampoConvenc);
-                chartCampoConven.ChartAreas[0].BackImage = "Slide4";
+                imgFundo.MarkerImage = "bananaVerde";
+                imgFundo.Points.AddXY(7.50, 45);
             }
             else if (rbEscondeBananaFalaAudioCampoConvenc.Checked == true)
-            {
-                var fundoAudioCampoConvenc = new NamedImage("brancoTimpano", Properties.Resources.brancoTimpano);
-                chartCampoConven.Images.Clear();
-                chartCampoConven.Images.Add(fundoAudioCampoConvenc);
-                chartCampoConven.ChartAreas[0].BackImage = "brancoTimpano";
-            }
+            {   
+                chartCampoConven.Series[fundoChart].Points.Clear();
+            }            
 
             string seriesName1 = "grade1campConv";
             Series ser1 = chartCampoConven.Series.Add(seriesName1);

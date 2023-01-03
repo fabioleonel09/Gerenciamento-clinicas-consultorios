@@ -36,11 +36,6 @@ namespace segmentoOtoneurologia
             this.segmsaude001DataSet = new segmentoOtoneurologia.segmsaude001DataSet();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.gbAudioCampAASI = new System.Windows.Forms.GroupBox();
-            this.txtPacienteImpedancio = new System.Windows.Forms.TextBox();
-            this.btnPrintImpedancio = new System.Windows.Forms.Button();
-            this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
-            this.tabelaExamesTableAdapter = new segmentoOtoneurologia.segmsaude001DataSetTableAdapters.tabelaExamesTableAdapter();
-            this.tableAdapterManager = new segmentoOtoneurologia.segmsaude001DataSetTableAdapters.TableAdapterManager();
             this.label1 = new System.Windows.Forms.Label();
             this.tabelaExamesDataGridView = new System.Windows.Forms.DataGridView();
             this.dataGridViewTextBoxColumn181 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -49,6 +44,11 @@ namespace segmentoOtoneurologia
             this.dataGridViewTextBoxColumn478 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.txtPacienteImpedancio = new System.Windows.Forms.TextBox();
+            this.btnPrintImpedancio = new System.Windows.Forms.Button();
+            this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
+            this.tabelaExamesTableAdapter = new segmentoOtoneurologia.segmsaude001DataSetTableAdapters.tabelaExamesTableAdapter();
+            this.tableAdapterManager = new segmentoOtoneurologia.segmsaude001DataSetTableAdapters.TableAdapterManager();
             ((System.ComponentModel.ISupportInitialize)(this.tabelaExamesBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.segmsaude001DataSet)).BeginInit();
             this.tableLayoutPanel1.SuspendLayout();
@@ -95,62 +95,6 @@ namespace segmentoOtoneurologia
             this.gbAudioCampAASI.TabIndex = 2;
             this.gbAudioCampAASI.TabStop = false;
             this.gbAudioCampAASI.Text = "Imprimir paciente";
-            // 
-            // txtPacienteImpedancio
-            // 
-            this.txtPacienteImpedancio.Enabled = false;
-            this.txtPacienteImpedancio.Location = new System.Drawing.Point(777, 80);
-            this.txtPacienteImpedancio.Name = "txtPacienteImpedancio";
-            this.txtPacienteImpedancio.Size = new System.Drawing.Size(221, 26);
-            this.txtPacienteImpedancio.TabIndex = 1;
-            // 
-            // btnPrintImpedancio
-            // 
-            this.btnPrintImpedancio.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnPrintImpedancio.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnPrintImpedancio.Image = global::segmentoOtoneurologia.Properties.Resources.filtrar;
-            this.btnPrintImpedancio.Location = new System.Drawing.Point(1004, 57);
-            this.btnPrintImpedancio.Name = "btnPrintImpedancio";
-            this.btnPrintImpedancio.Size = new System.Drawing.Size(71, 49);
-            this.btnPrintImpedancio.TabIndex = 0;
-            this.btnPrintImpedancio.UseVisualStyleBackColor = true;
-            this.btnPrintImpedancio.Click += new System.EventHandler(this.btnPrintImpedancio_Click);
-            // 
-            // reportViewer1
-            // 
-            this.reportViewer1.Dock = System.Windows.Forms.DockStyle.Fill;
-            reportDataSource1.Name = "DataSet1";
-            reportDataSource1.Value = this.tabelaExamesBindingSource;
-            this.reportViewer1.LocalReport.DataSources.Add(reportDataSource1);
-            this.reportViewer1.LocalReport.EnableExternalImages = true;
-            this.reportViewer1.LocalReport.ReportEmbeddedResource = "segmentoOtoneurologia.rpvImpedancio.rdlc";
-            this.reportViewer1.Location = new System.Drawing.Point(4, 163);
-            this.reportViewer1.Name = "reportViewer1";
-            this.reportViewer1.ServerReport.BearerToken = null;
-            this.reportViewer1.Size = new System.Drawing.Size(1081, 575);
-            this.reportViewer1.TabIndex = 3;
-            // 
-            // tabelaExamesTableAdapter
-            // 
-            this.tabelaExamesTableAdapter.ClearBeforeFill = true;
-            // 
-            // tableAdapterManager
-            // 
-            this.tableAdapterManager.BackupDataSetBeforeUpdate = false;
-            this.tableAdapterManager.tabelaAgendamentoTableAdapter = null;
-            this.tableAdapterManager.tabelaBlocoNotasTableAdapter = null;
-            this.tableAdapterManager.tabelaCadastroSenhasTableAdapter = null;
-            this.tableAdapterManager.tabelaContatosTableAdapter = null;
-            this.tableAdapterManager.tabelaEstoqueTableAdapter = null;
-            this.tableAdapterManager.tabelaExamesTableAdapter = this.tabelaExamesTableAdapter;
-            this.tableAdapterManager.tabelaLaudario1TableAdapter = null;
-            this.tableAdapterManager.tabelaLaudarioTableAdapter = null;
-            this.tableAdapterManager.tabelaOcupacionalTableAdapter = null;
-            this.tableAdapterManager.tabelaOtoneuroTableAdapter = null;
-            this.tableAdapterManager.tabelaPacienteTableAdapter = null;
-            this.tableAdapterManager.tabelaProntuarioTableAdapter = null;
-            this.tableAdapterManager.tabelaReceituarioTableAdapter = null;
-            this.tableAdapterManager.UpdateOrder = segmentoOtoneurologia.segmsaude001DataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
             // 
             // label1
             // 
@@ -228,6 +172,62 @@ namespace segmentoOtoneurologia
             this.dataGridViewTextBoxColumn6.HeaderText = "Empresa";
             this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
             this.dataGridViewTextBoxColumn6.ReadOnly = true;
+            // 
+            // txtPacienteImpedancio
+            // 
+            this.txtPacienteImpedancio.Enabled = false;
+            this.txtPacienteImpedancio.Location = new System.Drawing.Point(777, 80);
+            this.txtPacienteImpedancio.Name = "txtPacienteImpedancio";
+            this.txtPacienteImpedancio.Size = new System.Drawing.Size(221, 26);
+            this.txtPacienteImpedancio.TabIndex = 1;
+            // 
+            // btnPrintImpedancio
+            // 
+            this.btnPrintImpedancio.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnPrintImpedancio.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnPrintImpedancio.Image = global::segmentoOtoneurologia.Properties.Resources.filtrar;
+            this.btnPrintImpedancio.Location = new System.Drawing.Point(1004, 57);
+            this.btnPrintImpedancio.Name = "btnPrintImpedancio";
+            this.btnPrintImpedancio.Size = new System.Drawing.Size(71, 49);
+            this.btnPrintImpedancio.TabIndex = 0;
+            this.btnPrintImpedancio.UseVisualStyleBackColor = true;
+            this.btnPrintImpedancio.Click += new System.EventHandler(this.btnPrintImpedancio_Click);
+            // 
+            // reportViewer1
+            // 
+            this.reportViewer1.Dock = System.Windows.Forms.DockStyle.Fill;
+            reportDataSource1.Name = "DataSet1";
+            reportDataSource1.Value = this.tabelaExamesBindingSource;
+            this.reportViewer1.LocalReport.DataSources.Add(reportDataSource1);
+            this.reportViewer1.LocalReport.EnableExternalImages = true;
+            this.reportViewer1.LocalReport.ReportEmbeddedResource = "segmentoOtoneurologia.rpvImpedancio.rdlc";
+            this.reportViewer1.Location = new System.Drawing.Point(4, 163);
+            this.reportViewer1.Name = "reportViewer1";
+            this.reportViewer1.ServerReport.BearerToken = null;
+            this.reportViewer1.Size = new System.Drawing.Size(1081, 575);
+            this.reportViewer1.TabIndex = 3;
+            // 
+            // tabelaExamesTableAdapter
+            // 
+            this.tabelaExamesTableAdapter.ClearBeforeFill = true;
+            // 
+            // tableAdapterManager
+            // 
+            this.tableAdapterManager.BackupDataSetBeforeUpdate = false;
+            this.tableAdapterManager.tabelaAgendamentoTableAdapter = null;
+            this.tableAdapterManager.tabelaBlocoNotasTableAdapter = null;
+            this.tableAdapterManager.tabelaCadastroSenhasTableAdapter = null;
+            this.tableAdapterManager.tabelaContatosTableAdapter = null;
+            this.tableAdapterManager.tabelaEstoqueTableAdapter = null;
+            this.tableAdapterManager.tabelaExamesTableAdapter = this.tabelaExamesTableAdapter;
+            this.tableAdapterManager.tabelaLaudario1TableAdapter = null;
+            this.tableAdapterManager.tabelaLaudarioTableAdapter = null;
+            this.tableAdapterManager.tabelaOcupacionalTableAdapter = null;
+            this.tableAdapterManager.tabelaOtoneuroTableAdapter = null;
+            this.tableAdapterManager.tabelaPacienteTableAdapter = null;
+            this.tableAdapterManager.tabelaProntuarioTableAdapter = null;
+            this.tableAdapterManager.tabelaReceituarioTableAdapter = null;
+            this.tableAdapterManager.UpdateOrder = segmentoOtoneurologia.segmsaude001DataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
             // 
             // frmPrintImpedancioODeOE
             // 

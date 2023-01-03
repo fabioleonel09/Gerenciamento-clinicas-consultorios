@@ -31,7 +31,7 @@ namespace segmentoOtoneurologia
             this.reportViewer1.RefreshReport();
 
             this.reportViewer1.LocalReport.EnableExternalImages = true;
-            this.reportViewer1.RefreshReport();
+            this.reportViewer1.RefreshReport();           
         }
 
         private void tabelaExamesBindingNavigatorSaveItem_Click(object sender, EventArgs e)
