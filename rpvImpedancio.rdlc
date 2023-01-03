@@ -9,21 +9,7 @@
           <Paragraph>
             <TextRuns>
               <TextRun>
-                <Value>IMPEDANCIOMETRIA</Value>
-                <Style>
-                  <FontStyle>Italic</FontStyle>
-                  <FontWeight>Bold</FontWeight>
-                </Style>
-              </TextRun>
-            </TextRuns>
-            <Style>
-              <TextAlign>Center</TextAlign>
-            </Style>
-          </Paragraph>
-          <Paragraph>
-            <TextRuns>
-              <TextRun>
-                <Value>Timpanometria</Value>
+                <Value>IMPEDANCIOMETRIA - Timpanometria</Value>
                 <Style>
                   <FontStyle>Italic</FontStyle>
                   <FontWeight>Bold</FontWeight>
@@ -36,9 +22,9 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox10</rd:DefaultName>
-        <Top>1.3573cm</Top>
+        <Top>1.38093cm</Top>
         <Left>4.29586cm</Left>
-        <Height>1.02333cm</Height>
+        <Height>0.57354cm</Height>
         <Width>10.22583cm</Width>
         <Style>
           <Border>
@@ -54,8 +40,8 @@
         <Source>External</Source>
         <Value>file:////C:\users/public/documents/chartODimp.png</Value>
         <Sizing>FitProportional</Sizing>
-        <Top>3.2512cm</Top>
-        <Left>2.22927cm</Left>
+        <Top>2.37808cm</Top>
+        <Left>2.22929cm</Left>
         <Height>6.36834cm</Height>
         <Width>7.18312cm</Width>
         <ZIndex>1</ZIndex>
@@ -81,8 +67,8 @@
         <Source>External</Source>
         <Value>file:////C:\users/public/documents/chartOEimp.png</Value>
         <Sizing>FitProportional</Sizing>
-        <Top>3.2512cm</Top>
-        <Left>9.63761cm</Left>
+        <Top>2.37808cm</Top>
+        <Left>9.63763cm</Left>
         <Height>6.36834cm</Height>
         <Width>7.18312cm</Width>
         <ZIndex>2</ZIndex>
@@ -140,7 +126,6 @@
                       <rd:DefaultName>Textbox3</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -175,7 +160,6 @@
                       <rd:DefaultName>Textbox5</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -210,7 +194,6 @@
                       <rd:DefaultName>Textbox7</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -247,7 +230,6 @@
                       <rd:DefaultName>Textbox6</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -281,7 +263,6 @@
                       <rd:DefaultName>pressaood</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -315,7 +296,6 @@
                       <rd:DefaultName>pressaooe</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -352,7 +332,6 @@
                       <rd:DefaultName>Textbox9</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -386,7 +365,6 @@
                       <rd:DefaultName>complod</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -420,7 +398,6 @@
                       <rd:DefaultName>comploe</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -456,8 +433,8 @@
           </TablixMembers>
         </TablixRowHierarchy>
         <DataSetName>DataSet1</DataSetName>
-        <Top>9.83933cm</Top>
-        <Left>2.22927cm</Left>
+        <Top>8.86037cm</Top>
+        <Left>2.22929cm</Left>
         <Height>1.8cm</Height>
         <Width>14.59146cm</Width>
         <ZIndex>3</ZIndex>
@@ -506,7 +483,6 @@
                       <rd:DefaultName>Textbox4</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <BackgroundColor>LightGrey</BackgroundColor>
@@ -540,7 +516,6 @@
                       <rd:DefaultName>Textbox6</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <BackgroundColor>LightGrey</BackgroundColor>
@@ -574,7 +549,6 @@
                       <rd:DefaultName>Textbox8</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <BackgroundColor>LightGrey</BackgroundColor>
@@ -612,7 +586,6 @@
                       <rd:DefaultName>nomePaciente</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -642,7 +615,6 @@
                       <rd:DefaultName>idadePacienteNovo</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -674,7 +646,6 @@
                       <rd:DefaultName>dataNascimento</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -707,6 +678,7 @@
           </TablixMembers>
         </TablixRowHierarchy>
         <DataSetName>DataSet1</DataSetName>
+        <Top>0.12202cm</Top>
         <Left>2.22927cm</Left>
         <Height>1.2cm</Height>
         <Width>14.59146cm</Width>
@@ -769,7 +741,6 @@
                       <rd:DefaultName>Textbox21</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -804,7 +775,6 @@
                       <rd:DefaultName>Textbox23</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -839,7 +809,6 @@
                       <rd:DefaultName>Textbox27</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -874,7 +843,6 @@
                       <rd:DefaultName>Textbox28</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -909,7 +877,6 @@
                       <rd:DefaultName>Textbox30</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -944,7 +911,6 @@
                       <rd:DefaultName>Textbox29</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -979,7 +945,6 @@
                       <rd:DefaultName>Textbox31</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -1018,7 +983,6 @@
                       <rd:DefaultName>Textbox32</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -1052,7 +1016,6 @@
                       <rd:DefaultName>dif500od</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -1087,7 +1050,6 @@
                       <rd:DefaultName>contra500od</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -1122,7 +1084,6 @@
                       <rd:DefaultName>ipsi500od</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -1156,7 +1117,6 @@
                       <rd:DefaultName>dif500oe</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -1191,7 +1151,6 @@
                       <rd:DefaultName>contra500oe</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -1226,7 +1185,6 @@
                       <rd:DefaultName>ipsi500oe</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -1265,7 +1223,6 @@
                       <rd:DefaultName>Textbox39</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -1299,7 +1256,6 @@
                       <rd:DefaultName>dif1kod</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -1334,7 +1290,6 @@
                       <rd:DefaultName>contra1kod</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -1369,7 +1324,6 @@
                       <rd:DefaultName>ipsi1kod</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -1403,7 +1357,6 @@
                       <rd:DefaultName>dif1koe</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -1438,7 +1391,6 @@
                       <rd:DefaultName>contra1koe</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -1473,7 +1425,6 @@
                       <rd:DefaultName>ipsi1koe</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -1512,7 +1463,6 @@
                       <rd:DefaultName>Textbox46</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -1546,7 +1496,6 @@
                       <rd:DefaultName>dif2kod</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -1581,7 +1530,6 @@
                       <rd:DefaultName>contra2kod</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -1616,7 +1564,6 @@
                       <rd:DefaultName>ipsi2kod</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -1650,7 +1597,6 @@
                       <rd:DefaultName>dif2koe</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -1685,7 +1631,6 @@
                       <rd:DefaultName>contra2koe</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -1720,7 +1665,6 @@
                       <rd:DefaultName>ipsi2koe</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -1759,7 +1703,6 @@
                       <rd:DefaultName>Textbox53</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -1793,7 +1736,6 @@
                       <rd:DefaultName>dif4kod</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -1828,7 +1770,6 @@
                       <rd:DefaultName>contra4kod</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -1863,7 +1804,6 @@
                       <rd:DefaultName>ipsi4kod</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -1897,7 +1837,6 @@
                       <rd:DefaultName>dif4koe</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -1932,7 +1871,6 @@
                       <rd:DefaultName>contra4koe</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -1967,7 +1905,6 @@
                       <rd:DefaultName>ipsi4koe</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -2003,14 +1940,14 @@
           </TablixMembers>
         </TablixRowHierarchy>
         <DataSetName>DataSet1</DataSetName>
-        <Top>13.05044cm</Top>
-        <Left>2.22927cm</Left>
+        <Top>12.21315cm</Top>
+        <Left>2.22929cm</Left>
         <Height>3cm</Height>
         <Width>14.59147cm</Width>
         <ZIndex>5</ZIndex>
         <Style>
           <Border>
-            <Style>None</Style>
+            <Style>Solid</Style>
           </Border>
         </Style>
       </Tablix>
@@ -2072,7 +2009,6 @@
                       <rd:DefaultName>Textbox61</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -2107,7 +2043,6 @@
                       <rd:DefaultName>Textbox63</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -2142,7 +2077,6 @@
                       <rd:DefaultName>Textbox65</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -2177,7 +2111,6 @@
                       <rd:DefaultName>Textbox72</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -2212,7 +2145,6 @@
                       <rd:DefaultName>Textbox75</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -2247,7 +2179,6 @@
                       <rd:DefaultName>Textbox78</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -2282,7 +2213,6 @@
                       <rd:DefaultName>Textbox81</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -2317,7 +2247,6 @@
                       <rd:DefaultName>Textbox84</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -2352,7 +2281,6 @@
                       <rd:DefaultName>Textbox87</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -2391,7 +2319,6 @@
                       <rd:DefaultName>Textbox66</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -2426,7 +2353,6 @@
                       <rd:DefaultName>reflex500contraod</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -2461,7 +2387,6 @@
                       <rd:DefaultName>reflex1kcontraod</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -2496,7 +2421,6 @@
                       <rd:DefaultName>reflex2kcontraod</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -2531,7 +2455,6 @@
                       <rd:DefaultName>reflex4kcontraod</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -2566,7 +2489,6 @@
                       <rd:DefaultName>reflex500contraoe</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -2601,7 +2523,6 @@
                       <rd:DefaultName>reflex1kcontraoe</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -2636,7 +2557,6 @@
                       <rd:DefaultName>reflex2kcontraoe</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -2671,7 +2591,6 @@
                       <rd:DefaultName>reflex4kcontraoe</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -2710,7 +2629,6 @@
                       <rd:DefaultName>Textbox69</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -2745,7 +2663,6 @@
                       <rd:DefaultName>reflex500ipsiod</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -2780,7 +2697,6 @@
                       <rd:DefaultName>reflex1kipsiod</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -2815,7 +2731,6 @@
                       <rd:DefaultName>reflex2kipsiod</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -2850,7 +2765,6 @@
                       <rd:DefaultName>reflex4kipsiod</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -2885,7 +2799,6 @@
                       <rd:DefaultName>reflex500ipsioe</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -2920,7 +2833,6 @@
                       <rd:DefaultName>reflex1kipsioe</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -2955,7 +2867,6 @@
                       <rd:DefaultName>reflex2kipsioe</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -2990,7 +2901,6 @@
                       <rd:DefaultName>reflex4kipsioe</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -3032,14 +2942,14 @@
           </TablixMembers>
         </TablixRowHierarchy>
         <DataSetName>DataSet1</DataSetName>
-        <Top>18.35891cm</Top>
+        <Top>17.43648cm</Top>
         <Left>2.22927cm</Left>
         <Height>1.8cm</Height>
         <Width>14.59148cm</Width>
         <ZIndex>6</ZIndex>
         <Style>
           <Border>
-            <Style>None</Style>
+            <Style>Solid</Style>
           </Border>
         </Style>
       </Tablix>
@@ -3091,7 +3001,7 @@
                       <rd:DefaultName>Textbox91</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
+                          <Color>White</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -3127,7 +3037,7 @@
                       <rd:DefaultName>curvaod</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
+                          <Color>White</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -3162,9 +3072,10 @@
                       <rd:DefaultName>Textbox95</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
+                          <Color>White</Color>
                           <Style>Solid</Style>
                         </Border>
+                        <VerticalAlign>Bottom</VerticalAlign>
                         <PaddingLeft>2pt</PaddingLeft>
                         <PaddingRight>2pt</PaddingRight>
                         <PaddingTop>2pt</PaddingTop>
@@ -3198,7 +3109,7 @@
                       <rd:DefaultName>curvaoe</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
+                          <Color>White</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -3229,8 +3140,8 @@
           </TablixMembers>
         </TablixRowHierarchy>
         <DataSetName>DataSet1</DataSetName>
-        <Top>16.94752cm</Top>
-        <Left>3.86245cm</Left>
+        <Top>15.31898cm</Top>
+        <Left>3.89775cm</Left>
         <Height>0.6cm</Height>
         <Width>12.95829cm</Width>
         <ZIndex>7</ZIndex>
@@ -3281,7 +3192,6 @@
                       <rd:DefaultName>Textbox13</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -3303,7 +3213,7 @@
                             <TextRun>
                               <Value>=Fields!segundoAutor.Value</Value>
                               <Style>
-                                <FontSize>8pt</FontSize>
+                                <FontSize>6pt</FontSize>
                               </Style>
                             </TextRun>
                           </TextRuns>
@@ -3313,7 +3223,6 @@
                       <rd:DefaultName>segundoAutor</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -3345,7 +3254,6 @@
                       <rd:DefaultName>Textbox17</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -3377,7 +3285,6 @@
                       <rd:DefaultName>dataCalImp</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -3414,7 +3321,6 @@
                       <rd:DefaultName>Textbox20</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -3446,7 +3352,6 @@
                       <rd:DefaultName>comentariosImp</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -3478,7 +3383,6 @@
                       <rd:DefaultName>Textbox24</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -3510,7 +3414,6 @@
                       <rd:DefaultName>examImp</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -3544,8 +3447,8 @@
           </TablixMembers>
         </TablixRowHierarchy>
         <DataSetName>DataSet1</DataSetName>
-        <Top>20.31683cm</Top>
-        <Left>2.22927cm</Left>
+        <Top>19.34232cm</Top>
+        <Left>2.22929cm</Left>
         <Height>1.2cm</Height>
         <Width>14.59146cm</Width>
         <ZIndex>8</ZIndex>
@@ -3573,8 +3476,8 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox34</rd:DefaultName>
-        <Top>11.63849cm</Top>
-        <Left>2.22927cm</Left>
+        <Top>10.7662cm</Top>
+        <Left>2.22929cm</Left>
         <Height>0.6cm</Height>
         <Width>14.59146cm</Width>
         <ZIndex>9</ZIndex>
@@ -3595,7 +3498,7 @@
           <Paragraph>
             <TextRuns>
               <TextRun>
-                <Value>Resultado:</Value>
+                <Value>Resultado:                                                            e</Value>
                 <Style>
                   <FontStyle>Italic</FontStyle>
                   <FontWeight>Bold</FontWeight>
@@ -3606,8 +3509,8 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox35</rd:DefaultName>
-        <Top>16.20641cm</Top>
-        <Left>2.22927cm</Left>
+        <Top>15.31898cm</Top>
+        <Left>2.2293cm</Left>
         <Height>0.6cm</Height>
         <Width>14.59146cm</Width>
         <ZIndex>10</ZIndex>
@@ -3638,30 +3541,20 @@
                   <Color>Red</Color>
                 </Style>
               </TextRun>
-              <TextRun>
-                <Value xml:space="preserve">                                    </Value>
-                <Style />
-              </TextRun>
-              <TextRun>
-                <Value>Sonda em OE</Value>
-                <Style>
-                  <FontWeight>Bold</FontWeight>
-                  <Color>Blue</Color>
-                </Style>
-              </TextRun>
             </TextRuns>
             <Style />
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox12</rd:DefaultName>
-        <Top>12.34461cm</Top>
-        <Left>4.29586cm</Left>
+        <Top>11.50732cm</Top>
+        <Left>4.29588cm</Left>
         <Height>0.6cm</Height>
-        <Width>12.52487cm</Width>
+        <Width>6.03116cm</Width>
         <ZIndex>11</ZIndex>
         <Style>
           <Border>
-            <Style>None</Style>
+            <Color>Red</Color>
+            <Style>Solid</Style>
           </Border>
           <PaddingLeft>2pt</PaddingLeft>
           <PaddingRight>2pt</PaddingRight>
@@ -3700,8 +3593,8 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox14</rd:DefaultName>
-        <Top>2.54537cm</Top>
-        <Left>2.22927cm</Left>
+        <Top>1.77808cm</Top>
+        <Left>2.22929cm</Left>
         <Height>0.6cm</Height>
         <Width>14.59146cm</Width>
         <ZIndex>12</ZIndex>
@@ -3733,8 +3626,8 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox35</rd:DefaultName>
-        <Top>17.65335cm</Top>
-        <Left>2.22927cm</Left>
+        <Top>16.02482cm</Top>
+        <Left>2.26458cm</Left>
         <Height>0.6cm</Height>
         <Width>14.59146cm</Width>
         <ZIndex>13</ZIndex>
@@ -3748,31 +3641,131 @@
           <PaddingBottom>2pt</PaddingBottom>
         </Style>
       </Textbox>
+      <Textbox Name="Textbox15">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value xml:space="preserve">                  </Value>
+                <Style />
+              </TextRun>
+              <TextRun>
+                <Value>Sonda em OE</Value>
+                <Style>
+                  <FontWeight>Bold</FontWeight>
+                  <Color>Blue</Color>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox12</rd:DefaultName>
+        <Top>11.50732cm</Top>
+        <Left>10.621cm</Left>
+        <Height>0.6cm</Height>
+        <Width>6.19975cm</Width>
+        <ZIndex>14</ZIndex>
+        <Style>
+          <Border>
+            <Color>Blue</Color>
+            <Style>Solid</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox18">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value xml:space="preserve">              </Value>
+                <Style />
+              </TextRun>
+              <TextRun>
+                <Value>com a sonda em OD</Value>
+                <Style>
+                  <FontWeight>Bold</FontWeight>
+                  <Color>Red</Color>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox12</rd:DefaultName>
+        <Top>16.73065cm</Top>
+        <Left>3.8752cm</Left>
+        <Height>0.6cm</Height>
+        <Width>6.45184cm</Width>
+        <ZIndex>15</ZIndex>
+        <Style>
+          <Border>
+            <Color>Red</Color>
+            <Style>Solid</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox19">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value xml:space="preserve">              </Value>
+                <Style />
+              </TextRun>
+              <TextRun>
+                <Value>com a sonda em OE</Value>
+                <Style>
+                  <FontWeight>Bold</FontWeight>
+                  <Color>Blue</Color>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox12</rd:DefaultName>
+        <Top>16.73065cm</Top>
+        <Left>10.36232cm</Left>
+        <Height>0.6cm</Height>
+        <Width>6.45843cm</Width>
+        <ZIndex>16</ZIndex>
+        <Style>
+          <Border>
+            <Color>Blue</Color>
+            <Style>Solid</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
     </ReportItems>
-    <Height>8.54411in</Height>
+    <Height>8.08753in</Height>
     <Style />
   </Body>
   <Width>7.483in</Width>
   <Page>
     <PageHeader>
-      <Height>2.24896cm</Height>
+      <Height>1.66688cm</Height>
       <PrintOnFirstPage>true</PrintOnFirstPage>
       <PrintOnLastPage>true</PrintOnLastPage>
       <ReportItems>
-        <Image Name="Image1">
-          <Source>Embedded</Source>
-          <Value>materDei</Value>
-          <Sizing>Fit</Sizing>
-          <Top>0.18927cm</Top>
-          <Left>2.22927cm</Left>
-          <Height>1.73813cm</Height>
-          <Width>2.55191cm</Width>
-          <Style>
-            <Border>
-              <Style>None</Style>
-            </Border>
-          </Style>
-        </Image>
         <Textbox Name="Textbox1">
           <CanGrow>true</CanGrow>
           <KeepTogether>true</KeepTogether>
@@ -3780,15 +3773,7 @@
             <Paragraph>
               <TextRuns>
                 <TextRun>
-                  <Value>LABORATÓRIO PATOLOGIA CLÍNICA (3339-9013)                                           </Value>
-                  <Style>
-                    <FontStyle>Normal</FontStyle>
-                    <FontSize>6pt</FontSize>
-                    <Color>DarkGreen</Color>
-                  </Style>
-                </TextRun>
-                <TextRun>
-                  <Value>CENTRAL MARCAÇÃO DE EXAMES (3339-9800)</Value>
+                  <Value>LABORATÓRIO PATOLOGIA CLÍNICA (3339-9013)                                CENTRAL MARCAÇÃO DE EXAMES (3339-9800)</Value>
                   <Style>
                     <FontStyle>Normal</FontStyle>
                     <FontSize>6pt</FontSize>
@@ -3803,7 +3788,7 @@
             <Paragraph>
               <TextRuns>
                 <TextRun>
-                  <Value>LABORATÓRIO ANATOMIA PATOLÓGICA (3339-9046)                                   RECEPÇÃO CENTRAL MARCAÇÃO (3401-7592)</Value>
+                  <Value>LABORATÓRIO ANATOMIA PATOLÓGICA (3339-9046)                         RECEPÇÃO CENTRAL MARCAÇÃO (3401-7592)</Value>
                   <Style>
                     <FontStyle>Normal</FontStyle>
                     <FontSize>6pt</FontSize>
@@ -3818,7 +3803,7 @@
             <Paragraph>
               <TextRuns>
                 <TextRun>
-                  <Value>SERVIÇO HEMODINÂNICA SANTO AGOSTINHO (3339-9412)         </Value>
+                  <Value>SERVIÇO HEMODINÂNICA SANTO AGOSTINHO (3339-9412)              SERVIÇO HEMODINÂMICA BETIM (3512-2109)  </Value>
                   <Style>
                     <FontStyle>Normal</FontStyle>
                     <FontSize>6pt</FontSize>
@@ -3833,30 +3818,7 @@
             <Paragraph>
               <TextRuns>
                 <TextRun>
-                  <Value>SERVIÇO HEMODINÂMICA CONTORNO (3401-7584) </Value>
-                  <Style>
-                    <FontStyle>Normal</FontStyle>
-                    <FontSize>6pt</FontSize>
-                    <Color>DarkGreen</Color>
-                  </Style>
-                </TextRun>
-              </TextRuns>
-              <Style>
-                <TextAlign>Left</TextAlign>
-              </Style>
-            </Paragraph>
-            <Paragraph>
-              <TextRuns>
-                <TextRun>
-                  <Value>SERVIÇO HEMODINÂMICA BETIM (3512-2109)</Value>
-                  <Style>
-                    <FontStyle>Normal</FontStyle>
-                    <FontSize>6pt</FontSize>
-                    <Color>DarkGreen</Color>
-                  </Style>
-                </TextRun>
-                <TextRun>
-                  <Value xml:space="preserve">                 </Value>
+                  <Value>ENDOSCOPIA/COLONOSCOPIA - CONTORNO (3401-7595)                 SERVIÇO HEMODINÂMICA CONTORNO (3401-7584)</Value>
                   <Style>
                     <FontStyle>Normal</FontStyle>
                     <FontSize>6pt</FontSize>
@@ -3883,28 +3845,12 @@
                 <TextAlign>Left</TextAlign>
               </Style>
             </Paragraph>
-            <Paragraph>
-              <TextRuns>
-                <TextRun>
-                  <Value>ENDOSCOPIA/COLONOSCOPIA - CONTORNO (3401-7595)</Value>
-                  <Style>
-                    <FontStyle>Normal</FontStyle>
-                    <FontSize>6pt</FontSize>
-                    <Color>DarkGreen</Color>
-                  </Style>
-                </TextRun>
-              </TextRuns>
-              <Style>
-                <TextAlign>Left</TextAlign>
-              </Style>
-            </Paragraph>
           </Paragraphs>
           <rd:DefaultName>Textbox1</rd:DefaultName>
           <Top>0.18927cm</Top>
-          <Left>5.03386cm</Left>
-          <Height>1.73813cm</Height>
-          <Width>11.78687cm</Width>
-          <ZIndex>1</ZIndex>
+          <Left>4.92229cm</Left>
+          <Height>1.40705cm</Height>
+          <Width>12.16302cm</Width>
           <Style>
             <Border>
               <Color>White</Color>
@@ -3916,6 +3862,21 @@
             <PaddingBottom>2pt</PaddingBottom>
           </Style>
         </Textbox>
+        <Image Name="Image1">
+          <Source>Embedded</Source>
+          <Value>materDei</Value>
+          <Sizing>Fit</Sizing>
+          <Top>0.18927cm</Top>
+          <Left>2.22927cm</Left>
+          <Height>1.40705cm</Height>
+          <Width>2.55191cm</Width>
+          <ZIndex>1</ZIndex>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+          </Style>
+        </Image>
       </ReportItems>
       <Style>
         <Border>
@@ -3924,7 +3885,7 @@
       </Style>
     </PageHeader>
     <PageFooter>
-      <Height>2.54cm</Height>
+      <Height>0.66146cm</Height>
       <PrintOnFirstPage>true</PrintOnFirstPage>
       <PrintOnLastPage>true</PrintOnLastPage>
       <ReportItems>
@@ -3935,13 +3896,13 @@
             <Paragraph>
               <TextRuns>
                 <TextRun>
-                  <Value>Um produto Sistemas Lua de Gerenciamento EIRELI.</Value>
+                  <Value>Sistemas Lua de Gerenciamento EIRELI.</Value>
                   <Style>
                     <FontSize>8pt</FontSize>
                   </Style>
                 </TextRun>
                 <TextRun>
-                  <Value> Todos os direitos reservados.</Value>
+                  <Value xml:space="preserve"> </Value>
                   <Style>
                     <FontStyle>Normal</FontStyle>
                     <FontSize>8pt</FontSize>
@@ -3950,13 +3911,6 @@
                     <Color>#000000</Color>
                   </Style>
                 </TextRun>
-              </TextRuns>
-              <Style>
-                <TextAlign>Center</TextAlign>
-              </Style>
-            </Paragraph>
-            <Paragraph>
-              <TextRuns>
                 <TextRun>
                   <Value>Copyright</Value>
                   <Style>
@@ -3975,14 +3929,13 @@
                 </TextRun>
               </TextRuns>
               <Style>
-                <TextAlign>Center</TextAlign>
+                <TextAlign>Left</TextAlign>
               </Style>
             </Paragraph>
           </Paragraphs>
           <rd:DefaultName>Textbox1</rd:DefaultName>
-          <Top>0.17639cm</Top>
           <Left>2.22927cm</Left>
-          <Height>0.9175cm</Height>
+          <Height>0.52944cm</Height>
           <Width>10.67691cm</Width>
           <Style>
             <Border>
@@ -4013,7 +3966,6 @@
             </Paragraph>
           </Paragraphs>
           <rd:DefaultName>Textbox16</rd:DefaultName>
-          <Top>0.17639cm</Top>
           <Left>12.90618cm</Left>
           <Height>0.52944cm</Height>
           <Width>3.91455cm</Width>
