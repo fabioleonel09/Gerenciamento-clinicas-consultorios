@@ -3756,7 +3756,7 @@
         </Style>
       </Textbox>
     </ReportItems>
-    <Height>8.08753in</Height>
+    <Height>8.29586in</Height>
     <Style />
   </Body>
   <Width>7.483in</Width>
@@ -3773,7 +3773,7 @@
             <Paragraph>
               <TextRuns>
                 <TextRun>
-                  <Value>LABORATÓRIO PATOLOGIA CLÍNICA (3339-9013)                                CENTRAL MARCAÇÃO DE EXAMES (3339-9800)</Value>
+                  <Value>LABORATÓRIO PATOLOGIA CLÍNICA (3339-9013)                               CENTRAL MARCAÇÃO DE EXAMES (3339-9800)</Value>
                   <Style>
                     <FontStyle>Normal</FontStyle>
                     <FontSize>6pt</FontSize>
@@ -3788,7 +3788,7 @@
             <Paragraph>
               <TextRuns>
                 <TextRun>
-                  <Value>LABORATÓRIO ANATOMIA PATOLÓGICA (3339-9046)                         RECEPÇÃO CENTRAL MARCAÇÃO (3401-7592)</Value>
+                  <Value>LABORATÓRIO ANATOMIA PATOLÓGICA (3339-9046)                        RECEPÇÃO CENTRAL MARCAÇÃO (3401-7592)</Value>
                   <Style>
                     <FontStyle>Normal</FontStyle>
                     <FontSize>6pt</FontSize>
@@ -3803,7 +3803,7 @@
             <Paragraph>
               <TextRuns>
                 <TextRun>
-                  <Value>SERVIÇO HEMODINÂNICA SANTO AGOSTINHO (3339-9412)              SERVIÇO HEMODINÂMICA BETIM (3512-2109)  </Value>
+                  <Value>SERVIÇO HEMODINÂNICA SANTO AGOSTINHO (3339-9412)             SERVIÇO HEMODINÂMICA BETIM (3512-2109)  </Value>
                   <Style>
                     <FontStyle>Normal</FontStyle>
                     <FontSize>6pt</FontSize>
@@ -3818,7 +3818,7 @@
             <Paragraph>
               <TextRuns>
                 <TextRun>
-                  <Value>ENDOSCOPIA/COLONOSCOPIA - CONTORNO (3401-7595)                 SERVIÇO HEMODINÂMICA CONTORNO (3401-7584)</Value>
+                  <Value>ENDOSCOPIA/COLONOSCOPIA - CONTORNO (3401-7595)                SERVIÇO HEMODINÂMICA CONTORNO (3401-7584)</Value>
                   <Style>
                     <FontStyle>Normal</FontStyle>
                     <FontSize>6pt</FontSize>
@@ -3988,7 +3988,9 @@
       </Style>
     </PageFooter>
     <PageHeight>29.7cm</PageHeight>
-    <PageWidth>21cm</PageWidth>
+    <PageWidth>22cm</PageWidth>
+    <InteractiveHeight>29.7cm</InteractiveHeight>
+    <InteractiveWidth>22cm</InteractiveWidth>
     <LeftMargin>1cm</LeftMargin>
     <RightMargin>1cm</RightMargin>
     <TopMargin>1cm</TopMargin>

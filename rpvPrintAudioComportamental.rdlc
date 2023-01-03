@@ -41,7 +41,6 @@
                       <rd:DefaultName>Textbox4</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <BackgroundColor>LightGrey</BackgroundColor>
@@ -75,7 +74,6 @@
                       <rd:DefaultName>Textbox6</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <BackgroundColor>LightGrey</BackgroundColor>
@@ -109,7 +107,6 @@
                       <rd:DefaultName>Textbox8</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <BackgroundColor>LightGrey</BackgroundColor>
@@ -147,7 +144,6 @@
                       <rd:DefaultName>nomePaciente</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -177,7 +173,6 @@
                       <rd:DefaultName>idadePacienteNovo</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -186,7 +181,6 @@
                         <PaddingBottom>2pt</PaddingBottom>
                       </Style>
                     </Textbox>
-                    <rd:Selected>true</rd:Selected>
                   </CellContents>
                 </TablixCell>
                 <TablixCell>
@@ -210,7 +204,6 @@
                       <rd:DefaultName>dataNascimento</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -328,7 +321,6 @@
                       <rd:DefaultName>Textbox12</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -363,7 +355,6 @@
                       <rd:DefaultName>guizo1</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -398,7 +389,6 @@
                       <rd:DefaultName>guizo1oe</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -437,7 +427,6 @@
                       <rd:DefaultName>Textbox33</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -472,7 +461,6 @@
                       <rd:DefaultName>guizo2</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -507,7 +495,6 @@
                       <rd:DefaultName>guizo2oe</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -546,7 +533,6 @@
                       <rd:DefaultName>Textbox44</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -581,7 +567,6 @@
                       <rd:DefaultName>sino</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -616,7 +601,6 @@
                       <rd:DefaultName>sinooe</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -655,7 +639,6 @@
                       <rd:DefaultName>Textbox55</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -690,7 +673,6 @@
                       <rd:DefaultName>blackblack</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -725,7 +707,6 @@
                       <rd:DefaultName>blackblackoe</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -764,7 +745,6 @@
                       <rd:DefaultName>Textbox66</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -799,7 +779,6 @@
                       <rd:DefaultName>agogoPeq</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -834,7 +813,6 @@
                       <rd:DefaultName>agogoPeqoe</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -873,7 +851,6 @@
                       <rd:DefaultName>Textbox77</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -908,7 +885,6 @@
                       <rd:DefaultName>agogoGran</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -943,7 +919,6 @@
                       <rd:DefaultName>agogoGranoe</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -982,7 +957,6 @@
                       <rd:DefaultName>Textbox88</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -1017,7 +991,6 @@
                       <rd:DefaultName>chocalho</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -1052,7 +1025,6 @@
                       <rd:DefaultName>chocalhooe</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -1091,7 +1063,6 @@
                       <rd:DefaultName>Textbox99</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -1126,7 +1097,6 @@
                       <rd:DefaultName>triangulo</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -1161,7 +1131,6 @@
                       <rd:DefaultName>triangulooe</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -1200,7 +1169,6 @@
                       <rd:DefaultName>Textbox110</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -1235,7 +1203,6 @@
                       <rd:DefaultName>prato</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -1270,7 +1237,6 @@
                       <rd:DefaultName>pratooe</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -1309,7 +1275,6 @@
                       <rd:DefaultName>Textbox121</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -1344,7 +1309,6 @@
                       <rd:DefaultName>tambor</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -1379,7 +1343,6 @@
                       <rd:DefaultName>tamboroe</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -1419,7 +1382,6 @@
                       <rd:DefaultName>Textbox132</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <BackgroundColor>LightGrey</BackgroundColor>
@@ -1455,7 +1417,6 @@
                       <rd:DefaultName>Textbox133</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <BackgroundColor>LightGrey</BackgroundColor>
@@ -1491,7 +1452,6 @@
                       <rd:DefaultName>Textbox134</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <BackgroundColor>LightGrey</BackgroundColor>
@@ -1531,7 +1491,6 @@
                       <rd:DefaultName>Textbox144</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -1565,7 +1524,6 @@
                       <rd:DefaultName>comportamentoAudit</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -1600,7 +1558,6 @@
                       <rd:DefaultName>Textbox146</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -1722,43 +1679,9 @@
         <ZIndex>3</ZIndex>
         <Style>
           <Border>
-            <Style>None</Style>
+            <Style>Solid</Style>
           </Border>
           <BackgroundColor>LightGrey</BackgroundColor>
-          <PaddingLeft>2pt</PaddingLeft>
-          <PaddingRight>2pt</PaddingRight>
-          <PaddingTop>2pt</PaddingTop>
-          <PaddingBottom>2pt</PaddingBottom>
-        </Style>
-      </Textbox>
-      <Textbox Name="Textbox16">
-        <CanGrow>true</CanGrow>
-        <KeepTogether>true</KeepTogether>
-        <Paragraphs>
-          <Paragraph>
-            <TextRuns>
-              <TextRun>
-                <Value>= "Data de hoje: " + DateTime.Today.Date.ToShortDateString</Value>
-                <Style>
-                  <FontSize>8pt</FontSize>
-                </Style>
-              </TextRun>
-            </TextRuns>
-            <Style>
-              <TextAlign>Right</TextAlign>
-            </Style>
-          </Paragraph>
-        </Paragraphs>
-        <rd:DefaultName>Textbox16</rd:DefaultName>
-        <Top>15.49773cm</Top>
-        <Left>10.94565cm</Left>
-        <Height>0.52944cm</Height>
-        <Width>5.88113cm</Width>
-        <ZIndex>4</ZIndex>
-        <Style>
-          <Border>
-            <Style>None</Style>
-          </Border>
           <PaddingLeft>2pt</PaddingLeft>
           <PaddingRight>2pt</PaddingRight>
           <PaddingTop>2pt</PaddingTop>
@@ -1786,7 +1709,7 @@
         <Left>1.78553cm</Left>
         <Height>0.6cm</Height>
         <Width>2.5cm</Width>
-        <ZIndex>5</ZIndex>
+        <ZIndex>4</ZIndex>
         <Style>
           <Border>
             <Style>None</Style>
@@ -1834,7 +1757,6 @@
                       <rd:DefaultName>Textbox151</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -1864,7 +1786,6 @@
                       <rd:DefaultName>reacoesVerbais</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -1903,7 +1824,6 @@
                       <rd:DefaultName>Textbox156</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -1933,7 +1853,6 @@
                       <rd:DefaultName>ordensSimples</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -1972,7 +1891,6 @@
                       <rd:DefaultName>Textbox159</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -2002,7 +1920,6 @@
                       <rd:DefaultName>conclusoesComport</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -2041,7 +1958,6 @@
                       <rd:DefaultName>Textbox162</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -2071,7 +1987,6 @@
                       <rd:DefaultName>observacoesComport</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
                         <PaddingLeft>2pt</PaddingLeft>
@@ -2113,7 +2028,7 @@
         <Left>1.78553cm</Left>
         <Height>2.4cm</Height>
         <Width>15.32019cm</Width>
-        <ZIndex>6</ZIndex>
+        <ZIndex>5</ZIndex>
         <Style>
           <Border>
             <Style>None</Style>
@@ -2147,7 +2062,7 @@ Nível III (15 a 18 meses): “cadê a mão?”; “cadê o pé?”
         <Left>1.78553cm</Left>
         <Height>2.4084cm</Height>
         <Width>15.27332cm</Width>
-        <ZIndex>7</ZIndex>
+        <ZIndex>6</ZIndex>
         <Style>
           <Border>
             <Style>None</Style>
@@ -2181,14 +2096,14 @@ Nível III (15 a 18 meses): “cadê a mão?”; “cadê o pé?”
       <PrintOnFirstPage>true</PrintOnFirstPage>
       <PrintOnLastPage>true</PrintOnLastPage>
       <ReportItems>
-        <Image Name="Image1">
+        <Image Name="Image3">
           <Source>Embedded</Source>
-          <Value>luaMaior</Value>
-          <Sizing>FitProportional</Sizing>
-          <Top>0.08344cm</Top>
-          <Left>2.78489cm</Left>
-          <Height>1.73813cm</Height>
-          <Width>2.08208cm</Width>
+          <Value>materDei</Value>
+          <Sizing>Fit</Sizing>
+          <Top>0.12991cm</Top>
+          <Left>2.20281cm</Left>
+          <Height>1.40705cm</Height>
+          <Width>2.55191cm</Width>
           <Style>
             <Border>
               <Style>None</Style>
@@ -2202,58 +2117,88 @@ Nível III (15 a 18 meses): “cadê a mão?”; “cadê o pé?”
             <Paragraph>
               <TextRuns>
                 <TextRun>
-                  <Value>SISTEMAS LUA DE GERENCIAMENTO</Value>
+                  <Value>LABORATÓRIO PATOLOGIA CLÍNICA (3339-9013)                               CENTRAL MARCAÇÃO DE EXAMES (3339-9800)</Value>
                   <Style>
-                    <FontStyle>Italic</FontStyle>
-                    <FontSize>14pt</FontSize>
+                    <FontStyle>Normal</FontStyle>
+                    <FontSize>6pt</FontSize>
+                    <Color>DarkGreen</Color>
                   </Style>
                 </TextRun>
               </TextRuns>
               <Style>
-                <TextAlign>Center</TextAlign>
+                <TextAlign>Left</TextAlign>
               </Style>
             </Paragraph>
             <Paragraph>
               <TextRuns>
                 <TextRun>
-                  <Value xml:space="preserve">                                                        </Value>
-                  <Style />
-                </TextRun>
-                <TextRun>
-                  <Value> Segmento Saúde</Value>
+                  <Value>LABORATÓRIO ANATOMIA PATOLÓGICA (3339-9046)                        RECEPÇÃO CENTRAL MARCAÇÃO (3401-7592)</Value>
                   <Style>
-                    <FontStyle>Italic</FontStyle>
-                    <FontSize>12pt</FontSize>
+                    <FontStyle>Normal</FontStyle>
+                    <FontSize>6pt</FontSize>
+                    <Color>DarkGreen</Color>
                   </Style>
                 </TextRun>
               </TextRuns>
               <Style>
-                <TextAlign>Right</TextAlign>
+                <TextAlign>Left</TextAlign>
               </Style>
             </Paragraph>
             <Paragraph>
               <TextRuns>
                 <TextRun>
-                  <Value>Impressão de exames</Value>
+                  <Value>SERVIÇO HEMODINÂNICA SANTO AGOSTINHO (3339-9412)             SERVIÇO HEMODINÂMICA BETIM (3512-2109)  </Value>
                   <Style>
-                    <FontSize>12pt</FontSize>
-                    <FontWeight>Bold</FontWeight>
+                    <FontStyle>Normal</FontStyle>
+                    <FontSize>6pt</FontSize>
+                    <Color>DarkGreen</Color>
                   </Style>
                 </TextRun>
               </TextRuns>
               <Style>
-                <TextAlign>Center</TextAlign>
+                <TextAlign>Left</TextAlign>
+              </Style>
+            </Paragraph>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>ENDOSCOPIA/COLONOSCOPIA - CONTORNO (3401-7595)                SERVIÇO HEMODINÂMICA CONTORNO (3401-7584)</Value>
+                  <Style>
+                    <FontStyle>Normal</FontStyle>
+                    <FontSize>6pt</FontSize>
+                    <Color>DarkGreen</Color>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style>
+                <TextAlign>Left</TextAlign>
+              </Style>
+            </Paragraph>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>ENDOSCOPIA/COLONOSCOPIA - SANTO AGOSTINHO (3339-9279)</Value>
+                  <Style>
+                    <FontStyle>Normal</FontStyle>
+                    <FontSize>6pt</FontSize>
+                    <Color>DarkGreen</Color>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style>
+                <TextAlign>Left</TextAlign>
               </Style>
             </Paragraph>
           </Paragraphs>
           <rd:DefaultName>Textbox1</rd:DefaultName>
-          <Top>0.08344cm</Top>
-          <Left>5.27198cm</Left>
-          <Height>1.73813cm</Height>
-          <Width>11.78687cm</Width>
+          <Top>0.12991cm</Top>
+          <Left>4.89583cm</Left>
+          <Height>1.67163cm</Height>
+          <Width>12.16302cm</Width>
           <ZIndex>1</ZIndex>
           <Style>
             <Border>
+              <Color>White</Color>
               <Style>None</Style>
             </Border>
             <PaddingLeft>2pt</PaddingLeft>
@@ -2287,7 +2232,7 @@ Nível III (15 a 18 meses): “cadê a mão?”; “cadê o pé?”
                   </Style>
                 </TextRun>
                 <TextRun>
-                  <Value>® 2020. Todos os direitos reservados.</Value>
+                  <Value>® 2023.</Value>
                   <Style>
                     <FontStyle>Normal</FontStyle>
                     <FontSize>8pt</FontSize>
@@ -2298,15 +2243,49 @@ Nível III (15 a 18 meses): “cadê a mão?”; “cadê o pé?”
                 </TextRun>
               </TextRuns>
               <Style>
-                <TextAlign>Center</TextAlign>
+                <TextAlign>Left</TextAlign>
               </Style>
             </Paragraph>
           </Paragraphs>
           <rd:DefaultName>Textbox1</rd:DefaultName>
           <Top>0.17639cm</Top>
-          <Left>4.4049cm</Left>
+          <Left>1.78553cm</Left>
           <Height>0.6cm</Height>
-          <Width>13.05688cm</Width>
+          <Width>9.24688cm</Width>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+        <Textbox Name="Textbox16">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>= "Data de hoje: " + DateTime.Today.Date.ToShortDateString</Value>
+                  <Style>
+                    <FontSize>8pt</FontSize>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style>
+                <TextAlign>Right</TextAlign>
+              </Style>
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>Textbox16</rd:DefaultName>
+          <Top>0.17639cm</Top>
+          <Left>11.17352cm</Left>
+          <Height>0.52944cm</Height>
+          <Width>5.88113cm</Width>
+          <ZIndex>1</ZIndex>
           <Style>
             <Border>
               <Style>None</Style>
@@ -2325,7 +2304,7 @@ Nível III (15 a 18 meses): “cadê a mão?”; “cadê o pé?”
       </Style>
     </PageFooter>
     <PageHeight>29.7cm</PageHeight>
-    <PageWidth>21cm</PageWidth>
+    <PageWidth>22cm</PageWidth>
     <LeftMargin>1cm</LeftMargin>
     <RightMargin>1cm</RightMargin>
     <TopMargin>1cm</TopMargin>
@@ -4328,6 +4307,15 @@ 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</ImageData>
+    </EmbeddedImage>
+    <EmbeddedImage Name="materDei">
+      <MIMEType>image/png</MIMEType>
+      <ImageData>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</ImageData>
     </EmbeddedImage>
   </EmbeddedImages>
   <rd:ReportUnitType>Cm</rd:ReportUnitType>
