@@ -363,6 +363,16 @@ namespace segmentoOtoneurologia.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap caracolFundo {
+            get {
+                object obj = ResourceManager.GetObject("caracolFundo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Chart {
             get {
                 object obj = ResourceManager.GetObject("Chart", resourceCulture);
@@ -376,6 +386,16 @@ namespace segmentoOtoneurologia.Properties {
         internal static System.Drawing.Bitmap chavesMaior {
             get {
                 object obj = ResourceManager.GetObject("chavesMaior", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap coclea {
+            get {
+                object obj = ResourceManager.GetObject("coclea", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -476,6 +496,16 @@ namespace segmentoOtoneurologia.Properties {
         internal static System.Drawing.Bitmap financeiro {
             get {
                 object obj = ResourceManager.GetObject("financeiro", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap flagVai {
+            get {
+                object obj = ResourceManager.GetObject("flagVai", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
