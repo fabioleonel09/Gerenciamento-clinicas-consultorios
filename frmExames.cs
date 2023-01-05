@@ -49,29 +49,38 @@ namespace segmentoOtoneurologia
 
         private void tabelaExamesBindingNavigatorSaveItem_Click(object sender, EventArgs e)//evento do boTão salvar na barra de ferramentas
         {
-            if (string.IsNullOrEmpty(identificacaoTextBox.Text))
+            try
             {
-                MessageBox.Show("O campo 'Identificação' não está preenchido!", "Atenção!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                if (string.IsNullOrEmpty(identificacaoTextBox.Text))
+                {
+                    MessageBox.Show("O campo 'Identificação' não está preenchido!", "Atenção!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                else
+                {
+                    this.Validate();
+                    this.tabelaExamesBindingSource.EndEdit();
+                    this.tableAdapterManager.UpdateAll(this.segmsaude001DataSet);
+
+                    gbDadosPaciente.Enabled = false;
+                    gbTipoAudiograma.Enabled = false;
+
+                    tipoAudiometriaComboBox.SelectedIndex = -1;
+
+                    ((Control)tabControl1.TabPages["tabPage2"]).Enabled = false;
+                    ((Control)tabControl1.TabPages["tabPage3"]).Enabled = false;
+                    ((Control)tabControl1.TabPages["tabPage4"]).Enabled = false;
+                    ((Control)tabControl1.TabPages["tabPage5"]).Enabled = false;
+                    ((Control)tabControl1.TabPages["tabPage6"]).Enabled = false;
+                    ((Control)tabControl1.TabPages["tabPage7"]).Enabled = false;
+                    ((Control)tabControl1.TabPages["tabPage36"]).Enabled = false;
+
+                    MessageBox.Show("Os exames foram salvos com sucesso!", "Atenção!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
             }
-
-            this.Validate();
-            this.tabelaExamesBindingSource.EndEdit();
-            this.tableAdapterManager.UpdateAll(this.segmsaude001DataSet);
-
-            MessageBox.Show("Os exames foram salvos com sucesso!", "Atenção!", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
-            gbDadosPaciente.Enabled = false;
-            gbTipoAudiograma.Enabled = false;
-
-            tipoAudiometriaComboBox.SelectedIndex = -1;
-
-            ((Control)tabControl1.TabPages["tabPage2"]).Enabled = false;
-            ((Control)tabControl1.TabPages["tabPage3"]).Enabled = false;
-            ((Control)tabControl1.TabPages["tabPage4"]).Enabled = false;
-            ((Control)tabControl1.TabPages["tabPage5"]).Enabled = false;
-            ((Control)tabControl1.TabPages["tabPage6"]).Enabled = false;
-            ((Control)tabControl1.TabPages["tabPage7"]).Enabled = false;
-            ((Control)tabControl1.TabPages["tabPage36"]).Enabled = false;
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);//msg de erro
+            }           
         }
 
         private void frmExames_Load(object sender, EventArgs e)
@@ -10455,6 +10464,11 @@ namespace segmentoOtoneurologia
 
         private void btnPrintLaudo_Click(object sender, EventArgs e)
         {
+            using (frmAguarde fa = new frmAguarde(OpenData))
+            {
+                fa.ShowDialog(this);
+            }
+
             dados dados = new dados();
 
             frmPrintLaudario fpl = new frmPrintLaudario();
@@ -10465,6 +10479,8 @@ namespace segmentoOtoneurologia
 
         private void bindingNavigatorAddNewItem_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("O modo adicionar dados foi aberto.\n\nApague a ação, caso não adicione dado algum.", "Atenção!", MessageBoxButtons.OK, MessageBoxIcon.Information); //msg de alerta
+
             if (tabControl3.SelectedTab == tabPage12 ||
                 tabControl3.SelectedTab == tabPage13 ||
                 tabControl4.SelectedTab == tabPage15 ||
@@ -10519,37 +10535,48 @@ namespace segmentoOtoneurologia
 
         private void bindingNavigatorDeleteItem_Click(object sender, EventArgs e)
         {
-            this.Validate();
-            this.tabelaExamesBindingSource.EndEdit();
-            this.tableAdapterManager.UpdateAll(this.segmsaude001DataSet);
+            try
+            {
+                this.Validate();
+                this.tabelaExamesBindingSource.EndEdit();
+                this.tableAdapterManager.UpdateAll(this.segmsaude001DataSet);
 
-            MessageBox.Show("Os exames foram apagados com sucesso!", "Atenção!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                gbDadosPaciente.Enabled = false;
+                gbTipoAudiograma.Enabled = false;
 
-            gbDadosPaciente.Enabled = false;
-            gbTipoAudiograma.Enabled = false;
+                tsbPreencherAudio.Enabled = false;
+                tsbPreencherTimpanogramas.Enabled = false;
+                tsbapagaSelecionados.Enabled = false;
 
-            tsbPreencherAudio.Enabled = false;
-            tsbPreencherTimpanogramas.Enabled = false;
-            tsbapagaSelecionados.Enabled = false;
+                dataExameDateTimePicker.CustomFormat = " ";
+                dataNascimentoDateTimePicker.CustomFormat = " ";
+                dataCalibracaoDateTimePicker.CustomFormat = " ";
+                dataCalImpDateTimePicker.CustomFormat = " ";
 
-            dataExameDateTimePicker.CustomFormat = " ";
-            dataNascimentoDateTimePicker.CustomFormat = " ";
-            dataCalibracaoDateTimePicker.CustomFormat = " ";
-            dataCalImpDateTimePicker.CustomFormat = " ";
+                tipoAudiometriaComboBox.SelectedIndex = -1;
 
-            tipoAudiometriaComboBox.SelectedIndex = -1;
-
-            ((Control)tabControl1.TabPages["tabPage2"]).Enabled = false;
-            ((Control)tabControl1.TabPages["tabPage3"]).Enabled = false;
-            ((Control)tabControl1.TabPages["tabPage4"]).Enabled = false;
-            ((Control)tabControl1.TabPages["tabPage5"]).Enabled = false;
-            ((Control)tabControl1.TabPages["tabPage6"]).Enabled = false;
-            ((Control)tabControl1.TabPages["tabPage7"]).Enabled = false;
-            ((Control)tabControl1.TabPages["tabPage36"]).Enabled = false;
+                ((Control)tabControl1.TabPages["tabPage2"]).Enabled = false;
+                ((Control)tabControl1.TabPages["tabPage3"]).Enabled = false;
+                ((Control)tabControl1.TabPages["tabPage4"]).Enabled = false;
+                ((Control)tabControl1.TabPages["tabPage5"]).Enabled = false;
+                ((Control)tabControl1.TabPages["tabPage6"]).Enabled = false;
+                ((Control)tabControl1.TabPages["tabPage7"]).Enabled = false;
+                ((Control)tabControl1.TabPages["tabPage36"]).Enabled = false;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);//msg de erro
+            }
+            finally
+            {
+                MessageBox.Show("Os exames foram apagados com sucesso!", "Atenção!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
         }
 
         private void toolStripEditar_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("O modo editar dados foi aberto.\n\nBloqueie a ação, caso não adicione dado algum\n ou realize alguma edição.", "Atenção!", MessageBoxButtons.OK, MessageBoxIcon.Information); //msg de alerta
+
             gbDadosPaciente.Enabled = true;
             gbTipoAudiograma.Enabled = true;
 
@@ -10566,31 +10593,42 @@ namespace segmentoOtoneurologia
 
         private void toolStripBloquear_Click(object sender, EventArgs e)
         {
-            if (string.IsNullOrEmpty(identificacaoTextBox.Text))
+            try
             {
-                MessageBox.Show("O campo 'Identificação' não está preenchido!", "Atenção!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                if (string.IsNullOrEmpty(identificacaoTextBox.Text))
+                {
+                    MessageBox.Show("O campo 'Identificação' não está preenchido!", "Atenção!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                else
+                {
+                    this.Validate();
+                    this.tabelaExamesBindingSource.EndEdit();
+                    this.tableAdapterManager.UpdateAll(this.segmsaude001DataSet);
+
+                    gbDadosPaciente.Enabled = false;
+                    gbTipoAudiograma.Enabled = false;
+
+                    tsbPreencherAudio.Enabled = false;
+                    tsbPreencherTimpanogramas.Enabled = false;
+                    tsbapagaSelecionados.Enabled = false;
+
+                    tipoAudiometriaComboBox.SelectedIndex = -1;
+
+                    ((Control)tabControl1.TabPages["tabPage2"]).Enabled = false;
+                    ((Control)tabControl1.TabPages["tabPage3"]).Enabled = false;
+                    ((Control)tabControl1.TabPages["tabPage4"]).Enabled = false;
+                    ((Control)tabControl1.TabPages["tabPage5"]).Enabled = false;
+                    ((Control)tabControl1.TabPages["tabPage6"]).Enabled = false;
+                    ((Control)tabControl1.TabPages["tabPage7"]).Enabled = false;
+                    ((Control)tabControl1.TabPages["tabPage36"]).Enabled = false;
+
+                    MessageBox.Show("Edição bloqueada com sucesso!", "Atenção!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
             }
-
-            this.Validate();
-            this.tabelaExamesBindingSource.EndEdit();
-            this.tableAdapterManager.UpdateAll(this.segmsaude001DataSet);
-
-            gbDadosPaciente.Enabled = false;
-            gbTipoAudiograma.Enabled = false;
-
-            tsbPreencherAudio.Enabled = false;
-            tsbPreencherTimpanogramas.Enabled = false;
-            tsbapagaSelecionados.Enabled = false;
-
-            tipoAudiometriaComboBox.SelectedIndex = -1;
-
-            ((Control)tabControl1.TabPages["tabPage2"]).Enabled = false;
-            ((Control)tabControl1.TabPages["tabPage3"]).Enabled = false;
-            ((Control)tabControl1.TabPages["tabPage4"]).Enabled = false;
-            ((Control)tabControl1.TabPages["tabPage5"]).Enabled = false;
-            ((Control)tabControl1.TabPages["tabPage6"]).Enabled = false;
-            ((Control)tabControl1.TabPages["tabPage7"]).Enabled = false;
-            ((Control)tabControl1.TabPages["tabPage36"]).Enabled = false;
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);//msg de erro
+            }          
         }
 
         private void dataExameDateTimePicker_ValueChanged(object sender, EventArgs e)

@@ -1009,6 +1009,12 @@ namespace segmentoOtoneurologia
             this.txtLaudario = new System.Windows.Forms.TextBox();
             this.tabPage40 = new System.Windows.Forms.TabPage();
             this.gbEpidemiol = new System.Windows.Forms.GroupBox();
+            this.tabControlEpidemiol = new System.Windows.Forms.TabControl();
+            this.tabPage41 = new System.Windows.Forms.TabPage();
+            this.chrtEpidemioOE = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.chrtEpidemioOD = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.tabPage42 = new System.Windows.Forms.TabPage();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.btnVai = new System.Windows.Forms.Button();
             this.tableLayoutPanel17 = new System.Windows.Forms.TableLayoutPanel();
             this.tabelaExamesBindingNavigator = new System.Windows.Forms.BindingNavigator(this.components);
@@ -1041,12 +1047,6 @@ namespace segmentoOtoneurologia
             this.toolTip5 = new System.Windows.Forms.ToolTip(this.components);
             this.toolTip6 = new System.Windows.Forms.ToolTip(this.components);
             this.toolTip7 = new System.Windows.Forms.ToolTip(this.components);
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.tabControlEpidemiol = new System.Windows.Forms.TabControl();
-            this.tabPage41 = new System.Windows.Forms.TabPage();
-            this.chrtEpidemioOE = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.chrtEpidemioOD = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.tabPage42 = new System.Windows.Forms.TabPage();
             segundoAutorLabel = new System.Windows.Forms.Label();
             comentariosImpLabel = new System.Windows.Forms.Label();
             dataCalImpLabel = new System.Windows.Forms.Label();
@@ -1375,14 +1375,14 @@ namespace segmentoOtoneurologia
             this.groupBox26.SuspendLayout();
             this.tabPage40.SuspendLayout();
             this.gbEpidemiol.SuspendLayout();
-            this.tableLayoutPanel17.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.tabelaExamesBindingNavigator)).BeginInit();
-            this.tabelaExamesBindingNavigator.SuspendLayout();
-            this.gbTipoAudiograma.SuspendLayout();
             this.tabControlEpidemiol.SuspendLayout();
             this.tabPage41.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chrtEpidemioOE)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chrtEpidemioOD)).BeginInit();
+            this.tableLayoutPanel17.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.tabelaExamesBindingNavigator)).BeginInit();
+            this.tabelaExamesBindingNavigator.SuspendLayout();
+            this.gbTipoAudiograma.SuspendLayout();
             this.SuspendLayout();
             // 
             // segundoAutorLabel
@@ -2681,7 +2681,7 @@ namespace segmentoOtoneurologia
             curvaAudioodLabel.AutoSize = true;
             curvaAudioodLabel.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             curvaAudioodLabel.ForeColor = System.Drawing.Color.Red;
-            curvaAudioodLabel.Location = new System.Drawing.Point(4, 58);
+            curvaAudioodLabel.Location = new System.Drawing.Point(4, 57);
             curvaAudioodLabel.Name = "curvaAudioodLabel";
             curvaAudioodLabel.Size = new System.Drawing.Size(197, 16);
             curvaAudioodLabel.TabIndex = 2;
@@ -2694,7 +2694,7 @@ namespace segmentoOtoneurologia
             grauAudioodLabel.AutoSize = true;
             grauAudioodLabel.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             grauAudioodLabel.ForeColor = System.Drawing.Color.Red;
-            grauAudioodLabel.Location = new System.Drawing.Point(4, 102);
+            grauAudioodLabel.Location = new System.Drawing.Point(4, 100);
             grauAudioodLabel.Name = "grauAudioodLabel";
             grauAudioodLabel.Size = new System.Drawing.Size(197, 16);
             grauAudioodLabel.TabIndex = 4;
@@ -2707,7 +2707,7 @@ namespace segmentoOtoneurologia
             configAudioodLabel.AutoSize = true;
             configAudioodLabel.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             configAudioodLabel.ForeColor = System.Drawing.Color.Red;
-            configAudioodLabel.Location = new System.Drawing.Point(4, 146);
+            configAudioodLabel.Location = new System.Drawing.Point(4, 143);
             configAudioodLabel.Name = "configAudioodLabel";
             configAudioodLabel.Size = new System.Drawing.Size(197, 16);
             configAudioodLabel.TabIndex = 6;
@@ -2720,7 +2720,7 @@ namespace segmentoOtoneurologia
             vocalAudioodLabel.AutoSize = true;
             vocalAudioodLabel.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             vocalAudioodLabel.ForeColor = System.Drawing.Color.Red;
-            vocalAudioodLabel.Location = new System.Drawing.Point(4, 191);
+            vocalAudioodLabel.Location = new System.Drawing.Point(4, 188);
             vocalAudioodLabel.Name = "vocalAudioodLabel";
             vocalAudioodLabel.Size = new System.Drawing.Size(197, 16);
             vocalAudioodLabel.TabIndex = 8;
@@ -2746,7 +2746,7 @@ namespace segmentoOtoneurologia
             curvaAudiooeLabel.AutoSize = true;
             curvaAudiooeLabel.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             curvaAudiooeLabel.ForeColor = System.Drawing.Color.Blue;
-            curvaAudiooeLabel.Location = new System.Drawing.Point(4, 58);
+            curvaAudiooeLabel.Location = new System.Drawing.Point(4, 57);
             curvaAudiooeLabel.Name = "curvaAudiooeLabel";
             curvaAudiooeLabel.Size = new System.Drawing.Size(197, 16);
             curvaAudiooeLabel.TabIndex = 2;
@@ -2759,7 +2759,7 @@ namespace segmentoOtoneurologia
             grauAudiooeLabel.AutoSize = true;
             grauAudiooeLabel.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             grauAudiooeLabel.ForeColor = System.Drawing.Color.Blue;
-            grauAudiooeLabel.Location = new System.Drawing.Point(4, 102);
+            grauAudiooeLabel.Location = new System.Drawing.Point(4, 100);
             grauAudiooeLabel.Name = "grauAudiooeLabel";
             grauAudiooeLabel.Size = new System.Drawing.Size(197, 16);
             grauAudiooeLabel.TabIndex = 4;
@@ -2772,7 +2772,7 @@ namespace segmentoOtoneurologia
             configAudiooeLabel.AutoSize = true;
             configAudiooeLabel.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             configAudiooeLabel.ForeColor = System.Drawing.Color.Blue;
-            configAudiooeLabel.Location = new System.Drawing.Point(4, 146);
+            configAudiooeLabel.Location = new System.Drawing.Point(4, 143);
             configAudiooeLabel.Name = "configAudiooeLabel";
             configAudiooeLabel.Size = new System.Drawing.Size(197, 16);
             configAudiooeLabel.TabIndex = 6;
@@ -2785,7 +2785,7 @@ namespace segmentoOtoneurologia
             vocalAudiooeLabel.AutoSize = true;
             vocalAudiooeLabel.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             vocalAudiooeLabel.ForeColor = System.Drawing.Color.Blue;
-            vocalAudiooeLabel.Location = new System.Drawing.Point(4, 191);
+            vocalAudiooeLabel.Location = new System.Drawing.Point(4, 188);
             vocalAudiooeLabel.Name = "vocalAudiooeLabel";
             vocalAudiooeLabel.Size = new System.Drawing.Size(197, 16);
             vocalAudiooeLabel.TabIndex = 8;
@@ -5081,7 +5081,7 @@ namespace segmentoOtoneurologia
             "65",
             "70",
             "75"});
-            this.vo1e5kodComboBox.Location = new System.Drawing.Point(327, 208);
+            this.vo1e5kodComboBox.Location = new System.Drawing.Point(327, 211);
             this.vo1e5kodComboBox.Name = "vo1e5kodComboBox";
             this.vo1e5kodComboBox.Size = new System.Drawing.Size(99, 28);
             this.vo1e5kodComboBox.TabIndex = 120;
@@ -7126,7 +7126,7 @@ namespace segmentoOtoneurologia
             this.tabPage14.Location = new System.Drawing.Point(4, 29);
             this.tabPage14.Name = "tabPage14";
             this.tabPage14.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage14.Size = new System.Drawing.Size(1033, 542);
+            this.tabPage14.Size = new System.Drawing.Size(1033, 535);
             this.tabPage14.TabIndex = 2;
             this.tabPage14.Text = "Laudo e impressão";
             this.tabPage14.UseVisualStyleBackColor = true;
@@ -7144,7 +7144,7 @@ namespace segmentoOtoneurologia
             this.tableLayoutPanel4.RowCount = 2;
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 49.24242F));
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.75758F));
-            this.tableLayoutPanel4.Size = new System.Drawing.Size(1027, 536);
+            this.tableLayoutPanel4.Size = new System.Drawing.Size(1027, 529);
             this.tableLayoutPanel4.TabIndex = 0;
             // 
             // tableLayoutPanel5
@@ -7160,7 +7160,7 @@ namespace segmentoOtoneurologia
             this.tableLayoutPanel5.Name = "tableLayoutPanel5";
             this.tableLayoutPanel5.RowCount = 1;
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel5.Size = new System.Drawing.Size(1019, 256);
+            this.tableLayoutPanel5.Size = new System.Drawing.Size(1019, 253);
             this.tableLayoutPanel5.TabIndex = 0;
             // 
             // gbODaudioClinica
@@ -7170,7 +7170,7 @@ namespace segmentoOtoneurologia
             this.gbODaudioClinica.Dock = System.Windows.Forms.DockStyle.Fill;
             this.gbODaudioClinica.Location = new System.Drawing.Point(4, 4);
             this.gbODaudioClinica.Name = "gbODaudioClinica";
-            this.gbODaudioClinica.Size = new System.Drawing.Size(502, 248);
+            this.gbODaudioClinica.Size = new System.Drawing.Size(502, 245);
             this.gbODaudioClinica.TabIndex = 0;
             this.gbODaudioClinica.TabStop = false;
             this.gbODaudioClinica.Text = "Orelha direita";
@@ -7200,7 +7200,7 @@ namespace segmentoOtoneurologia
             this.tableLayoutPanel84.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel84.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel84.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel84.Size = new System.Drawing.Size(496, 223);
+            this.tableLayoutPanel84.Size = new System.Drawing.Size(496, 220);
             this.tableLayoutPanel84.TabIndex = 0;
             // 
             // vocalAudioodComboBox
@@ -7217,7 +7217,7 @@ namespace segmentoOtoneurologia
             "Com moderada dificuldade",
             "Com acentuada dificuldade",
             "Com provável incapacidade auditiva"});
-            this.vocalAudioodComboBox.Location = new System.Drawing.Point(208, 187);
+            this.vocalAudioodComboBox.Location = new System.Drawing.Point(208, 184);
             this.vocalAudioodComboBox.Name = "vocalAudioodComboBox";
             this.vocalAudioodComboBox.Size = new System.Drawing.Size(284, 24);
             this.vocalAudioodComboBox.TabIndex = 9;
@@ -7240,7 +7240,7 @@ namespace segmentoOtoneurologia
             "Em \"U\" invertido",
             "Em entalhe",
             "De config. não definida"});
-            this.configAudioodComboBox.Location = new System.Drawing.Point(208, 142);
+            this.configAudioodComboBox.Location = new System.Drawing.Point(208, 139);
             this.configAudioodComboBox.Name = "configAudioodComboBox";
             this.configAudioodComboBox.Size = new System.Drawing.Size(284, 24);
             this.configAudioodComboBox.TabIndex = 7;
@@ -7275,7 +7275,7 @@ namespace segmentoOtoneurologia
             "Deficiência auditiva muito severa - Grau II",
             "Deficiência auditiva muito severa - Grau III",
             "Deficiência auditiva total / Cofose"});
-            this.grauAudioodComboBox.Location = new System.Drawing.Point(208, 98);
+            this.grauAudioodComboBox.Location = new System.Drawing.Point(208, 96);
             this.grauAudioodComboBox.Name = "grauAudioodComboBox";
             this.grauAudioodComboBox.Size = new System.Drawing.Size(284, 24);
             this.grauAudioodComboBox.TabIndex = 5;
@@ -7293,7 +7293,7 @@ namespace segmentoOtoneurologia
             "Sensorioneural",
             "Condutiva",
             "Mista"});
-            this.curvaAudioodComboBox.Location = new System.Drawing.Point(208, 54);
+            this.curvaAudioodComboBox.Location = new System.Drawing.Point(208, 53);
             this.curvaAudioodComboBox.Name = "curvaAudioodComboBox";
             this.curvaAudioodComboBox.Size = new System.Drawing.Size(284, 24);
             this.curvaAudioodComboBox.TabIndex = 3;
@@ -7320,7 +7320,7 @@ namespace segmentoOtoneurologia
             this.gbOEaudioClinica.Dock = System.Windows.Forms.DockStyle.Fill;
             this.gbOEaudioClinica.Location = new System.Drawing.Point(513, 4);
             this.gbOEaudioClinica.Name = "gbOEaudioClinica";
-            this.gbOEaudioClinica.Size = new System.Drawing.Size(502, 248);
+            this.gbOEaudioClinica.Size = new System.Drawing.Size(502, 245);
             this.gbOEaudioClinica.TabIndex = 1;
             this.gbOEaudioClinica.TabStop = false;
             this.gbOEaudioClinica.Text = "Orelha esquerda";
@@ -7350,7 +7350,7 @@ namespace segmentoOtoneurologia
             this.tableLayoutPanel85.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel85.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel85.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel85.Size = new System.Drawing.Size(496, 223);
+            this.tableLayoutPanel85.Size = new System.Drawing.Size(496, 220);
             this.tableLayoutPanel85.TabIndex = 0;
             // 
             // vocalAudiooeComboBox
@@ -7367,7 +7367,7 @@ namespace segmentoOtoneurologia
             "Com moderada dificuldade",
             "Com acentuada dificuldade",
             "Com provável incapacidade auditiva"});
-            this.vocalAudiooeComboBox.Location = new System.Drawing.Point(208, 187);
+            this.vocalAudiooeComboBox.Location = new System.Drawing.Point(208, 184);
             this.vocalAudiooeComboBox.Name = "vocalAudiooeComboBox";
             this.vocalAudiooeComboBox.Size = new System.Drawing.Size(284, 24);
             this.vocalAudiooeComboBox.TabIndex = 9;
@@ -7390,7 +7390,7 @@ namespace segmentoOtoneurologia
             "Em \"U\" invertido",
             "Em entalhe",
             "De config. não definida"});
-            this.configAudiooeComboBox.Location = new System.Drawing.Point(208, 142);
+            this.configAudiooeComboBox.Location = new System.Drawing.Point(208, 139);
             this.configAudiooeComboBox.Name = "configAudiooeComboBox";
             this.configAudiooeComboBox.Size = new System.Drawing.Size(284, 24);
             this.configAudiooeComboBox.TabIndex = 7;
@@ -7425,7 +7425,7 @@ namespace segmentoOtoneurologia
             "Deficiência auditiva muito severa - Grau II",
             "Deficiência auditiva muito severa - Grau III",
             "Deficiência auditiva total / Cofose"});
-            this.grauAudiooeComboBox.Location = new System.Drawing.Point(208, 98);
+            this.grauAudiooeComboBox.Location = new System.Drawing.Point(208, 96);
             this.grauAudiooeComboBox.Name = "grauAudiooeComboBox";
             this.grauAudiooeComboBox.Size = new System.Drawing.Size(284, 24);
             this.grauAudiooeComboBox.TabIndex = 5;
@@ -7443,7 +7443,7 @@ namespace segmentoOtoneurologia
             "Sensorioneural",
             "Condutiva",
             "Mista"});
-            this.curvaAudiooeComboBox.Location = new System.Drawing.Point(208, 54);
+            this.curvaAudiooeComboBox.Location = new System.Drawing.Point(208, 53);
             this.curvaAudiooeComboBox.Name = "curvaAudiooeComboBox";
             this.curvaAudiooeComboBox.Size = new System.Drawing.Size(284, 24);
             this.curvaAudiooeComboBox.TabIndex = 3;
@@ -7472,11 +7472,11 @@ namespace segmentoOtoneurologia
             this.tableLayoutPanel6.Controls.Add(this.btnPrintAudioTonal, 1, 0);
             this.tableLayoutPanel6.Controls.Add(this.gbConclusoesAudioClinica, 0, 0);
             this.tableLayoutPanel6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel6.Location = new System.Drawing.Point(4, 267);
+            this.tableLayoutPanel6.Location = new System.Drawing.Point(4, 264);
             this.tableLayoutPanel6.Name = "tableLayoutPanel6";
             this.tableLayoutPanel6.RowCount = 1;
             this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel6.Size = new System.Drawing.Size(1019, 265);
+            this.tableLayoutPanel6.Size = new System.Drawing.Size(1019, 261);
             this.tableLayoutPanel6.TabIndex = 1;
             // 
             // btnPrintAudioTonal
@@ -7485,7 +7485,7 @@ namespace segmentoOtoneurologia
             this.btnPrintAudioTonal.Image = global::segmentoOtoneurologia.Properties.Resources.imprimir;
             this.btnPrintAudioTonal.Location = new System.Drawing.Point(870, 4);
             this.btnPrintAudioTonal.Name = "btnPrintAudioTonal";
-            this.btnPrintAudioTonal.Size = new System.Drawing.Size(145, 257);
+            this.btnPrintAudioTonal.Size = new System.Drawing.Size(145, 253);
             this.btnPrintAudioTonal.TabIndex = 0;
             this.btnPrintAudioTonal.UseVisualStyleBackColor = true;
             this.btnPrintAudioTonal.Click += new System.EventHandler(this.btnPrintAudioTonal_Click);
@@ -7497,7 +7497,7 @@ namespace segmentoOtoneurologia
             this.gbConclusoesAudioClinica.Dock = System.Windows.Forms.DockStyle.Fill;
             this.gbConclusoesAudioClinica.Location = new System.Drawing.Point(4, 4);
             this.gbConclusoesAudioClinica.Name = "gbConclusoesAudioClinica";
-            this.gbConclusoesAudioClinica.Size = new System.Drawing.Size(859, 257);
+            this.gbConclusoesAudioClinica.Size = new System.Drawing.Size(859, 253);
             this.gbConclusoesAudioClinica.TabIndex = 1;
             this.gbConclusoesAudioClinica.TabStop = false;
             this.gbConclusoesAudioClinica.Text = "Outros dados";
@@ -17351,6 +17351,133 @@ namespace segmentoOtoneurologia
             this.gbEpidemiol.TabStop = false;
             this.gbEpidemiol.Text = "Comparando os achados audiológicos";
             // 
+            // tabControlEpidemiol
+            // 
+            this.tabControlEpidemiol.Controls.Add(this.tabPage41);
+            this.tabControlEpidemiol.Controls.Add(this.tabPage42);
+            this.tabControlEpidemiol.Location = new System.Drawing.Point(0, 1);
+            this.tabControlEpidemiol.Name = "tabControlEpidemiol";
+            this.tabControlEpidemiol.SelectedIndex = 0;
+            this.tabControlEpidemiol.Size = new System.Drawing.Size(1066, 616);
+            this.tabControlEpidemiol.TabIndex = 4;
+            // 
+            // tabPage41
+            // 
+            this.tabPage41.BackColor = System.Drawing.Color.MintCream;
+            this.tabPage41.Controls.Add(this.chrtEpidemioOE);
+            this.tabPage41.Controls.Add(this.chrtEpidemioOD);
+            this.tabPage41.Location = new System.Drawing.Point(4, 29);
+            this.tabPage41.Name = "tabPage41";
+            this.tabPage41.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage41.Size = new System.Drawing.Size(1058, 583);
+            this.tabPage41.TabIndex = 0;
+            this.tabPage41.Text = "Comparativo \"Limiares eletrofisiológicos\" e \"estimativa auditiva\"";
+            // 
+            // chrtEpidemioOE
+            // 
+            this.chrtEpidemioOE.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.chrtEpidemioOE.BackColor = System.Drawing.Color.AliceBlue;
+            this.chrtEpidemioOE.BorderlineColor = System.Drawing.Color.Blue;
+            this.chrtEpidemioOE.BorderlineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Solid;
+            chartArea9.AxisX.LabelStyle.Enabled = false;
+            chartArea9.AxisX.MajorGrid.LineColor = System.Drawing.Color.Silver;
+            chartArea9.AxisX.MajorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dash;
+            chartArea9.AxisX.MajorTickMark.Enabled = false;
+            chartArea9.AxisX.Maximum = 15D;
+            chartArea9.AxisX.Minimum = 1D;
+            chartArea9.AxisX.TextOrientation = System.Windows.Forms.DataVisualization.Charting.TextOrientation.Horizontal;
+            chartArea9.AxisX.Title = "      125            250             500     750  1k     1,5k  2k        3k   4k " +
+    "       6k  8k";
+            chartArea9.AxisX.TitleAlignment = System.Drawing.StringAlignment.Near;
+            chartArea9.AxisY.Crossing = -1.7976931348623157E+308D;
+            chartArea9.AxisY.Interval = 10D;
+            chartArea9.AxisY.IsReversed = true;
+            chartArea9.AxisY.Maximum = 120D;
+            chartArea9.AxisY.Minimum = -10D;
+            chartArea9.AxisY.TextOrientation = System.Windows.Forms.DataVisualization.Charting.TextOrientation.Rotated270;
+            chartArea9.AxisY.Title = "Gráfico ISO/64 frequência (Hz) por decibel nível de audição (dBNA)";
+            chartArea9.Name = "ChartArea5";
+            this.chrtEpidemioOE.ChartAreas.Add(chartArea9);
+            legend9.Enabled = false;
+            legend9.Name = "Legend1";
+            this.chrtEpidemioOE.Legends.Add(legend9);
+            this.chrtEpidemioOE.Location = new System.Drawing.Point(533, 6);
+            this.chrtEpidemioOE.Name = "chrtEpidemioOE";
+            series9.ChartArea = "ChartArea5";
+            series9.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Point;
+            series9.Color = System.Drawing.Color.DodgerBlue;
+            series9.Legend = "Legend1";
+            series9.Name = "OE";
+            this.chrtEpidemioOE.Series.Add(series9);
+            this.chrtEpidemioOE.Size = new System.Drawing.Size(466, 416);
+            this.chrtEpidemioOE.TabIndex = 11;
+            this.chrtEpidemioOE.Text = "chart1";
+            // 
+            // chrtEpidemioOD
+            // 
+            this.chrtEpidemioOD.BackColor = System.Drawing.Color.Snow;
+            this.chrtEpidemioOD.BackImageAlignment = System.Windows.Forms.DataVisualization.Charting.ChartImageAlignmentStyle.Center;
+            this.chrtEpidemioOD.BorderlineColor = System.Drawing.Color.Red;
+            this.chrtEpidemioOD.BorderlineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Solid;
+            chartArea10.AxisX.LabelStyle.Enabled = false;
+            chartArea10.AxisX.MajorGrid.LineColor = System.Drawing.Color.Silver;
+            chartArea10.AxisX.MajorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dash;
+            chartArea10.AxisX.MajorTickMark.Enabled = false;
+            chartArea10.AxisX.Maximum = 15D;
+            chartArea10.AxisX.Minimum = 1D;
+            chartArea10.AxisX.TextOrientation = System.Windows.Forms.DataVisualization.Charting.TextOrientation.Horizontal;
+            chartArea10.AxisX.Title = "      125            250             500     750  1k     1,5k  2k        3k   4k " +
+    "      6k   8k";
+            chartArea10.AxisX.TitleAlignment = System.Drawing.StringAlignment.Near;
+            chartArea10.AxisY.Crossing = -1.7976931348623157E+308D;
+            chartArea10.AxisY.Interval = 10D;
+            chartArea10.AxisY.IsReversed = true;
+            chartArea10.AxisY.Maximum = 120D;
+            chartArea10.AxisY.Minimum = -10D;
+            chartArea10.AxisY.TextOrientation = System.Windows.Forms.DataVisualization.Charting.TextOrientation.Rotated270;
+            chartArea10.AxisY.Title = "Gráfico ISO/64 frequência (Hz) por decibel nível de audição (dBNA)";
+            chartArea10.Name = "ChartArea4";
+            this.chrtEpidemioOD.ChartAreas.Add(chartArea10);
+            legend10.Enabled = false;
+            legend10.Name = "Legend1";
+            this.chrtEpidemioOD.Legends.Add(legend10);
+            this.chrtEpidemioOD.Location = new System.Drawing.Point(60, 6);
+            this.chrtEpidemioOD.Name = "chrtEpidemioOD";
+            series10.ChartArea = "ChartArea4";
+            series10.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Point;
+            series10.Color = System.Drawing.Color.Red;
+            series10.Legend = "Legend1";
+            series10.Name = "OD";
+            this.chrtEpidemioOD.Series.Add(series10);
+            this.chrtEpidemioOD.Size = new System.Drawing.Size(467, 416);
+            this.chrtEpidemioOD.TabIndex = 10;
+            this.chrtEpidemioOD.Text = "chart1";
+            // 
+            // tabPage42
+            // 
+            this.tabPage42.BackColor = System.Drawing.Color.MintCream;
+            this.tabPage42.Location = new System.Drawing.Point(4, 29);
+            this.tabPage42.Name = "tabPage42";
+            this.tabPage42.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage42.Size = new System.Drawing.Size(1058, 583);
+            this.tabPage42.TabIndex = 1;
+            this.tabPage42.Text = "Comparativo Impedanciometria";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBox1.Enabled = false;
+            this.textBox1.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(297, 93);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(473, 75);
+            this.textBox1.TabIndex = 3;
+            this.textBox1.Text = resources.GetString("textBox1.Text");
+            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
             // btnVai
             // 
             this.btnVai.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -17684,133 +17811,6 @@ namespace segmentoOtoneurologia
             this.toolTip7.ToolTipIcon = System.Windows.Forms.ToolTipIcon.Info;
             this.toolTip7.ToolTipTitle = "Laudo ou parecer";
             // 
-            // textBox1
-            // 
-            this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox1.Enabled = false;
-            this.textBox1.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(297, 93);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(473, 75);
-            this.textBox1.TabIndex = 3;
-            this.textBox1.Text = resources.GetString("textBox1.Text");
-            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // tabControlEpidemiol
-            // 
-            this.tabControlEpidemiol.Controls.Add(this.tabPage41);
-            this.tabControlEpidemiol.Controls.Add(this.tabPage42);
-            this.tabControlEpidemiol.Location = new System.Drawing.Point(0, 1);
-            this.tabControlEpidemiol.Name = "tabControlEpidemiol";
-            this.tabControlEpidemiol.SelectedIndex = 0;
-            this.tabControlEpidemiol.Size = new System.Drawing.Size(1066, 616);
-            this.tabControlEpidemiol.TabIndex = 4;
-            // 
-            // tabPage41
-            // 
-            this.tabPage41.BackColor = System.Drawing.Color.MintCream;
-            this.tabPage41.Controls.Add(this.chrtEpidemioOE);
-            this.tabPage41.Controls.Add(this.chrtEpidemioOD);
-            this.tabPage41.Location = new System.Drawing.Point(4, 29);
-            this.tabPage41.Name = "tabPage41";
-            this.tabPage41.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage41.Size = new System.Drawing.Size(1058, 583);
-            this.tabPage41.TabIndex = 0;
-            this.tabPage41.Text = "Comparativo \"Limiares eletrofisiológicos\" e \"estimativa auditiva\"";
-            // 
-            // chrtEpidemioOE
-            // 
-            this.chrtEpidemioOE.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.chrtEpidemioOE.BackColor = System.Drawing.Color.AliceBlue;
-            this.chrtEpidemioOE.BorderlineColor = System.Drawing.Color.Blue;
-            this.chrtEpidemioOE.BorderlineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Solid;
-            chartArea9.AxisX.LabelStyle.Enabled = false;
-            chartArea9.AxisX.MajorGrid.LineColor = System.Drawing.Color.Silver;
-            chartArea9.AxisX.MajorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dash;
-            chartArea9.AxisX.MajorTickMark.Enabled = false;
-            chartArea9.AxisX.Maximum = 15D;
-            chartArea9.AxisX.Minimum = 1D;
-            chartArea9.AxisX.TextOrientation = System.Windows.Forms.DataVisualization.Charting.TextOrientation.Horizontal;
-            chartArea9.AxisX.Title = "      125            250             500     750  1k     1,5k  2k        3k   4k " +
-    "       6k  8k";
-            chartArea9.AxisX.TitleAlignment = System.Drawing.StringAlignment.Near;
-            chartArea9.AxisY.Crossing = -1.7976931348623157E+308D;
-            chartArea9.AxisY.Interval = 10D;
-            chartArea9.AxisY.IsReversed = true;
-            chartArea9.AxisY.Maximum = 120D;
-            chartArea9.AxisY.Minimum = -10D;
-            chartArea9.AxisY.TextOrientation = System.Windows.Forms.DataVisualization.Charting.TextOrientation.Rotated270;
-            chartArea9.AxisY.Title = "Gráfico ISO/64 frequência (Hz) por decibel nível de audição (dBNA)";
-            chartArea9.Name = "ChartArea5";
-            this.chrtEpidemioOE.ChartAreas.Add(chartArea9);
-            legend9.Enabled = false;
-            legend9.Name = "Legend1";
-            this.chrtEpidemioOE.Legends.Add(legend9);
-            this.chrtEpidemioOE.Location = new System.Drawing.Point(533, 6);
-            this.chrtEpidemioOE.Name = "chrtEpidemioOE";
-            series9.ChartArea = "ChartArea5";
-            series9.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Point;
-            series9.Color = System.Drawing.Color.DodgerBlue;
-            series9.Legend = "Legend1";
-            series9.Name = "OE";
-            this.chrtEpidemioOE.Series.Add(series9);
-            this.chrtEpidemioOE.Size = new System.Drawing.Size(466, 416);
-            this.chrtEpidemioOE.TabIndex = 11;
-            this.chrtEpidemioOE.Text = "chart1";
-            // 
-            // chrtEpidemioOD
-            // 
-            this.chrtEpidemioOD.BackColor = System.Drawing.Color.Snow;
-            this.chrtEpidemioOD.BackImageAlignment = System.Windows.Forms.DataVisualization.Charting.ChartImageAlignmentStyle.Center;
-            this.chrtEpidemioOD.BorderlineColor = System.Drawing.Color.Red;
-            this.chrtEpidemioOD.BorderlineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Solid;
-            chartArea10.AxisX.LabelStyle.Enabled = false;
-            chartArea10.AxisX.MajorGrid.LineColor = System.Drawing.Color.Silver;
-            chartArea10.AxisX.MajorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dash;
-            chartArea10.AxisX.MajorTickMark.Enabled = false;
-            chartArea10.AxisX.Maximum = 15D;
-            chartArea10.AxisX.Minimum = 1D;
-            chartArea10.AxisX.TextOrientation = System.Windows.Forms.DataVisualization.Charting.TextOrientation.Horizontal;
-            chartArea10.AxisX.Title = "      125            250             500     750  1k     1,5k  2k        3k   4k " +
-    "      6k   8k";
-            chartArea10.AxisX.TitleAlignment = System.Drawing.StringAlignment.Near;
-            chartArea10.AxisY.Crossing = -1.7976931348623157E+308D;
-            chartArea10.AxisY.Interval = 10D;
-            chartArea10.AxisY.IsReversed = true;
-            chartArea10.AxisY.Maximum = 120D;
-            chartArea10.AxisY.Minimum = -10D;
-            chartArea10.AxisY.TextOrientation = System.Windows.Forms.DataVisualization.Charting.TextOrientation.Rotated270;
-            chartArea10.AxisY.Title = "Gráfico ISO/64 frequência (Hz) por decibel nível de audição (dBNA)";
-            chartArea10.Name = "ChartArea4";
-            this.chrtEpidemioOD.ChartAreas.Add(chartArea10);
-            legend10.Enabled = false;
-            legend10.Name = "Legend1";
-            this.chrtEpidemioOD.Legends.Add(legend10);
-            this.chrtEpidemioOD.Location = new System.Drawing.Point(60, 6);
-            this.chrtEpidemioOD.Name = "chrtEpidemioOD";
-            series10.ChartArea = "ChartArea4";
-            series10.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Point;
-            series10.Color = System.Drawing.Color.Red;
-            series10.Legend = "Legend1";
-            series10.Name = "OD";
-            this.chrtEpidemioOD.Series.Add(series10);
-            this.chrtEpidemioOD.Size = new System.Drawing.Size(467, 416);
-            this.chrtEpidemioOD.TabIndex = 10;
-            this.chrtEpidemioOD.Text = "chart1";
-            // 
-            // tabPage42
-            // 
-            this.tabPage42.BackColor = System.Drawing.Color.MintCream;
-            this.tabPage42.Location = new System.Drawing.Point(4, 29);
-            this.tabPage42.Name = "tabPage42";
-            this.tabPage42.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage42.Size = new System.Drawing.Size(1058, 583);
-            this.tabPage42.TabIndex = 1;
-            this.tabPage42.Text = "Comparativo Impedanciometria";
-            // 
             // frmExames
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -18104,16 +18104,16 @@ namespace segmentoOtoneurologia
             this.tabPage40.ResumeLayout(false);
             this.gbEpidemiol.ResumeLayout(false);
             this.gbEpidemiol.PerformLayout();
+            this.tabControlEpidemiol.ResumeLayout(false);
+            this.tabPage41.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.chrtEpidemioOE)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chrtEpidemioOD)).EndInit();
             this.tableLayoutPanel17.ResumeLayout(false);
             this.tableLayoutPanel17.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.tabelaExamesBindingNavigator)).EndInit();
             this.tabelaExamesBindingNavigator.ResumeLayout(false);
             this.tabelaExamesBindingNavigator.PerformLayout();
             this.gbTipoAudiograma.ResumeLayout(false);
-            this.tabControlEpidemiol.ResumeLayout(false);
-            this.tabPage41.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.chrtEpidemioOE)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chrtEpidemioOD)).EndInit();
             this.ResumeLayout(false);
 
         }
