@@ -54,13 +54,13 @@ namespace segmentoOtoneurologia
             this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.gbNovoLaudo = new System.Windows.Forms.GroupBox();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.txtBuscarLaudo = new System.Windows.Forms.TextBox();
             this.descricaoLaudoTextBox = new System.Windows.Forms.TextBox();
             this.nomeLaudoTextBox = new System.Windows.Forms.TextBox();
             this.categoriaComboBox = new System.Windows.Forms.ComboBox();
             this.tabelaLaudario1TableAdapter = new segmentoOtoneurologia.segmsaude001DataSetTableAdapters.tabelaLaudario1TableAdapter();
             this.tableAdapterManager = new segmentoOtoneurologia.segmsaude001DataSetTableAdapters.TableAdapterManager();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.txtBuscarLaudo = new System.Windows.Forms.TextBox();
             categoriaLabel = new System.Windows.Forms.Label();
             nomeLaudoLabel = new System.Windows.Forms.Label();
             descricaoLaudoLabel = new System.Windows.Forms.Label();
@@ -354,6 +354,24 @@ namespace segmentoOtoneurologia
             this.gbNovoLaudo.TabStop = false;
             this.gbNovoLaudo.Text = "Novo laudo";
             // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.txtBuscarLaudo);
+            this.groupBox1.Location = new System.Drawing.Point(9, 348);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(351, 95);
+            this.groupBox1.TabIndex = 6;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Buscar laudo";
+            // 
+            // txtBuscarLaudo
+            // 
+            this.txtBuscarLaudo.Location = new System.Drawing.Point(6, 40);
+            this.txtBuscarLaudo.Name = "txtBuscarLaudo";
+            this.txtBuscarLaudo.Size = new System.Drawing.Size(339, 26);
+            this.txtBuscarLaudo.TabIndex = 0;
+            this.txtBuscarLaudo.TextChanged += new System.EventHandler(this.txtBuscarLaudo_TextChanged);
+            // 
             // descricaoLaudoTextBox
             // 
             this.descricaoLaudoTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.tabelaLaudario1BindingSource, "descricaoLaudo", true));
@@ -397,6 +415,7 @@ namespace segmentoOtoneurologia
             this.tableAdapterManager.tabelaBlocoNotasTableAdapter = null;
             this.tableAdapterManager.tabelaCadastroSenhasTableAdapter = null;
             this.tableAdapterManager.tabelaContatosTableAdapter = null;
+            this.tableAdapterManager.tabelaEstoqueTableAdapter = null;
             this.tableAdapterManager.tabelaExamesTableAdapter = null;
             this.tableAdapterManager.tabelaLaudario1TableAdapter = this.tabelaLaudario1TableAdapter;
             this.tableAdapterManager.tabelaLaudarioTableAdapter = null;
@@ -406,24 +425,6 @@ namespace segmentoOtoneurologia
             this.tableAdapterManager.tabelaProntuarioTableAdapter = null;
             this.tableAdapterManager.tabelaReceituarioTableAdapter = null;
             this.tableAdapterManager.UpdateOrder = segmentoOtoneurologia.segmsaude001DataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(this.txtBuscarLaudo);
-            this.groupBox1.Location = new System.Drawing.Point(9, 348);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(351, 95);
-            this.groupBox1.TabIndex = 6;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Buscar laudo";
-            // 
-            // txtBuscarLaudo
-            // 
-            this.txtBuscarLaudo.Location = new System.Drawing.Point(6, 40);
-            this.txtBuscarLaudo.Name = "txtBuscarLaudo";
-            this.txtBuscarLaudo.Size = new System.Drawing.Size(339, 26);
-            this.txtBuscarLaudo.TabIndex = 0;
-            this.txtBuscarLaudo.TextChanged += new System.EventHandler(this.txtBuscarLaudo_TextChanged);
             // 
             // frmLaudario
             // 
@@ -436,6 +437,7 @@ namespace segmentoOtoneurologia
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmLaudario";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Laudário";
             this.Load += new System.EventHandler(this.frmLaudario_Load);
             this.tableLayoutPanel1.ResumeLayout(false);

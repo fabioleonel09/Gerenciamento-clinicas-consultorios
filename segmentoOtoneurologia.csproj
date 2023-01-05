@@ -510,6 +510,9 @@
     <None Include="Resources\sombraImpedancioOE.png" />
     <None Include="Resources\brancoTimpano.png" />
     <None Include="Resources\materDei.png" />
+    <None Include="Resources\coclea.png" />
+    <None Include="Resources\caracolFundo.png" />
+    <None Include="Resources\flagVai.png" />
     <Content Include="usuarios.ico" />
     <None Include="Resources\voOEmascAusente.png" />
     <None Include="Resources\voOEmascPresente.png" />

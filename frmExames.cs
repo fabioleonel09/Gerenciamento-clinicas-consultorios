@@ -18,11 +18,17 @@ namespace segmentoOtoneurologia
         {
             InitializeComponent();
 
+            desabilitaMarcacao();
+            desabilitaMarcacaoImpedancio();
+
             gbDadosPaciente.Enabled = false;
             gbTipoAudiograma.Enabled = false;
 
             tsbPreencherAudio.Enabled = false;
             tsbPreencherTimpanogramas.Enabled = false;
+            tsbapagaSelecionados.Enabled = false;
+
+            tabControlEpidemiol.Visible = false;
 
             ((Control)tabControl1.TabPages["tabPage2"]).Enabled = false;
             ((Control)tabControl1.TabPages["tabPage3"]).Enabled = false;
@@ -59,6 +65,7 @@ namespace segmentoOtoneurologia
 
             tipoAudiometriaComboBox.SelectedIndex = -1;
 
+            ((Control)tabControl1.TabPages["tabPage2"]).Enabled = false;
             ((Control)tabControl1.TabPages["tabPage3"]).Enabled = false;
             ((Control)tabControl1.TabPages["tabPage4"]).Enabled = false;
             ((Control)tabControl1.TabPages["tabPage5"]).Enabled = false;
@@ -9928,7 +9935,7 @@ namespace segmentoOtoneurologia
                 {
                     fa.ShowDialog(this);
                 }
-             
+
                 SetStyle(ControlStyles.OptimizedDoubleBuffer, true);    
             }
         }
@@ -9954,7 +9961,7 @@ namespace segmentoOtoneurologia
                 {
                     fa.ShowDialog(this);
                 }
-
+               
                 SetStyle(ControlStyles.OptimizedDoubleBuffer, true);
             }
         }
@@ -9967,7 +9974,7 @@ namespace segmentoOtoneurologia
                 {
                     fa.ShowDialog(this);
                 }
-
+              
                 SetStyle(ControlStyles.OptimizedDoubleBuffer, true);
             }
         }
@@ -10249,6 +10256,15 @@ namespace segmentoOtoneurologia
 
         private void btnPrintAudioCampoAASI_Click(object sender, EventArgs e)
         {
+            if (string.IsNullOrEmpty(identificacaoTextBox.Text))
+            {
+                MessageBox.Show("O campo 'Identificação' não está preenchido! Preencha-o, para gerar a impressão!", "Atenção!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+
+            this.Validate();
+            this.tabelaExamesBindingSource.EndEdit();
+            this.tableAdapterManager.UpdateAll(this.segmsaude001DataSet);
+
             using (frmAguarde fa = new frmAguarde(OpenData))
             {
                 fa.ShowDialog(this);
@@ -10265,6 +10281,15 @@ namespace segmentoOtoneurologia
 
         private void btnPrintImpedancio_Click(object sender, EventArgs e)
         {
+            if (string.IsNullOrEmpty(identificacaoTextBox.Text))
+            {
+                MessageBox.Show("O campo 'Identificação' não está preenchido! Preencha-o, para gerar a impressão!", "Atenção!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+
+            this.Validate();
+            this.tabelaExamesBindingSource.EndEdit();
+            this.tableAdapterManager.UpdateAll(this.segmsaude001DataSet);
+
             using (frmAguarde fa = new frmAguarde(OpenData))
             {
                 fa.ShowDialog(this);
@@ -10282,6 +10307,15 @@ namespace segmentoOtoneurologia
 
         private void btnPrintComport_Click(object sender, EventArgs e)
         {
+            if (string.IsNullOrEmpty(identificacaoTextBox.Text))
+            {
+                MessageBox.Show("O campo 'Identificação' não está preenchido! Preencha-o, para gerar a impressão!", "Atenção!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+
+            this.Validate();
+            this.tabelaExamesBindingSource.EndEdit();
+            this.tableAdapterManager.UpdateAll(this.segmsaude001DataSet);
+
             using (frmAguarde fa = new frmAguarde(OpenData))
             {
                 fa.ShowDialog(this);
@@ -10296,6 +10330,15 @@ namespace segmentoOtoneurologia
 
         private void btnPrintAudioCampoConven_Click(object sender, EventArgs e)
         {
+            if (string.IsNullOrEmpty(identificacaoTextBox.Text))
+            {
+                MessageBox.Show("O campo 'Identificação' não está preenchido! Preencha-o, para gerar a impressão!", "Atenção!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+
+            this.Validate();
+            this.tabelaExamesBindingSource.EndEdit();
+            this.tableAdapterManager.UpdateAll(this.segmsaude001DataSet);
+
             using (frmAguarde fa = new frmAguarde(OpenData))
             {
                 fa.ShowDialog(this);
@@ -10312,6 +10355,15 @@ namespace segmentoOtoneurologia
 
         private void btnPrintAltasFreq_Click(object sender, EventArgs e)
         {
+            if (string.IsNullOrEmpty(identificacaoTextBox.Text))
+            {
+                MessageBox.Show("O campo 'Identificação' não está preenchido! Preencha-o, para gerar a impressão!", "Atenção!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+
+            this.Validate();
+            this.tabelaExamesBindingSource.EndEdit();
+            this.tableAdapterManager.UpdateAll(this.segmsaude001DataSet);
+
             using (frmAguarde fa = new frmAguarde(OpenData))
             {
                 fa.ShowDialog(this);
@@ -10329,6 +10381,15 @@ namespace segmentoOtoneurologia
 
         private void btnPrintAudioTonal_Click(object sender, EventArgs e)
         {
+            if (string.IsNullOrEmpty(identificacaoTextBox.Text))
+            {
+                MessageBox.Show("O campo 'Identificação' não está preenchido! Preencha-o, para gerar a impressão!", "Atenção!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+
+            this.Validate();
+            this.tabelaExamesBindingSource.EndEdit();
+            this.tableAdapterManager.UpdateAll(this.segmsaude001DataSet);
+
             using (frmAguarde fa = new frmAguarde(OpenData))
             {
                 fa.ShowDialog(this);
@@ -10404,6 +10465,40 @@ namespace segmentoOtoneurologia
 
         private void bindingNavigatorAddNewItem_Click(object sender, EventArgs e)
         {
+            if (tabControl3.SelectedTab == tabPage12 ||
+                tabControl3.SelectedTab == tabPage13 ||
+                tabControl4.SelectedTab == tabPage15 ||
+                tabControl4.SelectedTab == tabPage16 ||
+                tabControl9.SelectedTab == tabPage31 ||
+                tabControl9.SelectedTab == tabPage32 ||
+                tabControl10.SelectedTab == tabPage34 ||
+                tabControl10.SelectedTab == tabPage37) { 
+            
+                desabilitaMarcacao();
+                desabilitaMarcacaoImpedancio();
+
+                dataExameDateTimePicker.CustomFormat = " ";
+                dataNascimentoDateTimePicker.CustomFormat = " ";
+                dataCalibracaoDateTimePicker.CustomFormat = " ";
+                dataCalImpDateTimePicker.CustomFormat = " ";
+
+                gbDadosPaciente.Enabled = true;
+                gbTipoAudiograma.Enabled = true;
+
+                tsbPreencherAudio.Enabled = true;
+                tsbPreencherTimpanogramas.Enabled = true;
+                tsbapagaSelecionados.Enabled = true;
+
+                ((Control)tabControl1.TabPages["tabPage4"]).Enabled = true;
+                ((Control)tabControl1.TabPages["tabPage5"]).Enabled = true;
+                ((Control)tabControl1.TabPages["tabPage6"]).Enabled = true;
+                ((Control)tabControl1.TabPages["tabPage7"]).Enabled = true;
+                ((Control)tabControl1.TabPages["tabPage36"]).Enabled = true;                       
+            }
+
+            desabilitaMarcacao();
+            desabilitaMarcacaoImpedancio();
+
             dataExameDateTimePicker.CustomFormat = " ";
             dataNascimentoDateTimePicker.CustomFormat = " ";
             dataCalibracaoDateTimePicker.CustomFormat = " ";
@@ -10419,7 +10514,7 @@ namespace segmentoOtoneurologia
             ((Control)tabControl1.TabPages["tabPage5"]).Enabled = true;
             ((Control)tabControl1.TabPages["tabPage6"]).Enabled = true;
             ((Control)tabControl1.TabPages["tabPage7"]).Enabled = true;
-            ((Control)tabControl1.TabPages["tabPage36"]).Enabled = true;                    
+            ((Control)tabControl1.TabPages["tabPage36"]).Enabled = true;
         }
 
         private void bindingNavigatorDeleteItem_Click(object sender, EventArgs e)
@@ -10435,6 +10530,7 @@ namespace segmentoOtoneurologia
 
             tsbPreencherAudio.Enabled = false;
             tsbPreencherTimpanogramas.Enabled = false;
+            tsbapagaSelecionados.Enabled = false;
 
             dataExameDateTimePicker.CustomFormat = " ";
             dataNascimentoDateTimePicker.CustomFormat = " ";
@@ -10443,6 +10539,7 @@ namespace segmentoOtoneurologia
 
             tipoAudiometriaComboBox.SelectedIndex = -1;
 
+            ((Control)tabControl1.TabPages["tabPage2"]).Enabled = false;
             ((Control)tabControl1.TabPages["tabPage3"]).Enabled = false;
             ((Control)tabControl1.TabPages["tabPage4"]).Enabled = false;
             ((Control)tabControl1.TabPages["tabPage5"]).Enabled = false;
@@ -10458,6 +10555,7 @@ namespace segmentoOtoneurologia
 
             tsbPreencherAudio.Enabled = true;
             tsbPreencherTimpanogramas.Enabled = true;
+            tsbapagaSelecionados.Enabled = true;
 
             ((Control)tabControl1.TabPages["tabPage4"]).Enabled = true;
             ((Control)tabControl1.TabPages["tabPage5"]).Enabled = true;
@@ -10482,9 +10580,11 @@ namespace segmentoOtoneurologia
 
             tsbPreencherAudio.Enabled = false;
             tsbPreencherTimpanogramas.Enabled = false;
+            tsbapagaSelecionados.Enabled = false;
 
             tipoAudiometriaComboBox.SelectedIndex = -1;
 
+            ((Control)tabControl1.TabPages["tabPage2"]).Enabled = false;
             ((Control)tabControl1.TabPages["tabPage3"]).Enabled = false;
             ((Control)tabControl1.TabPages["tabPage4"]).Enabled = false;
             ((Control)tabControl1.TabPages["tabPage5"]).Enabled = false;
@@ -10555,8 +10655,6 @@ namespace segmentoOtoneurologia
             {
                 ((Control)tabControl1.TabPages["tabPage2"]).Enabled = true;
             }
-
-            desabilitaMarcacao();
         }
 
         private void toolStripInternet_Click(object sender, EventArgs e)
@@ -10810,6 +10908,7 @@ namespace segmentoOtoneurologia
 
         private void desabilitaMarcacao()
         {
+            //Para a OD
             //mascaramento VA OD
             masc125vaODCheckBox.Checked = false;
             masc250vaODCheckBox.Checked = false;
@@ -10825,6 +10924,7 @@ namespace segmentoOtoneurologia
 
             //mascaramento VA OD altas frequências
             chkMasc9kODCheckBox.Checked = false;
+            chkMasc10kODCheckBox.Checked = false;
             chkMasc12_5kODCheckBox.Checked = false;
             chkMasc14kODCheckBox.Checked = false;
             chkMasc16kODCheckBox.Checked = false;
@@ -10852,14 +10952,586 @@ namespace segmentoOtoneurologia
             chkliga18_20ODCheckBox.Checked = false;
 
             //Ausência de VA OD
+            aus125vaODCheckBox.Checked = false;
+            aus250vaODCheckBox.Checked = false;
+            aus500vaODCheckBox.Checked = false;
+            aus750vaODCheckBox.Checked = false;
+            aus1kvaODCheckBox.Checked = false;
+            aus1_5kvaODCheckBox.Checked = false;
+            aus2kvaODCheckBox.Checked = false;
+            aus3kvaODCheckBox.Checked = false;
+            aus4kvaODCheckBox.Checked = false;
+            aus6kvaODCheckBox.Checked = false;
+            aus8kvaODCheckBox.Checked = false;
 
+            //Ausência de VA OD altas frequências
+            chkAusente9kODCheckBox.Checked = false;
+            chkAusente10kODCheckBox.Checked = false;
+            chkAusente12_5kODCheckBox.Checked = false;
+            chkAusente14kODCheckBox.Checked = false;
+            chkAusente16kODCheckBox.Checked = false;
+            chkAusente18kODCheckBox.Checked = false;
+            chkAusente20kODCheckBox.Checked = false;
+
+            //Mascaramento VO OD
+            masc250vo_ODCheckBox.Checked = false;
+            masc500vo_ODCheckBox.Checked = false;
+            masc750vo_ODCheckBox.Checked = false;
+            masc1kvo_ODCheckBox.Checked = false;
+            masc1_5kvo_ODCheckBox.Checked = false;
+            masc2kvo_ODCheckBox.Checked = false;
+            masc3kvo_ODCheckBox.Checked = false;
+            masc4kvo_ODCheckBox.Checked = false;
+
+            //liga VO OD
+            liga250_500vo_ODCheckBox.Checked = false;
+            liga500_750vo_ODCheckBox.Checked = false;
+            liga750_1kvo_ODCheckBox.Checked = false;
+            liga1k_1_5kvo_ODCheckBox.Checked = false;
+            liga1_5k_2kvo_ODCheckBox.Checked = false;
+            liga2k_3kvo_ODCheckBox.Checked = false;
+            liga3k_4kvo_ODCheckBox.Checked = false;
+
+            //Ausência de VO OD
+            aus250vo_ODCheckBox.Checked = false;
+            aus500vo_ODCheckBox.Checked = false;
+            aus750vo_ODCheckBox.Checked = false;
+            aus1kvo_ODCheckBox.Checked = false;
+            aus1_5kvo_ODCheckBox.Checked = false;
+            aus2kvo_ODCheckBox.Checked = false;
+            aus3kvo_ODCheckBox.Checked = false;
+            aus4kvo_ODCheckBox.Checked = false;
+
+            //para a OE
+            //mascaramento VA ED
+            masc125vaOECheckBox.Checked = false;
+            masc250vaOECheckBox.Checked = false;
+            masc500vaOECheckBox.Checked = false;
+            masc750vaOECheckBox.Checked = false;
+            masc1kvaOECheckBox.Checked = false;
+            masc1_5kvaOECheckBox.Checked = false;
+            masc2kvaOECheckBox.Checked = false;
+            masc3kvaOECheckBox.Checked = false;
+            masc4kvaOECheckBox.Checked = false;
+            masc6kvaOECheckBox.Checked = false;
+            masc8kvaOECheckBox.Checked = false;
+
+            //mascaramento VA OE altas frequências
+            chkMasc9kOECheckBox.Checked = false;
+            chkMasc10kOECheckBox.Checked = false;
+            chkMasc12_5kOECheckBox.Checked = false;
+            chkMasc14kOECheckBox.Checked = false;
+            chkMasc16kOECheckBox.Checked = false;
+            chkMasc18kOECheckBox.Checked = false;
+            chkMasc20kOECheckBox.Checked = false;
+
+            //liga VA OE
+            liga125_250vaOECheckBox.Checked = false;
+            liga250_500vaOECheckBox.Checked = false;
+            liga500_750vaOECheckBox.Checked = false;
+            liga750_1kvaOECheckBox.Checked = false;
+            liga1k_1_5kvaOECheckBox.Checked = false;
+            liga1_5k_2kvaOECheckBox.Checked = false;
+            liga2k_3kvaOECheckBox.Checked = false;
+            liga3k_4kvaOECheckBox.Checked = false;
+            liga4k_6kvaOECheckBox.Checked = false;
+            liga6k_8kvaOECheckBox.Checked = false;
+
+            //liga VA OE altas frequências
+            chkliga9_10OECheckBox.Checked = false;
+            chkliga10_12_5OECheckBox.Checked = false;
+            chkliga12_5_14OECheckBox.Checked = false;
+            chkliga14_16OECheckBox.Checked = false;
+            chkliga16_18OECheckBox.Checked = false;
+            chkliga18_20OECheckBox.Checked = false;
+
+            //Ausência de VA OE
+            aus125vaOECheckBox.Checked = false;
+            aus250vaOECheckBox.Checked = false;
+            aus500vaOECheckBox.Checked = false;
+            aus750vaOECheckBox.Checked = false;
+            aus1kvaOECheckBox.Checked = false;
+            aus1_5kvaOECheckBox.Checked = false;
+            aus2kvaOECheckBox.Checked = false;
+            aus3kvaOECheckBox.Checked = false;
+            aus4kvaOECheckBox.Checked = false;
+            aus6kvaOECheckBox.Checked = false;
+            aus8kvaOECheckBox.Checked = false;
+
+            //Ausência de VA OE altas frequências
+            chkAusente9kOECheckBox.Checked = false;
+            chkAusente10kOECheckBox.Checked = false;
+            chkAusente12_5kOECheckBox.Checked = false;
+            chkAusente14kOECheckBox.Checked = false;
+            chkAusente16kOECheckBox.Checked = false;
+            chkAusente18kOECheckBox.Checked = false;
+            chkAusente20kOECheckBox.Checked = false;
+
+            //Mascaramento VO OE
+            masc250vo_OECheckBox.Checked = false;
+            masc500vo_OECheckBox.Checked = false;
+            masc750vo_OECheckBox.Checked = false;
+            masc1kvo_OECheckBox.Checked = false;
+            masc1_5kvo_OECheckBox.Checked = false;
+            masc2kvo_OECheckBox.Checked = false;
+            masc3kvo_OECheckBox.Checked = false;
+            masc4kvo_OECheckBox.Checked = false;
+
+            //liga VO OE
+            liga250_500vo_OECheckBox.Checked = false;
+            liga500_750vo_OECheckBox.Checked = false;
+            liga750_1kvo_OECheckBox.Checked = false;
+            liga1k_1_5kvo_OECheckBox.Checked = false;
+            liga1_5k_2kvo_OECheckBox.Checked = false;
+            liga2k_3kvo_OECheckBox.Checked = false;
+            liga3k_4kvo_OECheckBox.Checked = false;
+
+            //Ausência de VO OE
+            aus250vo_OECheckBox.Checked = false;
+            aus500vo_OECheckBox.Checked = false;
+            aus750vo_OECheckBox.Checked = false;
+            aus1kvo_OECheckBox.Checked = false;
+            aus1_5kvo_OECheckBox.Checked = false;
+            aus2kvo_OECheckBox.Checked = false;
+            aus3kvo_OECheckBox.Checked = false;
+            aus4kvo_OECheckBox.Checked = false;
+
+            //Para o ganho funcional
+            //Liga com AASI
+            chbLiga500_1k_comCheckBox.Checked = false;
+            chbLiga1k_2k_comCheckBox.Checked = false;
+            chbLiga2k_3k_comCheckBox.Checked = false;
+            chbLiga3k_4k_comCheckBox.Checked = false;
+
+            //Ausência com AASI
+            chkAusente500comCheckBox.Checked = false;
+            chkAusente1kcomCheckBox.Checked = false;
+            chkAusente2kcomCheckBox.Checked = false;
+            chkAusente3kcomCheckBox.Checked = false;
+            chkAusente4kcomCheckBox.Checked = false;
+
+            //Liga sem AASI
+            chbLiga500_1k_semCheckBox.Checked = false;
+            chbLiga1k_2k_semCheckBox.Checked = false;
+            chbLiga2k_3k_semCheckBox.Checked = false;
+            chbLiga3k_4k_semCheckBox.Checked = false;
+
+            //Ausência sem AASI
+            chkAusente500semCheckBox.Checked = false;
+            chkAusente1ksemCheckBox.Checked = false;
+            chkAusente2ksemCheckBox.Checked = false;
+            chkAusente3ksemCheckBox.Checked = false;
+            chkAusente4ksemCheckBox.Checked = false;
+
+            //Para campo livre convencional
+            //Liga campo livre convencional OD
+            campoLiga500_1kodCheckBox.Checked = false;
+            campoLiga1k_2kodCheckBox.Checked = false;
+            campoLiga2k_3kodCheckBox.Checked = false;
+            campoLiga3k_4kodCheckBox.Checked = false;
+
+            //Ausência de campo livre convencional OD
+            campoVAodAus500CheckBox.Checked = false;
+            campoVAodAus1kCheckBox.Checked = false;
+            campoVAodAus2kCheckBox.Checked = false;
+            campoVAodAus3kCheckBox.Checked = false;
+            campoVAodAus4kCheckBox.Checked = false;
+
+            //Liga campo livre convencional OE
+            campoLiga500_1koeCheckBox.Checked = false;
+            campoLiga1k_2koeCheckBox.Checked = false;
+            campoLiga2k_3koeCheckBox.Checked = false;
+            campoLiga3k_4koeCheckBox.Checked = false;
+
+            //Ausência de campo livre convencional OE
+            campoVAoeAus500CheckBox.Checked = false;
+            campoVAoeAus1kCheckBox.Checked = false;
+            campoVAoeAus2kCheckBox.Checked = false;
+            campoVAoeAus3kCheckBox.Checked = false;
+            campoVAoeAus4kCheckBox.Checked = false;
         }
 
         private void tsbPreencherTimpanogramas_Click(object sender, EventArgs e)
         {
             ((Control)tabControl1.TabPages["tabPage3"]).Enabled = true;           
+        }
 
+        private void tsbapagaSelecionados_Click(object sender, EventArgs e)
+        {
+            desabilitaMarcacao();
             desabilitaMarcacaoImpedancio();
+        }
+
+        private void btnVai_Click(object sender, EventArgs e)
+        {
+            tabControlEpidemiol.Visible = true;
+
+            montaAudiogramaOD();
+            montaAudiogramaOE();
+        }
+
+        private void montaAudiogramaOD()
+        {
+            //chartAudioOD.Series.Clear();// limpa o chart
+
+            //***PARA MONTAR O GRÁFICO***
+
+            int iniciar = 1;
+            int finalizar = 15;
+
+            chrtEpidemioOD.ChartAreas[0].AxisX.MajorGrid.LineDashStyle = ChartDashStyle.Dash;
+            chrtEpidemioOD.ChartAreas[0].AxisX.MajorGrid.LineColor = Color.Transparent;
+
+            //string fundoChart = "fundoChartTransp";
+            //Series imgFundo = chrtEpidemioOD.Series.Add(fundoChart);
+
+            //imgFundo.ChartArea = chrtEpidemioOD.ChartAreas[0].Name;
+            //imgFundo.Name = fundoChart;
+            //imgFundo.ChartType = SeriesChartType.Point;
+
+            //if (rbExibeBananaAudioClinicaOD.Checked == true)
+            //{
+            //    var fundoAudioOD = new NamedImage("bananaVermelha", Properties.Resources.bananaVermelha);
+            //    chrtEpidemioOD.Images.Clear();
+            //    chrtEpidemioOD.Images.Add(fundoAudioOD);
+            //    imgFundo.MarkerImage = "bananaVermelha";
+            //    imgFundo.Points.AddXY(7.50, 45);
+            //}
+            //else if (rbEscondeBananaAudioClinicaOD.Checked == true)
+            //{
+            //    chrtEpidemioOD.Series[fundoChart].Points.Clear();
+            //}
+
+            string seriesName1 = "grade1OD";
+            Series ser1 = chrtEpidemioOD.Series.Add(seriesName1);
+
+            ser1.IsVisibleInLegend = false;
+            ser1.ChartType = SeriesChartType.Line;
+
+            ser1.BorderWidth = 1;
+            ser1.Color = Color.Black;
+            ser1.MarkerStyle = MarkerStyle.None;
+            ser1.Points.AddXY(2, -10);  // x, high
+            ser1.Points.AddXY(2, 120);
+
+
+            string seriesName2 = "grade2OD";
+            Series ser2 = chrtEpidemioOD.Series.Add(seriesName2);
+
+            ser2.IsVisibleInLegend = false;
+            ser2.ChartType = SeriesChartType.Line;
+
+            ser2.BorderWidth = 1;
+            ser2.Color = Color.Black;
+            ser2.MarkerStyle = MarkerStyle.None;
+            ser2.Points.AddXY(4, -10);  // x, high
+            ser2.Points.AddXY(4, 120);
+
+            string seriesName3 = "grade3OD";
+            Series ser3 = chrtEpidemioOD.Series.Add(seriesName3);
+
+            ser3.IsVisibleInLegend = false;
+            ser3.ChartType = SeriesChartType.Line;
+
+            ser3.BorderWidth = 1;
+            ser3.Color = Color.Black;
+            ser3.MarkerStyle = MarkerStyle.None;
+            ser3.Points.AddXY(6, -10);  // x, high
+            ser3.Points.AddXY(6, 120);
+
+            string seriesName4 = "grade4OD";
+            Series ser4 = chrtEpidemioOD.Series.Add(seriesName4);
+
+            ser4.IsVisibleInLegend = false;
+            ser4.ChartType = SeriesChartType.Line;
+
+            ser4.BorderWidth = 1;
+            ser4.Color = Color.Black;
+            ser4.MarkerStyle = MarkerStyle.None;
+            ser4.BorderDashStyle = ChartDashStyle.Dash;
+            ser4.Points.AddXY(7.25, -10);  // x, high
+            ser4.Points.AddXY(7.25, 120);
+
+            string seriesName5 = "grade5OD";
+            Series ser5 = chrtEpidemioOD.Series.Add(seriesName5);
+
+            ser5.IsVisibleInLegend = false;
+            ser5.ChartType = SeriesChartType.Line;
+
+            ser5.BorderWidth = 1;
+            ser5.Color = Color.Black;
+            ser5.MarkerStyle = MarkerStyle.None;
+            ser5.Points.AddXY(8, -10);  // x, high
+            ser5.Points.AddXY(8, 120);
+
+            string seriesName6 = "grade6OD";
+            Series ser6 = chrtEpidemioOD.Series.Add(seriesName6);
+
+            ser6.IsVisibleInLegend = false;
+            ser6.ChartType = SeriesChartType.Line;
+
+            ser6.BorderWidth = 1;
+            ser6.Color = Color.Black;
+            ser6.MarkerStyle = MarkerStyle.None;
+            ser6.BorderDashStyle = ChartDashStyle.Dash;
+            ser6.Points.AddXY(9.25, -10);  // x, high
+            ser6.Points.AddXY(9.25, 120);
+
+            string seriesName7 = "grade7OD";
+            Series ser7 = chrtEpidemioOD.Series.Add(seriesName7);
+
+            ser7.IsVisibleInLegend = false;
+            ser7.ChartType = SeriesChartType.Line;
+
+            ser7.BorderWidth = 1;
+            ser7.Color = Color.Black;
+            ser7.MarkerStyle = MarkerStyle.None;
+            ser7.Points.AddXY(10, -10);  // x, high
+            ser7.Points.AddXY(10, 120);
+
+            string seriesName7a = "grade8OD";
+            Series ser7a = chrtEpidemioOD.Series.Add(seriesName7a);
+
+            ser7a.IsVisibleInLegend = false;
+            ser7a.ChartType = SeriesChartType.Line;
+
+            ser7a.BorderDashStyle = ChartDashStyle.Dash;
+            ser7a.BorderWidth = 1;
+            ser7a.Color = Color.Black;
+            ser7a.MarkerStyle = MarkerStyle.None;
+            ser7a.Points.AddXY(11.25, -10);  // x, high
+            ser7a.Points.AddXY(11.25, 120);
+
+            string seriesName9a = "grade9OD";
+            Series ser9a = chrtEpidemioOD.Series.Add(seriesName9a);
+
+            ser9a.IsVisibleInLegend = false;
+            ser9a.ChartType = SeriesChartType.Line;
+
+            ser9a.BorderWidth = 1;
+            ser9a.Color = Color.Black;
+            ser9a.MarkerStyle = MarkerStyle.None;
+            ser9a.Points.AddXY(12, -10);  // x, high
+            ser9a.Points.AddXY(12, 120);
+
+            string seriesName10a = "grade10OD";
+            Series ser10a = chrtEpidemioOD.Series.Add(seriesName10a);
+
+            ser10a.IsVisibleInLegend = false;
+            ser10a.ChartType = SeriesChartType.Line;
+
+            ser10a.BorderDashStyle = ChartDashStyle.Dash;
+            ser10a.BorderWidth = 1;
+            ser10a.Color = Color.Black;
+            ser10a.MarkerStyle = MarkerStyle.None;
+            ser10a.Points.AddXY(13.25, -10);  // x, high
+            ser10a.Points.AddXY(13.25, 120);
+
+            string seriesName11a = "grade11OD";
+            Series ser11a = chrtEpidemioOD.Series.Add(seriesName11a);
+
+            ser11a.IsVisibleInLegend = false;
+            ser11a.ChartType = SeriesChartType.Line;
+
+            ser11a.BorderWidth = 1;
+            ser11a.Color = Color.Black;
+            ser11a.MarkerStyle = MarkerStyle.None;
+            ser11a.Points.AddXY(14, -10);  // x, high
+            ser11a.Points.AddXY(14, 120);
+
+            string seriesName12a = "grade12OD";
+            Series ser12a = chrtEpidemioOD.Series.Add(seriesName12a);
+
+            ser12a.IsVisibleInLegend = false;
+            ser12a.ChartType = SeriesChartType.Line;
+
+            ser12a.BorderWidth = 1;
+            ser12a.Color = Color.Black;
+            ser12a.MarkerStyle = MarkerStyle.None;
+            ser12a.Points.AddXY(15, -10);  // x, high
+            ser12a.Points.AddXY(15, 120);
+        }
+
+        private void montaAudiogramaOE()
+        {
+            //chrtEpidemioOE.Series.Clear();// limpa o chart
+
+            //***PARA MONTAR O GRÁFICO***
+
+            int iniciar = 1;
+            int finalizar = 15;
+
+            chrtEpidemioOE.ChartAreas[0].AxisX.MajorGrid.LineDashStyle = ChartDashStyle.Dash;
+            chrtEpidemioOE.ChartAreas[0].AxisX.MajorGrid.LineColor = Color.Transparent;
+
+            //string fundoChart = "fundoChartTransp";
+            //Series imgFundo = chrtEpidemioOE.Series.Add(fundoChart);
+
+            //imgFundo.ChartArea = chrtEpidemioOE.ChartAreas[0].Name;
+            //imgFundo.Name = fundoChart;
+            //imgFundo.ChartType = SeriesChartType.Point;
+
+            //if (rbExibeBananaAudioClinicaOD.Checked == true)
+            //{
+            //    var fundoAudioOD = new NamedImage("bananaVermelha", Properties.Resources.bananaVermelha);
+            //    chrtEpidemioOE.Images.Clear();
+            //    chrtEpidemioOE.Images.Add(fundoAudioOD);
+            //    imgFundo.MarkerImage = "bananaVermelha";
+            //    imgFundo.Points.AddXY(7.50, 45);
+            //}
+            //else if (rbEscondeBananaAudioClinicaOD.Checked == true)
+            //{
+            //    chrtEpidemioOE.Series[fundoChart].Points.Clear();
+            //}
+
+            string seriesName1 = "grade1OD";
+            Series ser1 = chrtEpidemioOE.Series.Add(seriesName1);
+
+            ser1.IsVisibleInLegend = false;
+            ser1.ChartType = SeriesChartType.Line;
+
+            ser1.BorderWidth = 1;
+            ser1.Color = Color.Black;
+            ser1.MarkerStyle = MarkerStyle.None;
+            ser1.Points.AddXY(2, -10);  // x, high
+            ser1.Points.AddXY(2, 120);
+
+
+            string seriesName2 = "grade2OD";
+            Series ser2 = chrtEpidemioOE.Series.Add(seriesName2);
+
+            ser2.IsVisibleInLegend = false;
+            ser2.ChartType = SeriesChartType.Line;
+
+            ser2.BorderWidth = 1;
+            ser2.Color = Color.Black;
+            ser2.MarkerStyle = MarkerStyle.None;
+            ser2.Points.AddXY(4, -10);  // x, high
+            ser2.Points.AddXY(4, 120);
+
+            string seriesName3 = "grade3OD";
+            Series ser3 = chrtEpidemioOE.Series.Add(seriesName3);
+
+            ser3.IsVisibleInLegend = false;
+            ser3.ChartType = SeriesChartType.Line;
+
+            ser3.BorderWidth = 1;
+            ser3.Color = Color.Black;
+            ser3.MarkerStyle = MarkerStyle.None;
+            ser3.Points.AddXY(6, -10);  // x, high
+            ser3.Points.AddXY(6, 120);
+
+            string seriesName4 = "grade4OD";
+            Series ser4 = chrtEpidemioOE.Series.Add(seriesName4);
+
+            ser4.IsVisibleInLegend = false;
+            ser4.ChartType = SeriesChartType.Line;
+
+            ser4.BorderWidth = 1;
+            ser4.Color = Color.Black;
+            ser4.MarkerStyle = MarkerStyle.None;
+            ser4.BorderDashStyle = ChartDashStyle.Dash;
+            ser4.Points.AddXY(7.25, -10);  // x, high
+            ser4.Points.AddXY(7.25, 120);
+
+            string seriesName5 = "grade5OD";
+            Series ser5 = chrtEpidemioOE.Series.Add(seriesName5);
+
+            ser5.IsVisibleInLegend = false;
+            ser5.ChartType = SeriesChartType.Line;
+
+            ser5.BorderWidth = 1;
+            ser5.Color = Color.Black;
+            ser5.MarkerStyle = MarkerStyle.None;
+            ser5.Points.AddXY(8, -10);  // x, high
+            ser5.Points.AddXY(8, 120);
+
+            string seriesName6 = "grade6OD";
+            Series ser6 = chrtEpidemioOE.Series.Add(seriesName6);
+
+            ser6.IsVisibleInLegend = false;
+            ser6.ChartType = SeriesChartType.Line;
+
+            ser6.BorderWidth = 1;
+            ser6.Color = Color.Black;
+            ser6.MarkerStyle = MarkerStyle.None;
+            ser6.BorderDashStyle = ChartDashStyle.Dash;
+            ser6.Points.AddXY(9.25, -10);  // x, high
+            ser6.Points.AddXY(9.25, 120);
+
+            string seriesName7 = "grade7OD";
+            Series ser7 = chrtEpidemioOE.Series.Add(seriesName7);
+
+            ser7.IsVisibleInLegend = false;
+            ser7.ChartType = SeriesChartType.Line;
+
+            ser7.BorderWidth = 1;
+            ser7.Color = Color.Black;
+            ser7.MarkerStyle = MarkerStyle.None;
+            ser7.Points.AddXY(10, -10);  // x, high
+            ser7.Points.AddXY(10, 120);
+
+            string seriesName7a = "grade8OD";
+            Series ser7a = chrtEpidemioOE.Series.Add(seriesName7a);
+
+            ser7a.IsVisibleInLegend = false;
+            ser7a.ChartType = SeriesChartType.Line;
+
+            ser7a.BorderDashStyle = ChartDashStyle.Dash;
+            ser7a.BorderWidth = 1;
+            ser7a.Color = Color.Black;
+            ser7a.MarkerStyle = MarkerStyle.None;
+            ser7a.Points.AddXY(11.25, -10);  // x, high
+            ser7a.Points.AddXY(11.25, 120);
+
+            string seriesName9a = "grade9OD";
+            Series ser9a = chrtEpidemioOE.Series.Add(seriesName9a);
+
+            ser9a.IsVisibleInLegend = false;
+            ser9a.ChartType = SeriesChartType.Line;
+
+            ser9a.BorderWidth = 1;
+            ser9a.Color = Color.Black;
+            ser9a.MarkerStyle = MarkerStyle.None;
+            ser9a.Points.AddXY(12, -10);  // x, high
+            ser9a.Points.AddXY(12, 120);
+
+            string seriesName10a = "grade10OD";
+            Series ser10a = chrtEpidemioOE.Series.Add(seriesName10a);
+
+            ser10a.IsVisibleInLegend = false;
+            ser10a.ChartType = SeriesChartType.Line;
+
+            ser10a.BorderDashStyle = ChartDashStyle.Dash;
+            ser10a.BorderWidth = 1;
+            ser10a.Color = Color.Black;
+            ser10a.MarkerStyle = MarkerStyle.None;
+            ser10a.Points.AddXY(13.25, -10);  // x, high
+            ser10a.Points.AddXY(13.25, 120);
+
+            string seriesName11a = "grade11OD";
+            Series ser11a = chrtEpidemioOE.Series.Add(seriesName11a);
+
+            ser11a.IsVisibleInLegend = false;
+            ser11a.ChartType = SeriesChartType.Line;
+
+            ser11a.BorderWidth = 1;
+            ser11a.Color = Color.Black;
+            ser11a.MarkerStyle = MarkerStyle.None;
+            ser11a.Points.AddXY(14, -10);  // x, high
+            ser11a.Points.AddXY(14, 120);
+
+            string seriesName12a = "grade12OD";
+            Series ser12a = chrtEpidemioOE.Series.Add(seriesName12a);
+
+            ser12a.IsVisibleInLegend = false;
+            ser12a.ChartType = SeriesChartType.Line;
+
+            ser12a.BorderWidth = 1;
+            ser12a.Color = Color.Black;
+            ser12a.MarkerStyle = MarkerStyle.None;
+            ser12a.Points.AddXY(15, -10);  // x, high
+            ser12a.Points.AddXY(15, 120);
         }
     }   
 }
