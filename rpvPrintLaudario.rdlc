@@ -9,7 +9,7 @@
           <Paragraph>
             <TextRuns>
               <TextRun>
-                <Value>LAUDO</Value>
+                <Value>LAUDO E/OU PARECER</Value>
                 <Style>
                   <FontStyle>Italic</FontStyle>
                   <FontSize>12pt</FontSize>
@@ -24,9 +24,9 @@
         </Paragraphs>
         <rd:DefaultName>Textbox7</rd:DefaultName>
         <Top>0.17639cm</Top>
-        <Left>7.10438cm</Left>
+        <Left>6.0725cm</Left>
         <Height>0.6cm</Height>
-        <Width>3.21438cm</Width>
+        <Width>5.64855cm</Width>
         <Style>
           <Border>
             <Style>None</Style>

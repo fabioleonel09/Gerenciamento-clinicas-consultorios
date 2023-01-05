@@ -393,12 +393,14 @@ namespace segmentoOtoneurologia
             // categoriaComboBox
             // 
             this.categoriaComboBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.tabelaLaudario1BindingSource, "categoria", true));
+            this.categoriaComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.categoriaComboBox.FormattingEnabled = true;
             this.categoriaComboBox.Items.AddRange(new object[] {
             "",
             "Exames",
             "Médico",
-            "Terapêutico"});
+            "Terapêutico",
+            "Parecer"});
             this.categoriaComboBox.Location = new System.Drawing.Point(9, 43);
             this.categoriaComboBox.Name = "categoriaComboBox";
             this.categoriaComboBox.Size = new System.Drawing.Size(132, 26);
