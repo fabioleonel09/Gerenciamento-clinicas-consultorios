@@ -37,6 +37,9 @@ namespace segmentoOtoneurologia
             ((Control)tabControl1.TabPages["tabPage6"]).Enabled = false;
             ((Control)tabControl1.TabPages["tabPage7"]).Enabled = false;
             ((Control)tabControl1.TabPages["tabPage36"]).Enabled = false;
+            ((Control)tabControl7.TabPages["tabPage39"]).Enabled = false; //PEAEE - com problemas de referência
+            ((Control)tabControl7.TabPages["tabPage39"]).Visible = false; //PEAEE - com problemas de referência
+            ((Control)tabControl1.TabPages["tabPage40"]).Enabled = false; //Parecer evolutivo
         }
 
         void OpenData()

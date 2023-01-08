@@ -393,16 +393,6 @@ namespace segmentoOtoneurologia.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap coclea {
-            get {
-                object obj = ResourceManager.GetObject("coclea", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap comites {
             get {
                 object obj = ResourceManager.GetObject("comites", resourceCulture);
