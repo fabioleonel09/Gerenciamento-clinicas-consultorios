@@ -185,6 +185,9 @@ namespace segmentoOtoneurologia
             System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea10 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
             System.Windows.Forms.DataVisualization.Charting.Legend legend10 = new System.Windows.Forms.DataVisualization.Charting.Legend();
             System.Windows.Forms.DataVisualization.Charting.Series series10 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea11 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend11 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series11 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
@@ -912,39 +915,8 @@ namespace segmentoOtoneurologia
             this.tabPage23 = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel37 = new System.Windows.Forms.TableLayoutPanel();
             this.groupBox10 = new System.Windows.Forms.GroupBox();
-            this.label128 = new System.Windows.Forms.Label();
-            this.tableLayoutPanel94 = new System.Windows.Forms.TableLayoutPanel();
-            this.label130 = new System.Windows.Forms.Label();
-            this.label131 = new System.Windows.Forms.Label();
-            this.label129 = new System.Windows.Forms.Label();
-            this.label132 = new System.Windows.Forms.Label();
-            this.label133 = new System.Windows.Forms.Label();
-            this.tableLayoutPanel93 = new System.Windows.Forms.TableLayoutPanel();
-            this.label134 = new System.Windows.Forms.Label();
-            this.label122 = new System.Windows.Forms.Label();
-            this.label124 = new System.Windows.Forms.Label();
-            this.label125 = new System.Windows.Forms.Label();
-            this.label126 = new System.Windows.Forms.Label();
-            this.label127 = new System.Windows.Forms.Label();
-            this.label123 = new System.Windows.Forms.Label();
-            this.txtpeateCliqueVOod = new System.Windows.Forms.TextBox();
             this.peateODTextBox = new System.Windows.Forms.TextBox();
             this.groupBox11 = new System.Windows.Forms.GroupBox();
-            this.tableLayoutPanel95 = new System.Windows.Forms.TableLayoutPanel();
-            this.label136 = new System.Windows.Forms.Label();
-            this.label137 = new System.Windows.Forms.Label();
-            this.label138 = new System.Windows.Forms.Label();
-            this.label139 = new System.Windows.Forms.Label();
-            this.label140 = new System.Windows.Forms.Label();
-            this.tableLayoutPanel96 = new System.Windows.Forms.TableLayoutPanel();
-            this.label141 = new System.Windows.Forms.Label();
-            this.label142 = new System.Windows.Forms.Label();
-            this.label143 = new System.Windows.Forms.Label();
-            this.label144 = new System.Windows.Forms.Label();
-            this.label145 = new System.Windows.Forms.Label();
-            this.label135 = new System.Windows.Forms.Label();
-            this.label146 = new System.Windows.Forms.Label();
-            this.label147 = new System.Windows.Forms.Label();
             this.peateOETextBox = new System.Windows.Forms.TextBox();
             this.tabPage24 = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel38 = new System.Windows.Forms.TableLayoutPanel();
@@ -958,21 +930,7 @@ namespace segmentoOtoneurologia
             this.tabPage39 = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel90 = new System.Windows.Forms.TableLayoutPanel();
             this.groupBox32 = new System.Windows.Forms.GroupBox();
-            this.tableLayoutPanel91 = new System.Windows.Forms.TableLayoutPanel();
-            this.label77 = new System.Windows.Forms.Label();
-            this.label78 = new System.Windows.Forms.Label();
-            this.label79 = new System.Windows.Forms.Label();
-            this.label80 = new System.Windows.Forms.Label();
-            this.label81 = new System.Windows.Forms.Label();
-            this.label82 = new System.Windows.Forms.Label();
             this.groupBox33 = new System.Windows.Forms.GroupBox();
-            this.tableLayoutPanel92 = new System.Windows.Forms.TableLayoutPanel();
-            this.label92 = new System.Windows.Forms.Label();
-            this.label93 = new System.Windows.Forms.Label();
-            this.label94 = new System.Windows.Forms.Label();
-            this.label95 = new System.Windows.Forms.Label();
-            this.label96 = new System.Windows.Forms.Label();
-            this.label97 = new System.Windows.Forms.Label();
             this.tabPage19 = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel27 = new System.Windows.Forms.TableLayoutPanel();
             this.tabControl8 = new System.Windows.Forms.TabControl();
@@ -1047,6 +1005,133 @@ namespace segmentoOtoneurologia
             this.toolTip5 = new System.Windows.Forms.ToolTip(this.components);
             this.toolTip6 = new System.Windows.Forms.ToolTip(this.components);
             this.toolTip7 = new System.Windows.Forms.ToolTip(this.components);
+            this.tabControlEpidemiolOD = new System.Windows.Forms.TabControl();
+            this.tabPage43 = new System.Windows.Forms.TabPage();
+            this.tabControlEpidemiolOE = new System.Windows.Forms.TabControl();
+            this.tabPage44 = new System.Windows.Forms.TabPage();
+            this.btnInserirEpidemiol = new System.Windows.Forms.Button();
+            this.btnPlotarEpidemiol = new System.Windows.Forms.Button();
+            this.btnLimparEpidemiol = new System.Windows.Forms.Button();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label148 = new System.Windows.Forms.Label();
+            this.tableLayoutPanel108 = new System.Windows.Forms.TableLayoutPanel();
+            this.label149 = new System.Windows.Forms.Label();
+            this.label150 = new System.Windows.Forms.Label();
+            this.label151 = new System.Windows.Forms.Label();
+            this.label152 = new System.Windows.Forms.Label();
+            this.label153 = new System.Windows.Forms.Label();
+            this.tableLayoutPanel109 = new System.Windows.Forms.TableLayoutPanel();
+            this.label154 = new System.Windows.Forms.Label();
+            this.label155 = new System.Windows.Forms.Label();
+            this.label156 = new System.Windows.Forms.Label();
+            this.label157 = new System.Windows.Forms.Label();
+            this.label158 = new System.Windows.Forms.Label();
+            this.label159 = new System.Windows.Forms.Label();
+            this.label160 = new System.Windows.Forms.Label();
+            this.tableLayoutPanel95 = new System.Windows.Forms.TableLayoutPanel();
+            this.label136 = new System.Windows.Forms.Label();
+            this.label137 = new System.Windows.Forms.Label();
+            this.label138 = new System.Windows.Forms.Label();
+            this.label139 = new System.Windows.Forms.Label();
+            this.label140 = new System.Windows.Forms.Label();
+            this.tableLayoutPanel96 = new System.Windows.Forms.TableLayoutPanel();
+            this.label141 = new System.Windows.Forms.Label();
+            this.label142 = new System.Windows.Forms.Label();
+            this.label143 = new System.Windows.Forms.Label();
+            this.label144 = new System.Windows.Forms.Label();
+            this.label145 = new System.Windows.Forms.Label();
+            this.label135 = new System.Windows.Forms.Label();
+            this.label146 = new System.Windows.Forms.Label();
+            this.label147 = new System.Windows.Forms.Label();
+            this.tableLayoutPanel91 = new System.Windows.Forms.TableLayoutPanel();
+            this.label77 = new System.Windows.Forms.Label();
+            this.label78 = new System.Windows.Forms.Label();
+            this.label79 = new System.Windows.Forms.Label();
+            this.label80 = new System.Windows.Forms.Label();
+            this.label81 = new System.Windows.Forms.Label();
+            this.label82 = new System.Windows.Forms.Label();
+            this.label122 = new System.Windows.Forms.Label();
+            this.tableLayoutPanel92 = new System.Windows.Forms.TableLayoutPanel();
+            this.label92 = new System.Windows.Forms.Label();
+            this.label93 = new System.Windows.Forms.Label();
+            this.label94 = new System.Windows.Forms.Label();
+            this.label95 = new System.Windows.Forms.Label();
+            this.label96 = new System.Windows.Forms.Label();
+            this.label97 = new System.Windows.Forms.Label();
+            this.label123 = new System.Windows.Forms.Label();
+            this.label124 = new System.Windows.Forms.Label();
+            this.tableLayoutPanel93 = new System.Windows.Forms.TableLayoutPanel();
+            this.label129 = new System.Windows.Forms.Label();
+            this.label130 = new System.Windows.Forms.Label();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.checkBox3 = new System.Windows.Forms.CheckBox();
+            this.checkBox4 = new System.Windows.Forms.CheckBox();
+            this.label125 = new System.Windows.Forms.Label();
+            this.tableLayoutPanel94 = new System.Windows.Forms.TableLayoutPanel();
+            this.checkBox5 = new System.Windows.Forms.CheckBox();
+            this.label126 = new System.Windows.Forms.Label();
+            this.label127 = new System.Windows.Forms.Label();
+            this.checkBox6 = new System.Windows.Forms.CheckBox();
+            this.checkBox7 = new System.Windows.Forms.CheckBox();
+            this.checkBox8 = new System.Windows.Forms.CheckBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.comboBox4 = new System.Windows.Forms.ComboBox();
+            this.comboBox5 = new System.Windows.Forms.ComboBox();
+            this.comboBox6 = new System.Windows.Forms.ComboBox();
+            this.comboBox7 = new System.Windows.Forms.ComboBox();
+            this.comboBox8 = new System.Windows.Forms.ComboBox();
+            this.comboBox9 = new System.Windows.Forms.ComboBox();
+            this.comboBox10 = new System.Windows.Forms.ComboBox();
+            this.comboBox11 = new System.Windows.Forms.ComboBox();
+            this.comboBox12 = new System.Windows.Forms.ComboBox();
+            this.comboBox13 = new System.Windows.Forms.ComboBox();
+            this.comboBox14 = new System.Windows.Forms.ComboBox();
+            this.comboBox15 = new System.Windows.Forms.ComboBox();
+            this.comboBox16 = new System.Windows.Forms.ComboBox();
+            this.comboBox17 = new System.Windows.Forms.ComboBox();
+            this.comboBox18 = new System.Windows.Forms.ComboBox();
+            this.comboBox19 = new System.Windows.Forms.ComboBox();
+            this.comboBox20 = new System.Windows.Forms.ComboBox();
+            this.comboBox21 = new System.Windows.Forms.ComboBox();
+            this.comboBox22 = new System.Windows.Forms.ComboBox();
+            this.comboBox23 = new System.Windows.Forms.ComboBox();
+            this.comboBox24 = new System.Windows.Forms.ComboBox();
+            this.comboBox25 = new System.Windows.Forms.ComboBox();
+            this.comboBox26 = new System.Windows.Forms.ComboBox();
+            this.comboBox27 = new System.Windows.Forms.ComboBox();
+            this.comboBox28 = new System.Windows.Forms.ComboBox();
+            this.comboBox29 = new System.Windows.Forms.ComboBox();
+            this.comboBox30 = new System.Windows.Forms.ComboBox();
+            this.comboBox31 = new System.Windows.Forms.ComboBox();
+            this.comboBox32 = new System.Windows.Forms.ComboBox();
+            this.comboBox33 = new System.Windows.Forms.ComboBox();
+            this.comboBox34 = new System.Windows.Forms.ComboBox();
+            this.comboBox35 = new System.Windows.Forms.ComboBox();
+            this.comboBox36 = new System.Windows.Forms.ComboBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.btnLimparEpidemiolImp = new System.Windows.Forms.Button();
+            this.btnPlotarEpidemiolImp = new System.Windows.Forms.Button();
+            this.btnInserirEpidemiolImp = new System.Windows.Forms.Button();
+            this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.tableLayoutPanel110 = new System.Windows.Forms.TableLayoutPanel();
+            this.label128 = new System.Windows.Forms.Label();
+            this.comboBox38 = new System.Windows.Forms.ComboBox();
+            this.label131 = new System.Windows.Forms.Label();
+            this.comboBox39 = new System.Windows.Forms.ComboBox();
+            this.comboBox40 = new System.Windows.Forms.ComboBox();
+            this.comboBox42 = new System.Windows.Forms.ComboBox();
+            this.comboBox43 = new System.Windows.Forms.ComboBox();
+            this.comboBox44 = new System.Windows.Forms.ComboBox();
+            this.label162 = new System.Windows.Forms.Label();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.dateTimePicker3 = new System.Windows.Forms.DateTimePicker();
+            this.label132 = new System.Windows.Forms.Label();
+            this.label133 = new System.Windows.Forms.Label();
+            this.label134 = new System.Windows.Forms.Label();
             segundoAutorLabel = new System.Windows.Forms.Label();
             comentariosImpLabel = new System.Windows.Forms.Label();
             dataCalImpLabel = new System.Windows.Forms.Label();
@@ -1335,11 +1420,7 @@ namespace segmentoOtoneurologia
             this.tabPage23.SuspendLayout();
             this.tableLayoutPanel37.SuspendLayout();
             this.groupBox10.SuspendLayout();
-            this.tableLayoutPanel94.SuspendLayout();
-            this.tableLayoutPanel93.SuspendLayout();
             this.groupBox11.SuspendLayout();
-            this.tableLayoutPanel95.SuspendLayout();
-            this.tableLayoutPanel96.SuspendLayout();
             this.tabPage24.SuspendLayout();
             this.tableLayoutPanel38.SuspendLayout();
             this.groupBox12.SuspendLayout();
@@ -1348,10 +1429,6 @@ namespace segmentoOtoneurologia
             this.tableLayoutPanel39.SuspendLayout();
             this.tabPage39.SuspendLayout();
             this.tableLayoutPanel90.SuspendLayout();
-            this.groupBox32.SuspendLayout();
-            this.tableLayoutPanel91.SuspendLayout();
-            this.groupBox33.SuspendLayout();
-            this.tableLayoutPanel92.SuspendLayout();
             this.tabPage19.SuspendLayout();
             this.tableLayoutPanel27.SuspendLayout();
             this.tabControl8.SuspendLayout();
@@ -1379,10 +1456,25 @@ namespace segmentoOtoneurologia
             this.tabPage41.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chrtEpidemioOE)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chrtEpidemioOD)).BeginInit();
+            this.tabPage42.SuspendLayout();
             this.tableLayoutPanel17.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.tabelaExamesBindingNavigator)).BeginInit();
             this.tabelaExamesBindingNavigator.SuspendLayout();
             this.gbTipoAudiograma.SuspendLayout();
+            this.tabControlEpidemiolOD.SuspendLayout();
+            this.tabPage43.SuspendLayout();
+            this.tabControlEpidemiolOE.SuspendLayout();
+            this.tabPage44.SuspendLayout();
+            this.tableLayoutPanel108.SuspendLayout();
+            this.tableLayoutPanel109.SuspendLayout();
+            this.tableLayoutPanel95.SuspendLayout();
+            this.tableLayoutPanel96.SuspendLayout();
+            this.tableLayoutPanel91.SuspendLayout();
+            this.tableLayoutPanel92.SuspendLayout();
+            this.tableLayoutPanel93.SuspendLayout();
+            this.tableLayoutPanel94.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
+            this.tableLayoutPanel110.SuspendLayout();
             this.SuspendLayout();
             // 
             // segundoAutorLabel
@@ -2681,7 +2773,7 @@ namespace segmentoOtoneurologia
             curvaAudioodLabel.AutoSize = true;
             curvaAudioodLabel.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             curvaAudioodLabel.ForeColor = System.Drawing.Color.Red;
-            curvaAudioodLabel.Location = new System.Drawing.Point(4, 57);
+            curvaAudioodLabel.Location = new System.Drawing.Point(4, 58);
             curvaAudioodLabel.Name = "curvaAudioodLabel";
             curvaAudioodLabel.Size = new System.Drawing.Size(197, 16);
             curvaAudioodLabel.TabIndex = 2;
@@ -2694,7 +2786,7 @@ namespace segmentoOtoneurologia
             grauAudioodLabel.AutoSize = true;
             grauAudioodLabel.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             grauAudioodLabel.ForeColor = System.Drawing.Color.Red;
-            grauAudioodLabel.Location = new System.Drawing.Point(4, 100);
+            grauAudioodLabel.Location = new System.Drawing.Point(4, 102);
             grauAudioodLabel.Name = "grauAudioodLabel";
             grauAudioodLabel.Size = new System.Drawing.Size(197, 16);
             grauAudioodLabel.TabIndex = 4;
@@ -2707,7 +2799,7 @@ namespace segmentoOtoneurologia
             configAudioodLabel.AutoSize = true;
             configAudioodLabel.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             configAudioodLabel.ForeColor = System.Drawing.Color.Red;
-            configAudioodLabel.Location = new System.Drawing.Point(4, 143);
+            configAudioodLabel.Location = new System.Drawing.Point(4, 146);
             configAudioodLabel.Name = "configAudioodLabel";
             configAudioodLabel.Size = new System.Drawing.Size(197, 16);
             configAudioodLabel.TabIndex = 6;
@@ -2720,7 +2812,7 @@ namespace segmentoOtoneurologia
             vocalAudioodLabel.AutoSize = true;
             vocalAudioodLabel.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             vocalAudioodLabel.ForeColor = System.Drawing.Color.Red;
-            vocalAudioodLabel.Location = new System.Drawing.Point(4, 188);
+            vocalAudioodLabel.Location = new System.Drawing.Point(4, 191);
             vocalAudioodLabel.Name = "vocalAudioodLabel";
             vocalAudioodLabel.Size = new System.Drawing.Size(197, 16);
             vocalAudioodLabel.TabIndex = 8;
@@ -2746,7 +2838,7 @@ namespace segmentoOtoneurologia
             curvaAudiooeLabel.AutoSize = true;
             curvaAudiooeLabel.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             curvaAudiooeLabel.ForeColor = System.Drawing.Color.Blue;
-            curvaAudiooeLabel.Location = new System.Drawing.Point(4, 57);
+            curvaAudiooeLabel.Location = new System.Drawing.Point(4, 58);
             curvaAudiooeLabel.Name = "curvaAudiooeLabel";
             curvaAudiooeLabel.Size = new System.Drawing.Size(197, 16);
             curvaAudiooeLabel.TabIndex = 2;
@@ -2759,7 +2851,7 @@ namespace segmentoOtoneurologia
             grauAudiooeLabel.AutoSize = true;
             grauAudiooeLabel.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             grauAudiooeLabel.ForeColor = System.Drawing.Color.Blue;
-            grauAudiooeLabel.Location = new System.Drawing.Point(4, 100);
+            grauAudiooeLabel.Location = new System.Drawing.Point(4, 102);
             grauAudiooeLabel.Name = "grauAudiooeLabel";
             grauAudiooeLabel.Size = new System.Drawing.Size(197, 16);
             grauAudiooeLabel.TabIndex = 4;
@@ -2772,7 +2864,7 @@ namespace segmentoOtoneurologia
             configAudiooeLabel.AutoSize = true;
             configAudiooeLabel.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             configAudiooeLabel.ForeColor = System.Drawing.Color.Blue;
-            configAudiooeLabel.Location = new System.Drawing.Point(4, 143);
+            configAudiooeLabel.Location = new System.Drawing.Point(4, 146);
             configAudiooeLabel.Name = "configAudiooeLabel";
             configAudiooeLabel.Size = new System.Drawing.Size(197, 16);
             configAudiooeLabel.TabIndex = 6;
@@ -2785,7 +2877,7 @@ namespace segmentoOtoneurologia
             vocalAudiooeLabel.AutoSize = true;
             vocalAudiooeLabel.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             vocalAudiooeLabel.ForeColor = System.Drawing.Color.Blue;
-            vocalAudiooeLabel.Location = new System.Drawing.Point(4, 188);
+            vocalAudiooeLabel.Location = new System.Drawing.Point(4, 191);
             vocalAudiooeLabel.Name = "vocalAudiooeLabel";
             vocalAudiooeLabel.Size = new System.Drawing.Size(197, 16);
             vocalAudiooeLabel.TabIndex = 8;
@@ -5081,7 +5173,7 @@ namespace segmentoOtoneurologia
             "65",
             "70",
             "75"});
-            this.vo1e5kodComboBox.Location = new System.Drawing.Point(327, 211);
+            this.vo1e5kodComboBox.Location = new System.Drawing.Point(327, 208);
             this.vo1e5kodComboBox.Name = "vo1e5kodComboBox";
             this.vo1e5kodComboBox.Size = new System.Drawing.Size(99, 28);
             this.vo1e5kodComboBox.TabIndex = 120;
@@ -7126,7 +7218,7 @@ namespace segmentoOtoneurologia
             this.tabPage14.Location = new System.Drawing.Point(4, 29);
             this.tabPage14.Name = "tabPage14";
             this.tabPage14.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage14.Size = new System.Drawing.Size(1033, 535);
+            this.tabPage14.Size = new System.Drawing.Size(1033, 542);
             this.tabPage14.TabIndex = 2;
             this.tabPage14.Text = "Laudo e impressão";
             this.tabPage14.UseVisualStyleBackColor = true;
@@ -7144,7 +7236,7 @@ namespace segmentoOtoneurologia
             this.tableLayoutPanel4.RowCount = 2;
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 49.24242F));
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.75758F));
-            this.tableLayoutPanel4.Size = new System.Drawing.Size(1027, 529);
+            this.tableLayoutPanel4.Size = new System.Drawing.Size(1027, 536);
             this.tableLayoutPanel4.TabIndex = 0;
             // 
             // tableLayoutPanel5
@@ -7160,7 +7252,7 @@ namespace segmentoOtoneurologia
             this.tableLayoutPanel5.Name = "tableLayoutPanel5";
             this.tableLayoutPanel5.RowCount = 1;
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel5.Size = new System.Drawing.Size(1019, 253);
+            this.tableLayoutPanel5.Size = new System.Drawing.Size(1019, 256);
             this.tableLayoutPanel5.TabIndex = 0;
             // 
             // gbODaudioClinica
@@ -7170,7 +7262,7 @@ namespace segmentoOtoneurologia
             this.gbODaudioClinica.Dock = System.Windows.Forms.DockStyle.Fill;
             this.gbODaudioClinica.Location = new System.Drawing.Point(4, 4);
             this.gbODaudioClinica.Name = "gbODaudioClinica";
-            this.gbODaudioClinica.Size = new System.Drawing.Size(502, 245);
+            this.gbODaudioClinica.Size = new System.Drawing.Size(502, 248);
             this.gbODaudioClinica.TabIndex = 0;
             this.gbODaudioClinica.TabStop = false;
             this.gbODaudioClinica.Text = "Orelha direita";
@@ -7200,7 +7292,7 @@ namespace segmentoOtoneurologia
             this.tableLayoutPanel84.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel84.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel84.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel84.Size = new System.Drawing.Size(496, 220);
+            this.tableLayoutPanel84.Size = new System.Drawing.Size(496, 223);
             this.tableLayoutPanel84.TabIndex = 0;
             // 
             // vocalAudioodComboBox
@@ -7217,7 +7309,7 @@ namespace segmentoOtoneurologia
             "Com moderada dificuldade",
             "Com acentuada dificuldade",
             "Com provável incapacidade auditiva"});
-            this.vocalAudioodComboBox.Location = new System.Drawing.Point(208, 184);
+            this.vocalAudioodComboBox.Location = new System.Drawing.Point(208, 187);
             this.vocalAudioodComboBox.Name = "vocalAudioodComboBox";
             this.vocalAudioodComboBox.Size = new System.Drawing.Size(284, 24);
             this.vocalAudioodComboBox.TabIndex = 9;
@@ -7240,7 +7332,7 @@ namespace segmentoOtoneurologia
             "Em \"U\" invertido",
             "Em entalhe",
             "De config. não definida"});
-            this.configAudioodComboBox.Location = new System.Drawing.Point(208, 139);
+            this.configAudioodComboBox.Location = new System.Drawing.Point(208, 142);
             this.configAudioodComboBox.Name = "configAudioodComboBox";
             this.configAudioodComboBox.Size = new System.Drawing.Size(284, 24);
             this.configAudioodComboBox.TabIndex = 7;
@@ -7275,7 +7367,7 @@ namespace segmentoOtoneurologia
             "Deficiência auditiva muito severa - Grau II",
             "Deficiência auditiva muito severa - Grau III",
             "Deficiência auditiva total / Cofose"});
-            this.grauAudioodComboBox.Location = new System.Drawing.Point(208, 96);
+            this.grauAudioodComboBox.Location = new System.Drawing.Point(208, 98);
             this.grauAudioodComboBox.Name = "grauAudioodComboBox";
             this.grauAudioodComboBox.Size = new System.Drawing.Size(284, 24);
             this.grauAudioodComboBox.TabIndex = 5;
@@ -7293,7 +7385,7 @@ namespace segmentoOtoneurologia
             "Sensorioneural",
             "Condutiva",
             "Mista"});
-            this.curvaAudioodComboBox.Location = new System.Drawing.Point(208, 53);
+            this.curvaAudioodComboBox.Location = new System.Drawing.Point(208, 54);
             this.curvaAudioodComboBox.Name = "curvaAudioodComboBox";
             this.curvaAudioodComboBox.Size = new System.Drawing.Size(284, 24);
             this.curvaAudioodComboBox.TabIndex = 3;
@@ -7320,7 +7412,7 @@ namespace segmentoOtoneurologia
             this.gbOEaudioClinica.Dock = System.Windows.Forms.DockStyle.Fill;
             this.gbOEaudioClinica.Location = new System.Drawing.Point(513, 4);
             this.gbOEaudioClinica.Name = "gbOEaudioClinica";
-            this.gbOEaudioClinica.Size = new System.Drawing.Size(502, 245);
+            this.gbOEaudioClinica.Size = new System.Drawing.Size(502, 248);
             this.gbOEaudioClinica.TabIndex = 1;
             this.gbOEaudioClinica.TabStop = false;
             this.gbOEaudioClinica.Text = "Orelha esquerda";
@@ -7350,7 +7442,7 @@ namespace segmentoOtoneurologia
             this.tableLayoutPanel85.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel85.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel85.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel85.Size = new System.Drawing.Size(496, 220);
+            this.tableLayoutPanel85.Size = new System.Drawing.Size(496, 223);
             this.tableLayoutPanel85.TabIndex = 0;
             // 
             // vocalAudiooeComboBox
@@ -7367,7 +7459,7 @@ namespace segmentoOtoneurologia
             "Com moderada dificuldade",
             "Com acentuada dificuldade",
             "Com provável incapacidade auditiva"});
-            this.vocalAudiooeComboBox.Location = new System.Drawing.Point(208, 184);
+            this.vocalAudiooeComboBox.Location = new System.Drawing.Point(208, 187);
             this.vocalAudiooeComboBox.Name = "vocalAudiooeComboBox";
             this.vocalAudiooeComboBox.Size = new System.Drawing.Size(284, 24);
             this.vocalAudiooeComboBox.TabIndex = 9;
@@ -7390,7 +7482,7 @@ namespace segmentoOtoneurologia
             "Em \"U\" invertido",
             "Em entalhe",
             "De config. não definida"});
-            this.configAudiooeComboBox.Location = new System.Drawing.Point(208, 139);
+            this.configAudiooeComboBox.Location = new System.Drawing.Point(208, 142);
             this.configAudiooeComboBox.Name = "configAudiooeComboBox";
             this.configAudiooeComboBox.Size = new System.Drawing.Size(284, 24);
             this.configAudiooeComboBox.TabIndex = 7;
@@ -7425,7 +7517,7 @@ namespace segmentoOtoneurologia
             "Deficiência auditiva muito severa - Grau II",
             "Deficiência auditiva muito severa - Grau III",
             "Deficiência auditiva total / Cofose"});
-            this.grauAudiooeComboBox.Location = new System.Drawing.Point(208, 96);
+            this.grauAudiooeComboBox.Location = new System.Drawing.Point(208, 98);
             this.grauAudiooeComboBox.Name = "grauAudiooeComboBox";
             this.grauAudiooeComboBox.Size = new System.Drawing.Size(284, 24);
             this.grauAudiooeComboBox.TabIndex = 5;
@@ -7443,7 +7535,7 @@ namespace segmentoOtoneurologia
             "Sensorioneural",
             "Condutiva",
             "Mista"});
-            this.curvaAudiooeComboBox.Location = new System.Drawing.Point(208, 53);
+            this.curvaAudiooeComboBox.Location = new System.Drawing.Point(208, 54);
             this.curvaAudiooeComboBox.Name = "curvaAudiooeComboBox";
             this.curvaAudiooeComboBox.Size = new System.Drawing.Size(284, 24);
             this.curvaAudiooeComboBox.TabIndex = 3;
@@ -7472,11 +7564,11 @@ namespace segmentoOtoneurologia
             this.tableLayoutPanel6.Controls.Add(this.btnPrintAudioTonal, 1, 0);
             this.tableLayoutPanel6.Controls.Add(this.gbConclusoesAudioClinica, 0, 0);
             this.tableLayoutPanel6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel6.Location = new System.Drawing.Point(4, 264);
+            this.tableLayoutPanel6.Location = new System.Drawing.Point(4, 267);
             this.tableLayoutPanel6.Name = "tableLayoutPanel6";
             this.tableLayoutPanel6.RowCount = 1;
             this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel6.Size = new System.Drawing.Size(1019, 261);
+            this.tableLayoutPanel6.Size = new System.Drawing.Size(1019, 265);
             this.tableLayoutPanel6.TabIndex = 1;
             // 
             // btnPrintAudioTonal
@@ -7485,7 +7577,7 @@ namespace segmentoOtoneurologia
             this.btnPrintAudioTonal.Image = global::segmentoOtoneurologia.Properties.Resources.imprimir;
             this.btnPrintAudioTonal.Location = new System.Drawing.Point(870, 4);
             this.btnPrintAudioTonal.Name = "btnPrintAudioTonal";
-            this.btnPrintAudioTonal.Size = new System.Drawing.Size(145, 253);
+            this.btnPrintAudioTonal.Size = new System.Drawing.Size(145, 257);
             this.btnPrintAudioTonal.TabIndex = 0;
             this.btnPrintAudioTonal.UseVisualStyleBackColor = true;
             this.btnPrintAudioTonal.Click += new System.EventHandler(this.btnPrintAudioTonal_Click);
@@ -7497,7 +7589,7 @@ namespace segmentoOtoneurologia
             this.gbConclusoesAudioClinica.Dock = System.Windows.Forms.DockStyle.Fill;
             this.gbConclusoesAudioClinica.Location = new System.Drawing.Point(4, 4);
             this.gbConclusoesAudioClinica.Name = "gbConclusoesAudioClinica";
-            this.gbConclusoesAudioClinica.Size = new System.Drawing.Size(859, 253);
+            this.gbConclusoesAudioClinica.Size = new System.Drawing.Size(859, 257);
             this.gbConclusoesAudioClinica.TabIndex = 1;
             this.gbConclusoesAudioClinica.TabStop = false;
             this.gbConclusoesAudioClinica.Text = "Outros dados";
@@ -15600,7 +15692,7 @@ namespace segmentoOtoneurologia
             this.eoatODTextBox.Multiline = true;
             this.eoatODTextBox.Name = "eoatODTextBox";
             this.eoatODTextBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.eoatODTextBox.Size = new System.Drawing.Size(489, 189);
+            this.eoatODTextBox.Size = new System.Drawing.Size(489, 229);
             this.eoatODTextBox.TabIndex = 1;
             this.toolTip7.SetToolTip(this.eoatODTextBox, "Escreva aqui o laudo ou o parecer do exame.");
             // 
@@ -15623,7 +15715,7 @@ namespace segmentoOtoneurologia
             this.eoatOETextBox.Multiline = true;
             this.eoatOETextBox.Name = "eoatOETextBox";
             this.eoatOETextBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.eoatOETextBox.Size = new System.Drawing.Size(489, 189);
+            this.eoatOETextBox.Size = new System.Drawing.Size(489, 229);
             this.eoatOETextBox.TabIndex = 1;
             this.toolTip7.SetToolTip(this.eoatOETextBox, "Escreva aqui o laudo ou o parecer do exame.");
             // 
@@ -16042,7 +16134,7 @@ namespace segmentoOtoneurologia
             this.tabPage23.Location = new System.Drawing.Point(4, 29);
             this.tabPage23.Name = "tabPage23";
             this.tabPage23.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage23.Size = new System.Drawing.Size(510, 542);
+            this.tabPage23.Size = new System.Drawing.Size(510, 535);
             this.tabPage23.TabIndex = 1;
             this.tabPage23.Text = "PEATE";
             this.tabPage23.UseVisualStyleBackColor = true;
@@ -16060,250 +16152,20 @@ namespace segmentoOtoneurologia
             this.tableLayoutPanel37.RowCount = 2;
             this.tableLayoutPanel37.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel37.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel37.Size = new System.Drawing.Size(504, 536);
+            this.tableLayoutPanel37.Size = new System.Drawing.Size(504, 529);
             this.tableLayoutPanel37.TabIndex = 0;
             // 
             // groupBox10
             // 
             this.groupBox10.BackColor = System.Drawing.Color.MistyRose;
-            this.groupBox10.Controls.Add(this.label128);
-            this.groupBox10.Controls.Add(this.tableLayoutPanel94);
-            this.groupBox10.Controls.Add(this.tableLayoutPanel93);
             this.groupBox10.Controls.Add(this.peateODTextBox);
             this.groupBox10.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox10.Location = new System.Drawing.Point(4, 4);
             this.groupBox10.Name = "groupBox10";
-            this.groupBox10.Size = new System.Drawing.Size(496, 260);
+            this.groupBox10.Size = new System.Drawing.Size(496, 257);
             this.groupBox10.TabIndex = 0;
             this.groupBox10.TabStop = false;
             this.groupBox10.Text = "Orelha direita";
-            // 
-            // label128
-            // 
-            this.label128.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label128.AutoSize = true;
-            this.label128.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label128.ForeColor = System.Drawing.Color.Red;
-            this.label128.Location = new System.Drawing.Point(148, 88);
-            this.label128.Name = "label128";
-            this.label128.Size = new System.Drawing.Size(195, 18);
-            this.label128.TabIndex = 5;
-            this.label128.Text = "Limiares eletrofisiológicos";
-            this.label128.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // tableLayoutPanel94
-            // 
-            this.tableLayoutPanel94.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
-            this.tableLayoutPanel94.ColumnCount = 5;
-            this.tableLayoutPanel94.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel94.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel94.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel94.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel94.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel94.Controls.Add(this.label130, 3, 1);
-            this.tableLayoutPanel94.Controls.Add(this.label131, 2, 0);
-            this.tableLayoutPanel94.Controls.Add(this.label129, 1, 1);
-            this.tableLayoutPanel94.Controls.Add(this.label132, 4, 0);
-            this.tableLayoutPanel94.Controls.Add(this.label133, 0, 0);
-            this.tableLayoutPanel94.Location = new System.Drawing.Point(3, 109);
-            this.tableLayoutPanel94.Name = "tableLayoutPanel94";
-            this.tableLayoutPanel94.RowCount = 2;
-            this.tableLayoutPanel94.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 34F));
-            this.tableLayoutPanel94.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33F));
-            this.tableLayoutPanel94.Size = new System.Drawing.Size(490, 57);
-            this.tableLayoutPanel94.TabIndex = 4;
-            // 
-            // label130
-            // 
-            this.label130.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label130.AutoSize = true;
-            this.label130.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label130.ForeColor = System.Drawing.Color.Red;
-            this.label130.Location = new System.Drawing.Point(295, 33);
-            this.label130.Name = "label130";
-            this.label130.Size = new System.Drawing.Size(90, 18);
-            this.label130.TabIndex = 1;
-            this.label130.Text = "VA  (dBNA)";
-            this.label130.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label131
-            // 
-            this.label131.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label131.AutoSize = true;
-            this.label131.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label131.ForeColor = System.Drawing.Color.Red;
-            this.label131.Location = new System.Drawing.Point(198, 6);
-            this.label131.Name = "label131";
-            this.label131.Size = new System.Drawing.Size(90, 16);
-            this.label131.TabIndex = 2;
-            this.label131.Text = "2 kHz - 4 kHz";
-            this.label131.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label129
-            // 
-            this.label129.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label129.AutoSize = true;
-            this.label129.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label129.ForeColor = System.Drawing.Color.Red;
-            this.label129.Location = new System.Drawing.Point(101, 33);
-            this.label129.Name = "label129";
-            this.label129.Size = new System.Drawing.Size(90, 18);
-            this.label129.TabIndex = 0;
-            this.label129.Text = "VO (dBNA)";
-            this.label129.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label132
-            // 
-            this.label132.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label132.AutoSize = true;
-            this.label132.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label132.ForeColor = System.Drawing.Color.Red;
-            this.label132.Location = new System.Drawing.Point(392, 6);
-            this.label132.Name = "label132";
-            this.label132.Size = new System.Drawing.Size(94, 16);
-            this.label132.TabIndex = 3;
-            this.label132.Text = "2 kHz - 4 kHz";
-            this.label132.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label133
-            // 
-            this.label133.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label133.AutoSize = true;
-            this.label133.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label133.ForeColor = System.Drawing.Color.Red;
-            this.label133.Location = new System.Drawing.Point(4, 5);
-            this.label133.Name = "label133";
-            this.label133.Size = new System.Drawing.Size(90, 18);
-            this.label133.TabIndex = 4;
-            this.label133.Text = "Cliques";
-            this.label133.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // tableLayoutPanel93
-            // 
-            this.tableLayoutPanel93.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
-            this.tableLayoutPanel93.ColumnCount = 5;
-            this.tableLayoutPanel93.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel93.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel93.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel93.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel93.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel93.Controls.Add(this.label134, 0, 2);
-            this.tableLayoutPanel93.Controls.Add(this.label122, 0, 1);
-            this.tableLayoutPanel93.Controls.Add(this.label124, 1, 0);
-            this.tableLayoutPanel93.Controls.Add(this.label125, 2, 0);
-            this.tableLayoutPanel93.Controls.Add(this.label126, 3, 0);
-            this.tableLayoutPanel93.Controls.Add(this.label127, 4, 0);
-            this.tableLayoutPanel93.Controls.Add(this.label123, 0, 0);
-            this.tableLayoutPanel93.Controls.Add(this.txtpeateCliqueVOod, 1, 1);
-            this.tableLayoutPanel93.Location = new System.Drawing.Point(3, 169);
-            this.tableLayoutPanel93.Name = "tableLayoutPanel93";
-            this.tableLayoutPanel93.RowCount = 3;
-            this.tableLayoutPanel93.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 34F));
-            this.tableLayoutPanel93.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33F));
-            this.tableLayoutPanel93.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33F));
-            this.tableLayoutPanel93.Size = new System.Drawing.Size(490, 86);
-            this.tableLayoutPanel93.TabIndex = 2;
-            // 
-            // label134
-            // 
-            this.label134.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label134.AutoSize = true;
-            this.label134.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label134.ForeColor = System.Drawing.Color.Red;
-            this.label134.Location = new System.Drawing.Point(4, 62);
-            this.label134.Name = "label134";
-            this.label134.Size = new System.Drawing.Size(90, 18);
-            this.label134.TabIndex = 6;
-            this.label134.Text = "VO (dBNA)";
-            this.label134.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label122
-            // 
-            this.label122.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label122.AutoSize = true;
-            this.label122.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label122.ForeColor = System.Drawing.Color.Red;
-            this.label122.Location = new System.Drawing.Point(4, 33);
-            this.label122.Name = "label122";
-            this.label122.Size = new System.Drawing.Size(90, 18);
-            this.label122.TabIndex = 0;
-            this.label122.Text = "VO (dBNA)";
-            this.label122.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label124
-            // 
-            this.label124.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label124.AutoSize = true;
-            this.label124.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label124.ForeColor = System.Drawing.Color.Red;
-            this.label124.Location = new System.Drawing.Point(101, 5);
-            this.label124.Name = "label124";
-            this.label124.Size = new System.Drawing.Size(90, 19);
-            this.label124.TabIndex = 2;
-            this.label124.Text = "500 Hz";
-            this.label124.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label125
-            // 
-            this.label125.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label125.AutoSize = true;
-            this.label125.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label125.ForeColor = System.Drawing.Color.Red;
-            this.label125.Location = new System.Drawing.Point(198, 5);
-            this.label125.Name = "label125";
-            this.label125.Size = new System.Drawing.Size(90, 19);
-            this.label125.TabIndex = 3;
-            this.label125.Text = "1 kHz";
-            this.label125.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label126
-            // 
-            this.label126.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label126.AutoSize = true;
-            this.label126.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label126.ForeColor = System.Drawing.Color.Red;
-            this.label126.Location = new System.Drawing.Point(295, 5);
-            this.label126.Name = "label126";
-            this.label126.Size = new System.Drawing.Size(90, 19);
-            this.label126.TabIndex = 4;
-            this.label126.Text = "2 kHz";
-            this.label126.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label127
-            // 
-            this.label127.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label127.AutoSize = true;
-            this.label127.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label127.ForeColor = System.Drawing.Color.Red;
-            this.label127.Location = new System.Drawing.Point(392, 5);
-            this.label127.Name = "label127";
-            this.label127.Size = new System.Drawing.Size(94, 19);
-            this.label127.TabIndex = 5;
-            this.label127.Text = "4 kHz";
-            this.label127.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label123
-            // 
-            this.label123.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label123.AutoSize = true;
-            this.label123.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label123.ForeColor = System.Drawing.Color.Red;
-            this.label123.Location = new System.Drawing.Point(4, 5);
-            this.label123.Name = "label123";
-            this.label123.Size = new System.Drawing.Size(90, 18);
-            this.label123.TabIndex = 1;
-            this.label123.Text = "F. E.";
-            this.label123.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // txtpeateCliqueVOod
-            // 
-            this.txtpeateCliqueVOod.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.tabelaExamesBindingSource, "peateCliqueVOod", true));
-            this.txtpeateCliqueVOod.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.txtpeateCliqueVOod.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtpeateCliqueVOod.Location = new System.Drawing.Point(101, 32);
-            this.txtpeateCliqueVOod.Name = "txtpeateCliqueVOod";
-            this.txtpeateCliqueVOod.Size = new System.Drawing.Size(90, 23);
-            this.txtpeateCliqueVOod.TabIndex = 7;
             // 
             // peateODTextBox
             // 
@@ -16312,240 +16174,21 @@ namespace segmentoOtoneurologia
             this.peateODTextBox.Multiline = true;
             this.peateODTextBox.Name = "peateODTextBox";
             this.peateODTextBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.peateODTextBox.Size = new System.Drawing.Size(490, 60);
+            this.peateODTextBox.Size = new System.Drawing.Size(490, 229);
             this.peateODTextBox.TabIndex = 1;
             this.toolTip7.SetToolTip(this.peateODTextBox, "Escreva aqui o laudo ou o parecer do exame.");
             // 
             // groupBox11
             // 
             this.groupBox11.BackColor = System.Drawing.Color.AliceBlue;
-            this.groupBox11.Controls.Add(this.tableLayoutPanel95);
-            this.groupBox11.Controls.Add(this.tableLayoutPanel96);
-            this.groupBox11.Controls.Add(this.label147);
             this.groupBox11.Controls.Add(this.peateOETextBox);
             this.groupBox11.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupBox11.Location = new System.Drawing.Point(4, 271);
+            this.groupBox11.Location = new System.Drawing.Point(4, 268);
             this.groupBox11.Name = "groupBox11";
-            this.groupBox11.Size = new System.Drawing.Size(496, 261);
+            this.groupBox11.Size = new System.Drawing.Size(496, 257);
             this.groupBox11.TabIndex = 1;
             this.groupBox11.TabStop = false;
             this.groupBox11.Text = "Orelha esquerda";
-            // 
-            // tableLayoutPanel95
-            // 
-            this.tableLayoutPanel95.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
-            this.tableLayoutPanel95.ColumnCount = 5;
-            this.tableLayoutPanel95.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel95.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel95.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel95.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel95.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel95.Controls.Add(this.label136, 3, 1);
-            this.tableLayoutPanel95.Controls.Add(this.label137, 2, 0);
-            this.tableLayoutPanel95.Controls.Add(this.label138, 1, 1);
-            this.tableLayoutPanel95.Controls.Add(this.label139, 4, 0);
-            this.tableLayoutPanel95.Controls.Add(this.label140, 0, 0);
-            this.tableLayoutPanel95.Location = new System.Drawing.Point(3, 107);
-            this.tableLayoutPanel95.Name = "tableLayoutPanel95";
-            this.tableLayoutPanel95.RowCount = 2;
-            this.tableLayoutPanel95.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 34F));
-            this.tableLayoutPanel95.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33F));
-            this.tableLayoutPanel95.Size = new System.Drawing.Size(490, 57);
-            this.tableLayoutPanel95.TabIndex = 7;
-            // 
-            // label136
-            // 
-            this.label136.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label136.AutoSize = true;
-            this.label136.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label136.ForeColor = System.Drawing.Color.Blue;
-            this.label136.Location = new System.Drawing.Point(295, 33);
-            this.label136.Name = "label136";
-            this.label136.Size = new System.Drawing.Size(90, 18);
-            this.label136.TabIndex = 1;
-            this.label136.Text = "VA  (dBNA)";
-            this.label136.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label137
-            // 
-            this.label137.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label137.AutoSize = true;
-            this.label137.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label137.ForeColor = System.Drawing.Color.Blue;
-            this.label137.Location = new System.Drawing.Point(198, 6);
-            this.label137.Name = "label137";
-            this.label137.Size = new System.Drawing.Size(90, 16);
-            this.label137.TabIndex = 2;
-            this.label137.Text = "2 kHz - 4 kHz";
-            this.label137.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label138
-            // 
-            this.label138.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label138.AutoSize = true;
-            this.label138.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label138.ForeColor = System.Drawing.Color.Blue;
-            this.label138.Location = new System.Drawing.Point(101, 33);
-            this.label138.Name = "label138";
-            this.label138.Size = new System.Drawing.Size(90, 18);
-            this.label138.TabIndex = 0;
-            this.label138.Text = "VO (dBNA)";
-            this.label138.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label139
-            // 
-            this.label139.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label139.AutoSize = true;
-            this.label139.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label139.ForeColor = System.Drawing.Color.Blue;
-            this.label139.Location = new System.Drawing.Point(392, 6);
-            this.label139.Name = "label139";
-            this.label139.Size = new System.Drawing.Size(94, 16);
-            this.label139.TabIndex = 3;
-            this.label139.Text = "2 kHz - 4 kHz";
-            this.label139.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label140
-            // 
-            this.label140.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label140.AutoSize = true;
-            this.label140.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label140.ForeColor = System.Drawing.Color.Blue;
-            this.label140.Location = new System.Drawing.Point(4, 5);
-            this.label140.Name = "label140";
-            this.label140.Size = new System.Drawing.Size(90, 18);
-            this.label140.TabIndex = 4;
-            this.label140.Text = "Cliques";
-            this.label140.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // tableLayoutPanel96
-            // 
-            this.tableLayoutPanel96.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
-            this.tableLayoutPanel96.ColumnCount = 5;
-            this.tableLayoutPanel96.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel96.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel96.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel96.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel96.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel96.Controls.Add(this.label141, 0, 2);
-            this.tableLayoutPanel96.Controls.Add(this.label142, 0, 1);
-            this.tableLayoutPanel96.Controls.Add(this.label143, 1, 0);
-            this.tableLayoutPanel96.Controls.Add(this.label144, 2, 0);
-            this.tableLayoutPanel96.Controls.Add(this.label145, 3, 0);
-            this.tableLayoutPanel96.Controls.Add(this.label135, 4, 0);
-            this.tableLayoutPanel96.Controls.Add(this.label146, 0, 0);
-            this.tableLayoutPanel96.Location = new System.Drawing.Point(3, 167);
-            this.tableLayoutPanel96.Name = "tableLayoutPanel96";
-            this.tableLayoutPanel96.RowCount = 3;
-            this.tableLayoutPanel96.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 34F));
-            this.tableLayoutPanel96.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33F));
-            this.tableLayoutPanel96.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33F));
-            this.tableLayoutPanel96.Size = new System.Drawing.Size(490, 86);
-            this.tableLayoutPanel96.TabIndex = 6;
-            // 
-            // label141
-            // 
-            this.label141.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label141.AutoSize = true;
-            this.label141.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label141.ForeColor = System.Drawing.Color.Blue;
-            this.label141.Location = new System.Drawing.Point(4, 62);
-            this.label141.Name = "label141";
-            this.label141.Size = new System.Drawing.Size(90, 18);
-            this.label141.TabIndex = 6;
-            this.label141.Text = "VO (dBNA)";
-            this.label141.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label142
-            // 
-            this.label142.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label142.AutoSize = true;
-            this.label142.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label142.ForeColor = System.Drawing.Color.Blue;
-            this.label142.Location = new System.Drawing.Point(4, 33);
-            this.label142.Name = "label142";
-            this.label142.Size = new System.Drawing.Size(90, 18);
-            this.label142.TabIndex = 0;
-            this.label142.Text = "VO (dBNA)";
-            this.label142.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label143
-            // 
-            this.label143.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label143.AutoSize = true;
-            this.label143.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label143.ForeColor = System.Drawing.Color.Blue;
-            this.label143.Location = new System.Drawing.Point(101, 5);
-            this.label143.Name = "label143";
-            this.label143.Size = new System.Drawing.Size(90, 19);
-            this.label143.TabIndex = 2;
-            this.label143.Text = "500 Hz";
-            this.label143.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label144
-            // 
-            this.label144.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label144.AutoSize = true;
-            this.label144.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label144.ForeColor = System.Drawing.Color.Blue;
-            this.label144.Location = new System.Drawing.Point(198, 5);
-            this.label144.Name = "label144";
-            this.label144.Size = new System.Drawing.Size(90, 19);
-            this.label144.TabIndex = 3;
-            this.label144.Text = "1 kHz";
-            this.label144.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label145
-            // 
-            this.label145.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label145.AutoSize = true;
-            this.label145.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label145.ForeColor = System.Drawing.Color.Blue;
-            this.label145.Location = new System.Drawing.Point(295, 5);
-            this.label145.Name = "label145";
-            this.label145.Size = new System.Drawing.Size(90, 19);
-            this.label145.TabIndex = 4;
-            this.label145.Text = "2 kHz";
-            this.label145.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label135
-            // 
-            this.label135.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label135.AutoSize = true;
-            this.label135.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label135.ForeColor = System.Drawing.Color.Blue;
-            this.label135.Location = new System.Drawing.Point(392, 5);
-            this.label135.Name = "label135";
-            this.label135.Size = new System.Drawing.Size(94, 19);
-            this.label135.TabIndex = 5;
-            this.label135.Text = "4 kHz";
-            this.label135.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label146
-            // 
-            this.label146.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label146.AutoSize = true;
-            this.label146.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label146.ForeColor = System.Drawing.Color.Blue;
-            this.label146.Location = new System.Drawing.Point(4, 5);
-            this.label146.Name = "label146";
-            this.label146.Size = new System.Drawing.Size(90, 18);
-            this.label146.TabIndex = 1;
-            this.label146.Text = "F. E.";
-            this.label146.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label147
-            // 
-            this.label147.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label147.AutoSize = true;
-            this.label147.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label147.ForeColor = System.Drawing.Color.Blue;
-            this.label147.Location = new System.Drawing.Point(148, 87);
-            this.label147.Name = "label147";
-            this.label147.Size = new System.Drawing.Size(195, 18);
-            this.label147.TabIndex = 8;
-            this.label147.Text = "Limiares eletrofisiológicos";
-            this.label147.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // peateOETextBox
             // 
@@ -16554,7 +16197,7 @@ namespace segmentoOtoneurologia
             this.peateOETextBox.Multiline = true;
             this.peateOETextBox.Name = "peateOETextBox";
             this.peateOETextBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.peateOETextBox.Size = new System.Drawing.Size(490, 60);
+            this.peateOETextBox.Size = new System.Drawing.Size(490, 229);
             this.peateOETextBox.TabIndex = 1;
             this.toolTip7.SetToolTip(this.peateOETextBox, "Escreva aqui o laudo ou o parecer do exame.");
             // 
@@ -16674,7 +16317,7 @@ namespace segmentoOtoneurologia
             this.tabPage39.Location = new System.Drawing.Point(4, 29);
             this.tabPage39.Name = "tabPage39";
             this.tabPage39.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage39.Size = new System.Drawing.Size(510, 542);
+            this.tabPage39.Size = new System.Drawing.Size(510, 535);
             this.tabPage39.TabIndex = 4;
             this.tabPage39.Text = "PEAEE";
             this.tabPage39.UseVisualStyleBackColor = true;
@@ -16692,236 +16335,30 @@ namespace segmentoOtoneurologia
             this.tableLayoutPanel90.RowCount = 2;
             this.tableLayoutPanel90.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel90.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel90.Size = new System.Drawing.Size(504, 536);
+            this.tableLayoutPanel90.Size = new System.Drawing.Size(504, 529);
             this.tableLayoutPanel90.TabIndex = 0;
             // 
             // groupBox32
             // 
             this.groupBox32.BackColor = System.Drawing.Color.MistyRose;
-            this.groupBox32.Controls.Add(this.tableLayoutPanel91);
             this.groupBox32.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox32.Location = new System.Drawing.Point(4, 4);
             this.groupBox32.Name = "groupBox32";
-            this.groupBox32.Size = new System.Drawing.Size(496, 260);
+            this.groupBox32.Size = new System.Drawing.Size(496, 257);
             this.groupBox32.TabIndex = 0;
             this.groupBox32.TabStop = false;
             this.groupBox32.Text = "Orelha direita";
             // 
-            // tableLayoutPanel91
-            // 
-            this.tableLayoutPanel91.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
-            this.tableLayoutPanel91.ColumnCount = 5;
-            this.tableLayoutPanel91.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel91.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel91.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel91.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel91.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel91.Controls.Add(this.label77, 0, 1);
-            this.tableLayoutPanel91.Controls.Add(this.label78, 0, 2);
-            this.tableLayoutPanel91.Controls.Add(this.label79, 1, 0);
-            this.tableLayoutPanel91.Controls.Add(this.label80, 2, 0);
-            this.tableLayoutPanel91.Controls.Add(this.label81, 3, 0);
-            this.tableLayoutPanel91.Controls.Add(this.label82, 4, 0);
-            this.tableLayoutPanel91.Location = new System.Drawing.Point(3, 138);
-            this.tableLayoutPanel91.Name = "tableLayoutPanel91";
-            this.tableLayoutPanel91.RowCount = 3;
-            this.tableLayoutPanel91.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 34F));
-            this.tableLayoutPanel91.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33F));
-            this.tableLayoutPanel91.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33F));
-            this.tableLayoutPanel91.Size = new System.Drawing.Size(490, 113);
-            this.tableLayoutPanel91.TabIndex = 0;
-            // 
-            // label77
-            // 
-            this.label77.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label77.AutoSize = true;
-            this.label77.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label77.ForeColor = System.Drawing.Color.Red;
-            this.label77.Location = new System.Drawing.Point(4, 47);
-            this.label77.Name = "label77";
-            this.label77.Size = new System.Drawing.Size(90, 18);
-            this.label77.TabIndex = 0;
-            this.label77.Text = "VO (dBNA)";
-            this.label77.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label78
-            // 
-            this.label78.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label78.AutoSize = true;
-            this.label78.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label78.ForeColor = System.Drawing.Color.Red;
-            this.label78.Location = new System.Drawing.Point(4, 84);
-            this.label78.Name = "label78";
-            this.label78.Size = new System.Drawing.Size(90, 18);
-            this.label78.TabIndex = 1;
-            this.label78.Text = "VA  (dBNA)";
-            this.label78.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label79
-            // 
-            this.label79.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label79.AutoSize = true;
-            this.label79.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label79.ForeColor = System.Drawing.Color.Red;
-            this.label79.Location = new System.Drawing.Point(101, 10);
-            this.label79.Name = "label79";
-            this.label79.Size = new System.Drawing.Size(90, 19);
-            this.label79.TabIndex = 2;
-            this.label79.Text = "500 Hz";
-            this.label79.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label80
-            // 
-            this.label80.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label80.AutoSize = true;
-            this.label80.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label80.ForeColor = System.Drawing.Color.Red;
-            this.label80.Location = new System.Drawing.Point(198, 10);
-            this.label80.Name = "label80";
-            this.label80.Size = new System.Drawing.Size(90, 19);
-            this.label80.TabIndex = 3;
-            this.label80.Text = "1 kHz";
-            this.label80.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label81
-            // 
-            this.label81.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label81.AutoSize = true;
-            this.label81.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label81.ForeColor = System.Drawing.Color.Red;
-            this.label81.Location = new System.Drawing.Point(295, 10);
-            this.label81.Name = "label81";
-            this.label81.Size = new System.Drawing.Size(90, 19);
-            this.label81.TabIndex = 4;
-            this.label81.Text = "2 kHz";
-            this.label81.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label82
-            // 
-            this.label82.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label82.AutoSize = true;
-            this.label82.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label82.ForeColor = System.Drawing.Color.Red;
-            this.label82.Location = new System.Drawing.Point(392, 10);
-            this.label82.Name = "label82";
-            this.label82.Size = new System.Drawing.Size(94, 19);
-            this.label82.TabIndex = 5;
-            this.label82.Text = "4 kHz";
-            this.label82.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // groupBox33
             // 
             this.groupBox33.BackColor = System.Drawing.Color.AliceBlue;
-            this.groupBox33.Controls.Add(this.tableLayoutPanel92);
             this.groupBox33.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupBox33.Location = new System.Drawing.Point(4, 271);
+            this.groupBox33.Location = new System.Drawing.Point(4, 268);
             this.groupBox33.Name = "groupBox33";
-            this.groupBox33.Size = new System.Drawing.Size(496, 261);
+            this.groupBox33.Size = new System.Drawing.Size(496, 257);
             this.groupBox33.TabIndex = 1;
             this.groupBox33.TabStop = false;
             this.groupBox33.Text = "Orelha esquerda";
-            // 
-            // tableLayoutPanel92
-            // 
-            this.tableLayoutPanel92.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
-            this.tableLayoutPanel92.ColumnCount = 5;
-            this.tableLayoutPanel92.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel92.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel92.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel92.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel92.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel92.Controls.Add(this.label92, 0, 1);
-            this.tableLayoutPanel92.Controls.Add(this.label93, 0, 2);
-            this.tableLayoutPanel92.Controls.Add(this.label94, 1, 0);
-            this.tableLayoutPanel92.Controls.Add(this.label95, 2, 0);
-            this.tableLayoutPanel92.Controls.Add(this.label96, 3, 0);
-            this.tableLayoutPanel92.Controls.Add(this.label97, 4, 0);
-            this.tableLayoutPanel92.Location = new System.Drawing.Point(4, 140);
-            this.tableLayoutPanel92.Name = "tableLayoutPanel92";
-            this.tableLayoutPanel92.RowCount = 3;
-            this.tableLayoutPanel92.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 34F));
-            this.tableLayoutPanel92.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33F));
-            this.tableLayoutPanel92.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33F));
-            this.tableLayoutPanel92.Size = new System.Drawing.Size(490, 112);
-            this.tableLayoutPanel92.TabIndex = 1;
-            // 
-            // label92
-            // 
-            this.label92.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label92.AutoSize = true;
-            this.label92.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label92.ForeColor = System.Drawing.Color.Blue;
-            this.label92.Location = new System.Drawing.Point(4, 46);
-            this.label92.Name = "label92";
-            this.label92.Size = new System.Drawing.Size(90, 18);
-            this.label92.TabIndex = 0;
-            this.label92.Text = "VO (dBNA)";
-            this.label92.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label93
-            // 
-            this.label93.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label93.AutoSize = true;
-            this.label93.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label93.ForeColor = System.Drawing.Color.Blue;
-            this.label93.Location = new System.Drawing.Point(4, 83);
-            this.label93.Name = "label93";
-            this.label93.Size = new System.Drawing.Size(90, 18);
-            this.label93.TabIndex = 1;
-            this.label93.Text = "VA  (dBNA)";
-            this.label93.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label94
-            // 
-            this.label94.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label94.AutoSize = true;
-            this.label94.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label94.ForeColor = System.Drawing.Color.Blue;
-            this.label94.Location = new System.Drawing.Point(101, 9);
-            this.label94.Name = "label94";
-            this.label94.Size = new System.Drawing.Size(90, 19);
-            this.label94.TabIndex = 2;
-            this.label94.Text = "500 Hz";
-            this.label94.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label95
-            // 
-            this.label95.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label95.AutoSize = true;
-            this.label95.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label95.ForeColor = System.Drawing.Color.Blue;
-            this.label95.Location = new System.Drawing.Point(198, 9);
-            this.label95.Name = "label95";
-            this.label95.Size = new System.Drawing.Size(90, 19);
-            this.label95.TabIndex = 3;
-            this.label95.Text = "1 kHz";
-            this.label95.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label96
-            // 
-            this.label96.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label96.AutoSize = true;
-            this.label96.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label96.ForeColor = System.Drawing.Color.Blue;
-            this.label96.Location = new System.Drawing.Point(295, 9);
-            this.label96.Name = "label96";
-            this.label96.Size = new System.Drawing.Size(90, 19);
-            this.label96.TabIndex = 4;
-            this.label96.Text = "2 kHz";
-            this.label96.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label97
-            // 
-            this.label97.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label97.AutoSize = true;
-            this.label97.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label97.ForeColor = System.Drawing.Color.Blue;
-            this.label97.Location = new System.Drawing.Point(392, 9);
-            this.label97.Name = "label97";
-            this.label97.Size = new System.Drawing.Size(94, 19);
-            this.label97.TabIndex = 5;
-            this.label97.Text = "4 kHz";
-            this.label97.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // tabPage19
             // 
@@ -17364,6 +16801,12 @@ namespace segmentoOtoneurologia
             // tabPage41
             // 
             this.tabPage41.BackColor = System.Drawing.Color.MintCream;
+            this.tabPage41.Controls.Add(this.textBox2);
+            this.tabPage41.Controls.Add(this.btnLimparEpidemiol);
+            this.tabPage41.Controls.Add(this.btnPlotarEpidemiol);
+            this.tabPage41.Controls.Add(this.btnInserirEpidemiol);
+            this.tabPage41.Controls.Add(this.tabControlEpidemiolOE);
+            this.tabPage41.Controls.Add(this.tabControlEpidemiolOD);
             this.tabPage41.Controls.Add(this.chrtEpidemioOE);
             this.tabPage41.Controls.Add(this.chrtEpidemioOD);
             this.tabPage41.Location = new System.Drawing.Point(4, 29);
@@ -17456,6 +16899,15 @@ namespace segmentoOtoneurologia
             // tabPage42
             // 
             this.tabPage42.BackColor = System.Drawing.Color.MintCream;
+            this.tabPage42.Controls.Add(this.label134);
+            this.tabPage42.Controls.Add(this.label133);
+            this.tabPage42.Controls.Add(this.label132);
+            this.tabPage42.Controls.Add(this.tableLayoutPanel110);
+            this.tabPage42.Controls.Add(this.chart1);
+            this.tabPage42.Controls.Add(this.textBox3);
+            this.tabPage42.Controls.Add(this.btnLimparEpidemiolImp);
+            this.tabPage42.Controls.Add(this.btnPlotarEpidemiolImp);
+            this.tabPage42.Controls.Add(this.btnInserirEpidemiolImp);
             this.tabPage42.Location = new System.Drawing.Point(4, 29);
             this.tabPage42.Name = "tabPage42";
             this.tabPage42.Padding = new System.Windows.Forms.Padding(3);
@@ -17811,6 +17263,2720 @@ namespace segmentoOtoneurologia
             this.toolTip7.ToolTipIcon = System.Windows.Forms.ToolTipIcon.Info;
             this.toolTip7.ToolTipTitle = "Laudo ou parecer";
             // 
+            // tabControlEpidemiolOD
+            // 
+            this.tabControlEpidemiolOD.Controls.Add(this.tabPage43);
+            this.tabControlEpidemiolOD.Location = new System.Drawing.Point(60, 6);
+            this.tabControlEpidemiolOD.Name = "tabControlEpidemiolOD";
+            this.tabControlEpidemiolOD.SelectedIndex = 0;
+            this.tabControlEpidemiolOD.Size = new System.Drawing.Size(467, 416);
+            this.tabControlEpidemiolOD.TabIndex = 12;
+            // 
+            // tabPage43
+            // 
+            this.tabPage43.BackColor = System.Drawing.Color.Snow;
+            this.tabPage43.Controls.Add(this.tableLayoutPanel91);
+            this.tabPage43.Controls.Add(this.label124);
+            this.tabPage43.Controls.Add(this.tableLayoutPanel93);
+            this.tabPage43.Controls.Add(this.label122);
+            this.tabPage43.Controls.Add(this.label148);
+            this.tabPage43.Controls.Add(this.tableLayoutPanel108);
+            this.tabPage43.Controls.Add(this.tableLayoutPanel109);
+            this.tabPage43.Location = new System.Drawing.Point(4, 29);
+            this.tabPage43.Name = "tabPage43";
+            this.tabPage43.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage43.Size = new System.Drawing.Size(459, 383);
+            this.tabPage43.TabIndex = 0;
+            this.tabPage43.Text = "Orelha Direita";
+            // 
+            // tabControlEpidemiolOE
+            // 
+            this.tabControlEpidemiolOE.Controls.Add(this.tabPage44);
+            this.tabControlEpidemiolOE.Location = new System.Drawing.Point(533, 6);
+            this.tabControlEpidemiolOE.Name = "tabControlEpidemiolOE";
+            this.tabControlEpidemiolOE.SelectedIndex = 0;
+            this.tabControlEpidemiolOE.Size = new System.Drawing.Size(467, 416);
+            this.tabControlEpidemiolOE.TabIndex = 13;
+            // 
+            // tabPage44
+            // 
+            this.tabPage44.BackColor = System.Drawing.Color.AliceBlue;
+            this.tabPage44.Controls.Add(this.label125);
+            this.tabPage44.Controls.Add(this.tableLayoutPanel94);
+            this.tabPage44.Controls.Add(this.label123);
+            this.tabPage44.Controls.Add(this.tableLayoutPanel92);
+            this.tabPage44.Controls.Add(this.tableLayoutPanel95);
+            this.tabPage44.Controls.Add(this.tableLayoutPanel96);
+            this.tabPage44.Controls.Add(this.label147);
+            this.tabPage44.Location = new System.Drawing.Point(4, 29);
+            this.tabPage44.Name = "tabPage44";
+            this.tabPage44.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage44.Size = new System.Drawing.Size(459, 383);
+            this.tabPage44.TabIndex = 0;
+            this.tabPage44.Text = "Orelha Esquerda";
+            // 
+            // btnInserirEpidemiol
+            // 
+            this.btnInserirEpidemiol.BackColor = System.Drawing.Color.LemonChiffon;
+            this.btnInserirEpidemiol.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnInserirEpidemiol.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnInserirEpidemiol.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnInserirEpidemiol.ForeColor = System.Drawing.Color.DarkGreen;
+            this.btnInserirEpidemiol.Location = new System.Drawing.Point(290, 428);
+            this.btnInserirEpidemiol.Name = "btnInserirEpidemiol";
+            this.btnInserirEpidemiol.Size = new System.Drawing.Size(154, 101);
+            this.btnInserirEpidemiol.TabIndex = 14;
+            this.btnInserirEpidemiol.Text = "Inserir";
+            this.btnInserirEpidemiol.UseVisualStyleBackColor = false;
+            this.btnInserirEpidemiol.Click += new System.EventHandler(this.btnInserirEpidemiol_Click);
+            // 
+            // btnPlotarEpidemiol
+            // 
+            this.btnPlotarEpidemiol.BackColor = System.Drawing.Color.Khaki;
+            this.btnPlotarEpidemiol.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnPlotarEpidemiol.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPlotarEpidemiol.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPlotarEpidemiol.ForeColor = System.Drawing.Color.DarkGreen;
+            this.btnPlotarEpidemiol.Location = new System.Drawing.Point(450, 428);
+            this.btnPlotarEpidemiol.Name = "btnPlotarEpidemiol";
+            this.btnPlotarEpidemiol.Size = new System.Drawing.Size(154, 101);
+            this.btnPlotarEpidemiol.TabIndex = 15;
+            this.btnPlotarEpidemiol.Text = "Plotar";
+            this.btnPlotarEpidemiol.UseVisualStyleBackColor = false;
+            this.btnPlotarEpidemiol.Click += new System.EventHandler(this.btnPlotarEpidemiol_Click);
+            // 
+            // btnLimparEpidemiol
+            // 
+            this.btnLimparEpidemiol.BackColor = System.Drawing.Color.Gold;
+            this.btnLimparEpidemiol.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnLimparEpidemiol.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLimparEpidemiol.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLimparEpidemiol.ForeColor = System.Drawing.Color.DarkGreen;
+            this.btnLimparEpidemiol.Location = new System.Drawing.Point(612, 428);
+            this.btnLimparEpidemiol.Name = "btnLimparEpidemiol";
+            this.btnLimparEpidemiol.Size = new System.Drawing.Size(154, 101);
+            this.btnLimparEpidemiol.TabIndex = 16;
+            this.btnLimparEpidemiol.Text = "Limpar";
+            this.btnLimparEpidemiol.UseVisualStyleBackColor = false;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Enabled = false;
+            this.textBox2.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox2.Location = new System.Drawing.Point(290, 535);
+            this.textBox2.Multiline = true;
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(476, 42);
+            this.textBox2.TabIndex = 17;
+            this.textBox2.Text = "*Atenção: os dados aqui são apenas ilustrativos, não sendo armazenados em base de" +
+    " dados!";
+            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label148
+            // 
+            this.label148.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label148.AutoSize = true;
+            this.label148.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label148.ForeColor = System.Drawing.Color.Red;
+            this.label148.Location = new System.Drawing.Point(78, 87);
+            this.label148.Name = "label148";
+            this.label148.Size = new System.Drawing.Size(302, 18);
+            this.label148.TabIndex = 8;
+            this.label148.Text = "Limiares eletrofisiológicos PEATE (BERA)";
+            this.label148.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // tableLayoutPanel108
+            // 
+            this.tableLayoutPanel108.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
+            this.tableLayoutPanel108.ColumnCount = 5;
+            this.tableLayoutPanel108.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel108.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel108.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel108.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel108.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel108.Controls.Add(this.label149, 3, 1);
+            this.tableLayoutPanel108.Controls.Add(this.label150, 2, 0);
+            this.tableLayoutPanel108.Controls.Add(this.label151, 1, 1);
+            this.tableLayoutPanel108.Controls.Add(this.label152, 4, 0);
+            this.tableLayoutPanel108.Controls.Add(this.label153, 0, 0);
+            this.tableLayoutPanel108.Controls.Add(this.comboBox1, 2, 1);
+            this.tableLayoutPanel108.Controls.Add(this.comboBox2, 4, 1);
+            this.tableLayoutPanel108.Location = new System.Drawing.Point(3, 109);
+            this.tableLayoutPanel108.Name = "tableLayoutPanel108";
+            this.tableLayoutPanel108.RowCount = 2;
+            this.tableLayoutPanel108.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 34F));
+            this.tableLayoutPanel108.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33F));
+            this.tableLayoutPanel108.Size = new System.Drawing.Size(451, 57);
+            this.tableLayoutPanel108.TabIndex = 7;
+            // 
+            // label149
+            // 
+            this.label149.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label149.AutoSize = true;
+            this.label149.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label149.ForeColor = System.Drawing.Color.Red;
+            this.label149.Location = new System.Drawing.Point(274, 34);
+            this.label149.Name = "label149";
+            this.label149.Size = new System.Drawing.Size(83, 16);
+            this.label149.TabIndex = 1;
+            this.label149.Text = "VA  (dBNA)";
+            this.label149.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label150
+            // 
+            this.label150.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label150.AutoSize = true;
+            this.label150.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label150.ForeColor = System.Drawing.Color.Red;
+            this.label150.Location = new System.Drawing.Point(184, 7);
+            this.label150.Name = "label150";
+            this.label150.Size = new System.Drawing.Size(83, 14);
+            this.label150.TabIndex = 2;
+            this.label150.Text = "2 kHz - 4 kHz";
+            this.label150.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label151
+            // 
+            this.label151.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label151.AutoSize = true;
+            this.label151.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label151.ForeColor = System.Drawing.Color.Red;
+            this.label151.Location = new System.Drawing.Point(94, 34);
+            this.label151.Name = "label151";
+            this.label151.Size = new System.Drawing.Size(83, 16);
+            this.label151.TabIndex = 0;
+            this.label151.Text = "VO (dBNA)";
+            this.label151.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label152
+            // 
+            this.label152.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label152.AutoSize = true;
+            this.label152.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label152.ForeColor = System.Drawing.Color.Red;
+            this.label152.Location = new System.Drawing.Point(364, 7);
+            this.label152.Name = "label152";
+            this.label152.Size = new System.Drawing.Size(83, 14);
+            this.label152.TabIndex = 3;
+            this.label152.Text = "2 kHz - 4 kHz";
+            this.label152.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label153
+            // 
+            this.label153.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label153.AutoSize = true;
+            this.label153.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label153.ForeColor = System.Drawing.Color.Red;
+            this.label153.Location = new System.Drawing.Point(4, 5);
+            this.label153.Name = "label153";
+            this.label153.Size = new System.Drawing.Size(83, 18);
+            this.label153.TabIndex = 4;
+            this.label153.Text = "Cliques";
+            this.label153.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // tableLayoutPanel109
+            // 
+            this.tableLayoutPanel109.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
+            this.tableLayoutPanel109.ColumnCount = 5;
+            this.tableLayoutPanel109.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel109.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel109.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel109.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel109.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel109.Controls.Add(this.comboBox10, 4, 2);
+            this.tableLayoutPanel109.Controls.Add(this.comboBox9, 4, 1);
+            this.tableLayoutPanel109.Controls.Add(this.comboBox8, 3, 2);
+            this.tableLayoutPanel109.Controls.Add(this.comboBox7, 3, 1);
+            this.tableLayoutPanel109.Controls.Add(this.comboBox6, 2, 2);
+            this.tableLayoutPanel109.Controls.Add(this.comboBox5, 1, 2);
+            this.tableLayoutPanel109.Controls.Add(this.label154, 0, 2);
+            this.tableLayoutPanel109.Controls.Add(this.label155, 0, 1);
+            this.tableLayoutPanel109.Controls.Add(this.label156, 1, 0);
+            this.tableLayoutPanel109.Controls.Add(this.label157, 2, 0);
+            this.tableLayoutPanel109.Controls.Add(this.label158, 3, 0);
+            this.tableLayoutPanel109.Controls.Add(this.label159, 4, 0);
+            this.tableLayoutPanel109.Controls.Add(this.label160, 0, 0);
+            this.tableLayoutPanel109.Controls.Add(this.comboBox3, 1, 1);
+            this.tableLayoutPanel109.Controls.Add(this.comboBox4, 2, 1);
+            this.tableLayoutPanel109.Location = new System.Drawing.Point(3, 169);
+            this.tableLayoutPanel109.Name = "tableLayoutPanel109";
+            this.tableLayoutPanel109.RowCount = 3;
+            this.tableLayoutPanel109.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 34F));
+            this.tableLayoutPanel109.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33F));
+            this.tableLayoutPanel109.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33F));
+            this.tableLayoutPanel109.Size = new System.Drawing.Size(451, 86);
+            this.tableLayoutPanel109.TabIndex = 6;
+            // 
+            // label154
+            // 
+            this.label154.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label154.AutoSize = true;
+            this.label154.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label154.ForeColor = System.Drawing.Color.Red;
+            this.label154.Location = new System.Drawing.Point(4, 63);
+            this.label154.Name = "label154";
+            this.label154.Size = new System.Drawing.Size(83, 16);
+            this.label154.TabIndex = 6;
+            this.label154.Text = "VA (dBNA)";
+            this.label154.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label155
+            // 
+            this.label155.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label155.AutoSize = true;
+            this.label155.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label155.ForeColor = System.Drawing.Color.Red;
+            this.label155.Location = new System.Drawing.Point(4, 34);
+            this.label155.Name = "label155";
+            this.label155.Size = new System.Drawing.Size(83, 16);
+            this.label155.TabIndex = 0;
+            this.label155.Text = "VO (dBNA)";
+            this.label155.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label156
+            // 
+            this.label156.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label156.AutoSize = true;
+            this.label156.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label156.ForeColor = System.Drawing.Color.Red;
+            this.label156.Location = new System.Drawing.Point(94, 5);
+            this.label156.Name = "label156";
+            this.label156.Size = new System.Drawing.Size(83, 19);
+            this.label156.TabIndex = 2;
+            this.label156.Text = "500 Hz";
+            this.label156.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label157
+            // 
+            this.label157.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label157.AutoSize = true;
+            this.label157.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label157.ForeColor = System.Drawing.Color.Red;
+            this.label157.Location = new System.Drawing.Point(184, 5);
+            this.label157.Name = "label157";
+            this.label157.Size = new System.Drawing.Size(83, 19);
+            this.label157.TabIndex = 3;
+            this.label157.Text = "1 kHz";
+            this.label157.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label158
+            // 
+            this.label158.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label158.AutoSize = true;
+            this.label158.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label158.ForeColor = System.Drawing.Color.Red;
+            this.label158.Location = new System.Drawing.Point(274, 5);
+            this.label158.Name = "label158";
+            this.label158.Size = new System.Drawing.Size(83, 19);
+            this.label158.TabIndex = 4;
+            this.label158.Text = "2 kHz";
+            this.label158.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label159
+            // 
+            this.label159.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label159.AutoSize = true;
+            this.label159.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label159.ForeColor = System.Drawing.Color.Red;
+            this.label159.Location = new System.Drawing.Point(364, 5);
+            this.label159.Name = "label159";
+            this.label159.Size = new System.Drawing.Size(83, 19);
+            this.label159.TabIndex = 5;
+            this.label159.Text = "4 kHz";
+            this.label159.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label160
+            // 
+            this.label160.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label160.AutoSize = true;
+            this.label160.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label160.ForeColor = System.Drawing.Color.Red;
+            this.label160.Location = new System.Drawing.Point(4, 5);
+            this.label160.Name = "label160";
+            this.label160.Size = new System.Drawing.Size(83, 18);
+            this.label160.TabIndex = 1;
+            this.label160.Text = "F. E.";
+            this.label160.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // tableLayoutPanel95
+            // 
+            this.tableLayoutPanel95.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
+            this.tableLayoutPanel95.ColumnCount = 5;
+            this.tableLayoutPanel95.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel95.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel95.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel95.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel95.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel95.Controls.Add(this.comboBox35, 2, 1);
+            this.tableLayoutPanel95.Controls.Add(this.label136, 3, 1);
+            this.tableLayoutPanel95.Controls.Add(this.label137, 2, 0);
+            this.tableLayoutPanel95.Controls.Add(this.label138, 1, 1);
+            this.tableLayoutPanel95.Controls.Add(this.label139, 4, 0);
+            this.tableLayoutPanel95.Controls.Add(this.label140, 0, 0);
+            this.tableLayoutPanel95.Controls.Add(this.comboBox36, 4, 1);
+            this.tableLayoutPanel95.Location = new System.Drawing.Point(4, 109);
+            this.tableLayoutPanel95.Name = "tableLayoutPanel95";
+            this.tableLayoutPanel95.RowCount = 2;
+            this.tableLayoutPanel95.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 34F));
+            this.tableLayoutPanel95.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33F));
+            this.tableLayoutPanel95.Size = new System.Drawing.Size(449, 57);
+            this.tableLayoutPanel95.TabIndex = 10;
+            // 
+            // label136
+            // 
+            this.label136.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label136.AutoSize = true;
+            this.label136.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label136.ForeColor = System.Drawing.Color.Blue;
+            this.label136.Location = new System.Drawing.Point(271, 34);
+            this.label136.Name = "label136";
+            this.label136.Size = new System.Drawing.Size(82, 16);
+            this.label136.TabIndex = 1;
+            this.label136.Text = "VA  (dBNA)";
+            this.label136.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label137
+            // 
+            this.label137.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label137.AutoSize = true;
+            this.label137.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label137.ForeColor = System.Drawing.Color.Blue;
+            this.label137.Location = new System.Drawing.Point(182, 7);
+            this.label137.Name = "label137";
+            this.label137.Size = new System.Drawing.Size(82, 14);
+            this.label137.TabIndex = 2;
+            this.label137.Text = "2 kHz - 4 kHz";
+            this.label137.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label138
+            // 
+            this.label138.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label138.AutoSize = true;
+            this.label138.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label138.ForeColor = System.Drawing.Color.Blue;
+            this.label138.Location = new System.Drawing.Point(93, 34);
+            this.label138.Name = "label138";
+            this.label138.Size = new System.Drawing.Size(82, 16);
+            this.label138.TabIndex = 0;
+            this.label138.Text = "VO (dBNA)";
+            this.label138.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label139
+            // 
+            this.label139.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label139.AutoSize = true;
+            this.label139.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label139.ForeColor = System.Drawing.Color.Blue;
+            this.label139.Location = new System.Drawing.Point(360, 7);
+            this.label139.Name = "label139";
+            this.label139.Size = new System.Drawing.Size(85, 14);
+            this.label139.TabIndex = 3;
+            this.label139.Text = "2 kHz - 4 kHz";
+            this.label139.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label140
+            // 
+            this.label140.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label140.AutoSize = true;
+            this.label140.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label140.ForeColor = System.Drawing.Color.Blue;
+            this.label140.Location = new System.Drawing.Point(4, 5);
+            this.label140.Name = "label140";
+            this.label140.Size = new System.Drawing.Size(82, 18);
+            this.label140.TabIndex = 4;
+            this.label140.Text = "Cliques";
+            this.label140.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // tableLayoutPanel96
+            // 
+            this.tableLayoutPanel96.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
+            this.tableLayoutPanel96.ColumnCount = 5;
+            this.tableLayoutPanel96.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel96.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel96.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel96.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel96.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel96.Controls.Add(this.comboBox19, 4, 2);
+            this.tableLayoutPanel96.Controls.Add(this.label141, 0, 2);
+            this.tableLayoutPanel96.Controls.Add(this.comboBox20, 3, 2);
+            this.tableLayoutPanel96.Controls.Add(this.label142, 0, 1);
+            this.tableLayoutPanel96.Controls.Add(this.comboBox21, 2, 2);
+            this.tableLayoutPanel96.Controls.Add(this.label143, 1, 0);
+            this.tableLayoutPanel96.Controls.Add(this.comboBox22, 1, 2);
+            this.tableLayoutPanel96.Controls.Add(this.label144, 2, 0);
+            this.tableLayoutPanel96.Controls.Add(this.comboBox23, 4, 1);
+            this.tableLayoutPanel96.Controls.Add(this.label145, 3, 0);
+            this.tableLayoutPanel96.Controls.Add(this.comboBox24, 3, 1);
+            this.tableLayoutPanel96.Controls.Add(this.label135, 4, 0);
+            this.tableLayoutPanel96.Controls.Add(this.comboBox25, 1, 1);
+            this.tableLayoutPanel96.Controls.Add(this.comboBox26, 2, 1);
+            this.tableLayoutPanel96.Controls.Add(this.label146, 0, 0);
+            this.tableLayoutPanel96.Location = new System.Drawing.Point(4, 169);
+            this.tableLayoutPanel96.Name = "tableLayoutPanel96";
+            this.tableLayoutPanel96.RowCount = 3;
+            this.tableLayoutPanel96.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 34F));
+            this.tableLayoutPanel96.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33F));
+            this.tableLayoutPanel96.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33F));
+            this.tableLayoutPanel96.Size = new System.Drawing.Size(449, 86);
+            this.tableLayoutPanel96.TabIndex = 9;
+            // 
+            // label141
+            // 
+            this.label141.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label141.AutoSize = true;
+            this.label141.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label141.ForeColor = System.Drawing.Color.Blue;
+            this.label141.Location = new System.Drawing.Point(4, 63);
+            this.label141.Name = "label141";
+            this.label141.Size = new System.Drawing.Size(82, 16);
+            this.label141.TabIndex = 6;
+            this.label141.Text = "VA (dBNA)";
+            this.label141.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label142
+            // 
+            this.label142.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label142.AutoSize = true;
+            this.label142.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label142.ForeColor = System.Drawing.Color.Blue;
+            this.label142.Location = new System.Drawing.Point(4, 34);
+            this.label142.Name = "label142";
+            this.label142.Size = new System.Drawing.Size(82, 16);
+            this.label142.TabIndex = 0;
+            this.label142.Text = "VO (dBNA)";
+            this.label142.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label143
+            // 
+            this.label143.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label143.AutoSize = true;
+            this.label143.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label143.ForeColor = System.Drawing.Color.Blue;
+            this.label143.Location = new System.Drawing.Point(93, 5);
+            this.label143.Name = "label143";
+            this.label143.Size = new System.Drawing.Size(82, 19);
+            this.label143.TabIndex = 2;
+            this.label143.Text = "500 Hz";
+            this.label143.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label144
+            // 
+            this.label144.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label144.AutoSize = true;
+            this.label144.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label144.ForeColor = System.Drawing.Color.Blue;
+            this.label144.Location = new System.Drawing.Point(182, 5);
+            this.label144.Name = "label144";
+            this.label144.Size = new System.Drawing.Size(82, 19);
+            this.label144.TabIndex = 3;
+            this.label144.Text = "1 kHz";
+            this.label144.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label145
+            // 
+            this.label145.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label145.AutoSize = true;
+            this.label145.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label145.ForeColor = System.Drawing.Color.Blue;
+            this.label145.Location = new System.Drawing.Point(271, 5);
+            this.label145.Name = "label145";
+            this.label145.Size = new System.Drawing.Size(82, 19);
+            this.label145.TabIndex = 4;
+            this.label145.Text = "2 kHz";
+            this.label145.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label135
+            // 
+            this.label135.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label135.AutoSize = true;
+            this.label135.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label135.ForeColor = System.Drawing.Color.Blue;
+            this.label135.Location = new System.Drawing.Point(360, 5);
+            this.label135.Name = "label135";
+            this.label135.Size = new System.Drawing.Size(85, 19);
+            this.label135.TabIndex = 5;
+            this.label135.Text = "4 kHz";
+            this.label135.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label146
+            // 
+            this.label146.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label146.AutoSize = true;
+            this.label146.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label146.ForeColor = System.Drawing.Color.Blue;
+            this.label146.Location = new System.Drawing.Point(4, 5);
+            this.label146.Name = "label146";
+            this.label146.Size = new System.Drawing.Size(82, 18);
+            this.label146.TabIndex = 1;
+            this.label146.Text = "F. E.";
+            this.label146.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label147
+            // 
+            this.label147.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label147.AutoSize = true;
+            this.label147.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label147.ForeColor = System.Drawing.Color.Blue;
+            this.label147.Location = new System.Drawing.Point(75, 87);
+            this.label147.Name = "label147";
+            this.label147.Size = new System.Drawing.Size(302, 18);
+            this.label147.TabIndex = 11;
+            this.label147.Text = "Limiares eletrofisiológicos PEATE (BERA)";
+            this.label147.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // tableLayoutPanel91
+            // 
+            this.tableLayoutPanel91.BackColor = System.Drawing.Color.Snow;
+            this.tableLayoutPanel91.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
+            this.tableLayoutPanel91.ColumnCount = 5;
+            this.tableLayoutPanel91.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel91.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel91.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel91.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel91.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel91.Controls.Add(this.comboBox11, 3, 2);
+            this.tableLayoutPanel91.Controls.Add(this.label77, 0, 1);
+            this.tableLayoutPanel91.Controls.Add(this.comboBox12, 2, 2);
+            this.tableLayoutPanel91.Controls.Add(this.label78, 0, 2);
+            this.tableLayoutPanel91.Controls.Add(this.comboBox13, 1, 2);
+            this.tableLayoutPanel91.Controls.Add(this.label79, 1, 0);
+            this.tableLayoutPanel91.Controls.Add(this.comboBox14, 4, 1);
+            this.tableLayoutPanel91.Controls.Add(this.label80, 2, 0);
+            this.tableLayoutPanel91.Controls.Add(this.comboBox15, 3, 1);
+            this.tableLayoutPanel91.Controls.Add(this.label81, 3, 0);
+            this.tableLayoutPanel91.Controls.Add(this.comboBox16, 2, 1);
+            this.tableLayoutPanel91.Controls.Add(this.label82, 4, 0);
+            this.tableLayoutPanel91.Controls.Add(this.comboBox17, 1, 1);
+            this.tableLayoutPanel91.Controls.Add(this.comboBox18, 4, 2);
+            this.tableLayoutPanel91.Location = new System.Drawing.Point(5, 282);
+            this.tableLayoutPanel91.Name = "tableLayoutPanel91";
+            this.tableLayoutPanel91.RowCount = 3;
+            this.tableLayoutPanel91.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 34F));
+            this.tableLayoutPanel91.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33F));
+            this.tableLayoutPanel91.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33F));
+            this.tableLayoutPanel91.Size = new System.Drawing.Size(451, 91);
+            this.tableLayoutPanel91.TabIndex = 9;
+            // 
+            // label77
+            // 
+            this.label77.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label77.AutoSize = true;
+            this.label77.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label77.ForeColor = System.Drawing.Color.Red;
+            this.label77.Location = new System.Drawing.Point(4, 37);
+            this.label77.Name = "label77";
+            this.label77.Size = new System.Drawing.Size(83, 16);
+            this.label77.TabIndex = 0;
+            this.label77.Text = "VO (dBNA)";
+            this.label77.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label78
+            // 
+            this.label78.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label78.AutoSize = true;
+            this.label78.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label78.ForeColor = System.Drawing.Color.Red;
+            this.label78.Location = new System.Drawing.Point(4, 67);
+            this.label78.Name = "label78";
+            this.label78.Size = new System.Drawing.Size(83, 16);
+            this.label78.TabIndex = 1;
+            this.label78.Text = "VA  (dBNA)";
+            this.label78.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label79
+            // 
+            this.label79.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label79.AutoSize = true;
+            this.label79.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label79.ForeColor = System.Drawing.Color.Red;
+            this.label79.Location = new System.Drawing.Point(94, 6);
+            this.label79.Name = "label79";
+            this.label79.Size = new System.Drawing.Size(83, 19);
+            this.label79.TabIndex = 2;
+            this.label79.Text = "500 Hz";
+            this.label79.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label80
+            // 
+            this.label80.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label80.AutoSize = true;
+            this.label80.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label80.ForeColor = System.Drawing.Color.Red;
+            this.label80.Location = new System.Drawing.Point(184, 6);
+            this.label80.Name = "label80";
+            this.label80.Size = new System.Drawing.Size(83, 19);
+            this.label80.TabIndex = 3;
+            this.label80.Text = "1 kHz";
+            this.label80.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label81
+            // 
+            this.label81.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label81.AutoSize = true;
+            this.label81.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label81.ForeColor = System.Drawing.Color.Red;
+            this.label81.Location = new System.Drawing.Point(274, 6);
+            this.label81.Name = "label81";
+            this.label81.Size = new System.Drawing.Size(83, 19);
+            this.label81.TabIndex = 4;
+            this.label81.Text = "2 kHz";
+            this.label81.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label82
+            // 
+            this.label82.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label82.AutoSize = true;
+            this.label82.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label82.ForeColor = System.Drawing.Color.Red;
+            this.label82.Location = new System.Drawing.Point(364, 6);
+            this.label82.Name = "label82";
+            this.label82.Size = new System.Drawing.Size(83, 19);
+            this.label82.TabIndex = 5;
+            this.label82.Text = "4 kHz";
+            this.label82.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label122
+            // 
+            this.label122.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label122.AutoSize = true;
+            this.label122.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label122.ForeColor = System.Drawing.Color.Red;
+            this.label122.Location = new System.Drawing.Point(106, 262);
+            this.label122.Name = "label122";
+            this.label122.Size = new System.Drawing.Size(248, 18);
+            this.label122.TabIndex = 9;
+            this.label122.Text = "Limiares eletrofisiológicos PEAEE";
+            this.label122.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // tableLayoutPanel92
+            // 
+            this.tableLayoutPanel92.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
+            this.tableLayoutPanel92.ColumnCount = 5;
+            this.tableLayoutPanel92.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel92.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel92.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel92.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel92.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel92.Controls.Add(this.comboBox27, 3, 2);
+            this.tableLayoutPanel92.Controls.Add(this.label92, 0, 1);
+            this.tableLayoutPanel92.Controls.Add(this.comboBox28, 2, 2);
+            this.tableLayoutPanel92.Controls.Add(this.label93, 0, 2);
+            this.tableLayoutPanel92.Controls.Add(this.comboBox29, 1, 2);
+            this.tableLayoutPanel92.Controls.Add(this.label94, 1, 0);
+            this.tableLayoutPanel92.Controls.Add(this.comboBox30, 4, 1);
+            this.tableLayoutPanel92.Controls.Add(this.label95, 2, 0);
+            this.tableLayoutPanel92.Controls.Add(this.comboBox31, 3, 1);
+            this.tableLayoutPanel92.Controls.Add(this.label96, 3, 0);
+            this.tableLayoutPanel92.Controls.Add(this.comboBox32, 2, 1);
+            this.tableLayoutPanel92.Controls.Add(this.label97, 4, 0);
+            this.tableLayoutPanel92.Controls.Add(this.comboBox33, 1, 1);
+            this.tableLayoutPanel92.Controls.Add(this.comboBox34, 4, 2);
+            this.tableLayoutPanel92.Location = new System.Drawing.Point(4, 283);
+            this.tableLayoutPanel92.Name = "tableLayoutPanel92";
+            this.tableLayoutPanel92.RowCount = 3;
+            this.tableLayoutPanel92.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 34F));
+            this.tableLayoutPanel92.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33F));
+            this.tableLayoutPanel92.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33F));
+            this.tableLayoutPanel92.Size = new System.Drawing.Size(449, 91);
+            this.tableLayoutPanel92.TabIndex = 12;
+            // 
+            // label92
+            // 
+            this.label92.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label92.AutoSize = true;
+            this.label92.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label92.ForeColor = System.Drawing.Color.Blue;
+            this.label92.Location = new System.Drawing.Point(4, 37);
+            this.label92.Name = "label92";
+            this.label92.Size = new System.Drawing.Size(82, 16);
+            this.label92.TabIndex = 0;
+            this.label92.Text = "VO (dBNA)";
+            this.label92.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label93
+            // 
+            this.label93.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label93.AutoSize = true;
+            this.label93.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label93.ForeColor = System.Drawing.Color.Blue;
+            this.label93.Location = new System.Drawing.Point(4, 67);
+            this.label93.Name = "label93";
+            this.label93.Size = new System.Drawing.Size(82, 16);
+            this.label93.TabIndex = 1;
+            this.label93.Text = "VA  (dBNA)";
+            this.label93.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label94
+            // 
+            this.label94.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label94.AutoSize = true;
+            this.label94.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label94.ForeColor = System.Drawing.Color.Blue;
+            this.label94.Location = new System.Drawing.Point(93, 6);
+            this.label94.Name = "label94";
+            this.label94.Size = new System.Drawing.Size(82, 19);
+            this.label94.TabIndex = 2;
+            this.label94.Text = "500 Hz";
+            this.label94.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label95
+            // 
+            this.label95.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label95.AutoSize = true;
+            this.label95.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label95.ForeColor = System.Drawing.Color.Blue;
+            this.label95.Location = new System.Drawing.Point(182, 6);
+            this.label95.Name = "label95";
+            this.label95.Size = new System.Drawing.Size(82, 19);
+            this.label95.TabIndex = 3;
+            this.label95.Text = "1 kHz";
+            this.label95.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label96
+            // 
+            this.label96.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label96.AutoSize = true;
+            this.label96.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label96.ForeColor = System.Drawing.Color.Blue;
+            this.label96.Location = new System.Drawing.Point(271, 6);
+            this.label96.Name = "label96";
+            this.label96.Size = new System.Drawing.Size(82, 19);
+            this.label96.TabIndex = 4;
+            this.label96.Text = "2 kHz";
+            this.label96.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label97
+            // 
+            this.label97.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label97.AutoSize = true;
+            this.label97.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label97.ForeColor = System.Drawing.Color.Blue;
+            this.label97.Location = new System.Drawing.Point(360, 6);
+            this.label97.Name = "label97";
+            this.label97.Size = new System.Drawing.Size(85, 19);
+            this.label97.TabIndex = 5;
+            this.label97.Text = "4 kHz";
+            this.label97.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label123
+            // 
+            this.label123.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label123.AutoSize = true;
+            this.label123.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label123.ForeColor = System.Drawing.Color.Blue;
+            this.label123.Location = new System.Drawing.Point(101, 262);
+            this.label123.Name = "label123";
+            this.label123.Size = new System.Drawing.Size(248, 18);
+            this.label123.TabIndex = 13;
+            this.label123.Text = "Limiares eletrofisiológicos PEAEE";
+            this.label123.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label124
+            // 
+            this.label124.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label124.AutoSize = true;
+            this.label124.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label124.ForeColor = System.Drawing.Color.Red;
+            this.label124.Location = new System.Drawing.Point(78, 5);
+            this.label124.Name = "label124";
+            this.label124.Size = new System.Drawing.Size(303, 18);
+            this.label124.TabIndex = 11;
+            this.label124.Text = "Limiares de Emissões Otoacústicas (EOA)";
+            this.label124.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // tableLayoutPanel93
+            // 
+            this.tableLayoutPanel93.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
+            this.tableLayoutPanel93.ColumnCount = 3;
+            this.tableLayoutPanel93.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel93.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel93.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel93.Controls.Add(this.checkBox2, 2, 0);
+            this.tableLayoutPanel93.Controls.Add(this.label130, 0, 1);
+            this.tableLayoutPanel93.Controls.Add(this.label129, 0, 0);
+            this.tableLayoutPanel93.Controls.Add(this.checkBox1, 1, 0);
+            this.tableLayoutPanel93.Controls.Add(this.checkBox3, 1, 1);
+            this.tableLayoutPanel93.Controls.Add(this.checkBox4, 2, 1);
+            this.tableLayoutPanel93.Location = new System.Drawing.Point(3, 27);
+            this.tableLayoutPanel93.Name = "tableLayoutPanel93";
+            this.tableLayoutPanel93.RowCount = 2;
+            this.tableLayoutPanel93.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 34F));
+            this.tableLayoutPanel93.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33F));
+            this.tableLayoutPanel93.Size = new System.Drawing.Size(451, 57);
+            this.tableLayoutPanel93.TabIndex = 10;
+            // 
+            // label129
+            // 
+            this.label129.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label129.AutoSize = true;
+            this.label129.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label129.ForeColor = System.Drawing.Color.Red;
+            this.label129.Location = new System.Drawing.Point(4, 5);
+            this.label129.Name = "label129";
+            this.label129.Size = new System.Drawing.Size(143, 18);
+            this.label129.TabIndex = 4;
+            this.label129.Text = "T";
+            this.label129.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label130
+            // 
+            this.label130.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label130.AutoSize = true;
+            this.label130.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label130.ForeColor = System.Drawing.Color.Red;
+            this.label130.Location = new System.Drawing.Point(4, 33);
+            this.label130.Name = "label130";
+            this.label130.Size = new System.Drawing.Size(143, 18);
+            this.label130.TabIndex = 5;
+            this.label130.Text = "P. D.";
+            this.label130.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.checkBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox1.ForeColor = System.Drawing.Color.Red;
+            this.checkBox1.Location = new System.Drawing.Point(154, 4);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(143, 20);
+            this.checkBox1.TabIndex = 6;
+            this.checkBox1.Text = "presente";
+            this.checkBox1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
+            // checkBox2
+            // 
+            this.checkBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.checkBox2.AutoSize = true;
+            this.checkBox2.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.checkBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox2.ForeColor = System.Drawing.Color.Red;
+            this.checkBox2.Location = new System.Drawing.Point(304, 4);
+            this.checkBox2.Name = "checkBox2";
+            this.checkBox2.Size = new System.Drawing.Size(143, 20);
+            this.checkBox2.TabIndex = 7;
+            this.checkBox2.Text = "ausente";
+            this.checkBox2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.checkBox2.UseVisualStyleBackColor = true;
+            // 
+            // checkBox3
+            // 
+            this.checkBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.checkBox3.AutoSize = true;
+            this.checkBox3.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.checkBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox3.ForeColor = System.Drawing.Color.Red;
+            this.checkBox3.Location = new System.Drawing.Point(154, 32);
+            this.checkBox3.Name = "checkBox3";
+            this.checkBox3.Size = new System.Drawing.Size(143, 20);
+            this.checkBox3.TabIndex = 8;
+            this.checkBox3.Text = "presente";
+            this.checkBox3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.checkBox3.UseVisualStyleBackColor = true;
+            // 
+            // checkBox4
+            // 
+            this.checkBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.checkBox4.AutoSize = true;
+            this.checkBox4.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.checkBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox4.ForeColor = System.Drawing.Color.Red;
+            this.checkBox4.Location = new System.Drawing.Point(304, 32);
+            this.checkBox4.Name = "checkBox4";
+            this.checkBox4.Size = new System.Drawing.Size(143, 20);
+            this.checkBox4.TabIndex = 9;
+            this.checkBox4.Text = "ausente";
+            this.checkBox4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.checkBox4.UseVisualStyleBackColor = true;
+            // 
+            // label125
+            // 
+            this.label125.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label125.AutoSize = true;
+            this.label125.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label125.ForeColor = System.Drawing.Color.Blue;
+            this.label125.Location = new System.Drawing.Point(79, 5);
+            this.label125.Name = "label125";
+            this.label125.Size = new System.Drawing.Size(303, 18);
+            this.label125.TabIndex = 15;
+            this.label125.Text = "Limiares de Emissões Otoacústicas (EOA)";
+            this.label125.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // tableLayoutPanel94
+            // 
+            this.tableLayoutPanel94.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
+            this.tableLayoutPanel94.ColumnCount = 3;
+            this.tableLayoutPanel94.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel94.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel94.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel94.Controls.Add(this.checkBox5, 2, 0);
+            this.tableLayoutPanel94.Controls.Add(this.label126, 0, 1);
+            this.tableLayoutPanel94.Controls.Add(this.label127, 0, 0);
+            this.tableLayoutPanel94.Controls.Add(this.checkBox6, 1, 0);
+            this.tableLayoutPanel94.Controls.Add(this.checkBox7, 1, 1);
+            this.tableLayoutPanel94.Controls.Add(this.checkBox8, 2, 1);
+            this.tableLayoutPanel94.ForeColor = System.Drawing.Color.Blue;
+            this.tableLayoutPanel94.Location = new System.Drawing.Point(4, 27);
+            this.tableLayoutPanel94.Name = "tableLayoutPanel94";
+            this.tableLayoutPanel94.RowCount = 2;
+            this.tableLayoutPanel94.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 34F));
+            this.tableLayoutPanel94.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33F));
+            this.tableLayoutPanel94.Size = new System.Drawing.Size(451, 57);
+            this.tableLayoutPanel94.TabIndex = 14;
+            // 
+            // checkBox5
+            // 
+            this.checkBox5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.checkBox5.AutoSize = true;
+            this.checkBox5.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.checkBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox5.ForeColor = System.Drawing.Color.Blue;
+            this.checkBox5.Location = new System.Drawing.Point(304, 4);
+            this.checkBox5.Name = "checkBox5";
+            this.checkBox5.Size = new System.Drawing.Size(143, 20);
+            this.checkBox5.TabIndex = 7;
+            this.checkBox5.Text = "ausente";
+            this.checkBox5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.checkBox5.UseVisualStyleBackColor = true;
+            // 
+            // label126
+            // 
+            this.label126.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label126.AutoSize = true;
+            this.label126.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label126.ForeColor = System.Drawing.Color.Blue;
+            this.label126.Location = new System.Drawing.Point(4, 33);
+            this.label126.Name = "label126";
+            this.label126.Size = new System.Drawing.Size(143, 18);
+            this.label126.TabIndex = 5;
+            this.label126.Text = "P. D.";
+            this.label126.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label127
+            // 
+            this.label127.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label127.AutoSize = true;
+            this.label127.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label127.ForeColor = System.Drawing.Color.Blue;
+            this.label127.Location = new System.Drawing.Point(4, 5);
+            this.label127.Name = "label127";
+            this.label127.Size = new System.Drawing.Size(143, 18);
+            this.label127.TabIndex = 4;
+            this.label127.Text = "T";
+            this.label127.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // checkBox6
+            // 
+            this.checkBox6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.checkBox6.AutoSize = true;
+            this.checkBox6.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.checkBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox6.ForeColor = System.Drawing.Color.Blue;
+            this.checkBox6.Location = new System.Drawing.Point(154, 4);
+            this.checkBox6.Name = "checkBox6";
+            this.checkBox6.Size = new System.Drawing.Size(143, 20);
+            this.checkBox6.TabIndex = 6;
+            this.checkBox6.Text = "presente";
+            this.checkBox6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.checkBox6.UseVisualStyleBackColor = true;
+            // 
+            // checkBox7
+            // 
+            this.checkBox7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.checkBox7.AutoSize = true;
+            this.checkBox7.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.checkBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox7.ForeColor = System.Drawing.Color.Blue;
+            this.checkBox7.Location = new System.Drawing.Point(154, 32);
+            this.checkBox7.Name = "checkBox7";
+            this.checkBox7.Size = new System.Drawing.Size(143, 20);
+            this.checkBox7.TabIndex = 8;
+            this.checkBox7.Text = "presente";
+            this.checkBox7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.checkBox7.UseVisualStyleBackColor = true;
+            // 
+            // checkBox8
+            // 
+            this.checkBox8.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.checkBox8.AutoSize = true;
+            this.checkBox8.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.checkBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox8.ForeColor = System.Drawing.Color.Blue;
+            this.checkBox8.Location = new System.Drawing.Point(304, 32);
+            this.checkBox8.Name = "checkBox8";
+            this.checkBox8.Size = new System.Drawing.Size(143, 20);
+            this.checkBox8.TabIndex = 9;
+            this.checkBox8.Text = "ausente";
+            this.checkBox8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.checkBox8.UseVisualStyleBackColor = true;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox1.ForeColor = System.Drawing.Color.Red;
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "",
+            "-10",
+            "-5",
+            "0",
+            "5",
+            "10",
+            "15",
+            "20",
+            "25",
+            "30",
+            "35",
+            "40",
+            "45",
+            "50",
+            "55",
+            "60",
+            "65",
+            "70",
+            "75"});
+            this.comboBox1.Location = new System.Drawing.Point(184, 32);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(83, 21);
+            this.comboBox1.TabIndex = 5;
+            // 
+            // comboBox2
+            // 
+            this.comboBox2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.comboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox2.ForeColor = System.Drawing.Color.Red;
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Items.AddRange(new object[] {
+            "",
+            "-10",
+            "-5",
+            "0",
+            "5",
+            "10",
+            "15",
+            "20",
+            "25",
+            "30",
+            "35",
+            "40",
+            "45",
+            "50",
+            "55",
+            "60",
+            "65",
+            "70",
+            "75",
+            "80",
+            "85",
+            "90",
+            "95",
+            "100",
+            "105",
+            "110",
+            "115",
+            "120"});
+            this.comboBox2.Location = new System.Drawing.Point(364, 32);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(83, 21);
+            this.comboBox2.TabIndex = 6;
+            // 
+            // comboBox3
+            // 
+            this.comboBox3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.comboBox3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox3.ForeColor = System.Drawing.Color.Red;
+            this.comboBox3.FormattingEnabled = true;
+            this.comboBox3.Items.AddRange(new object[] {
+            "",
+            "-10",
+            "-5",
+            "0",
+            "5",
+            "10",
+            "15",
+            "20",
+            "25",
+            "30",
+            "35",
+            "40",
+            "45",
+            "50",
+            "55",
+            "60",
+            "65",
+            "70",
+            "75"});
+            this.comboBox3.Location = new System.Drawing.Point(94, 32);
+            this.comboBox3.Name = "comboBox3";
+            this.comboBox3.Size = new System.Drawing.Size(83, 21);
+            this.comboBox3.TabIndex = 7;
+            // 
+            // comboBox4
+            // 
+            this.comboBox4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.comboBox4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox4.ForeColor = System.Drawing.Color.Red;
+            this.comboBox4.FormattingEnabled = true;
+            this.comboBox4.Items.AddRange(new object[] {
+            "",
+            "-10",
+            "-5",
+            "0",
+            "5",
+            "10",
+            "15",
+            "20",
+            "25",
+            "30",
+            "35",
+            "40",
+            "45",
+            "50",
+            "55",
+            "60",
+            "65",
+            "70",
+            "75"});
+            this.comboBox4.Location = new System.Drawing.Point(184, 32);
+            this.comboBox4.Name = "comboBox4";
+            this.comboBox4.Size = new System.Drawing.Size(83, 21);
+            this.comboBox4.TabIndex = 8;
+            // 
+            // comboBox5
+            // 
+            this.comboBox5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.comboBox5.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox5.ForeColor = System.Drawing.Color.Red;
+            this.comboBox5.FormattingEnabled = true;
+            this.comboBox5.Items.AddRange(new object[] {
+            "",
+            "-10",
+            "-5",
+            "0",
+            "5",
+            "10",
+            "15",
+            "20",
+            "25",
+            "30",
+            "35",
+            "40",
+            "45",
+            "50",
+            "55",
+            "60",
+            "65",
+            "70",
+            "75",
+            "80",
+            "85",
+            "90",
+            "95",
+            "100",
+            "105",
+            "110",
+            "115",
+            "120"});
+            this.comboBox5.Location = new System.Drawing.Point(94, 60);
+            this.comboBox5.Name = "comboBox5";
+            this.comboBox5.Size = new System.Drawing.Size(83, 21);
+            this.comboBox5.TabIndex = 12;
+            // 
+            // comboBox6
+            // 
+            this.comboBox6.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.comboBox6.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox6.ForeColor = System.Drawing.Color.Red;
+            this.comboBox6.FormattingEnabled = true;
+            this.comboBox6.Items.AddRange(new object[] {
+            "",
+            "-10",
+            "-5",
+            "0",
+            "5",
+            "10",
+            "15",
+            "20",
+            "25",
+            "30",
+            "35",
+            "40",
+            "45",
+            "50",
+            "55",
+            "60",
+            "65",
+            "70",
+            "75",
+            "80",
+            "85",
+            "90",
+            "95",
+            "100",
+            "105",
+            "110",
+            "115",
+            "120"});
+            this.comboBox6.Location = new System.Drawing.Point(184, 60);
+            this.comboBox6.Name = "comboBox6";
+            this.comboBox6.Size = new System.Drawing.Size(83, 21);
+            this.comboBox6.TabIndex = 12;
+            // 
+            // comboBox7
+            // 
+            this.comboBox7.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.comboBox7.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox7.ForeColor = System.Drawing.Color.Red;
+            this.comboBox7.FormattingEnabled = true;
+            this.comboBox7.Items.AddRange(new object[] {
+            "",
+            "-10",
+            "-5",
+            "0",
+            "5",
+            "10",
+            "15",
+            "20",
+            "25",
+            "30",
+            "35",
+            "40",
+            "45",
+            "50",
+            "55",
+            "60",
+            "65",
+            "70",
+            "75"});
+            this.comboBox7.Location = new System.Drawing.Point(274, 32);
+            this.comboBox7.Name = "comboBox7";
+            this.comboBox7.Size = new System.Drawing.Size(83, 21);
+            this.comboBox7.TabIndex = 12;
+            // 
+            // comboBox8
+            // 
+            this.comboBox8.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.comboBox8.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox8.ForeColor = System.Drawing.Color.Red;
+            this.comboBox8.FormattingEnabled = true;
+            this.comboBox8.Items.AddRange(new object[] {
+            "",
+            "-10",
+            "-5",
+            "0",
+            "5",
+            "10",
+            "15",
+            "20",
+            "25",
+            "30",
+            "35",
+            "40",
+            "45",
+            "50",
+            "55",
+            "60",
+            "65",
+            "70",
+            "75",
+            "80",
+            "85",
+            "90",
+            "95",
+            "100",
+            "105",
+            "110",
+            "115",
+            "120"});
+            this.comboBox8.Location = new System.Drawing.Point(274, 60);
+            this.comboBox8.Name = "comboBox8";
+            this.comboBox8.Size = new System.Drawing.Size(83, 21);
+            this.comboBox8.TabIndex = 12;
+            // 
+            // comboBox9
+            // 
+            this.comboBox9.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.comboBox9.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox9.ForeColor = System.Drawing.Color.Red;
+            this.comboBox9.FormattingEnabled = true;
+            this.comboBox9.Items.AddRange(new object[] {
+            "",
+            "-10",
+            "-5",
+            "0",
+            "5",
+            "10",
+            "15",
+            "20",
+            "25",
+            "30",
+            "35",
+            "40",
+            "45",
+            "50",
+            "55",
+            "60",
+            "65",
+            "70",
+            "75"});
+            this.comboBox9.Location = new System.Drawing.Point(364, 32);
+            this.comboBox9.Name = "comboBox9";
+            this.comboBox9.Size = new System.Drawing.Size(83, 21);
+            this.comboBox9.TabIndex = 12;
+            // 
+            // comboBox10
+            // 
+            this.comboBox10.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.comboBox10.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox10.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox10.ForeColor = System.Drawing.Color.Red;
+            this.comboBox10.FormattingEnabled = true;
+            this.comboBox10.Items.AddRange(new object[] {
+            "",
+            "-10",
+            "-5",
+            "0",
+            "5",
+            "10",
+            "15",
+            "20",
+            "25",
+            "30",
+            "35",
+            "40",
+            "45",
+            "50",
+            "55",
+            "60",
+            "65",
+            "70",
+            "75",
+            "80",
+            "85",
+            "90",
+            "95",
+            "100",
+            "105",
+            "110",
+            "115",
+            "120"});
+            this.comboBox10.Location = new System.Drawing.Point(364, 60);
+            this.comboBox10.Name = "comboBox10";
+            this.comboBox10.Size = new System.Drawing.Size(83, 21);
+            this.comboBox10.TabIndex = 12;
+            // 
+            // comboBox11
+            // 
+            this.comboBox11.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.comboBox11.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox11.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox11.ForeColor = System.Drawing.Color.Red;
+            this.comboBox11.FormattingEnabled = true;
+            this.comboBox11.Items.AddRange(new object[] {
+            "",
+            "-10",
+            "-5",
+            "0",
+            "5",
+            "10",
+            "15",
+            "20",
+            "25",
+            "30",
+            "35",
+            "40",
+            "45",
+            "50",
+            "55",
+            "60",
+            "65",
+            "70",
+            "75",
+            "80",
+            "85",
+            "90",
+            "95",
+            "100",
+            "105",
+            "110",
+            "115",
+            "120"});
+            this.comboBox11.Location = new System.Drawing.Point(274, 63);
+            this.comboBox11.Name = "comboBox11";
+            this.comboBox11.Size = new System.Drawing.Size(83, 21);
+            this.comboBox11.TabIndex = 15;
+            // 
+            // comboBox12
+            // 
+            this.comboBox12.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.comboBox12.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox12.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox12.ForeColor = System.Drawing.Color.Red;
+            this.comboBox12.FormattingEnabled = true;
+            this.comboBox12.Items.AddRange(new object[] {
+            "",
+            "-10",
+            "-5",
+            "0",
+            "5",
+            "10",
+            "15",
+            "20",
+            "25",
+            "30",
+            "35",
+            "40",
+            "45",
+            "50",
+            "55",
+            "60",
+            "65",
+            "70",
+            "75",
+            "80",
+            "85",
+            "90",
+            "95",
+            "100",
+            "105",
+            "110",
+            "115",
+            "120"});
+            this.comboBox12.Location = new System.Drawing.Point(184, 63);
+            this.comboBox12.Name = "comboBox12";
+            this.comboBox12.Size = new System.Drawing.Size(83, 21);
+            this.comboBox12.TabIndex = 16;
+            // 
+            // comboBox13
+            // 
+            this.comboBox13.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.comboBox13.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox13.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox13.ForeColor = System.Drawing.Color.Red;
+            this.comboBox13.FormattingEnabled = true;
+            this.comboBox13.Items.AddRange(new object[] {
+            "",
+            "-10",
+            "-5",
+            "0",
+            "5",
+            "10",
+            "15",
+            "20",
+            "25",
+            "30",
+            "35",
+            "40",
+            "45",
+            "50",
+            "55",
+            "60",
+            "65",
+            "70",
+            "75",
+            "80",
+            "85",
+            "90",
+            "95",
+            "100",
+            "105",
+            "110",
+            "115",
+            "120"});
+            this.comboBox13.Location = new System.Drawing.Point(94, 63);
+            this.comboBox13.Name = "comboBox13";
+            this.comboBox13.Size = new System.Drawing.Size(83, 21);
+            this.comboBox13.TabIndex = 17;
+            // 
+            // comboBox14
+            // 
+            this.comboBox14.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.comboBox14.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox14.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox14.ForeColor = System.Drawing.Color.Red;
+            this.comboBox14.FormattingEnabled = true;
+            this.comboBox14.Items.AddRange(new object[] {
+            "",
+            "-10",
+            "-5",
+            "0",
+            "5",
+            "10",
+            "15",
+            "20",
+            "25",
+            "30",
+            "35",
+            "40",
+            "45",
+            "50",
+            "55",
+            "60",
+            "65",
+            "70",
+            "75"});
+            this.comboBox14.Location = new System.Drawing.Point(364, 34);
+            this.comboBox14.Name = "comboBox14";
+            this.comboBox14.Size = new System.Drawing.Size(83, 21);
+            this.comboBox14.TabIndex = 18;
+            // 
+            // comboBox15
+            // 
+            this.comboBox15.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.comboBox15.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox15.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox15.ForeColor = System.Drawing.Color.Red;
+            this.comboBox15.FormattingEnabled = true;
+            this.comboBox15.Items.AddRange(new object[] {
+            "",
+            "-10",
+            "-5",
+            "0",
+            "5",
+            "10",
+            "15",
+            "20",
+            "25",
+            "30",
+            "35",
+            "40",
+            "45",
+            "50",
+            "55",
+            "60",
+            "65",
+            "70",
+            "75"});
+            this.comboBox15.Location = new System.Drawing.Point(274, 34);
+            this.comboBox15.Name = "comboBox15";
+            this.comboBox15.Size = new System.Drawing.Size(83, 21);
+            this.comboBox15.TabIndex = 19;
+            // 
+            // comboBox16
+            // 
+            this.comboBox16.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.comboBox16.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox16.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox16.ForeColor = System.Drawing.Color.Red;
+            this.comboBox16.FormattingEnabled = true;
+            this.comboBox16.Items.AddRange(new object[] {
+            "",
+            "-10",
+            "-5",
+            "0",
+            "5",
+            "10",
+            "15",
+            "20",
+            "25",
+            "30",
+            "35",
+            "40",
+            "45",
+            "50",
+            "55",
+            "60",
+            "65",
+            "70",
+            "75"});
+            this.comboBox16.Location = new System.Drawing.Point(184, 34);
+            this.comboBox16.Name = "comboBox16";
+            this.comboBox16.Size = new System.Drawing.Size(83, 21);
+            this.comboBox16.TabIndex = 20;
+            // 
+            // comboBox17
+            // 
+            this.comboBox17.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.comboBox17.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox17.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox17.ForeColor = System.Drawing.Color.Red;
+            this.comboBox17.FormattingEnabled = true;
+            this.comboBox17.Items.AddRange(new object[] {
+            "",
+            "-10",
+            "-5",
+            "0",
+            "5",
+            "10",
+            "15",
+            "20",
+            "25",
+            "30",
+            "35",
+            "40",
+            "45",
+            "50",
+            "55",
+            "60",
+            "65",
+            "70",
+            "75"});
+            this.comboBox17.Location = new System.Drawing.Point(94, 34);
+            this.comboBox17.Name = "comboBox17";
+            this.comboBox17.Size = new System.Drawing.Size(83, 21);
+            this.comboBox17.TabIndex = 13;
+            // 
+            // comboBox18
+            // 
+            this.comboBox18.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.comboBox18.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox18.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox18.ForeColor = System.Drawing.Color.Red;
+            this.comboBox18.FormattingEnabled = true;
+            this.comboBox18.Items.AddRange(new object[] {
+            "",
+            "-10",
+            "-5",
+            "0",
+            "5",
+            "10",
+            "15",
+            "20",
+            "25",
+            "30",
+            "35",
+            "40",
+            "45",
+            "50",
+            "55",
+            "60",
+            "65",
+            "70",
+            "75",
+            "80",
+            "85",
+            "90",
+            "95",
+            "100",
+            "105",
+            "110",
+            "115",
+            "120"});
+            this.comboBox18.Location = new System.Drawing.Point(364, 63);
+            this.comboBox18.Name = "comboBox18";
+            this.comboBox18.Size = new System.Drawing.Size(83, 21);
+            this.comboBox18.TabIndex = 14;
+            // 
+            // comboBox19
+            // 
+            this.comboBox19.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.comboBox19.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox19.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox19.ForeColor = System.Drawing.Color.Blue;
+            this.comboBox19.FormattingEnabled = true;
+            this.comboBox19.Items.AddRange(new object[] {
+            "",
+            "-10",
+            "-5",
+            "0",
+            "5",
+            "10",
+            "15",
+            "20",
+            "25",
+            "30",
+            "35",
+            "40",
+            "45",
+            "50",
+            "55",
+            "60",
+            "65",
+            "70",
+            "75",
+            "80",
+            "85",
+            "90",
+            "95",
+            "100",
+            "105",
+            "110",
+            "115",
+            "120"});
+            this.comboBox19.Location = new System.Drawing.Point(360, 60);
+            this.comboBox19.Name = "comboBox19";
+            this.comboBox19.Size = new System.Drawing.Size(85, 21);
+            this.comboBox19.TabIndex = 18;
+            // 
+            // comboBox20
+            // 
+            this.comboBox20.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.comboBox20.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox20.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox20.ForeColor = System.Drawing.Color.Blue;
+            this.comboBox20.FormattingEnabled = true;
+            this.comboBox20.Items.AddRange(new object[] {
+            "",
+            "-10",
+            "-5",
+            "0",
+            "5",
+            "10",
+            "15",
+            "20",
+            "25",
+            "30",
+            "35",
+            "40",
+            "45",
+            "50",
+            "55",
+            "60",
+            "65",
+            "70",
+            "75",
+            "80",
+            "85",
+            "90",
+            "95",
+            "100",
+            "105",
+            "110",
+            "115",
+            "120"});
+            this.comboBox20.Location = new System.Drawing.Point(271, 60);
+            this.comboBox20.Name = "comboBox20";
+            this.comboBox20.Size = new System.Drawing.Size(82, 21);
+            this.comboBox20.TabIndex = 19;
+            // 
+            // comboBox21
+            // 
+            this.comboBox21.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.comboBox21.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox21.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox21.ForeColor = System.Drawing.Color.Blue;
+            this.comboBox21.FormattingEnabled = true;
+            this.comboBox21.Items.AddRange(new object[] {
+            "",
+            "-10",
+            "-5",
+            "0",
+            "5",
+            "10",
+            "15",
+            "20",
+            "25",
+            "30",
+            "35",
+            "40",
+            "45",
+            "50",
+            "55",
+            "60",
+            "65",
+            "70",
+            "75",
+            "80",
+            "85",
+            "90",
+            "95",
+            "100",
+            "105",
+            "110",
+            "115",
+            "120"});
+            this.comboBox21.Location = new System.Drawing.Point(182, 60);
+            this.comboBox21.Name = "comboBox21";
+            this.comboBox21.Size = new System.Drawing.Size(82, 21);
+            this.comboBox21.TabIndex = 20;
+            // 
+            // comboBox22
+            // 
+            this.comboBox22.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.comboBox22.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox22.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox22.ForeColor = System.Drawing.Color.Blue;
+            this.comboBox22.FormattingEnabled = true;
+            this.comboBox22.Items.AddRange(new object[] {
+            "",
+            "-10",
+            "-5",
+            "0",
+            "5",
+            "10",
+            "15",
+            "20",
+            "25",
+            "30",
+            "35",
+            "40",
+            "45",
+            "50",
+            "55",
+            "60",
+            "65",
+            "70",
+            "75",
+            "80",
+            "85",
+            "90",
+            "95",
+            "100",
+            "105",
+            "110",
+            "115",
+            "120"});
+            this.comboBox22.Location = new System.Drawing.Point(93, 60);
+            this.comboBox22.Name = "comboBox22";
+            this.comboBox22.Size = new System.Drawing.Size(82, 21);
+            this.comboBox22.TabIndex = 21;
+            // 
+            // comboBox23
+            // 
+            this.comboBox23.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.comboBox23.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox23.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox23.ForeColor = System.Drawing.Color.Blue;
+            this.comboBox23.FormattingEnabled = true;
+            this.comboBox23.Items.AddRange(new object[] {
+            "",
+            "-10",
+            "-5",
+            "0",
+            "5",
+            "10",
+            "15",
+            "20",
+            "25",
+            "30",
+            "35",
+            "40",
+            "45",
+            "50",
+            "55",
+            "60",
+            "65",
+            "70",
+            "75"});
+            this.comboBox23.Location = new System.Drawing.Point(360, 32);
+            this.comboBox23.Name = "comboBox23";
+            this.comboBox23.Size = new System.Drawing.Size(85, 21);
+            this.comboBox23.TabIndex = 22;
+            // 
+            // comboBox24
+            // 
+            this.comboBox24.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.comboBox24.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox24.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox24.ForeColor = System.Drawing.Color.Blue;
+            this.comboBox24.FormattingEnabled = true;
+            this.comboBox24.Items.AddRange(new object[] {
+            "",
+            "-10",
+            "-5",
+            "0",
+            "5",
+            "10",
+            "15",
+            "20",
+            "25",
+            "30",
+            "35",
+            "40",
+            "45",
+            "50",
+            "55",
+            "60",
+            "65",
+            "70",
+            "75"});
+            this.comboBox24.Location = new System.Drawing.Point(271, 32);
+            this.comboBox24.Name = "comboBox24";
+            this.comboBox24.Size = new System.Drawing.Size(82, 21);
+            this.comboBox24.TabIndex = 23;
+            // 
+            // comboBox25
+            // 
+            this.comboBox25.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.comboBox25.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox25.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox25.ForeColor = System.Drawing.Color.Blue;
+            this.comboBox25.FormattingEnabled = true;
+            this.comboBox25.Items.AddRange(new object[] {
+            "",
+            "-10",
+            "-5",
+            "0",
+            "5",
+            "10",
+            "15",
+            "20",
+            "25",
+            "30",
+            "35",
+            "40",
+            "45",
+            "50",
+            "55",
+            "60",
+            "65",
+            "70",
+            "75"});
+            this.comboBox25.Location = new System.Drawing.Point(93, 32);
+            this.comboBox25.Name = "comboBox25";
+            this.comboBox25.Size = new System.Drawing.Size(82, 21);
+            this.comboBox25.TabIndex = 16;
+            // 
+            // comboBox26
+            // 
+            this.comboBox26.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.comboBox26.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox26.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox26.ForeColor = System.Drawing.Color.Blue;
+            this.comboBox26.FormattingEnabled = true;
+            this.comboBox26.Items.AddRange(new object[] {
+            "",
+            "-10",
+            "-5",
+            "0",
+            "5",
+            "10",
+            "15",
+            "20",
+            "25",
+            "30",
+            "35",
+            "40",
+            "45",
+            "50",
+            "55",
+            "60",
+            "65",
+            "70",
+            "75"});
+            this.comboBox26.Location = new System.Drawing.Point(182, 32);
+            this.comboBox26.Name = "comboBox26";
+            this.comboBox26.Size = new System.Drawing.Size(82, 21);
+            this.comboBox26.TabIndex = 17;
+            // 
+            // comboBox27
+            // 
+            this.comboBox27.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.comboBox27.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox27.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox27.ForeColor = System.Drawing.Color.Blue;
+            this.comboBox27.FormattingEnabled = true;
+            this.comboBox27.Items.AddRange(new object[] {
+            "",
+            "-10",
+            "-5",
+            "0",
+            "5",
+            "10",
+            "15",
+            "20",
+            "25",
+            "30",
+            "35",
+            "40",
+            "45",
+            "50",
+            "55",
+            "60",
+            "65",
+            "70",
+            "75",
+            "80",
+            "85",
+            "90",
+            "95",
+            "100",
+            "105",
+            "110",
+            "115",
+            "120"});
+            this.comboBox27.Location = new System.Drawing.Point(271, 63);
+            this.comboBox27.Name = "comboBox27";
+            this.comboBox27.Size = new System.Drawing.Size(82, 21);
+            this.comboBox27.TabIndex = 18;
+            // 
+            // comboBox28
+            // 
+            this.comboBox28.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.comboBox28.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox28.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox28.ForeColor = System.Drawing.Color.Blue;
+            this.comboBox28.FormattingEnabled = true;
+            this.comboBox28.Items.AddRange(new object[] {
+            "",
+            "-10",
+            "-5",
+            "0",
+            "5",
+            "10",
+            "15",
+            "20",
+            "25",
+            "30",
+            "35",
+            "40",
+            "45",
+            "50",
+            "55",
+            "60",
+            "65",
+            "70",
+            "75",
+            "80",
+            "85",
+            "90",
+            "95",
+            "100",
+            "105",
+            "110",
+            "115",
+            "120"});
+            this.comboBox28.Location = new System.Drawing.Point(182, 63);
+            this.comboBox28.Name = "comboBox28";
+            this.comboBox28.Size = new System.Drawing.Size(82, 21);
+            this.comboBox28.TabIndex = 19;
+            // 
+            // comboBox29
+            // 
+            this.comboBox29.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.comboBox29.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox29.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox29.ForeColor = System.Drawing.Color.Blue;
+            this.comboBox29.FormattingEnabled = true;
+            this.comboBox29.Items.AddRange(new object[] {
+            "",
+            "-10",
+            "-5",
+            "0",
+            "5",
+            "10",
+            "15",
+            "20",
+            "25",
+            "30",
+            "35",
+            "40",
+            "45",
+            "50",
+            "55",
+            "60",
+            "65",
+            "70",
+            "75",
+            "80",
+            "85",
+            "90",
+            "95",
+            "100",
+            "105",
+            "110",
+            "115",
+            "120"});
+            this.comboBox29.Location = new System.Drawing.Point(93, 63);
+            this.comboBox29.Name = "comboBox29";
+            this.comboBox29.Size = new System.Drawing.Size(82, 21);
+            this.comboBox29.TabIndex = 20;
+            // 
+            // comboBox30
+            // 
+            this.comboBox30.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.comboBox30.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox30.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox30.ForeColor = System.Drawing.Color.Blue;
+            this.comboBox30.FormattingEnabled = true;
+            this.comboBox30.Items.AddRange(new object[] {
+            "",
+            "-10",
+            "-5",
+            "0",
+            "5",
+            "10",
+            "15",
+            "20",
+            "25",
+            "30",
+            "35",
+            "40",
+            "45",
+            "50",
+            "55",
+            "60",
+            "65",
+            "70",
+            "75"});
+            this.comboBox30.Location = new System.Drawing.Point(360, 34);
+            this.comboBox30.Name = "comboBox30";
+            this.comboBox30.Size = new System.Drawing.Size(85, 21);
+            this.comboBox30.TabIndex = 21;
+            // 
+            // comboBox31
+            // 
+            this.comboBox31.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.comboBox31.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox31.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox31.ForeColor = System.Drawing.Color.Blue;
+            this.comboBox31.FormattingEnabled = true;
+            this.comboBox31.Items.AddRange(new object[] {
+            "",
+            "-10",
+            "-5",
+            "0",
+            "5",
+            "10",
+            "15",
+            "20",
+            "25",
+            "30",
+            "35",
+            "40",
+            "45",
+            "50",
+            "55",
+            "60",
+            "65",
+            "70",
+            "75"});
+            this.comboBox31.Location = new System.Drawing.Point(271, 34);
+            this.comboBox31.Name = "comboBox31";
+            this.comboBox31.Size = new System.Drawing.Size(82, 21);
+            this.comboBox31.TabIndex = 22;
+            // 
+            // comboBox32
+            // 
+            this.comboBox32.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.comboBox32.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox32.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox32.ForeColor = System.Drawing.Color.Blue;
+            this.comboBox32.FormattingEnabled = true;
+            this.comboBox32.Items.AddRange(new object[] {
+            "",
+            "-10",
+            "-5",
+            "0",
+            "5",
+            "10",
+            "15",
+            "20",
+            "25",
+            "30",
+            "35",
+            "40",
+            "45",
+            "50",
+            "55",
+            "60",
+            "65",
+            "70",
+            "75"});
+            this.comboBox32.Location = new System.Drawing.Point(182, 34);
+            this.comboBox32.Name = "comboBox32";
+            this.comboBox32.Size = new System.Drawing.Size(82, 21);
+            this.comboBox32.TabIndex = 23;
+            // 
+            // comboBox33
+            // 
+            this.comboBox33.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.comboBox33.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox33.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox33.ForeColor = System.Drawing.Color.Blue;
+            this.comboBox33.FormattingEnabled = true;
+            this.comboBox33.Items.AddRange(new object[] {
+            "",
+            "-10",
+            "-5",
+            "0",
+            "5",
+            "10",
+            "15",
+            "20",
+            "25",
+            "30",
+            "35",
+            "40",
+            "45",
+            "50",
+            "55",
+            "60",
+            "65",
+            "70",
+            "75"});
+            this.comboBox33.Location = new System.Drawing.Point(93, 34);
+            this.comboBox33.Name = "comboBox33";
+            this.comboBox33.Size = new System.Drawing.Size(82, 21);
+            this.comboBox33.TabIndex = 16;
+            // 
+            // comboBox34
+            // 
+            this.comboBox34.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.comboBox34.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox34.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox34.ForeColor = System.Drawing.Color.Blue;
+            this.comboBox34.FormattingEnabled = true;
+            this.comboBox34.Items.AddRange(new object[] {
+            "",
+            "-10",
+            "-5",
+            "0",
+            "5",
+            "10",
+            "15",
+            "20",
+            "25",
+            "30",
+            "35",
+            "40",
+            "45",
+            "50",
+            "55",
+            "60",
+            "65",
+            "70",
+            "75",
+            "80",
+            "85",
+            "90",
+            "95",
+            "100",
+            "105",
+            "110",
+            "115",
+            "120"});
+            this.comboBox34.Location = new System.Drawing.Point(360, 63);
+            this.comboBox34.Name = "comboBox34";
+            this.comboBox34.Size = new System.Drawing.Size(85, 21);
+            this.comboBox34.TabIndex = 17;
+            // 
+            // comboBox35
+            // 
+            this.comboBox35.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.comboBox35.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox35.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox35.ForeColor = System.Drawing.Color.Blue;
+            this.comboBox35.FormattingEnabled = true;
+            this.comboBox35.Items.AddRange(new object[] {
+            "",
+            "-10",
+            "-5",
+            "0",
+            "5",
+            "10",
+            "15",
+            "20",
+            "25",
+            "30",
+            "35",
+            "40",
+            "45",
+            "50",
+            "55",
+            "60",
+            "65",
+            "70",
+            "75"});
+            this.comboBox35.Location = new System.Drawing.Point(182, 32);
+            this.comboBox35.Name = "comboBox35";
+            this.comboBox35.Size = new System.Drawing.Size(82, 21);
+            this.comboBox35.TabIndex = 16;
+            // 
+            // comboBox36
+            // 
+            this.comboBox36.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.comboBox36.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox36.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox36.ForeColor = System.Drawing.Color.Blue;
+            this.comboBox36.FormattingEnabled = true;
+            this.comboBox36.Items.AddRange(new object[] {
+            "",
+            "-10",
+            "-5",
+            "0",
+            "5",
+            "10",
+            "15",
+            "20",
+            "25",
+            "30",
+            "35",
+            "40",
+            "45",
+            "50",
+            "55",
+            "60",
+            "65",
+            "70",
+            "75",
+            "80",
+            "85",
+            "90",
+            "95",
+            "100",
+            "105",
+            "110",
+            "115",
+            "120"});
+            this.comboBox36.Location = new System.Drawing.Point(360, 32);
+            this.comboBox36.Name = "comboBox36";
+            this.comboBox36.Size = new System.Drawing.Size(85, 21);
+            this.comboBox36.TabIndex = 17;
+            // 
+            // textBox3
+            // 
+            this.textBox3.Enabled = false;
+            this.textBox3.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox3.Location = new System.Drawing.Point(292, 536);
+            this.textBox3.Multiline = true;
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(476, 42);
+            this.textBox3.TabIndex = 21;
+            this.textBox3.Text = "*Atenção: os dados aqui são apenas ilustrativos, não sendo armazenados em base de" +
+    " dados!";
+            this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // btnLimparEpidemiolImp
+            // 
+            this.btnLimparEpidemiolImp.BackColor = System.Drawing.Color.Gold;
+            this.btnLimparEpidemiolImp.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnLimparEpidemiolImp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLimparEpidemiolImp.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLimparEpidemiolImp.ForeColor = System.Drawing.Color.DarkGreen;
+            this.btnLimparEpidemiolImp.Location = new System.Drawing.Point(614, 429);
+            this.btnLimparEpidemiolImp.Name = "btnLimparEpidemiolImp";
+            this.btnLimparEpidemiolImp.Size = new System.Drawing.Size(154, 101);
+            this.btnLimparEpidemiolImp.TabIndex = 20;
+            this.btnLimparEpidemiolImp.Text = "Limpar";
+            this.btnLimparEpidemiolImp.UseVisualStyleBackColor = false;
+            // 
+            // btnPlotarEpidemiolImp
+            // 
+            this.btnPlotarEpidemiolImp.BackColor = System.Drawing.Color.Khaki;
+            this.btnPlotarEpidemiolImp.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnPlotarEpidemiolImp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPlotarEpidemiolImp.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPlotarEpidemiolImp.ForeColor = System.Drawing.Color.DarkGreen;
+            this.btnPlotarEpidemiolImp.Location = new System.Drawing.Point(452, 429);
+            this.btnPlotarEpidemiolImp.Name = "btnPlotarEpidemiolImp";
+            this.btnPlotarEpidemiolImp.Size = new System.Drawing.Size(154, 101);
+            this.btnPlotarEpidemiolImp.TabIndex = 19;
+            this.btnPlotarEpidemiolImp.Text = "Plotar";
+            this.btnPlotarEpidemiolImp.UseVisualStyleBackColor = false;
+            // 
+            // btnInserirEpidemiolImp
+            // 
+            this.btnInserirEpidemiolImp.BackColor = System.Drawing.Color.LemonChiffon;
+            this.btnInserirEpidemiolImp.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnInserirEpidemiolImp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnInserirEpidemiolImp.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnInserirEpidemiolImp.ForeColor = System.Drawing.Color.DarkGreen;
+            this.btnInserirEpidemiolImp.Location = new System.Drawing.Point(292, 429);
+            this.btnInserirEpidemiolImp.Name = "btnInserirEpidemiolImp";
+            this.btnInserirEpidemiolImp.Size = new System.Drawing.Size(154, 101);
+            this.btnInserirEpidemiolImp.TabIndex = 18;
+            this.btnInserirEpidemiolImp.Text = "Inserir";
+            this.btnInserirEpidemiolImp.UseVisualStyleBackColor = false;
+            // 
+            // chart1
+            // 
+            chartArea11.AxisX.Crossing = 0D;
+            chartArea11.AxisX.Interval = 100D;
+            chartArea11.AxisX.LineWidth = 2;
+            chartArea11.AxisX.MajorGrid.LineColor = System.Drawing.Color.Gray;
+            chartArea11.AxisX.MajorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dash;
+            chartArea11.AxisX.Maximum = 200D;
+            chartArea11.AxisX.Minimum = -600D;
+            chartArea11.AxisX.Title = "Pressão (mml H2O = daPa)";
+            chartArea11.AxisX.TitleAlignment = System.Drawing.StringAlignment.Near;
+            chartArea11.AxisY.LabelStyle.Enabled = false;
+            chartArea11.AxisY.LineWidth = 2;
+            chartArea11.AxisY.MajorGrid.LineColor = System.Drawing.Color.Gray;
+            chartArea11.AxisY.MajorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dash;
+            chartArea11.AxisY.MajorTickMark.Enabled = false;
+            chartArea11.AxisY.Maximum = 2.5D;
+            chartArea11.AxisY.Minimum = 0D;
+            chartArea11.AxisY.TextOrientation = System.Windows.Forms.DataVisualization.Charting.TextOrientation.Horizontal;
+            chartArea11.AxisY.Title = "(ml) 2,5\\n\\n\\n\\n\\n\\n\\n          2,0\\n\\n\\n\\n\\n\\n          1,5\\n\\n\\n\\n\\n\\n\\n       " +
+    "   1,0\\n\\n\\n\\n\\n\\n\\n          0,5\\n\\n\\n\\n\\n\\n\\n\\n\\n          ";
+            chartArea11.AxisY.TitleAlignment = System.Drawing.StringAlignment.Near;
+            chartArea11.AxisY.TitleFont = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            chartArea11.BackImageAlignment = System.Windows.Forms.DataVisualization.Charting.ChartImageAlignmentStyle.Center;
+            chartArea11.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea11);
+            legend11.Name = "Legend1";
+            this.chart1.Legends.Add(legend11);
+            this.chart1.Location = new System.Drawing.Point(4, 4);
+            this.chart1.Name = "chart1";
+            series11.BorderWidth = 2;
+            series11.ChartArea = "ChartArea1";
+            series11.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series11.Color = System.Drawing.Color.Red;
+            series11.Legend = "Legend1";
+            series11.Name = "OD";
+            this.chart1.Series.Add(series11);
+            this.chart1.Size = new System.Drawing.Size(602, 419);
+            this.chart1.TabIndex = 22;
+            this.chart1.Text = "chart1";
+            // 
+            // tableLayoutPanel110
+            // 
+            this.tableLayoutPanel110.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
+            this.tableLayoutPanel110.ColumnCount = 4;
+            this.tableLayoutPanel110.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel110.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel110.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel110.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel110.Controls.Add(this.dateTimePicker3, 3, 0);
+            this.tableLayoutPanel110.Controls.Add(this.dateTimePicker2, 2, 0);
+            this.tableLayoutPanel110.Controls.Add(this.dateTimePicker1, 1, 0);
+            this.tableLayoutPanel110.Controls.Add(this.label128, 0, 2);
+            this.tableLayoutPanel110.Controls.Add(this.comboBox38, 3, 2);
+            this.tableLayoutPanel110.Controls.Add(this.label131, 0, 1);
+            this.tableLayoutPanel110.Controls.Add(this.comboBox39, 2, 2);
+            this.tableLayoutPanel110.Controls.Add(this.comboBox40, 1, 2);
+            this.tableLayoutPanel110.Controls.Add(this.comboBox42, 3, 1);
+            this.tableLayoutPanel110.Controls.Add(this.comboBox43, 1, 1);
+            this.tableLayoutPanel110.Controls.Add(this.comboBox44, 2, 1);
+            this.tableLayoutPanel110.Controls.Add(this.label162, 0, 0);
+            this.tableLayoutPanel110.Location = new System.Drawing.Point(612, 206);
+            this.tableLayoutPanel110.Name = "tableLayoutPanel110";
+            this.tableLayoutPanel110.RowCount = 3;
+            this.tableLayoutPanel110.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 34F));
+            this.tableLayoutPanel110.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33F));
+            this.tableLayoutPanel110.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33F));
+            this.tableLayoutPanel110.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel110.Size = new System.Drawing.Size(440, 86);
+            this.tableLayoutPanel110.TabIndex = 23;
+            // 
+            // label128
+            // 
+            this.label128.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label128.AutoSize = true;
+            this.label128.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label128.ForeColor = System.Drawing.Color.Blue;
+            this.label128.Location = new System.Drawing.Point(4, 63);
+            this.label128.Name = "label128";
+            this.label128.Size = new System.Drawing.Size(102, 16);
+            this.label128.TabIndex = 6;
+            this.label128.Text = "OE";
+            this.label128.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // comboBox38
+            // 
+            this.comboBox38.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.comboBox38.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox38.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox38.ForeColor = System.Drawing.Color.Blue;
+            this.comboBox38.FormattingEnabled = true;
+            this.comboBox38.Items.AddRange(new object[] {
+            "",
+            "A",
+            "Ar",
+            "Ad",
+            "P",
+            "C",
+            "B",
+            "D"});
+            this.comboBox38.Location = new System.Drawing.Point(331, 60);
+            this.comboBox38.Name = "comboBox38";
+            this.comboBox38.Size = new System.Drawing.Size(105, 21);
+            this.comboBox38.TabIndex = 19;
+            // 
+            // label131
+            // 
+            this.label131.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label131.AutoSize = true;
+            this.label131.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label131.ForeColor = System.Drawing.Color.Red;
+            this.label131.Location = new System.Drawing.Point(4, 34);
+            this.label131.Name = "label131";
+            this.label131.Size = new System.Drawing.Size(102, 16);
+            this.label131.TabIndex = 0;
+            this.label131.Text = "OD";
+            this.label131.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // comboBox39
+            // 
+            this.comboBox39.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.comboBox39.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox39.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox39.ForeColor = System.Drawing.Color.Blue;
+            this.comboBox39.FormattingEnabled = true;
+            this.comboBox39.Items.AddRange(new object[] {
+            "",
+            "A",
+            "Ar",
+            "Ad",
+            "P",
+            "C",
+            "B",
+            "D"});
+            this.comboBox39.Location = new System.Drawing.Point(222, 60);
+            this.comboBox39.Name = "comboBox39";
+            this.comboBox39.Size = new System.Drawing.Size(102, 21);
+            this.comboBox39.TabIndex = 20;
+            // 
+            // comboBox40
+            // 
+            this.comboBox40.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.comboBox40.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox40.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox40.ForeColor = System.Drawing.Color.Blue;
+            this.comboBox40.FormattingEnabled = true;
+            this.comboBox40.Items.AddRange(new object[] {
+            "",
+            "A",
+            "Ar",
+            "Ad",
+            "P",
+            "C",
+            "B",
+            "D"});
+            this.comboBox40.Location = new System.Drawing.Point(113, 60);
+            this.comboBox40.Name = "comboBox40";
+            this.comboBox40.Size = new System.Drawing.Size(102, 21);
+            this.comboBox40.TabIndex = 21;
+            // 
+            // comboBox42
+            // 
+            this.comboBox42.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.comboBox42.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox42.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox42.ForeColor = System.Drawing.Color.Red;
+            this.comboBox42.FormattingEnabled = true;
+            this.comboBox42.Items.AddRange(new object[] {
+            "",
+            "A",
+            "Ar",
+            "Ad",
+            "P",
+            "C",
+            "B",
+            "D"});
+            this.comboBox42.Location = new System.Drawing.Point(331, 32);
+            this.comboBox42.Name = "comboBox42";
+            this.comboBox42.Size = new System.Drawing.Size(105, 21);
+            this.comboBox42.TabIndex = 23;
+            // 
+            // comboBox43
+            // 
+            this.comboBox43.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.comboBox43.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox43.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox43.ForeColor = System.Drawing.Color.Red;
+            this.comboBox43.FormattingEnabled = true;
+            this.comboBox43.Items.AddRange(new object[] {
+            "",
+            "A",
+            "Ar",
+            "Ad",
+            "P",
+            "C",
+            "B",
+            "D"});
+            this.comboBox43.Location = new System.Drawing.Point(113, 32);
+            this.comboBox43.Name = "comboBox43";
+            this.comboBox43.Size = new System.Drawing.Size(102, 21);
+            this.comboBox43.TabIndex = 16;
+            // 
+            // comboBox44
+            // 
+            this.comboBox44.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.comboBox44.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox44.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox44.ForeColor = System.Drawing.Color.Red;
+            this.comboBox44.FormattingEnabled = true;
+            this.comboBox44.Items.AddRange(new object[] {
+            "",
+            "A",
+            "Ar",
+            "Ad",
+            "P",
+            "C",
+            "B",
+            "D"});
+            this.comboBox44.Location = new System.Drawing.Point(222, 32);
+            this.comboBox44.Name = "comboBox44";
+            this.comboBox44.Size = new System.Drawing.Size(102, 21);
+            this.comboBox44.TabIndex = 17;
+            // 
+            // label162
+            // 
+            this.label162.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label162.AutoSize = true;
+            this.label162.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label162.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.label162.Location = new System.Drawing.Point(4, 5);
+            this.label162.Name = "label162";
+            this.label162.Size = new System.Drawing.Size(102, 18);
+            this.label162.TabIndex = 1;
+            this.label162.Text = "Data";
+            this.label162.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dateTimePicker1.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dateTimePicker1.Location = new System.Drawing.Point(113, 4);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(102, 22);
+            this.dateTimePicker1.TabIndex = 24;
+            // 
+            // dateTimePicker2
+            // 
+            this.dateTimePicker2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dateTimePicker2.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dateTimePicker2.Location = new System.Drawing.Point(222, 4);
+            this.dateTimePicker2.Name = "dateTimePicker2";
+            this.dateTimePicker2.Size = new System.Drawing.Size(102, 22);
+            this.dateTimePicker2.TabIndex = 25;
+            // 
+            // dateTimePicker3
+            // 
+            this.dateTimePicker3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dateTimePicker3.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateTimePicker3.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dateTimePicker3.Location = new System.Drawing.Point(331, 4);
+            this.dateTimePicker3.Name = "dateTimePicker3";
+            this.dateTimePicker3.Size = new System.Drawing.Size(105, 22);
+            this.dateTimePicker3.TabIndex = 25;
+            // 
+            // label132
+            // 
+            this.label132.AutoSize = true;
+            this.label132.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label132.Location = new System.Drawing.Point(737, 183);
+            this.label132.Name = "label132";
+            this.label132.Size = new System.Drawing.Size(72, 19);
+            this.label132.TabIndex = 24;
+            this.label132.Text = "Primeira";
+            // 
+            // label133
+            // 
+            this.label133.AutoSize = true;
+            this.label133.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label133.Location = new System.Drawing.Point(845, 183);
+            this.label133.Name = "label133";
+            this.label133.Size = new System.Drawing.Size(78, 19);
+            this.label133.TabIndex = 25;
+            this.label133.Text = "Segunda";
+            // 
+            // label134
+            // 
+            this.label134.AutoSize = true;
+            this.label134.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label134.Location = new System.Drawing.Point(956, 183);
+            this.label134.Name = "label134";
+            this.label134.Size = new System.Drawing.Size(70, 19);
+            this.label134.TabIndex = 26;
+            this.label134.Text = "Terceira";
+            // 
             // frmExames
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -18046,16 +20212,8 @@ namespace segmentoOtoneurologia
             this.tableLayoutPanel37.ResumeLayout(false);
             this.groupBox10.ResumeLayout(false);
             this.groupBox10.PerformLayout();
-            this.tableLayoutPanel94.ResumeLayout(false);
-            this.tableLayoutPanel94.PerformLayout();
-            this.tableLayoutPanel93.ResumeLayout(false);
-            this.tableLayoutPanel93.PerformLayout();
             this.groupBox11.ResumeLayout(false);
             this.groupBox11.PerformLayout();
-            this.tableLayoutPanel95.ResumeLayout(false);
-            this.tableLayoutPanel95.PerformLayout();
-            this.tableLayoutPanel96.ResumeLayout(false);
-            this.tableLayoutPanel96.PerformLayout();
             this.tabPage24.ResumeLayout(false);
             this.tableLayoutPanel38.ResumeLayout(false);
             this.groupBox12.ResumeLayout(false);
@@ -18067,12 +20225,6 @@ namespace segmentoOtoneurologia
             this.tableLayoutPanel39.PerformLayout();
             this.tabPage39.ResumeLayout(false);
             this.tableLayoutPanel90.ResumeLayout(false);
-            this.groupBox32.ResumeLayout(false);
-            this.tableLayoutPanel91.ResumeLayout(false);
-            this.tableLayoutPanel91.PerformLayout();
-            this.groupBox33.ResumeLayout(false);
-            this.tableLayoutPanel92.ResumeLayout(false);
-            this.tableLayoutPanel92.PerformLayout();
             this.tabPage19.ResumeLayout(false);
             this.tableLayoutPanel27.ResumeLayout(false);
             this.tabControl8.ResumeLayout(false);
@@ -18106,14 +20258,42 @@ namespace segmentoOtoneurologia
             this.gbEpidemiol.PerformLayout();
             this.tabControlEpidemiol.ResumeLayout(false);
             this.tabPage41.ResumeLayout(false);
+            this.tabPage41.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chrtEpidemioOE)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chrtEpidemioOD)).EndInit();
+            this.tabPage42.ResumeLayout(false);
+            this.tabPage42.PerformLayout();
             this.tableLayoutPanel17.ResumeLayout(false);
             this.tableLayoutPanel17.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.tabelaExamesBindingNavigator)).EndInit();
             this.tabelaExamesBindingNavigator.ResumeLayout(false);
             this.tabelaExamesBindingNavigator.PerformLayout();
             this.gbTipoAudiograma.ResumeLayout(false);
+            this.tabControlEpidemiolOD.ResumeLayout(false);
+            this.tabPage43.ResumeLayout(false);
+            this.tabPage43.PerformLayout();
+            this.tabControlEpidemiolOE.ResumeLayout(false);
+            this.tabPage44.ResumeLayout(false);
+            this.tabPage44.PerformLayout();
+            this.tableLayoutPanel108.ResumeLayout(false);
+            this.tableLayoutPanel108.PerformLayout();
+            this.tableLayoutPanel109.ResumeLayout(false);
+            this.tableLayoutPanel109.PerformLayout();
+            this.tableLayoutPanel95.ResumeLayout(false);
+            this.tableLayoutPanel95.PerformLayout();
+            this.tableLayoutPanel96.ResumeLayout(false);
+            this.tableLayoutPanel96.PerformLayout();
+            this.tableLayoutPanel91.ResumeLayout(false);
+            this.tableLayoutPanel91.PerformLayout();
+            this.tableLayoutPanel92.ResumeLayout(false);
+            this.tableLayoutPanel92.PerformLayout();
+            this.tableLayoutPanel93.ResumeLayout(false);
+            this.tableLayoutPanel93.PerformLayout();
+            this.tableLayoutPanel94.ResumeLayout(false);
+            this.tableLayoutPanel94.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
+            this.tableLayoutPanel110.ResumeLayout(false);
+            this.tableLayoutPanel110.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -18901,50 +21081,6 @@ namespace segmentoOtoneurologia
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel90;
         private System.Windows.Forms.GroupBox groupBox32;
         private System.Windows.Forms.GroupBox groupBox33;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel91;
-        private System.Windows.Forms.Label label77;
-        private System.Windows.Forms.Label label78;
-        private System.Windows.Forms.Label label79;
-        private System.Windows.Forms.Label label80;
-        private System.Windows.Forms.Label label81;
-        private System.Windows.Forms.Label label82;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel92;
-        private System.Windows.Forms.Label label92;
-        private System.Windows.Forms.Label label93;
-        private System.Windows.Forms.Label label94;
-        private System.Windows.Forms.Label label95;
-        private System.Windows.Forms.Label label96;
-        private System.Windows.Forms.Label label97;
-        private System.Windows.Forms.Label label128;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel94;
-        private System.Windows.Forms.Label label130;
-        private System.Windows.Forms.Label label131;
-        private System.Windows.Forms.Label label129;
-        private System.Windows.Forms.Label label132;
-        private System.Windows.Forms.Label label133;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel93;
-        private System.Windows.Forms.Label label134;
-        private System.Windows.Forms.Label label122;
-        private System.Windows.Forms.Label label124;
-        private System.Windows.Forms.Label label125;
-        private System.Windows.Forms.Label label126;
-        private System.Windows.Forms.Label label127;
-        private System.Windows.Forms.Label label123;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel95;
-        private System.Windows.Forms.Label label136;
-        private System.Windows.Forms.Label label137;
-        private System.Windows.Forms.Label label138;
-        private System.Windows.Forms.Label label139;
-        private System.Windows.Forms.Label label140;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel96;
-        private System.Windows.Forms.Label label141;
-        private System.Windows.Forms.Label label142;
-        private System.Windows.Forms.Label label143;
-        private System.Windows.Forms.Label label144;
-        private System.Windows.Forms.Label label145;
-        private System.Windows.Forms.Label label135;
-        private System.Windows.Forms.Label label146;
-        private System.Windows.Forms.Label label147;
         private System.Windows.Forms.ToolTip toolTip7;
         private System.Windows.Forms.TabPage tabPage40;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel97;
@@ -18970,7 +21106,6 @@ namespace segmentoOtoneurologia
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel107;
         private System.Windows.Forms.RadioButton rbExibeEstimativaOE;
         private System.Windows.Forms.RadioButton rbOcultaEstimativaOE;
-        private System.Windows.Forms.TextBox txtpeateCliqueVOod;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
         private System.Windows.Forms.ToolStripButton tsbapagaSelecionados;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
@@ -18982,5 +21117,132 @@ namespace segmentoOtoneurologia
         private System.Windows.Forms.DataVisualization.Charting.Chart chrtEpidemioOD;
         private System.Windows.Forms.TabPage tabPage42;
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TabControl tabControlEpidemiolOD;
+        private System.Windows.Forms.TabPage tabPage43;
+        private System.Windows.Forms.TabControl tabControlEpidemiolOE;
+        private System.Windows.Forms.TabPage tabPage44;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Button btnLimparEpidemiol;
+        private System.Windows.Forms.Button btnPlotarEpidemiol;
+        private System.Windows.Forms.Button btnInserirEpidemiol;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel95;
+        private System.Windows.Forms.Label label136;
+        private System.Windows.Forms.Label label137;
+        private System.Windows.Forms.Label label138;
+        private System.Windows.Forms.Label label139;
+        private System.Windows.Forms.Label label140;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel96;
+        private System.Windows.Forms.Label label141;
+        private System.Windows.Forms.Label label142;
+        private System.Windows.Forms.Label label143;
+        private System.Windows.Forms.Label label144;
+        private System.Windows.Forms.Label label145;
+        private System.Windows.Forms.Label label135;
+        private System.Windows.Forms.Label label146;
+        private System.Windows.Forms.Label label147;
+        private System.Windows.Forms.Label label148;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel108;
+        private System.Windows.Forms.Label label149;
+        private System.Windows.Forms.Label label150;
+        private System.Windows.Forms.Label label151;
+        private System.Windows.Forms.Label label152;
+        private System.Windows.Forms.Label label153;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel109;
+        private System.Windows.Forms.Label label154;
+        private System.Windows.Forms.Label label155;
+        private System.Windows.Forms.Label label156;
+        private System.Windows.Forms.Label label157;
+        private System.Windows.Forms.Label label158;
+        private System.Windows.Forms.Label label159;
+        private System.Windows.Forms.Label label160;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel91;
+        private System.Windows.Forms.Label label77;
+        private System.Windows.Forms.Label label78;
+        private System.Windows.Forms.Label label79;
+        private System.Windows.Forms.Label label80;
+        private System.Windows.Forms.Label label81;
+        private System.Windows.Forms.Label label82;
+        private System.Windows.Forms.Label label123;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel92;
+        private System.Windows.Forms.Label label92;
+        private System.Windows.Forms.Label label93;
+        private System.Windows.Forms.Label label94;
+        private System.Windows.Forms.Label label95;
+        private System.Windows.Forms.Label label96;
+        private System.Windows.Forms.Label label97;
+        private System.Windows.Forms.Label label122;
+        private System.Windows.Forms.Label label125;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel94;
+        private System.Windows.Forms.CheckBox checkBox5;
+        private System.Windows.Forms.Label label126;
+        private System.Windows.Forms.Label label127;
+        private System.Windows.Forms.CheckBox checkBox6;
+        private System.Windows.Forms.CheckBox checkBox7;
+        private System.Windows.Forms.CheckBox checkBox8;
+        private System.Windows.Forms.Label label124;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel93;
+        private System.Windows.Forms.CheckBox checkBox2;
+        private System.Windows.Forms.Label label130;
+        private System.Windows.Forms.Label label129;
+        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.CheckBox checkBox3;
+        private System.Windows.Forms.CheckBox checkBox4;
+        private System.Windows.Forms.ComboBox comboBox11;
+        private System.Windows.Forms.ComboBox comboBox12;
+        private System.Windows.Forms.ComboBox comboBox13;
+        private System.Windows.Forms.ComboBox comboBox14;
+        private System.Windows.Forms.ComboBox comboBox15;
+        private System.Windows.Forms.ComboBox comboBox16;
+        private System.Windows.Forms.ComboBox comboBox17;
+        private System.Windows.Forms.ComboBox comboBox18;
+        private System.Windows.Forms.ComboBox comboBox27;
+        private System.Windows.Forms.ComboBox comboBox28;
+        private System.Windows.Forms.ComboBox comboBox29;
+        private System.Windows.Forms.ComboBox comboBox30;
+        private System.Windows.Forms.ComboBox comboBox31;
+        private System.Windows.Forms.ComboBox comboBox32;
+        private System.Windows.Forms.ComboBox comboBox33;
+        private System.Windows.Forms.ComboBox comboBox34;
+        private System.Windows.Forms.ComboBox comboBox35;
+        private System.Windows.Forms.ComboBox comboBox36;
+        private System.Windows.Forms.ComboBox comboBox19;
+        private System.Windows.Forms.ComboBox comboBox20;
+        private System.Windows.Forms.ComboBox comboBox21;
+        private System.Windows.Forms.ComboBox comboBox22;
+        private System.Windows.Forms.ComboBox comboBox23;
+        private System.Windows.Forms.ComboBox comboBox24;
+        private System.Windows.Forms.ComboBox comboBox25;
+        private System.Windows.Forms.ComboBox comboBox26;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox comboBox10;
+        private System.Windows.Forms.ComboBox comboBox9;
+        private System.Windows.Forms.ComboBox comboBox8;
+        private System.Windows.Forms.ComboBox comboBox7;
+        private System.Windows.Forms.ComboBox comboBox6;
+        private System.Windows.Forms.ComboBox comboBox5;
+        private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.ComboBox comboBox4;
+        private System.Windows.Forms.Label label134;
+        private System.Windows.Forms.Label label133;
+        private System.Windows.Forms.Label label132;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel110;
+        private System.Windows.Forms.DateTimePicker dateTimePicker3;
+        private System.Windows.Forms.DateTimePicker dateTimePicker2;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.Label label128;
+        private System.Windows.Forms.ComboBox comboBox38;
+        private System.Windows.Forms.Label label131;
+        private System.Windows.Forms.ComboBox comboBox39;
+        private System.Windows.Forms.ComboBox comboBox40;
+        private System.Windows.Forms.ComboBox comboBox42;
+        private System.Windows.Forms.ComboBox comboBox43;
+        private System.Windows.Forms.ComboBox comboBox44;
+        private System.Windows.Forms.Label label162;
+        private System.Windows.Forms.DataVisualization.Charting.Chart chart1;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Button btnLimparEpidemiolImp;
+        private System.Windows.Forms.Button btnPlotarEpidemiolImp;
+        private System.Windows.Forms.Button btnInserirEpidemiolImp;
     }
 }

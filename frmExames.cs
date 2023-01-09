@@ -29,6 +29,8 @@ namespace segmentoOtoneurologia
             tsbapagaSelecionados.Enabled = false;
 
             tabControlEpidemiol.Visible = false;
+            tabControlEpidemiolOD.Visible = false;
+            tabControlEpidemiolOE.Visible = false;
 
             ((Control)tabControl1.TabPages["tabPage2"]).Enabled = false;
             ((Control)tabControl1.TabPages["tabPage3"]).Enabled = false;
@@ -37,6 +39,8 @@ namespace segmentoOtoneurologia
             ((Control)tabControl1.TabPages["tabPage6"]).Enabled = false;
             ((Control)tabControl1.TabPages["tabPage7"]).Enabled = false;
             ((Control)tabControl1.TabPages["tabPage36"]).Enabled = false;
+
+            ((Control)tabControl7.TabPages["tabPage39"]).Enabled = false;
         }
 
         void OpenData()
@@ -11570,6 +11574,20 @@ namespace segmentoOtoneurologia
             ser12a.MarkerStyle = MarkerStyle.None;
             ser12a.Points.AddXY(15, -10);  // x, high
             ser12a.Points.AddXY(15, 120);
+        }
+
+        private void btnInserirEpidemiol_Click(object sender, EventArgs e)
+        {
+            tabControlEpidemiolOD.Visible = true;
+            tabControlEpidemiolOE.Visible = true;
+
+            SetStyle(ControlStyles.OptimizedDoubleBuffer, true);
+        }
+
+        private void btnPlotarEpidemiol_Click(object sender, EventArgs e)
+        {
+            tabControlEpidemiolOD.Visible = false;
+            tabControlEpidemiolOE.Visible = false;
         }
     }   
 }
