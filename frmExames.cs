@@ -38,9 +38,7 @@ namespace segmentoOtoneurologia
             ((Control)tabControl1.TabPages["tabPage5"]).Enabled = false;
             ((Control)tabControl1.TabPages["tabPage6"]).Enabled = false;
             ((Control)tabControl1.TabPages["tabPage7"]).Enabled = false;
-            ((Control)tabControl1.TabPages["tabPage36"]).Enabled = false;
-
-            ((Control)tabControl7.TabPages["tabPage39"]).Enabled = false;
+            ((Control)tabControl1.TabPages["tabPage36"]).Enabled = false;          
         }
 
         void OpenData()
