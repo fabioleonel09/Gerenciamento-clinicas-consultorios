@@ -10942,108 +10942,186 @@ namespace segmentoOtoneurologia
 
         private void desabilitaMarcacaoImpedancio()
         {
-            curvaBodCheckBox.Checked = false;
-            curvaBoeCheckBox.Checked = false;
+            var limpaMarcImpedancio = 0;
+
+            if ((tabControl1.SelectedTab == tabPage3) && (tabControl4.SelectedTab == tabPage15))
+            {
+                limpaMarcImpedancio = 1;   
+            }
+
+            if ((tabControl1.SelectedTab == tabPage3) && (tabControl4.SelectedTab == tabPage16))
+            {
+                limpaMarcImpedancio = 2;  
+            }
+
+            switch (limpaMarcImpedancio)
+            {
+                case 1:
+                    curvaBodCheckBox.Checked = false;
+                    break;
+
+                case 2:
+                    curvaBoeCheckBox.Checked = false;
+                    break;
+            }
         }
 
         private void desabilitaMarcacao()
         {
+            var limpaMarcAudio = 0;
+
             //Para a OD
-            //mascaramento VA OD
-            masc125vaODCheckBox.Checked = false;
-            masc250vaODCheckBox.Checked = false;
-            masc500vaODCheckBox.Checked = false;
-            masc750vaODCheckBox.Checked = false;
-            masc1kvaODCheckBox.Checked = false;
-            masc1_5kvaODCheckBox.Checked = false;
-            masc2kvaODCheckBox.Checked = false;
-            masc3kvaODCheckBox.Checked = false;
-            masc4kvaODCheckBox.Checked = false;
-            masc6kvaODCheckBox.Checked = false;
-            masc8kvaODCheckBox.Checked = false;
+            if ((tabControl1.SelectedTab == tabPage2) && (tabControl2.SelectedTab == tabPage8) && (tabControl3.SelectedTab == tabPage12))
+            {
+                limpaMarcAudio = 1;                
+            }
 
-            //mascaramento VA OD altas frequências
-            chkMasc9kODCheckBox.Checked = false;
-            chkMasc10kODCheckBox.Checked = false;
-            chkMasc12_5kODCheckBox.Checked = false;
-            chkMasc14kODCheckBox.Checked = false;
-            chkMasc16kODCheckBox.Checked = false;
-            chkMasc18kODCheckBox.Checked = false;
-            chkMasc20kODCheckBox.Checked = false;
-
-            //liga VA OD
-            liga125_250vaODCheckBox.Checked = false;
-            liga250_500vaODCheckBox.Checked = false;
-            liga500_750vaODCheckBox.Checked = false;
-            liga750_1kvaODCheckBox.Checked = false;
-            liga1k_1_5kvaODCheckBox.Checked = false;
-            liga1_5k_2kvaODCheckBox.Checked = false;
-            liga2k_3kvaODCheckBox.Checked = false;
-            liga3k_4kvaODCheckBox.Checked = false;
-            liga4k_6kvaODCheckBox.Checked = false;
-            liga6k_8kvaODCheckBox.Checked = false;
-
-            //liga VA OD altas frequências
-            chkliga9_10ODCheckBox.Checked = false;
-            chkliga10_12_5ODCheckBox.Checked = false;
-            chkliga12_5_14ODCheckBox.Checked = false;
-            chkliga14_16ODCheckBox.Checked = false;
-            chkliga16_18ODCheckBox.Checked = false;
-            chkliga18_20ODCheckBox.Checked = false;
-
-            //Ausência de VA OD
-            aus125vaODCheckBox.Checked = false;
-            aus250vaODCheckBox.Checked = false;
-            aus500vaODCheckBox.Checked = false;
-            aus750vaODCheckBox.Checked = false;
-            aus1kvaODCheckBox.Checked = false;
-            aus1_5kvaODCheckBox.Checked = false;
-            aus2kvaODCheckBox.Checked = false;
-            aus3kvaODCheckBox.Checked = false;
-            aus4kvaODCheckBox.Checked = false;
-            aus6kvaODCheckBox.Checked = false;
-            aus8kvaODCheckBox.Checked = false;
-
-            //Ausência de VA OD altas frequências
-            chkAusente9kODCheckBox.Checked = false;
-            chkAusente10kODCheckBox.Checked = false;
-            chkAusente12_5kODCheckBox.Checked = false;
-            chkAusente14kODCheckBox.Checked = false;
-            chkAusente16kODCheckBox.Checked = false;
-            chkAusente18kODCheckBox.Checked = false;
-            chkAusente20kODCheckBox.Checked = false;
-
-            //Mascaramento VO OD
-            masc250vo_ODCheckBox.Checked = false;
-            masc500vo_ODCheckBox.Checked = false;
-            masc750vo_ODCheckBox.Checked = false;
-            masc1kvo_ODCheckBox.Checked = false;
-            masc1_5kvo_ODCheckBox.Checked = false;
-            masc2kvo_ODCheckBox.Checked = false;
-            masc3kvo_ODCheckBox.Checked = false;
-            masc4kvo_ODCheckBox.Checked = false;
-
-            //liga VO OD
-            liga250_500vo_ODCheckBox.Checked = false;
-            liga500_750vo_ODCheckBox.Checked = false;
-            liga750_1kvo_ODCheckBox.Checked = false;
-            liga1k_1_5kvo_ODCheckBox.Checked = false;
-            liga1_5k_2kvo_ODCheckBox.Checked = false;
-            liga2k_3kvo_ODCheckBox.Checked = false;
-            liga3k_4kvo_ODCheckBox.Checked = false;
-
-            //Ausência de VO OD
-            aus250vo_ODCheckBox.Checked = false;
-            aus500vo_ODCheckBox.Checked = false;
-            aus750vo_ODCheckBox.Checked = false;
-            aus1kvo_ODCheckBox.Checked = false;
-            aus1_5kvo_ODCheckBox.Checked = false;
-            aus2kvo_ODCheckBox.Checked = false;
-            aus3kvo_ODCheckBox.Checked = false;
-            aus4kvo_ODCheckBox.Checked = false;
+            else if ((tabControl1.SelectedTab == tabPage2) && (tabControl2.SelectedTab == tabPage11) && (tabControl9.SelectedTab == tabPage31))
+            {
+                limpaMarcAudio = 2;              
+            }
 
             //para a OE
-            //mascaramento VA ED
+            else if ((tabControl1.SelectedTab == tabPage2) && (tabControl2.SelectedTab == tabPage8) && (tabControl3.SelectedTab == tabPage13))
+            {
+                limpaMarcAudio = 3;               
+            }
+
+            else if ((tabControl1.SelectedTab == tabPage2) && (tabControl2.SelectedTab == tabPage11) && (tabControl9.SelectedTab == tabPage32))
+            {
+                limpaMarcAudio = 4;                
+            }
+
+            //Para o ganho funcional
+            else if ((tabControl1.SelectedTab == tabPage2) && (tabControl2.SelectedTab == tabPage9) && (tabControl10.SelectedTab == tabPage34))
+            {
+                limpaMarcAudio = 5;                
+            }
+
+            //Para campo livre convencional
+            else if ((tabControl1.SelectedTab == tabPage2) && (tabControl2.SelectedTab == tabPage9) && (tabControl10.SelectedTab == tabPage37))
+            {
+                limpaMarcAudio = 6;              
+            }
+
+            switch (limpaMarcAudio)
+            {
+                case 1:
+                    limpaMarcAudioClinicaOD();
+                    break;
+
+                case 2:
+                    limpaMarcAudioAltasFreqOD();
+                    break;
+
+                case 3:
+                    limpaMarcAudioClinicaOE();
+                    break;
+
+                case 4:
+                    limpaMarcAudioAltasFreqOE();
+                    break;
+
+                case 5:
+                    limpaMarcAudioCampoAASI();
+                    break;
+
+                case 6:
+                    limpaMarcAudioCampoConvencional();
+                    break;
+            }
+        }
+
+        private void limpaMarcAudioCampoConvencional()
+        {
+            //Liga campo livre convencional OD
+            campoLiga500_1kodCheckBox.Checked = false;
+            campoLiga1k_2kodCheckBox.Checked = false;
+            campoLiga2k_3kodCheckBox.Checked = false;
+            campoLiga3k_4kodCheckBox.Checked = false;
+
+            //Ausência de campo livre convencional OD
+            campoVAodAus500CheckBox.Checked = false;
+            campoVAodAus1kCheckBox.Checked = false;
+            campoVAodAus2kCheckBox.Checked = false;
+            campoVAodAus3kCheckBox.Checked = false;
+            campoVAodAus4kCheckBox.Checked = false;
+
+            //Liga campo livre convencional OE
+            campoLiga500_1koeCheckBox.Checked = false;
+            campoLiga1k_2koeCheckBox.Checked = false;
+            campoLiga2k_3koeCheckBox.Checked = false;
+            campoLiga3k_4koeCheckBox.Checked = false;
+
+            //Ausência de campo livre convencional OE
+            campoVAoeAus500CheckBox.Checked = false;
+            campoVAoeAus1kCheckBox.Checked = false;
+            campoVAoeAus2kCheckBox.Checked = false;
+            campoVAoeAus3kCheckBox.Checked = false;
+            campoVAoeAus4kCheckBox.Checked = false;
+        }
+
+        private void limpaMarcAudioCampoAASI()
+        {
+            //Liga com AASI
+            chbLiga500_1k_comCheckBox.Checked = false;
+            chbLiga1k_2k_comCheckBox.Checked = false;
+            chbLiga2k_3k_comCheckBox.Checked = false;
+            chbLiga3k_4k_comCheckBox.Checked = false;
+
+            //Ausência com AASI
+            chkAusente500comCheckBox.Checked = false;
+            chkAusente1kcomCheckBox.Checked = false;
+            chkAusente2kcomCheckBox.Checked = false;
+            chkAusente3kcomCheckBox.Checked = false;
+            chkAusente4kcomCheckBox.Checked = false;
+
+            //Liga sem AASI
+            chbLiga500_1k_semCheckBox.Checked = false;
+            chbLiga1k_2k_semCheckBox.Checked = false;
+            chbLiga2k_3k_semCheckBox.Checked = false;
+            chbLiga3k_4k_semCheckBox.Checked = false;
+
+            //Ausência sem AASI
+            chkAusente500semCheckBox.Checked = false;
+            chkAusente1ksemCheckBox.Checked = false;
+            chkAusente2ksemCheckBox.Checked = false;
+            chkAusente3ksemCheckBox.Checked = false;
+            chkAusente4ksemCheckBox.Checked = false;
+        }
+
+        private void limpaMarcAudioAltasFreqOE()
+        {
+            //mascaramento VA OE altas frequências
+            chkMasc9kOECheckBox.Checked = false;
+            chkMasc10kOECheckBox.Checked = false;
+            chkMasc12_5kOECheckBox.Checked = false;
+            chkMasc14kOECheckBox.Checked = false;
+            chkMasc16kOECheckBox.Checked = false;
+            chkMasc18kOECheckBox.Checked = false;
+            chkMasc20kOECheckBox.Checked = false;
+
+            //liga VA OE altas frequências
+            chkliga9_10OECheckBox.Checked = false;
+            chkliga10_12_5OECheckBox.Checked = false;
+            chkliga12_5_14OECheckBox.Checked = false;
+            chkliga14_16OECheckBox.Checked = false;
+            chkliga16_18OECheckBox.Checked = false;
+            chkliga18_20OECheckBox.Checked = false;
+
+            //Ausência de VA OE altas frequências
+            chkAusente9kOECheckBox.Checked = false;
+            chkAusente10kOECheckBox.Checked = false;
+            chkAusente12_5kOECheckBox.Checked = false;
+            chkAusente14kOECheckBox.Checked = false;
+            chkAusente16kOECheckBox.Checked = false;
+            chkAusente18kOECheckBox.Checked = false;
+            chkAusente20kOECheckBox.Checked = false;
+        }
+
+        private void limpaMarcAudioClinicaOE()
+        {
+            //mascaramento VA OE
             masc125vaOECheckBox.Checked = false;
             masc250vaOECheckBox.Checked = false;
             masc500vaOECheckBox.Checked = false;
@@ -11055,15 +11133,6 @@ namespace segmentoOtoneurologia
             masc4kvaOECheckBox.Checked = false;
             masc6kvaOECheckBox.Checked = false;
             masc8kvaOECheckBox.Checked = false;
-
-            //mascaramento VA OE altas frequências
-            chkMasc9kOECheckBox.Checked = false;
-            chkMasc10kOECheckBox.Checked = false;
-            chkMasc12_5kOECheckBox.Checked = false;
-            chkMasc14kOECheckBox.Checked = false;
-            chkMasc16kOECheckBox.Checked = false;
-            chkMasc18kOECheckBox.Checked = false;
-            chkMasc20kOECheckBox.Checked = false;
 
             //liga VA OE
             liga125_250vaOECheckBox.Checked = false;
@@ -11077,14 +11146,6 @@ namespace segmentoOtoneurologia
             liga4k_6kvaOECheckBox.Checked = false;
             liga6k_8kvaOECheckBox.Checked = false;
 
-            //liga VA OE altas frequências
-            chkliga9_10OECheckBox.Checked = false;
-            chkliga10_12_5OECheckBox.Checked = false;
-            chkliga12_5_14OECheckBox.Checked = false;
-            chkliga14_16OECheckBox.Checked = false;
-            chkliga16_18OECheckBox.Checked = false;
-            chkliga18_20OECheckBox.Checked = false;
-
             //Ausência de VA OE
             aus125vaOECheckBox.Checked = false;
             aus250vaOECheckBox.Checked = false;
@@ -11097,15 +11158,6 @@ namespace segmentoOtoneurologia
             aus4kvaOECheckBox.Checked = false;
             aus6kvaOECheckBox.Checked = false;
             aus8kvaOECheckBox.Checked = false;
-
-            //Ausência de VA OE altas frequências
-            chkAusente9kOECheckBox.Checked = false;
-            chkAusente10kOECheckBox.Checked = false;
-            chkAusente12_5kOECheckBox.Checked = false;
-            chkAusente14kOECheckBox.Checked = false;
-            chkAusente16kOECheckBox.Checked = false;
-            chkAusente18kOECheckBox.Checked = false;
-            chkAusente20kOECheckBox.Checked = false;
 
             //Mascaramento VO OE
             masc250vo_OECheckBox.Checked = false;
@@ -11135,60 +11187,105 @@ namespace segmentoOtoneurologia
             aus2kvo_OECheckBox.Checked = false;
             aus3kvo_OECheckBox.Checked = false;
             aus4kvo_OECheckBox.Checked = false;
+        }
 
-            //Para o ganho funcional
-            //Liga com AASI
-            chbLiga500_1k_comCheckBox.Checked = false;
-            chbLiga1k_2k_comCheckBox.Checked = false;
-            chbLiga2k_3k_comCheckBox.Checked = false;
-            chbLiga3k_4k_comCheckBox.Checked = false;
+        private void limpaMarcAudioAltasFreqOD()
+        {
+            //mascaramento VA OD altas frequências
+            chkMasc9kODCheckBox.Checked = false;
+            chkMasc10kODCheckBox.Checked = false;
+            chkMasc12_5kODCheckBox.Checked = false;
+            chkMasc14kODCheckBox.Checked = false;
+            chkMasc16kODCheckBox.Checked = false;
+            chkMasc18kODCheckBox.Checked = false;
+            chkMasc20kODCheckBox.Checked = false;
 
-            //Ausência com AASI
-            chkAusente500comCheckBox.Checked = false;
-            chkAusente1kcomCheckBox.Checked = false;
-            chkAusente2kcomCheckBox.Checked = false;
-            chkAusente3kcomCheckBox.Checked = false;
-            chkAusente4kcomCheckBox.Checked = false;
+            //liga VA OD altas frequências
+            chkliga9_10ODCheckBox.Checked = false;
+            chkliga10_12_5ODCheckBox.Checked = false;
+            chkliga12_5_14ODCheckBox.Checked = false;
+            chkliga14_16ODCheckBox.Checked = false;
+            chkliga16_18ODCheckBox.Checked = false;
+            chkliga18_20ODCheckBox.Checked = false;
 
-            //Liga sem AASI
-            chbLiga500_1k_semCheckBox.Checked = false;
-            chbLiga1k_2k_semCheckBox.Checked = false;
-            chbLiga2k_3k_semCheckBox.Checked = false;
-            chbLiga3k_4k_semCheckBox.Checked = false;
+            //Ausência de VA OD altas frequências
+            chkAusente9kODCheckBox.Checked = false;
+            chkAusente10kODCheckBox.Checked = false;
+            chkAusente12_5kODCheckBox.Checked = false;
+            chkAusente14kODCheckBox.Checked = false;
+            chkAusente16kODCheckBox.Checked = false;
+            chkAusente18kODCheckBox.Checked = false;
+            chkAusente20kODCheckBox.Checked = false;
+        }
 
-            //Ausência sem AASI
-            chkAusente500semCheckBox.Checked = false;
-            chkAusente1ksemCheckBox.Checked = false;
-            chkAusente2ksemCheckBox.Checked = false;
-            chkAusente3ksemCheckBox.Checked = false;
-            chkAusente4ksemCheckBox.Checked = false;
+        private void limpaMarcAudioClinicaOD()
+        {
+            //mascaramento VA OD
+            masc125vaODCheckBox.Checked = false;
+            masc250vaODCheckBox.Checked = false;
+            masc500vaODCheckBox.Checked = false;
+            masc750vaODCheckBox.Checked = false;
+            masc1kvaODCheckBox.Checked = false;
+            masc1_5kvaODCheckBox.Checked = false;
+            masc2kvaODCheckBox.Checked = false;
+            masc3kvaODCheckBox.Checked = false;
+            masc4kvaODCheckBox.Checked = false;
+            masc6kvaODCheckBox.Checked = false;
+            masc8kvaODCheckBox.Checked = false;
 
-            //Para campo livre convencional
-            //Liga campo livre convencional OD
-            campoLiga500_1kodCheckBox.Checked = false;
-            campoLiga1k_2kodCheckBox.Checked = false;
-            campoLiga2k_3kodCheckBox.Checked = false;
-            campoLiga3k_4kodCheckBox.Checked = false;
+            //liga VA OD
+            liga125_250vaODCheckBox.Checked = false;
+            liga250_500vaODCheckBox.Checked = false;
+            liga500_750vaODCheckBox.Checked = false;
+            liga750_1kvaODCheckBox.Checked = false;
+            liga1k_1_5kvaODCheckBox.Checked = false;
+            liga1_5k_2kvaODCheckBox.Checked = false;
+            liga2k_3kvaODCheckBox.Checked = false;
+            liga3k_4kvaODCheckBox.Checked = false;
+            liga4k_6kvaODCheckBox.Checked = false;
+            liga6k_8kvaODCheckBox.Checked = false;
 
-            //Ausência de campo livre convencional OD
-            campoVAodAus500CheckBox.Checked = false;
-            campoVAodAus1kCheckBox.Checked = false;
-            campoVAodAus2kCheckBox.Checked = false;
-            campoVAodAus3kCheckBox.Checked = false;
-            campoVAodAus4kCheckBox.Checked = false;
+            //Ausência de VA OD
+            aus125vaODCheckBox.Checked = false;
+            aus250vaODCheckBox.Checked = false;
+            aus500vaODCheckBox.Checked = false;
+            aus750vaODCheckBox.Checked = false;
+            aus1kvaODCheckBox.Checked = false;
+            aus1_5kvaODCheckBox.Checked = false;
+            aus2kvaODCheckBox.Checked = false;
+            aus3kvaODCheckBox.Checked = false;
+            aus4kvaODCheckBox.Checked = false;
+            aus6kvaODCheckBox.Checked = false;
+            aus8kvaODCheckBox.Checked = false;
 
-            //Liga campo livre convencional OE
-            campoLiga500_1koeCheckBox.Checked = false;
-            campoLiga1k_2koeCheckBox.Checked = false;
-            campoLiga2k_3koeCheckBox.Checked = false;
-            campoLiga3k_4koeCheckBox.Checked = false;
+            //Mascaramento VO OD
+            masc250vo_ODCheckBox.Checked = false;
+            masc500vo_ODCheckBox.Checked = false;
+            masc750vo_ODCheckBox.Checked = false;
+            masc1kvo_ODCheckBox.Checked = false;
+            masc1_5kvo_ODCheckBox.Checked = false;
+            masc2kvo_ODCheckBox.Checked = false;
+            masc3kvo_ODCheckBox.Checked = false;
+            masc4kvo_ODCheckBox.Checked = false;
 
-            //Ausência de campo livre convencional OE
-            campoVAoeAus500CheckBox.Checked = false;
-            campoVAoeAus1kCheckBox.Checked = false;
-            campoVAoeAus2kCheckBox.Checked = false;
-            campoVAoeAus3kCheckBox.Checked = false;
-            campoVAoeAus4kCheckBox.Checked = false;
+            //liga VO OD
+            liga250_500vo_ODCheckBox.Checked = false;
+            liga500_750vo_ODCheckBox.Checked = false;
+            liga750_1kvo_ODCheckBox.Checked = false;
+            liga1k_1_5kvo_ODCheckBox.Checked = false;
+            liga1_5k_2kvo_ODCheckBox.Checked = false;
+            liga2k_3kvo_ODCheckBox.Checked = false;
+            liga3k_4kvo_ODCheckBox.Checked = false;
+
+            //Ausência de VO OD
+            aus250vo_ODCheckBox.Checked = false;
+            aus500vo_ODCheckBox.Checked = false;
+            aus750vo_ODCheckBox.Checked = false;
+            aus1kvo_ODCheckBox.Checked = false;
+            aus1_5kvo_ODCheckBox.Checked = false;
+            aus2kvo_ODCheckBox.Checked = false;
+            aus3kvo_ODCheckBox.Checked = false;
+            aus4kvo_ODCheckBox.Checked = false;
         }
 
         private void tsbPreencherTimpanogramas_Click(object sender, EventArgs e)

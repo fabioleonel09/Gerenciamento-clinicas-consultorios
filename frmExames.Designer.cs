@@ -152,42 +152,42 @@ namespace segmentoOtoneurologia
             System.Windows.Forms.Label weber2kLabel;
             System.Windows.Forms.Label weber4kLabel;
             System.Windows.Forms.Label laudoAudioLabel;
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea24 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend24 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series24 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea25 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend25 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series25 = new System.Windows.Forms.DataVisualization.Charting.Series();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmExames));
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend4 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea5 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend5 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series5 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea6 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend6 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series6 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea7 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend7 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series7 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea8 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend8 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series8 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea9 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend9 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series9 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea10 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend10 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series10 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea11 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend11 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series11 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea26 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend26 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series26 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea27 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend27 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series27 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea28 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend28 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series28 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea29 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend29 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series29 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea30 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend30 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series30 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea23 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend23 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series23 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea31 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend31 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series31 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea32 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend32 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series32 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea33 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend33 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series33 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
@@ -924,6 +924,7 @@ namespace segmentoOtoneurologia
             this.tableLayoutPanel39 = new System.Windows.Forms.TableLayoutPanel();
             this.peaP300TextBox = new System.Windows.Forms.TextBox();
             this.tabPage39 = new System.Windows.Forms.TabPage();
+            this.peamlOETextBox = new System.Windows.Forms.TextBox();
             this.tabPage19 = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel27 = new System.Windows.Forms.TableLayoutPanel();
             this.tabControl8 = new System.Windows.Forms.TabControl();
@@ -968,6 +969,7 @@ namespace segmentoOtoneurologia
             this.btnInserirEpidemiol = new System.Windows.Forms.Button();
             this.tabControlEpidemiolOE = new System.Windows.Forms.TabControl();
             this.tabPage44 = new System.Windows.Forms.TabPage();
+            this.label147 = new System.Windows.Forms.Label();
             this.label125 = new System.Windows.Forms.Label();
             this.tableLayoutPanel94 = new System.Windows.Forms.TableLayoutPanel();
             this.checkBox5 = new System.Windows.Forms.CheckBox();
@@ -1016,9 +1018,11 @@ namespace segmentoOtoneurologia
             this.comboBox25 = new System.Windows.Forms.ComboBox();
             this.comboBox26 = new System.Windows.Forms.ComboBox();
             this.label146 = new System.Windows.Forms.Label();
-            this.label147 = new System.Windows.Forms.Label();
             this.tabControlEpidemiolOD = new System.Windows.Forms.TabControl();
             this.tabPage43 = new System.Windows.Forms.TabPage();
+            this.label124 = new System.Windows.Forms.Label();
+            this.label148 = new System.Windows.Forms.Label();
+            this.label122 = new System.Windows.Forms.Label();
             this.tableLayoutPanel91 = new System.Windows.Forms.TableLayoutPanel();
             this.comboBox11 = new System.Windows.Forms.ComboBox();
             this.label77 = new System.Windows.Forms.Label();
@@ -1034,7 +1038,6 @@ namespace segmentoOtoneurologia
             this.label82 = new System.Windows.Forms.Label();
             this.comboBox17 = new System.Windows.Forms.ComboBox();
             this.comboBox18 = new System.Windows.Forms.ComboBox();
-            this.label124 = new System.Windows.Forms.Label();
             this.tableLayoutPanel93 = new System.Windows.Forms.TableLayoutPanel();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.label130 = new System.Windows.Forms.Label();
@@ -1042,8 +1045,6 @@ namespace segmentoOtoneurologia
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.checkBox3 = new System.Windows.Forms.CheckBox();
             this.checkBox4 = new System.Windows.Forms.CheckBox();
-            this.label122 = new System.Windows.Forms.Label();
-            this.label148 = new System.Windows.Forms.Label();
             this.tableLayoutPanel108 = new System.Windows.Forms.TableLayoutPanel();
             this.label149 = new System.Windows.Forms.Label();
             this.label150 = new System.Windows.Forms.Label();
@@ -1115,9 +1116,6 @@ namespace segmentoOtoneurologia
             this.toolStripInternet = new System.Windows.Forms.ToolStripButton();
             this.gbTipoAudiograma = new System.Windows.Forms.GroupBox();
             this.tipoAudiometriaComboBox = new System.Windows.Forms.ComboBox();
-            this.tabelaExamesTableAdapter = new segmentoOtoneurologia.segmsaude001DataSetTableAdapters.tabelaExamesTableAdapter();
-            this.tableAdapterManager = new segmentoOtoneurologia.segmsaude001DataSetTableAdapters.TableAdapterManager();
-            this.tabelaLaudario1TableAdapter = new segmentoOtoneurologia.segmsaude001DataSetTableAdapters.tabelaLaudario1TableAdapter();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.toolTip2 = new System.Windows.Forms.ToolTip(this.components);
             this.toolTip3 = new System.Windows.Forms.ToolTip(this.components);
@@ -1125,7 +1123,9 @@ namespace segmentoOtoneurologia
             this.toolTip5 = new System.Windows.Forms.ToolTip(this.components);
             this.toolTip6 = new System.Windows.Forms.ToolTip(this.components);
             this.toolTip7 = new System.Windows.Forms.ToolTip(this.components);
-            this.peamlOETextBox = new System.Windows.Forms.TextBox();
+            this.tabelaExamesTableAdapter = new segmentoOtoneurologia.segmsaude001DataSetTableAdapters.tabelaExamesTableAdapter();
+            this.tableAdapterManager = new segmentoOtoneurologia.segmsaude001DataSetTableAdapters.TableAdapterManager();
+            this.tabelaLaudario1TableAdapter = new segmentoOtoneurologia.segmsaude001DataSetTableAdapters.tabelaLaudario1TableAdapter();
             segundoAutorLabel = new System.Windows.Forms.Label();
             comentariosImpLabel = new System.Windows.Forms.Label();
             dataCalImpLabel = new System.Windows.Forms.Label();
@@ -2055,7 +2055,7 @@ namespace segmentoOtoneurologia
             va9koeLabel.AutoSize = true;
             va9koeLabel.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             va9koeLabel.ForeColor = System.Drawing.Color.Blue;
-            va9koeLabel.Location = new System.Drawing.Point(4, 88);
+            va9koeLabel.Location = new System.Drawing.Point(4, 86);
             va9koeLabel.Name = "va9koeLabel";
             va9koeLabel.Size = new System.Drawing.Size(83, 19);
             va9koeLabel.TabIndex = 0;
@@ -2068,7 +2068,7 @@ namespace segmentoOtoneurologia
             va10koeLabel.AutoSize = true;
             va10koeLabel.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             va10koeLabel.ForeColor = System.Drawing.Color.Blue;
-            va10koeLabel.Location = new System.Drawing.Point(4, 127);
+            va10koeLabel.Location = new System.Drawing.Point(4, 124);
             va10koeLabel.Name = "va10koeLabel";
             va10koeLabel.Size = new System.Drawing.Size(83, 19);
             va10koeLabel.TabIndex = 2;
@@ -2081,7 +2081,7 @@ namespace segmentoOtoneurologia
             va12_5koeLabel.AutoSize = true;
             va12_5koeLabel.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             va12_5koeLabel.ForeColor = System.Drawing.Color.Blue;
-            va12_5koeLabel.Location = new System.Drawing.Point(4, 166);
+            va12_5koeLabel.Location = new System.Drawing.Point(4, 162);
             va12_5koeLabel.Name = "va12_5koeLabel";
             va12_5koeLabel.Size = new System.Drawing.Size(83, 19);
             va12_5koeLabel.TabIndex = 4;
@@ -2094,7 +2094,7 @@ namespace segmentoOtoneurologia
             va14koeLabel.AutoSize = true;
             va14koeLabel.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             va14koeLabel.ForeColor = System.Drawing.Color.Blue;
-            va14koeLabel.Location = new System.Drawing.Point(4, 205);
+            va14koeLabel.Location = new System.Drawing.Point(4, 200);
             va14koeLabel.Name = "va14koeLabel";
             va14koeLabel.Size = new System.Drawing.Size(83, 19);
             va14koeLabel.TabIndex = 6;
@@ -2107,7 +2107,7 @@ namespace segmentoOtoneurologia
             va16koeLabel.AutoSize = true;
             va16koeLabel.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             va16koeLabel.ForeColor = System.Drawing.Color.Blue;
-            va16koeLabel.Location = new System.Drawing.Point(4, 244);
+            va16koeLabel.Location = new System.Drawing.Point(4, 238);
             va16koeLabel.Name = "va16koeLabel";
             va16koeLabel.Size = new System.Drawing.Size(83, 19);
             va16koeLabel.TabIndex = 8;
@@ -2120,7 +2120,7 @@ namespace segmentoOtoneurologia
             va18koeLabel.AutoSize = true;
             va18koeLabel.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             va18koeLabel.ForeColor = System.Drawing.Color.Blue;
-            va18koeLabel.Location = new System.Drawing.Point(4, 283);
+            va18koeLabel.Location = new System.Drawing.Point(4, 276);
             va18koeLabel.Name = "va18koeLabel";
             va18koeLabel.Size = new System.Drawing.Size(83, 19);
             va18koeLabel.TabIndex = 10;
@@ -2133,7 +2133,7 @@ namespace segmentoOtoneurologia
             va20koeLabel.AutoSize = true;
             va20koeLabel.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             va20koeLabel.ForeColor = System.Drawing.Color.Blue;
-            va20koeLabel.Location = new System.Drawing.Point(4, 322);
+            va20koeLabel.Location = new System.Drawing.Point(4, 314);
             va20koeLabel.Name = "va20koeLabel";
             va20koeLabel.Size = new System.Drawing.Size(83, 19);
             va20koeLabel.TabIndex = 12;
@@ -2170,9 +2170,9 @@ namespace segmentoOtoneurologia
             label46.Dock = System.Windows.Forms.DockStyle.Fill;
             label46.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             label46.ForeColor = System.Drawing.Color.Blue;
-            label46.Location = new System.Drawing.Point(412, 57);
+            label46.Location = new System.Drawing.Point(412, 56);
             label46.Name = "label46";
-            label46.Size = new System.Drawing.Size(61, 55);
+            label46.Size = new System.Drawing.Size(61, 54);
             label46.TabIndex = 14;
             label46.Text = "SDT";
             label46.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2185,7 +2185,7 @@ namespace segmentoOtoneurologia
             label51.ForeColor = System.Drawing.Color.Blue;
             label51.Location = new System.Drawing.Point(412, 1);
             label51.Name = "label51";
-            label51.Size = new System.Drawing.Size(61, 55);
+            label51.Size = new System.Drawing.Size(61, 54);
             label51.TabIndex = 12;
             label51.Text = "SRT";
             label51.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2196,9 +2196,9 @@ namespace segmentoOtoneurologia
             label52.Dock = System.Windows.Forms.DockStyle.Fill;
             label52.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             label52.ForeColor = System.Drawing.Color.Blue;
-            label52.Location = new System.Drawing.Point(276, 57);
+            label52.Location = new System.Drawing.Point(276, 56);
             label52.Name = "label52";
-            label52.Size = new System.Drawing.Size(61, 55);
+            label52.Size = new System.Drawing.Size(61, 54);
             label52.TabIndex = 10;
             label52.Text = "DISS.";
             label52.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2211,7 +2211,7 @@ namespace segmentoOtoneurologia
             label53.ForeColor = System.Drawing.Color.Blue;
             label53.Location = new System.Drawing.Point(276, 1);
             label53.Name = "label53";
-            label53.Size = new System.Drawing.Size(61, 55);
+            label53.Size = new System.Drawing.Size(61, 54);
             label53.TabIndex = 8;
             label53.Text = "MON.";
             label53.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2222,9 +2222,9 @@ namespace segmentoOtoneurologia
             label54.Dock = System.Windows.Forms.DockStyle.Fill;
             label54.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             label54.ForeColor = System.Drawing.Color.Red;
-            label54.Location = new System.Drawing.Point(140, 57);
+            label54.Location = new System.Drawing.Point(140, 56);
             label54.Name = "label54";
-            label54.Size = new System.Drawing.Size(61, 55);
+            label54.Size = new System.Drawing.Size(61, 54);
             label54.TabIndex = 6;
             label54.Text = "SDT";
             label54.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2237,7 +2237,7 @@ namespace segmentoOtoneurologia
             label55.ForeColor = System.Drawing.Color.Red;
             label55.Location = new System.Drawing.Point(140, 1);
             label55.Name = "label55";
-            label55.Size = new System.Drawing.Size(61, 55);
+            label55.Size = new System.Drawing.Size(61, 54);
             label55.TabIndex = 4;
             label55.Text = "SRT";
             label55.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2248,9 +2248,9 @@ namespace segmentoOtoneurologia
             label56.Dock = System.Windows.Forms.DockStyle.Fill;
             label56.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             label56.ForeColor = System.Drawing.Color.Red;
-            label56.Location = new System.Drawing.Point(4, 57);
+            label56.Location = new System.Drawing.Point(4, 56);
             label56.Name = "label56";
-            label56.Size = new System.Drawing.Size(61, 55);
+            label56.Size = new System.Drawing.Size(61, 54);
             label56.TabIndex = 2;
             label56.Text = "DISS.";
             label56.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2263,7 +2263,7 @@ namespace segmentoOtoneurologia
             label57.ForeColor = System.Drawing.Color.Red;
             label57.Location = new System.Drawing.Point(4, 1);
             label57.Name = "label57";
-            label57.Size = new System.Drawing.Size(61, 55);
+            label57.Size = new System.Drawing.Size(61, 54);
             label57.TabIndex = 0;
             label57.Text = "MON.";
             label57.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2555,7 +2555,7 @@ namespace segmentoOtoneurologia
             va125oeLabel.AutoSize = true;
             va125oeLabel.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             va125oeLabel.ForeColor = System.Drawing.Color.Blue;
-            va125oeLabel.Location = new System.Drawing.Point(4, 45);
+            va125oeLabel.Location = new System.Drawing.Point(4, 44);
             va125oeLabel.Name = "va125oeLabel";
             va125oeLabel.Size = new System.Drawing.Size(99, 19);
             va125oeLabel.TabIndex = 0;
@@ -2568,7 +2568,7 @@ namespace segmentoOtoneurologia
             va250oeLabel.AutoSize = true;
             va250oeLabel.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             va250oeLabel.ForeColor = System.Drawing.Color.Blue;
-            va250oeLabel.Location = new System.Drawing.Point(4, 81);
+            va250oeLabel.Location = new System.Drawing.Point(4, 79);
             va250oeLabel.Name = "va250oeLabel";
             va250oeLabel.Size = new System.Drawing.Size(99, 19);
             va250oeLabel.TabIndex = 2;
@@ -2581,7 +2581,7 @@ namespace segmentoOtoneurologia
             va500oeLabel.AutoSize = true;
             va500oeLabel.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             va500oeLabel.ForeColor = System.Drawing.Color.Blue;
-            va500oeLabel.Location = new System.Drawing.Point(4, 117);
+            va500oeLabel.Location = new System.Drawing.Point(4, 114);
             va500oeLabel.Name = "va500oeLabel";
             va500oeLabel.Size = new System.Drawing.Size(99, 19);
             va500oeLabel.TabIndex = 4;
@@ -2594,7 +2594,7 @@ namespace segmentoOtoneurologia
             va750oeLabel.AutoSize = true;
             va750oeLabel.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             va750oeLabel.ForeColor = System.Drawing.Color.Blue;
-            va750oeLabel.Location = new System.Drawing.Point(4, 153);
+            va750oeLabel.Location = new System.Drawing.Point(4, 149);
             va750oeLabel.Name = "va750oeLabel";
             va750oeLabel.Size = new System.Drawing.Size(99, 19);
             va750oeLabel.TabIndex = 6;
@@ -2607,7 +2607,7 @@ namespace segmentoOtoneurologia
             va1koeLabel.AutoSize = true;
             va1koeLabel.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             va1koeLabel.ForeColor = System.Drawing.Color.Blue;
-            va1koeLabel.Location = new System.Drawing.Point(4, 189);
+            va1koeLabel.Location = new System.Drawing.Point(4, 184);
             va1koeLabel.Name = "va1koeLabel";
             va1koeLabel.Size = new System.Drawing.Size(99, 19);
             va1koeLabel.TabIndex = 8;
@@ -2620,7 +2620,7 @@ namespace segmentoOtoneurologia
             va1_5koeLabel.AutoSize = true;
             va1_5koeLabel.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             va1_5koeLabel.ForeColor = System.Drawing.Color.Blue;
-            va1_5koeLabel.Location = new System.Drawing.Point(4, 225);
+            va1_5koeLabel.Location = new System.Drawing.Point(4, 219);
             va1_5koeLabel.Name = "va1_5koeLabel";
             va1_5koeLabel.Size = new System.Drawing.Size(99, 19);
             va1_5koeLabel.TabIndex = 10;
@@ -2633,7 +2633,7 @@ namespace segmentoOtoneurologia
             va2koeLabel.AutoSize = true;
             va2koeLabel.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             va2koeLabel.ForeColor = System.Drawing.Color.Blue;
-            va2koeLabel.Location = new System.Drawing.Point(4, 261);
+            va2koeLabel.Location = new System.Drawing.Point(4, 254);
             va2koeLabel.Name = "va2koeLabel";
             va2koeLabel.Size = new System.Drawing.Size(99, 19);
             va2koeLabel.TabIndex = 12;
@@ -2646,7 +2646,7 @@ namespace segmentoOtoneurologia
             va3koeLabel.AutoSize = true;
             va3koeLabel.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             va3koeLabel.ForeColor = System.Drawing.Color.Blue;
-            va3koeLabel.Location = new System.Drawing.Point(4, 297);
+            va3koeLabel.Location = new System.Drawing.Point(4, 289);
             va3koeLabel.Name = "va3koeLabel";
             va3koeLabel.Size = new System.Drawing.Size(99, 19);
             va3koeLabel.TabIndex = 14;
@@ -2659,7 +2659,7 @@ namespace segmentoOtoneurologia
             va4koeLabel.AutoSize = true;
             va4koeLabel.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             va4koeLabel.ForeColor = System.Drawing.Color.Blue;
-            va4koeLabel.Location = new System.Drawing.Point(4, 333);
+            va4koeLabel.Location = new System.Drawing.Point(4, 324);
             va4koeLabel.Name = "va4koeLabel";
             va4koeLabel.Size = new System.Drawing.Size(99, 19);
             va4koeLabel.TabIndex = 16;
@@ -2672,7 +2672,7 @@ namespace segmentoOtoneurologia
             va6koeLabel.AutoSize = true;
             va6koeLabel.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             va6koeLabel.ForeColor = System.Drawing.Color.Blue;
-            va6koeLabel.Location = new System.Drawing.Point(4, 369);
+            va6koeLabel.Location = new System.Drawing.Point(4, 359);
             va6koeLabel.Name = "va6koeLabel";
             va6koeLabel.Size = new System.Drawing.Size(99, 19);
             va6koeLabel.TabIndex = 18;
@@ -2685,7 +2685,7 @@ namespace segmentoOtoneurologia
             va8koeLabel.AutoSize = true;
             va8koeLabel.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             va8koeLabel.ForeColor = System.Drawing.Color.Blue;
-            va8koeLabel.Location = new System.Drawing.Point(4, 400);
+            va8koeLabel.Location = new System.Drawing.Point(4, 392);
             va8koeLabel.Name = "va8koeLabel";
             va8koeLabel.Size = new System.Drawing.Size(99, 19);
             va8koeLabel.TabIndex = 20;
@@ -2711,7 +2711,7 @@ namespace segmentoOtoneurologia
             dISSoeLabel.AutoSize = true;
             dISSoeLabel.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dISSoeLabel.ForeColor = System.Drawing.Color.Blue;
-            dISSoeLabel.Location = new System.Drawing.Point(4, 65);
+            dISSoeLabel.Location = new System.Drawing.Point(4, 64);
             dISSoeLabel.Name = "dISSoeLabel";
             dISSoeLabel.Size = new System.Drawing.Size(102, 19);
             dISSoeLabel.TabIndex = 3;
@@ -2737,7 +2737,7 @@ namespace segmentoOtoneurologia
             sDToeLabel.AutoSize = true;
             sDToeLabel.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             sDToeLabel.ForeColor = System.Drawing.Color.Blue;
-            sDToeLabel.Location = new System.Drawing.Point(222, 65);
+            sDToeLabel.Location = new System.Drawing.Point(222, 64);
             sDToeLabel.Name = "sDToeLabel";
             sDToeLabel.Size = new System.Drawing.Size(102, 19);
             sDToeLabel.TabIndex = 7;
@@ -3072,9 +3072,9 @@ namespace segmentoOtoneurologia
             // dataGridViewTextBoxColumn3
             // 
             this.dataGridViewTextBoxColumn3.DataPropertyName = "dataNascimento";
-            dataGridViewCellStyle1.Format = "d";
-            dataGridViewCellStyle1.NullValue = null;
-            this.dataGridViewTextBoxColumn3.DefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle5.Format = "d";
+            dataGridViewCellStyle5.NullValue = null;
+            this.dataGridViewTextBoxColumn3.DefaultCellStyle = dataGridViewCellStyle5;
             this.dataGridViewTextBoxColumn3.HeaderText = "Data de nascimento";
             this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
             this.dataGridViewTextBoxColumn3.ReadOnly = true;
@@ -3099,9 +3099,9 @@ namespace segmentoOtoneurologia
             // dataGridViewTextBoxColumn5
             // 
             this.dataGridViewTextBoxColumn5.DataPropertyName = "dataExame";
-            dataGridViewCellStyle2.Format = "d";
-            dataGridViewCellStyle2.NullValue = null;
-            this.dataGridViewTextBoxColumn5.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle6.Format = "d";
+            dataGridViewCellStyle6.NullValue = null;
+            this.dataGridViewTextBoxColumn5.DefaultCellStyle = dataGridViewCellStyle6;
             this.dataGridViewTextBoxColumn5.HeaderText = "Data";
             this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
             this.dataGridViewTextBoxColumn5.ReadOnly = true;
@@ -3397,37 +3397,37 @@ namespace segmentoOtoneurologia
             // chartAudioOD
             // 
             this.chartAudioOD.BackImageAlignment = System.Windows.Forms.DataVisualization.Charting.ChartImageAlignmentStyle.Center;
-            chartArea1.AxisX.LabelStyle.Enabled = false;
-            chartArea1.AxisX.MajorGrid.LineColor = System.Drawing.Color.Silver;
-            chartArea1.AxisX.MajorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dash;
-            chartArea1.AxisX.MajorTickMark.Enabled = false;
-            chartArea1.AxisX.Maximum = 15D;
-            chartArea1.AxisX.Minimum = 1D;
-            chartArea1.AxisX.TextOrientation = System.Windows.Forms.DataVisualization.Charting.TextOrientation.Horizontal;
-            chartArea1.AxisX.Title = "      125            250             500     750  1k     1,5k  2k        3k   4k " +
+            chartArea24.AxisX.LabelStyle.Enabled = false;
+            chartArea24.AxisX.MajorGrid.LineColor = System.Drawing.Color.Silver;
+            chartArea24.AxisX.MajorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dash;
+            chartArea24.AxisX.MajorTickMark.Enabled = false;
+            chartArea24.AxisX.Maximum = 15D;
+            chartArea24.AxisX.Minimum = 1D;
+            chartArea24.AxisX.TextOrientation = System.Windows.Forms.DataVisualization.Charting.TextOrientation.Horizontal;
+            chartArea24.AxisX.Title = "      125            250             500     750  1k     1,5k  2k        3k   4k " +
     "      6k   8k";
-            chartArea1.AxisX.TitleAlignment = System.Drawing.StringAlignment.Near;
-            chartArea1.AxisY.Crossing = -1.7976931348623157E+308D;
-            chartArea1.AxisY.Interval = 10D;
-            chartArea1.AxisY.IsReversed = true;
-            chartArea1.AxisY.Maximum = 120D;
-            chartArea1.AxisY.Minimum = -10D;
-            chartArea1.AxisY.TextOrientation = System.Windows.Forms.DataVisualization.Charting.TextOrientation.Rotated270;
-            chartArea1.AxisY.Title = "Gráfico ISO/64 frequência (Hz) por decibel nível de audição (dBNA)";
-            chartArea1.Name = "ChartArea4";
-            this.chartAudioOD.ChartAreas.Add(chartArea1);
+            chartArea24.AxisX.TitleAlignment = System.Drawing.StringAlignment.Near;
+            chartArea24.AxisY.Crossing = -1.7976931348623157E+308D;
+            chartArea24.AxisY.Interval = 10D;
+            chartArea24.AxisY.IsReversed = true;
+            chartArea24.AxisY.Maximum = 120D;
+            chartArea24.AxisY.Minimum = -10D;
+            chartArea24.AxisY.TextOrientation = System.Windows.Forms.DataVisualization.Charting.TextOrientation.Rotated270;
+            chartArea24.AxisY.Title = "Gráfico ISO/64 frequência (Hz) por decibel nível de audição (dBNA)";
+            chartArea24.Name = "ChartArea4";
+            this.chartAudioOD.ChartAreas.Add(chartArea24);
             this.chartAudioOD.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend1.Enabled = false;
-            legend1.Name = "Legend1";
-            this.chartAudioOD.Legends.Add(legend1);
+            legend24.Enabled = false;
+            legend24.Name = "Legend1";
+            this.chartAudioOD.Legends.Add(legend24);
             this.chartAudioOD.Location = new System.Drawing.Point(3, 3);
             this.chartAudioOD.Name = "chartAudioOD";
-            series1.ChartArea = "ChartArea4";
-            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Point;
-            series1.Color = System.Drawing.Color.Red;
-            series1.Legend = "Legend1";
-            series1.Name = "OD";
-            this.chartAudioOD.Series.Add(series1);
+            series24.ChartArea = "ChartArea4";
+            series24.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Point;
+            series24.Color = System.Drawing.Color.Red;
+            series24.Legend = "Legend1";
+            series24.Name = "OD";
+            this.chartAudioOD.Series.Add(series24);
             this.chartAudioOD.Size = new System.Drawing.Size(467, 416);
             this.chartAudioOD.TabIndex = 1;
             this.chartAudioOD.Text = "chart1";
@@ -5163,7 +5163,7 @@ namespace segmentoOtoneurologia
             "65",
             "70",
             "75"});
-            this.vo1e5kodComboBox.Location = new System.Drawing.Point(327, 211);
+            this.vo1e5kodComboBox.Location = new System.Drawing.Point(327, 208);
             this.vo1e5kodComboBox.Name = "vo1e5kodComboBox";
             this.vo1e5kodComboBox.Size = new System.Drawing.Size(99, 28);
             this.vo1e5kodComboBox.TabIndex = 120;
@@ -5295,7 +5295,7 @@ namespace segmentoOtoneurologia
             this.tabPage13.Location = new System.Drawing.Point(4, 29);
             this.tabPage13.Name = "tabPage13";
             this.tabPage13.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage13.Size = new System.Drawing.Size(1033, 542);
+            this.tabPage13.Size = new System.Drawing.Size(1033, 535);
             this.tabPage13.TabIndex = 1;
             this.tabPage13.Text = "Orelha esquerda";
             // 
@@ -5315,43 +5315,43 @@ namespace segmentoOtoneurologia
             this.tableLayoutPanel62.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 80.30303F));
             this.tableLayoutPanel62.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 19.69697F));
             this.tableLayoutPanel62.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel62.Size = new System.Drawing.Size(1027, 536);
+            this.tableLayoutPanel62.Size = new System.Drawing.Size(1027, 529);
             this.tableLayoutPanel62.TabIndex = 2;
             // 
             // chartAudioOE
             // 
-            chartArea2.AxisX.LabelStyle.Enabled = false;
-            chartArea2.AxisX.MajorGrid.LineColor = System.Drawing.Color.Silver;
-            chartArea2.AxisX.MajorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dash;
-            chartArea2.AxisX.MajorTickMark.Enabled = false;
-            chartArea2.AxisX.Maximum = 15D;
-            chartArea2.AxisX.Minimum = 1D;
-            chartArea2.AxisX.TextOrientation = System.Windows.Forms.DataVisualization.Charting.TextOrientation.Horizontal;
-            chartArea2.AxisX.Title = "      125            250             500     750  1k     1,5k  2k        3k   4k " +
+            chartArea25.AxisX.LabelStyle.Enabled = false;
+            chartArea25.AxisX.MajorGrid.LineColor = System.Drawing.Color.Silver;
+            chartArea25.AxisX.MajorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dash;
+            chartArea25.AxisX.MajorTickMark.Enabled = false;
+            chartArea25.AxisX.Maximum = 15D;
+            chartArea25.AxisX.Minimum = 1D;
+            chartArea25.AxisX.TextOrientation = System.Windows.Forms.DataVisualization.Charting.TextOrientation.Horizontal;
+            chartArea25.AxisX.Title = "      125            250             500     750  1k     1,5k  2k        3k   4k " +
     "       6k  8k";
-            chartArea2.AxisX.TitleAlignment = System.Drawing.StringAlignment.Near;
-            chartArea2.AxisY.Crossing = -1.7976931348623157E+308D;
-            chartArea2.AxisY.Interval = 10D;
-            chartArea2.AxisY.IsReversed = true;
-            chartArea2.AxisY.Maximum = 120D;
-            chartArea2.AxisY.Minimum = -10D;
-            chartArea2.AxisY.TextOrientation = System.Windows.Forms.DataVisualization.Charting.TextOrientation.Rotated270;
-            chartArea2.AxisY.Title = "Gráfico ISO/64 frequência (Hz) por decibel nível de audição (dBNA)";
-            chartArea2.Name = "ChartArea5";
-            this.chartAudioOE.ChartAreas.Add(chartArea2);
+            chartArea25.AxisX.TitleAlignment = System.Drawing.StringAlignment.Near;
+            chartArea25.AxisY.Crossing = -1.7976931348623157E+308D;
+            chartArea25.AxisY.Interval = 10D;
+            chartArea25.AxisY.IsReversed = true;
+            chartArea25.AxisY.Maximum = 120D;
+            chartArea25.AxisY.Minimum = -10D;
+            chartArea25.AxisY.TextOrientation = System.Windows.Forms.DataVisualization.Charting.TextOrientation.Rotated270;
+            chartArea25.AxisY.Title = "Gráfico ISO/64 frequência (Hz) por decibel nível de audição (dBNA)";
+            chartArea25.Name = "ChartArea5";
+            this.chartAudioOE.ChartAreas.Add(chartArea25);
             this.chartAudioOE.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend2.Enabled = false;
-            legend2.Name = "Legend1";
-            this.chartAudioOE.Legends.Add(legend2);
+            legend25.Enabled = false;
+            legend25.Name = "Legend1";
+            this.chartAudioOE.Legends.Add(legend25);
             this.chartAudioOE.Location = new System.Drawing.Point(3, 3);
             this.chartAudioOE.Name = "chartAudioOE";
-            series2.ChartArea = "ChartArea5";
-            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Point;
-            series2.Color = System.Drawing.Color.DodgerBlue;
-            series2.Legend = "Legend1";
-            series2.Name = "OE";
-            this.chartAudioOE.Series.Add(series2);
-            this.chartAudioOE.Size = new System.Drawing.Size(466, 424);
+            series25.ChartArea = "ChartArea5";
+            series25.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Point;
+            series25.Color = System.Drawing.Color.DodgerBlue;
+            series25.Legend = "Legend1";
+            series25.Name = "OE";
+            this.chartAudioOE.Series.Add(series25);
+            this.chartAudioOE.Size = new System.Drawing.Size(466, 418);
             this.chartAudioOE.TabIndex = 1;
             this.chartAudioOE.Text = "chart1";
             // 
@@ -5376,12 +5376,12 @@ namespace segmentoOtoneurologia
             this.tableLayoutPanel63.Controls.Add(this.mONoeComboBox, 1, 0);
             this.tableLayoutPanel63.Controls.Add(this.tableLayoutPanel89, 4, 0);
             this.tableLayoutPanel63.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel63.Location = new System.Drawing.Point(475, 433);
+            this.tableLayoutPanel63.Location = new System.Drawing.Point(475, 427);
             this.tableLayoutPanel63.Name = "tableLayoutPanel63";
             this.tableLayoutPanel63.RowCount = 2;
             this.tableLayoutPanel63.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel63.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel63.Size = new System.Drawing.Size(549, 100);
+            this.tableLayoutPanel63.Size = new System.Drawing.Size(549, 99);
             this.tableLayoutPanel63.TabIndex = 2;
             // 
             // mEDIAoeTextBox
@@ -5674,7 +5674,7 @@ namespace segmentoOtoneurologia
             this.tableLayoutPanel64.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel64.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel64.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel64.Size = new System.Drawing.Size(549, 424);
+            this.tableLayoutPanel64.Size = new System.Drawing.Size(549, 418);
             this.tableLayoutPanel64.TabIndex = 3;
             // 
             // vo4koeComboBox
@@ -5705,7 +5705,7 @@ namespace segmentoOtoneurologia
             "65",
             "70",
             "75"});
-            this.vo4koeComboBox.Location = new System.Drawing.Point(329, 329);
+            this.vo4koeComboBox.Location = new System.Drawing.Point(329, 321);
             this.vo4koeComboBox.Name = "vo4koeComboBox";
             this.vo4koeComboBox.Size = new System.Drawing.Size(98, 26);
             this.vo4koeComboBox.TabIndex = 37;
@@ -5738,7 +5738,7 @@ namespace segmentoOtoneurologia
             "65",
             "70",
             "75"});
-            this.vo3koeComboBox.Location = new System.Drawing.Point(329, 293);
+            this.vo3koeComboBox.Location = new System.Drawing.Point(329, 286);
             this.vo3koeComboBox.Name = "vo3koeComboBox";
             this.vo3koeComboBox.Size = new System.Drawing.Size(98, 26);
             this.vo3koeComboBox.TabIndex = 35;
@@ -5771,7 +5771,7 @@ namespace segmentoOtoneurologia
             "65",
             "70",
             "75"});
-            this.vo2koeComboBox.Location = new System.Drawing.Point(329, 257);
+            this.vo2koeComboBox.Location = new System.Drawing.Point(329, 251);
             this.vo2koeComboBox.Name = "vo2koeComboBox";
             this.vo2koeComboBox.Size = new System.Drawing.Size(98, 26);
             this.vo2koeComboBox.TabIndex = 33;
@@ -5804,7 +5804,7 @@ namespace segmentoOtoneurologia
             "65",
             "70",
             "75"});
-            this.vo1koeComboBox.Location = new System.Drawing.Point(329, 185);
+            this.vo1koeComboBox.Location = new System.Drawing.Point(329, 181);
             this.vo1koeComboBox.Name = "vo1koeComboBox";
             this.vo1koeComboBox.Size = new System.Drawing.Size(98, 26);
             this.vo1koeComboBox.TabIndex = 29;
@@ -5837,7 +5837,7 @@ namespace segmentoOtoneurologia
             "65",
             "70",
             "75"});
-            this.vo750oeComboBox.Location = new System.Drawing.Point(329, 149);
+            this.vo750oeComboBox.Location = new System.Drawing.Point(329, 146);
             this.vo750oeComboBox.Name = "vo750oeComboBox";
             this.vo750oeComboBox.Size = new System.Drawing.Size(98, 26);
             this.vo750oeComboBox.TabIndex = 27;
@@ -5870,7 +5870,7 @@ namespace segmentoOtoneurologia
             "65",
             "70",
             "75"});
-            this.vo500oeComboBox.Location = new System.Drawing.Point(329, 113);
+            this.vo500oeComboBox.Location = new System.Drawing.Point(329, 111);
             this.vo500oeComboBox.Name = "vo500oeComboBox";
             this.vo500oeComboBox.Size = new System.Drawing.Size(98, 26);
             this.vo500oeComboBox.TabIndex = 25;
@@ -5903,7 +5903,7 @@ namespace segmentoOtoneurologia
             "65",
             "70",
             "75"});
-            this.vo250oeComboBox.Location = new System.Drawing.Point(329, 77);
+            this.vo250oeComboBox.Location = new System.Drawing.Point(329, 76);
             this.vo250oeComboBox.Name = "vo250oeComboBox";
             this.vo250oeComboBox.Size = new System.Drawing.Size(98, 26);
             this.vo250oeComboBox.TabIndex = 23;
@@ -5945,7 +5945,7 @@ namespace segmentoOtoneurologia
             "110",
             "115",
             "120"});
-            this.va8koeComboBox.Location = new System.Drawing.Point(110, 400);
+            this.va8koeComboBox.Location = new System.Drawing.Point(110, 390);
             this.va8koeComboBox.Name = "va8koeComboBox";
             this.va8koeComboBox.Size = new System.Drawing.Size(101, 26);
             this.va8koeComboBox.TabIndex = 21;
@@ -5987,7 +5987,7 @@ namespace segmentoOtoneurologia
             "110",
             "115",
             "120"});
-            this.va6koeComboBox.Location = new System.Drawing.Point(110, 365);
+            this.va6koeComboBox.Location = new System.Drawing.Point(110, 356);
             this.va6koeComboBox.Name = "va6koeComboBox";
             this.va6koeComboBox.Size = new System.Drawing.Size(101, 26);
             this.va6koeComboBox.TabIndex = 19;
@@ -6029,7 +6029,7 @@ namespace segmentoOtoneurologia
             "110",
             "115",
             "120"});
-            this.va4koeComboBox.Location = new System.Drawing.Point(110, 329);
+            this.va4koeComboBox.Location = new System.Drawing.Point(110, 321);
             this.va4koeComboBox.Name = "va4koeComboBox";
             this.va4koeComboBox.Size = new System.Drawing.Size(101, 26);
             this.va4koeComboBox.TabIndex = 17;
@@ -6071,7 +6071,7 @@ namespace segmentoOtoneurologia
             "110",
             "115",
             "120"});
-            this.va3koeComboBox.Location = new System.Drawing.Point(110, 293);
+            this.va3koeComboBox.Location = new System.Drawing.Point(110, 286);
             this.va3koeComboBox.Name = "va3koeComboBox";
             this.va3koeComboBox.Size = new System.Drawing.Size(101, 26);
             this.va3koeComboBox.TabIndex = 15;
@@ -6113,7 +6113,7 @@ namespace segmentoOtoneurologia
             "110",
             "115",
             "120"});
-            this.va2koeComboBox.Location = new System.Drawing.Point(110, 257);
+            this.va2koeComboBox.Location = new System.Drawing.Point(110, 251);
             this.va2koeComboBox.Name = "va2koeComboBox";
             this.va2koeComboBox.Size = new System.Drawing.Size(101, 26);
             this.va2koeComboBox.TabIndex = 13;
@@ -6155,7 +6155,7 @@ namespace segmentoOtoneurologia
             "110",
             "115",
             "120"});
-            this.va1koeComboBox.Location = new System.Drawing.Point(110, 185);
+            this.va1koeComboBox.Location = new System.Drawing.Point(110, 181);
             this.va1koeComboBox.Name = "va1koeComboBox";
             this.va1koeComboBox.Size = new System.Drawing.Size(101, 26);
             this.va1koeComboBox.TabIndex = 9;
@@ -6197,7 +6197,7 @@ namespace segmentoOtoneurologia
             "110",
             "115",
             "120"});
-            this.va750oeComboBox.Location = new System.Drawing.Point(110, 149);
+            this.va750oeComboBox.Location = new System.Drawing.Point(110, 146);
             this.va750oeComboBox.Name = "va750oeComboBox";
             this.va750oeComboBox.Size = new System.Drawing.Size(101, 26);
             this.va750oeComboBox.TabIndex = 7;
@@ -6239,7 +6239,7 @@ namespace segmentoOtoneurologia
             "110",
             "115",
             "120"});
-            this.va500oeComboBox.Location = new System.Drawing.Point(110, 113);
+            this.va500oeComboBox.Location = new System.Drawing.Point(110, 111);
             this.va500oeComboBox.Name = "va500oeComboBox";
             this.va500oeComboBox.Size = new System.Drawing.Size(101, 26);
             this.va500oeComboBox.TabIndex = 5;
@@ -6281,7 +6281,7 @@ namespace segmentoOtoneurologia
             "110",
             "115",
             "120"});
-            this.va250oeComboBox.Location = new System.Drawing.Point(110, 77);
+            this.va250oeComboBox.Location = new System.Drawing.Point(110, 76);
             this.va250oeComboBox.Name = "va250oeComboBox";
             this.va250oeComboBox.Size = new System.Drawing.Size(101, 26);
             this.va250oeComboBox.TabIndex = 3;
@@ -6344,7 +6344,7 @@ namespace segmentoOtoneurologia
             this.masc250vaOECheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.masc250vaOECheckBox.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.masc250vaOECheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.tabelaExamesBindingSource, "masc250vaOE", true));
-            this.masc250vaOECheckBox.Location = new System.Drawing.Point(218, 78);
+            this.masc250vaOECheckBox.Location = new System.Drawing.Point(218, 77);
             this.masc250vaOECheckBox.Name = "masc250vaOECheckBox";
             this.masc250vaOECheckBox.Size = new System.Drawing.Size(30, 24);
             this.masc250vaOECheckBox.TabIndex = 39;
@@ -6355,7 +6355,7 @@ namespace segmentoOtoneurologia
             this.masc500vaOECheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.masc500vaOECheckBox.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.masc500vaOECheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.tabelaExamesBindingSource, "masc500vaOE", true));
-            this.masc500vaOECheckBox.Location = new System.Drawing.Point(218, 114);
+            this.masc500vaOECheckBox.Location = new System.Drawing.Point(218, 112);
             this.masc500vaOECheckBox.Name = "masc500vaOECheckBox";
             this.masc500vaOECheckBox.Size = new System.Drawing.Size(30, 24);
             this.masc500vaOECheckBox.TabIndex = 40;
@@ -6366,7 +6366,7 @@ namespace segmentoOtoneurologia
             this.masc750vaOECheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.masc750vaOECheckBox.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.masc750vaOECheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.tabelaExamesBindingSource, "masc750vaOE", true));
-            this.masc750vaOECheckBox.Location = new System.Drawing.Point(218, 150);
+            this.masc750vaOECheckBox.Location = new System.Drawing.Point(218, 147);
             this.masc750vaOECheckBox.Name = "masc750vaOECheckBox";
             this.masc750vaOECheckBox.Size = new System.Drawing.Size(30, 24);
             this.masc750vaOECheckBox.TabIndex = 41;
@@ -6377,7 +6377,7 @@ namespace segmentoOtoneurologia
             this.masc1kvaOECheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.masc1kvaOECheckBox.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.masc1kvaOECheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.tabelaExamesBindingSource, "masc1kvaOE", true));
-            this.masc1kvaOECheckBox.Location = new System.Drawing.Point(218, 186);
+            this.masc1kvaOECheckBox.Location = new System.Drawing.Point(218, 182);
             this.masc1kvaOECheckBox.Name = "masc1kvaOECheckBox";
             this.masc1kvaOECheckBox.Size = new System.Drawing.Size(30, 24);
             this.masc1kvaOECheckBox.TabIndex = 42;
@@ -6388,7 +6388,7 @@ namespace segmentoOtoneurologia
             this.masc1_5kvaOECheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.masc1_5kvaOECheckBox.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.masc1_5kvaOECheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.tabelaExamesBindingSource, "masc1_5kvaOE", true));
-            this.masc1_5kvaOECheckBox.Location = new System.Drawing.Point(218, 222);
+            this.masc1_5kvaOECheckBox.Location = new System.Drawing.Point(218, 217);
             this.masc1_5kvaOECheckBox.Name = "masc1_5kvaOECheckBox";
             this.masc1_5kvaOECheckBox.Size = new System.Drawing.Size(30, 24);
             this.masc1_5kvaOECheckBox.TabIndex = 43;
@@ -6399,7 +6399,7 @@ namespace segmentoOtoneurologia
             this.masc2kvaOECheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.masc2kvaOECheckBox.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.masc2kvaOECheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.tabelaExamesBindingSource, "masc2kvaOE", true));
-            this.masc2kvaOECheckBox.Location = new System.Drawing.Point(218, 258);
+            this.masc2kvaOECheckBox.Location = new System.Drawing.Point(218, 252);
             this.masc2kvaOECheckBox.Name = "masc2kvaOECheckBox";
             this.masc2kvaOECheckBox.Size = new System.Drawing.Size(30, 24);
             this.masc2kvaOECheckBox.TabIndex = 44;
@@ -6410,7 +6410,7 @@ namespace segmentoOtoneurologia
             this.masc3kvaOECheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.masc3kvaOECheckBox.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.masc3kvaOECheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.tabelaExamesBindingSource, "masc3kvaOE", true));
-            this.masc3kvaOECheckBox.Location = new System.Drawing.Point(218, 294);
+            this.masc3kvaOECheckBox.Location = new System.Drawing.Point(218, 287);
             this.masc3kvaOECheckBox.Name = "masc3kvaOECheckBox";
             this.masc3kvaOECheckBox.Size = new System.Drawing.Size(30, 24);
             this.masc3kvaOECheckBox.TabIndex = 45;
@@ -6421,7 +6421,7 @@ namespace segmentoOtoneurologia
             this.masc4kvaOECheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.masc4kvaOECheckBox.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.masc4kvaOECheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.tabelaExamesBindingSource, "masc4kvaOE", true));
-            this.masc4kvaOECheckBox.Location = new System.Drawing.Point(218, 330);
+            this.masc4kvaOECheckBox.Location = new System.Drawing.Point(218, 322);
             this.masc4kvaOECheckBox.Name = "masc4kvaOECheckBox";
             this.masc4kvaOECheckBox.Size = new System.Drawing.Size(30, 24);
             this.masc4kvaOECheckBox.TabIndex = 46;
@@ -6432,7 +6432,7 @@ namespace segmentoOtoneurologia
             this.masc6kvaOECheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.masc6kvaOECheckBox.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.masc6kvaOECheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.tabelaExamesBindingSource, "masc6kvaOE", true));
-            this.masc6kvaOECheckBox.Location = new System.Drawing.Point(218, 366);
+            this.masc6kvaOECheckBox.Location = new System.Drawing.Point(218, 357);
             this.masc6kvaOECheckBox.Name = "masc6kvaOECheckBox";
             this.masc6kvaOECheckBox.Size = new System.Drawing.Size(30, 24);
             this.masc6kvaOECheckBox.TabIndex = 47;
@@ -6443,7 +6443,7 @@ namespace segmentoOtoneurologia
             this.masc8kvaOECheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.masc8kvaOECheckBox.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.masc8kvaOECheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.tabelaExamesBindingSource, "masc8kvaOE", true));
-            this.masc8kvaOECheckBox.Location = new System.Drawing.Point(218, 400);
+            this.masc8kvaOECheckBox.Location = new System.Drawing.Point(218, 392);
             this.masc8kvaOECheckBox.Name = "masc8kvaOECheckBox";
             this.masc8kvaOECheckBox.Size = new System.Drawing.Size(30, 20);
             this.masc8kvaOECheckBox.TabIndex = 48;
@@ -6454,7 +6454,7 @@ namespace segmentoOtoneurologia
             this.liga125_250vaOECheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.liga125_250vaOECheckBox.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.liga125_250vaOECheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.tabelaExamesBindingSource, "liga125_250vaOE", true));
-            this.liga125_250vaOECheckBox.Location = new System.Drawing.Point(255, 78);
+            this.liga125_250vaOECheckBox.Location = new System.Drawing.Point(255, 77);
             this.liga125_250vaOECheckBox.Name = "liga125_250vaOECheckBox";
             this.liga125_250vaOECheckBox.Size = new System.Drawing.Size(30, 24);
             this.liga125_250vaOECheckBox.TabIndex = 49;
@@ -6465,7 +6465,7 @@ namespace segmentoOtoneurologia
             this.liga250_500vaOECheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.liga250_500vaOECheckBox.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.liga250_500vaOECheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.tabelaExamesBindingSource, "liga250_500vaOE", true));
-            this.liga250_500vaOECheckBox.Location = new System.Drawing.Point(255, 114);
+            this.liga250_500vaOECheckBox.Location = new System.Drawing.Point(255, 112);
             this.liga250_500vaOECheckBox.Name = "liga250_500vaOECheckBox";
             this.liga250_500vaOECheckBox.Size = new System.Drawing.Size(30, 24);
             this.liga250_500vaOECheckBox.TabIndex = 50;
@@ -6476,7 +6476,7 @@ namespace segmentoOtoneurologia
             this.liga500_750vaOECheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.liga500_750vaOECheckBox.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.liga500_750vaOECheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.tabelaExamesBindingSource, "liga500_750vaOE", true));
-            this.liga500_750vaOECheckBox.Location = new System.Drawing.Point(255, 150);
+            this.liga500_750vaOECheckBox.Location = new System.Drawing.Point(255, 147);
             this.liga500_750vaOECheckBox.Name = "liga500_750vaOECheckBox";
             this.liga500_750vaOECheckBox.Size = new System.Drawing.Size(30, 24);
             this.liga500_750vaOECheckBox.TabIndex = 51;
@@ -6487,7 +6487,7 @@ namespace segmentoOtoneurologia
             this.liga750_1kvaOECheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.liga750_1kvaOECheckBox.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.liga750_1kvaOECheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.tabelaExamesBindingSource, "liga750_1kvaOE", true));
-            this.liga750_1kvaOECheckBox.Location = new System.Drawing.Point(255, 186);
+            this.liga750_1kvaOECheckBox.Location = new System.Drawing.Point(255, 182);
             this.liga750_1kvaOECheckBox.Name = "liga750_1kvaOECheckBox";
             this.liga750_1kvaOECheckBox.Size = new System.Drawing.Size(30, 24);
             this.liga750_1kvaOECheckBox.TabIndex = 52;
@@ -6498,7 +6498,7 @@ namespace segmentoOtoneurologia
             this.liga1k_1_5kvaOECheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.liga1k_1_5kvaOECheckBox.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.liga1k_1_5kvaOECheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.tabelaExamesBindingSource, "liga1k_1_5kvaOE", true));
-            this.liga1k_1_5kvaOECheckBox.Location = new System.Drawing.Point(255, 222);
+            this.liga1k_1_5kvaOECheckBox.Location = new System.Drawing.Point(255, 217);
             this.liga1k_1_5kvaOECheckBox.Name = "liga1k_1_5kvaOECheckBox";
             this.liga1k_1_5kvaOECheckBox.Size = new System.Drawing.Size(30, 24);
             this.liga1k_1_5kvaOECheckBox.TabIndex = 53;
@@ -6509,7 +6509,7 @@ namespace segmentoOtoneurologia
             this.liga1_5k_2kvaOECheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.liga1_5k_2kvaOECheckBox.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.liga1_5k_2kvaOECheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.tabelaExamesBindingSource, "liga1_5k_2kvaOE", true));
-            this.liga1_5k_2kvaOECheckBox.Location = new System.Drawing.Point(255, 258);
+            this.liga1_5k_2kvaOECheckBox.Location = new System.Drawing.Point(255, 252);
             this.liga1_5k_2kvaOECheckBox.Name = "liga1_5k_2kvaOECheckBox";
             this.liga1_5k_2kvaOECheckBox.Size = new System.Drawing.Size(30, 24);
             this.liga1_5k_2kvaOECheckBox.TabIndex = 54;
@@ -6520,7 +6520,7 @@ namespace segmentoOtoneurologia
             this.liga2k_3kvaOECheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.liga2k_3kvaOECheckBox.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.liga2k_3kvaOECheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.tabelaExamesBindingSource, "liga2k_3kvaOE", true));
-            this.liga2k_3kvaOECheckBox.Location = new System.Drawing.Point(255, 294);
+            this.liga2k_3kvaOECheckBox.Location = new System.Drawing.Point(255, 287);
             this.liga2k_3kvaOECheckBox.Name = "liga2k_3kvaOECheckBox";
             this.liga2k_3kvaOECheckBox.Size = new System.Drawing.Size(30, 24);
             this.liga2k_3kvaOECheckBox.TabIndex = 55;
@@ -6531,7 +6531,7 @@ namespace segmentoOtoneurologia
             this.liga3k_4kvaOECheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.liga3k_4kvaOECheckBox.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.liga3k_4kvaOECheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.tabelaExamesBindingSource, "liga3k_4kvaOE", true));
-            this.liga3k_4kvaOECheckBox.Location = new System.Drawing.Point(255, 330);
+            this.liga3k_4kvaOECheckBox.Location = new System.Drawing.Point(255, 322);
             this.liga3k_4kvaOECheckBox.Name = "liga3k_4kvaOECheckBox";
             this.liga3k_4kvaOECheckBox.Size = new System.Drawing.Size(30, 24);
             this.liga3k_4kvaOECheckBox.TabIndex = 56;
@@ -6542,7 +6542,7 @@ namespace segmentoOtoneurologia
             this.liga4k_6kvaOECheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.liga4k_6kvaOECheckBox.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.liga4k_6kvaOECheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.tabelaExamesBindingSource, "liga4k_6kvaOE", true));
-            this.liga4k_6kvaOECheckBox.Location = new System.Drawing.Point(255, 366);
+            this.liga4k_6kvaOECheckBox.Location = new System.Drawing.Point(255, 357);
             this.liga4k_6kvaOECheckBox.Name = "liga4k_6kvaOECheckBox";
             this.liga4k_6kvaOECheckBox.Size = new System.Drawing.Size(30, 24);
             this.liga4k_6kvaOECheckBox.TabIndex = 57;
@@ -6553,7 +6553,7 @@ namespace segmentoOtoneurologia
             this.liga6k_8kvaOECheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.liga6k_8kvaOECheckBox.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.liga6k_8kvaOECheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.tabelaExamesBindingSource, "liga6k_8kvaOE", true));
-            this.liga6k_8kvaOECheckBox.Location = new System.Drawing.Point(255, 400);
+            this.liga6k_8kvaOECheckBox.Location = new System.Drawing.Point(255, 392);
             this.liga6k_8kvaOECheckBox.Name = "liga6k_8kvaOECheckBox";
             this.liga6k_8kvaOECheckBox.Size = new System.Drawing.Size(30, 20);
             this.liga6k_8kvaOECheckBox.TabIndex = 58;
@@ -6575,7 +6575,7 @@ namespace segmentoOtoneurologia
             this.aus250vaOECheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.aus250vaOECheckBox.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.aus250vaOECheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.tabelaExamesBindingSource, "aus250vaOE", true));
-            this.aus250vaOECheckBox.Location = new System.Drawing.Point(292, 78);
+            this.aus250vaOECheckBox.Location = new System.Drawing.Point(292, 77);
             this.aus250vaOECheckBox.Name = "aus250vaOECheckBox";
             this.aus250vaOECheckBox.Size = new System.Drawing.Size(30, 24);
             this.aus250vaOECheckBox.TabIndex = 60;
@@ -6586,7 +6586,7 @@ namespace segmentoOtoneurologia
             this.aus500vaOECheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.aus500vaOECheckBox.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.aus500vaOECheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.tabelaExamesBindingSource, "aus500vaOE", true));
-            this.aus500vaOECheckBox.Location = new System.Drawing.Point(292, 114);
+            this.aus500vaOECheckBox.Location = new System.Drawing.Point(292, 112);
             this.aus500vaOECheckBox.Name = "aus500vaOECheckBox";
             this.aus500vaOECheckBox.Size = new System.Drawing.Size(30, 24);
             this.aus500vaOECheckBox.TabIndex = 61;
@@ -6597,7 +6597,7 @@ namespace segmentoOtoneurologia
             this.aus750vaOECheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.aus750vaOECheckBox.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.aus750vaOECheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.tabelaExamesBindingSource, "aus750vaOE", true));
-            this.aus750vaOECheckBox.Location = new System.Drawing.Point(292, 150);
+            this.aus750vaOECheckBox.Location = new System.Drawing.Point(292, 147);
             this.aus750vaOECheckBox.Name = "aus750vaOECheckBox";
             this.aus750vaOECheckBox.Size = new System.Drawing.Size(30, 24);
             this.aus750vaOECheckBox.TabIndex = 62;
@@ -6608,7 +6608,7 @@ namespace segmentoOtoneurologia
             this.aus1kvaOECheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.aus1kvaOECheckBox.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.aus1kvaOECheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.tabelaExamesBindingSource, "aus1kvaOE", true));
-            this.aus1kvaOECheckBox.Location = new System.Drawing.Point(292, 186);
+            this.aus1kvaOECheckBox.Location = new System.Drawing.Point(292, 182);
             this.aus1kvaOECheckBox.Name = "aus1kvaOECheckBox";
             this.aus1kvaOECheckBox.Size = new System.Drawing.Size(30, 24);
             this.aus1kvaOECheckBox.TabIndex = 63;
@@ -6619,7 +6619,7 @@ namespace segmentoOtoneurologia
             this.aus1_5kvaOECheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.aus1_5kvaOECheckBox.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.aus1_5kvaOECheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.tabelaExamesBindingSource, "aus1_5kvaOE", true));
-            this.aus1_5kvaOECheckBox.Location = new System.Drawing.Point(292, 222);
+            this.aus1_5kvaOECheckBox.Location = new System.Drawing.Point(292, 217);
             this.aus1_5kvaOECheckBox.Name = "aus1_5kvaOECheckBox";
             this.aus1_5kvaOECheckBox.Size = new System.Drawing.Size(30, 24);
             this.aus1_5kvaOECheckBox.TabIndex = 64;
@@ -6630,7 +6630,7 @@ namespace segmentoOtoneurologia
             this.aus2kvaOECheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.aus2kvaOECheckBox.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.aus2kvaOECheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.tabelaExamesBindingSource, "aus2kvaOE", true));
-            this.aus2kvaOECheckBox.Location = new System.Drawing.Point(292, 258);
+            this.aus2kvaOECheckBox.Location = new System.Drawing.Point(292, 252);
             this.aus2kvaOECheckBox.Name = "aus2kvaOECheckBox";
             this.aus2kvaOECheckBox.Size = new System.Drawing.Size(30, 24);
             this.aus2kvaOECheckBox.TabIndex = 65;
@@ -6641,7 +6641,7 @@ namespace segmentoOtoneurologia
             this.aus3kvaOECheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.aus3kvaOECheckBox.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.aus3kvaOECheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.tabelaExamesBindingSource, "aus3kvaOE", true));
-            this.aus3kvaOECheckBox.Location = new System.Drawing.Point(292, 294);
+            this.aus3kvaOECheckBox.Location = new System.Drawing.Point(292, 287);
             this.aus3kvaOECheckBox.Name = "aus3kvaOECheckBox";
             this.aus3kvaOECheckBox.Size = new System.Drawing.Size(30, 24);
             this.aus3kvaOECheckBox.TabIndex = 66;
@@ -6652,7 +6652,7 @@ namespace segmentoOtoneurologia
             this.aus4kvaOECheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.aus4kvaOECheckBox.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.aus4kvaOECheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.tabelaExamesBindingSource, "aus4kvaOE", true));
-            this.aus4kvaOECheckBox.Location = new System.Drawing.Point(292, 330);
+            this.aus4kvaOECheckBox.Location = new System.Drawing.Point(292, 322);
             this.aus4kvaOECheckBox.Name = "aus4kvaOECheckBox";
             this.aus4kvaOECheckBox.Size = new System.Drawing.Size(30, 24);
             this.aus4kvaOECheckBox.TabIndex = 67;
@@ -6663,7 +6663,7 @@ namespace segmentoOtoneurologia
             this.aus6kvaOECheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.aus6kvaOECheckBox.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.aus6kvaOECheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.tabelaExamesBindingSource, "aus6kvaOE", true));
-            this.aus6kvaOECheckBox.Location = new System.Drawing.Point(292, 366);
+            this.aus6kvaOECheckBox.Location = new System.Drawing.Point(292, 357);
             this.aus6kvaOECheckBox.Name = "aus6kvaOECheckBox";
             this.aus6kvaOECheckBox.Size = new System.Drawing.Size(30, 24);
             this.aus6kvaOECheckBox.TabIndex = 68;
@@ -6674,7 +6674,7 @@ namespace segmentoOtoneurologia
             this.aus8kvaOECheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.aus8kvaOECheckBox.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.aus8kvaOECheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.tabelaExamesBindingSource, "aus8kvaOE", true));
-            this.aus8kvaOECheckBox.Location = new System.Drawing.Point(292, 400);
+            this.aus8kvaOECheckBox.Location = new System.Drawing.Point(292, 392);
             this.aus8kvaOECheckBox.Name = "aus8kvaOECheckBox";
             this.aus8kvaOECheckBox.Size = new System.Drawing.Size(30, 20);
             this.aus8kvaOECheckBox.TabIndex = 69;
@@ -6685,7 +6685,7 @@ namespace segmentoOtoneurologia
             this.masc250vo_OECheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.masc250vo_OECheckBox.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.masc250vo_OECheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.tabelaExamesBindingSource, "masc250vo_OE", true));
-            this.masc250vo_OECheckBox.Location = new System.Drawing.Point(434, 78);
+            this.masc250vo_OECheckBox.Location = new System.Drawing.Point(434, 77);
             this.masc250vo_OECheckBox.Name = "masc250vo_OECheckBox";
             this.masc250vo_OECheckBox.Size = new System.Drawing.Size(30, 24);
             this.masc250vo_OECheckBox.TabIndex = 70;
@@ -6696,7 +6696,7 @@ namespace segmentoOtoneurologia
             this.masc500vo_OECheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.masc500vo_OECheckBox.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.masc500vo_OECheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.tabelaExamesBindingSource, "masc500vo_OE", true));
-            this.masc500vo_OECheckBox.Location = new System.Drawing.Point(434, 114);
+            this.masc500vo_OECheckBox.Location = new System.Drawing.Point(434, 112);
             this.masc500vo_OECheckBox.Name = "masc500vo_OECheckBox";
             this.masc500vo_OECheckBox.Size = new System.Drawing.Size(30, 24);
             this.masc500vo_OECheckBox.TabIndex = 71;
@@ -6707,7 +6707,7 @@ namespace segmentoOtoneurologia
             this.masc750vo_OECheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.masc750vo_OECheckBox.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.masc750vo_OECheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.tabelaExamesBindingSource, "masc750vo_OE", true));
-            this.masc750vo_OECheckBox.Location = new System.Drawing.Point(434, 150);
+            this.masc750vo_OECheckBox.Location = new System.Drawing.Point(434, 147);
             this.masc750vo_OECheckBox.Name = "masc750vo_OECheckBox";
             this.masc750vo_OECheckBox.Size = new System.Drawing.Size(30, 24);
             this.masc750vo_OECheckBox.TabIndex = 72;
@@ -6718,7 +6718,7 @@ namespace segmentoOtoneurologia
             this.masc1kvo_OECheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.masc1kvo_OECheckBox.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.masc1kvo_OECheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.tabelaExamesBindingSource, "masc1kvo_OE", true));
-            this.masc1kvo_OECheckBox.Location = new System.Drawing.Point(434, 186);
+            this.masc1kvo_OECheckBox.Location = new System.Drawing.Point(434, 182);
             this.masc1kvo_OECheckBox.Name = "masc1kvo_OECheckBox";
             this.masc1kvo_OECheckBox.Size = new System.Drawing.Size(30, 24);
             this.masc1kvo_OECheckBox.TabIndex = 73;
@@ -6729,7 +6729,7 @@ namespace segmentoOtoneurologia
             this.masc1_5kvo_OECheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.masc1_5kvo_OECheckBox.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.masc1_5kvo_OECheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.tabelaExamesBindingSource, "masc1_5kvo_OE", true));
-            this.masc1_5kvo_OECheckBox.Location = new System.Drawing.Point(434, 222);
+            this.masc1_5kvo_OECheckBox.Location = new System.Drawing.Point(434, 217);
             this.masc1_5kvo_OECheckBox.Name = "masc1_5kvo_OECheckBox";
             this.masc1_5kvo_OECheckBox.Size = new System.Drawing.Size(30, 24);
             this.masc1_5kvo_OECheckBox.TabIndex = 74;
@@ -6740,7 +6740,7 @@ namespace segmentoOtoneurologia
             this.masc2kvo_OECheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.masc2kvo_OECheckBox.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.masc2kvo_OECheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.tabelaExamesBindingSource, "masc2kvo_OE", true));
-            this.masc2kvo_OECheckBox.Location = new System.Drawing.Point(434, 258);
+            this.masc2kvo_OECheckBox.Location = new System.Drawing.Point(434, 252);
             this.masc2kvo_OECheckBox.Name = "masc2kvo_OECheckBox";
             this.masc2kvo_OECheckBox.Size = new System.Drawing.Size(30, 24);
             this.masc2kvo_OECheckBox.TabIndex = 75;
@@ -6751,7 +6751,7 @@ namespace segmentoOtoneurologia
             this.masc3kvo_OECheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.masc3kvo_OECheckBox.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.masc3kvo_OECheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.tabelaExamesBindingSource, "masc3kvo_OE", true));
-            this.masc3kvo_OECheckBox.Location = new System.Drawing.Point(434, 294);
+            this.masc3kvo_OECheckBox.Location = new System.Drawing.Point(434, 287);
             this.masc3kvo_OECheckBox.Name = "masc3kvo_OECheckBox";
             this.masc3kvo_OECheckBox.Size = new System.Drawing.Size(30, 24);
             this.masc3kvo_OECheckBox.TabIndex = 76;
@@ -6762,7 +6762,7 @@ namespace segmentoOtoneurologia
             this.masc4kvo_OECheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.masc4kvo_OECheckBox.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.masc4kvo_OECheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.tabelaExamesBindingSource, "masc4kvo_OE", true));
-            this.masc4kvo_OECheckBox.Location = new System.Drawing.Point(434, 330);
+            this.masc4kvo_OECheckBox.Location = new System.Drawing.Point(434, 322);
             this.masc4kvo_OECheckBox.Name = "masc4kvo_OECheckBox";
             this.masc4kvo_OECheckBox.Size = new System.Drawing.Size(30, 24);
             this.masc4kvo_OECheckBox.TabIndex = 77;
@@ -6773,7 +6773,7 @@ namespace segmentoOtoneurologia
             this.liga250_500vo_OECheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.liga250_500vo_OECheckBox.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.liga250_500vo_OECheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.tabelaExamesBindingSource, "liga250_500vo_OE", true));
-            this.liga250_500vo_OECheckBox.Location = new System.Drawing.Point(471, 114);
+            this.liga250_500vo_OECheckBox.Location = new System.Drawing.Point(471, 112);
             this.liga250_500vo_OECheckBox.Name = "liga250_500vo_OECheckBox";
             this.liga250_500vo_OECheckBox.Size = new System.Drawing.Size(30, 24);
             this.liga250_500vo_OECheckBox.TabIndex = 78;
@@ -6784,7 +6784,7 @@ namespace segmentoOtoneurologia
             this.liga500_750vo_OECheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.liga500_750vo_OECheckBox.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.liga500_750vo_OECheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.tabelaExamesBindingSource, "liga500_750vo_OE", true));
-            this.liga500_750vo_OECheckBox.Location = new System.Drawing.Point(471, 150);
+            this.liga500_750vo_OECheckBox.Location = new System.Drawing.Point(471, 147);
             this.liga500_750vo_OECheckBox.Name = "liga500_750vo_OECheckBox";
             this.liga500_750vo_OECheckBox.Size = new System.Drawing.Size(30, 24);
             this.liga500_750vo_OECheckBox.TabIndex = 79;
@@ -6795,7 +6795,7 @@ namespace segmentoOtoneurologia
             this.liga750_1kvo_OECheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.liga750_1kvo_OECheckBox.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.liga750_1kvo_OECheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.tabelaExamesBindingSource, "liga750_1kvo_OE", true));
-            this.liga750_1kvo_OECheckBox.Location = new System.Drawing.Point(471, 186);
+            this.liga750_1kvo_OECheckBox.Location = new System.Drawing.Point(471, 182);
             this.liga750_1kvo_OECheckBox.Name = "liga750_1kvo_OECheckBox";
             this.liga750_1kvo_OECheckBox.Size = new System.Drawing.Size(30, 24);
             this.liga750_1kvo_OECheckBox.TabIndex = 80;
@@ -6806,7 +6806,7 @@ namespace segmentoOtoneurologia
             this.liga1k_1_5kvo_OECheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.liga1k_1_5kvo_OECheckBox.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.liga1k_1_5kvo_OECheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.tabelaExamesBindingSource, "liga1k_1_5kvo_OE", true));
-            this.liga1k_1_5kvo_OECheckBox.Location = new System.Drawing.Point(471, 222);
+            this.liga1k_1_5kvo_OECheckBox.Location = new System.Drawing.Point(471, 217);
             this.liga1k_1_5kvo_OECheckBox.Name = "liga1k_1_5kvo_OECheckBox";
             this.liga1k_1_5kvo_OECheckBox.Size = new System.Drawing.Size(30, 24);
             this.liga1k_1_5kvo_OECheckBox.TabIndex = 81;
@@ -6817,7 +6817,7 @@ namespace segmentoOtoneurologia
             this.liga1_5k_2kvo_OECheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.liga1_5k_2kvo_OECheckBox.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.liga1_5k_2kvo_OECheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.tabelaExamesBindingSource, "liga1_5k_2kvo_OE", true));
-            this.liga1_5k_2kvo_OECheckBox.Location = new System.Drawing.Point(471, 258);
+            this.liga1_5k_2kvo_OECheckBox.Location = new System.Drawing.Point(471, 252);
             this.liga1_5k_2kvo_OECheckBox.Name = "liga1_5k_2kvo_OECheckBox";
             this.liga1_5k_2kvo_OECheckBox.Size = new System.Drawing.Size(30, 24);
             this.liga1_5k_2kvo_OECheckBox.TabIndex = 82;
@@ -6828,7 +6828,7 @@ namespace segmentoOtoneurologia
             this.liga2k_3kvo_OECheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.liga2k_3kvo_OECheckBox.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.liga2k_3kvo_OECheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.tabelaExamesBindingSource, "liga2k_3kvo_OE", true));
-            this.liga2k_3kvo_OECheckBox.Location = new System.Drawing.Point(471, 294);
+            this.liga2k_3kvo_OECheckBox.Location = new System.Drawing.Point(471, 287);
             this.liga2k_3kvo_OECheckBox.Name = "liga2k_3kvo_OECheckBox";
             this.liga2k_3kvo_OECheckBox.Size = new System.Drawing.Size(30, 24);
             this.liga2k_3kvo_OECheckBox.TabIndex = 83;
@@ -6839,7 +6839,7 @@ namespace segmentoOtoneurologia
             this.liga3k_4kvo_OECheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.liga3k_4kvo_OECheckBox.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.liga3k_4kvo_OECheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.tabelaExamesBindingSource, "liga3k_4kvo_OE", true));
-            this.liga3k_4kvo_OECheckBox.Location = new System.Drawing.Point(471, 330);
+            this.liga3k_4kvo_OECheckBox.Location = new System.Drawing.Point(471, 322);
             this.liga3k_4kvo_OECheckBox.Name = "liga3k_4kvo_OECheckBox";
             this.liga3k_4kvo_OECheckBox.Size = new System.Drawing.Size(30, 24);
             this.liga3k_4kvo_OECheckBox.TabIndex = 84;
@@ -6850,7 +6850,7 @@ namespace segmentoOtoneurologia
             this.aus250vo_OECheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.aus250vo_OECheckBox.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.aus250vo_OECheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.tabelaExamesBindingSource, "aus250vo_OE", true));
-            this.aus250vo_OECheckBox.Location = new System.Drawing.Point(508, 78);
+            this.aus250vo_OECheckBox.Location = new System.Drawing.Point(508, 77);
             this.aus250vo_OECheckBox.Name = "aus250vo_OECheckBox";
             this.aus250vo_OECheckBox.Size = new System.Drawing.Size(37, 24);
             this.aus250vo_OECheckBox.TabIndex = 85;
@@ -6861,7 +6861,7 @@ namespace segmentoOtoneurologia
             this.aus500vo_OECheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.aus500vo_OECheckBox.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.aus500vo_OECheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.tabelaExamesBindingSource, "aus500vo_OE", true));
-            this.aus500vo_OECheckBox.Location = new System.Drawing.Point(508, 114);
+            this.aus500vo_OECheckBox.Location = new System.Drawing.Point(508, 112);
             this.aus500vo_OECheckBox.Name = "aus500vo_OECheckBox";
             this.aus500vo_OECheckBox.Size = new System.Drawing.Size(37, 24);
             this.aus500vo_OECheckBox.TabIndex = 86;
@@ -6872,7 +6872,7 @@ namespace segmentoOtoneurologia
             this.aus750vo_OECheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.aus750vo_OECheckBox.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.aus750vo_OECheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.tabelaExamesBindingSource, "aus750vo_OE", true));
-            this.aus750vo_OECheckBox.Location = new System.Drawing.Point(508, 150);
+            this.aus750vo_OECheckBox.Location = new System.Drawing.Point(508, 147);
             this.aus750vo_OECheckBox.Name = "aus750vo_OECheckBox";
             this.aus750vo_OECheckBox.Size = new System.Drawing.Size(37, 24);
             this.aus750vo_OECheckBox.TabIndex = 87;
@@ -6883,7 +6883,7 @@ namespace segmentoOtoneurologia
             this.aus1kvo_OECheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.aus1kvo_OECheckBox.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.aus1kvo_OECheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.tabelaExamesBindingSource, "aus1kvo_OE", true));
-            this.aus1kvo_OECheckBox.Location = new System.Drawing.Point(508, 186);
+            this.aus1kvo_OECheckBox.Location = new System.Drawing.Point(508, 182);
             this.aus1kvo_OECheckBox.Name = "aus1kvo_OECheckBox";
             this.aus1kvo_OECheckBox.Size = new System.Drawing.Size(37, 24);
             this.aus1kvo_OECheckBox.TabIndex = 88;
@@ -6894,7 +6894,7 @@ namespace segmentoOtoneurologia
             this.aus1_5kvo_OECheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.aus1_5kvo_OECheckBox.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.aus1_5kvo_OECheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.tabelaExamesBindingSource, "aus1_5kvo_OE", true));
-            this.aus1_5kvo_OECheckBox.Location = new System.Drawing.Point(508, 222);
+            this.aus1_5kvo_OECheckBox.Location = new System.Drawing.Point(508, 217);
             this.aus1_5kvo_OECheckBox.Name = "aus1_5kvo_OECheckBox";
             this.aus1_5kvo_OECheckBox.Size = new System.Drawing.Size(37, 24);
             this.aus1_5kvo_OECheckBox.TabIndex = 89;
@@ -6905,7 +6905,7 @@ namespace segmentoOtoneurologia
             this.aus2kvo_OECheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.aus2kvo_OECheckBox.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.aus2kvo_OECheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.tabelaExamesBindingSource, "aus2kvo_OE", true));
-            this.aus2kvo_OECheckBox.Location = new System.Drawing.Point(508, 258);
+            this.aus2kvo_OECheckBox.Location = new System.Drawing.Point(508, 252);
             this.aus2kvo_OECheckBox.Name = "aus2kvo_OECheckBox";
             this.aus2kvo_OECheckBox.Size = new System.Drawing.Size(37, 24);
             this.aus2kvo_OECheckBox.TabIndex = 90;
@@ -6916,7 +6916,7 @@ namespace segmentoOtoneurologia
             this.aus3kvo_OECheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.aus3kvo_OECheckBox.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.aus3kvo_OECheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.tabelaExamesBindingSource, "aus3kvo_OE", true));
-            this.aus3kvo_OECheckBox.Location = new System.Drawing.Point(508, 294);
+            this.aus3kvo_OECheckBox.Location = new System.Drawing.Point(508, 287);
             this.aus3kvo_OECheckBox.Name = "aus3kvo_OECheckBox";
             this.aus3kvo_OECheckBox.Size = new System.Drawing.Size(37, 24);
             this.aus3kvo_OECheckBox.TabIndex = 91;
@@ -6927,7 +6927,7 @@ namespace segmentoOtoneurologia
             this.aus4kvo_OECheckBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.aus4kvo_OECheckBox.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.aus4kvo_OECheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.tabelaExamesBindingSource, "aus4kvo_OE", true));
-            this.aus4kvo_OECheckBox.Location = new System.Drawing.Point(508, 330);
+            this.aus4kvo_OECheckBox.Location = new System.Drawing.Point(508, 322);
             this.aus4kvo_OECheckBox.Name = "aus4kvo_OECheckBox";
             this.aus4kvo_OECheckBox.Size = new System.Drawing.Size(37, 24);
             this.aus4kvo_OECheckBox.TabIndex = 92;
@@ -7078,7 +7078,7 @@ namespace segmentoOtoneurologia
             "65",
             "70",
             "75"});
-            this.vo1e5koeComboBox.Location = new System.Drawing.Point(329, 221);
+            this.vo1e5koeComboBox.Location = new System.Drawing.Point(329, 216);
             this.vo1e5koeComboBox.Name = "vo1e5koeComboBox";
             this.vo1e5koeComboBox.Size = new System.Drawing.Size(98, 26);
             this.vo1e5koeComboBox.TabIndex = 122;
@@ -7120,7 +7120,7 @@ namespace segmentoOtoneurologia
             "110",
             "115",
             "120"});
-            this.va1e5koeComboBox.Location = new System.Drawing.Point(110, 221);
+            this.va1e5koeComboBox.Location = new System.Drawing.Point(110, 216);
             this.va1e5koeComboBox.Name = "va1e5koeComboBox";
             this.va1e5koeComboBox.Size = new System.Drawing.Size(101, 26);
             this.va1e5koeComboBox.TabIndex = 123;
@@ -7134,11 +7134,11 @@ namespace segmentoOtoneurologia
             this.tableLayoutPanel102.Controls.Add(this.btnPlotarAudioOE, 1, 0);
             this.tableLayoutPanel102.Controls.Add(this.tableLayoutPanel103, 0, 0);
             this.tableLayoutPanel102.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel102.Location = new System.Drawing.Point(3, 433);
+            this.tableLayoutPanel102.Location = new System.Drawing.Point(3, 427);
             this.tableLayoutPanel102.Name = "tableLayoutPanel102";
             this.tableLayoutPanel102.RowCount = 1;
             this.tableLayoutPanel102.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel102.Size = new System.Drawing.Size(466, 100);
+            this.tableLayoutPanel102.Size = new System.Drawing.Size(466, 99);
             this.tableLayoutPanel102.TabIndex = 4;
             // 
             // btnPlotarAudioOE
@@ -7151,7 +7151,7 @@ namespace segmentoOtoneurologia
             this.btnPlotarAudioOE.Image = global::segmentoOtoneurologia.Properties.Resources.plotar;
             this.btnPlotarAudioOE.Location = new System.Drawing.Point(236, 4);
             this.btnPlotarAudioOE.Name = "btnPlotarAudioOE";
-            this.btnPlotarAudioOE.Size = new System.Drawing.Size(226, 92);
+            this.btnPlotarAudioOE.Size = new System.Drawing.Size(226, 91);
             this.btnPlotarAudioOE.TabIndex = 0;
             this.btnPlotarAudioOE.Text = "Plotar";
             this.btnPlotarAudioOE.TextAlign = System.Drawing.ContentAlignment.BottomRight;
@@ -7171,7 +7171,7 @@ namespace segmentoOtoneurologia
             this.tableLayoutPanel103.RowCount = 2;
             this.tableLayoutPanel103.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel103.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel103.Size = new System.Drawing.Size(225, 92);
+            this.tableLayoutPanel103.Size = new System.Drawing.Size(225, 91);
             this.tableLayoutPanel103.TabIndex = 1;
             // 
             // rbEscondeBananaAudioClinicaOE
@@ -7182,7 +7182,7 @@ namespace segmentoOtoneurologia
             this.rbEscondeBananaAudioClinicaOE.ForeColor = System.Drawing.Color.Blue;
             this.rbEscondeBananaAudioClinicaOE.Location = new System.Drawing.Point(4, 49);
             this.rbEscondeBananaAudioClinicaOE.Name = "rbEscondeBananaAudioClinicaOE";
-            this.rbEscondeBananaAudioClinicaOE.Size = new System.Drawing.Size(217, 39);
+            this.rbEscondeBananaAudioClinicaOE.Size = new System.Drawing.Size(217, 38);
             this.rbEscondeBananaAudioClinicaOE.TabIndex = 3;
             this.rbEscondeBananaAudioClinicaOE.TabStop = true;
             this.rbEscondeBananaAudioClinicaOE.Text = "Oculta \"Banana da Fala\"";
@@ -7883,35 +7883,35 @@ namespace segmentoOtoneurologia
             // 
             // chartAudioEmCampo
             // 
-            chartArea3.AxisX.LabelStyle.Enabled = false;
-            chartArea3.AxisX.MajorTickMark.Enabled = false;
-            chartArea3.AxisX.Maximum = 15D;
-            chartArea3.AxisX.Minimum = 1D;
-            chartArea3.AxisX.TextOrientation = System.Windows.Forms.DataVisualization.Charting.TextOrientation.Horizontal;
-            chartArea3.AxisX.Title = "      125            250             500    750   1k     1,5k  2k       3k    4k " +
+            chartArea26.AxisX.LabelStyle.Enabled = false;
+            chartArea26.AxisX.MajorTickMark.Enabled = false;
+            chartArea26.AxisX.Maximum = 15D;
+            chartArea26.AxisX.Minimum = 1D;
+            chartArea26.AxisX.TextOrientation = System.Windows.Forms.DataVisualization.Charting.TextOrientation.Horizontal;
+            chartArea26.AxisX.Title = "      125            250             500    750   1k     1,5k  2k       3k    4k " +
     "      6k   8k";
-            chartArea3.AxisX.TitleAlignment = System.Drawing.StringAlignment.Near;
-            chartArea3.AxisY.Crossing = -1.7976931348623157E+308D;
-            chartArea3.AxisY.Interval = 10D;
-            chartArea3.AxisY.IsReversed = true;
-            chartArea3.AxisY.Maximum = 120D;
-            chartArea3.AxisY.Minimum = -10D;
-            chartArea3.AxisY.TextOrientation = System.Windows.Forms.DataVisualization.Charting.TextOrientation.Rotated270;
-            chartArea3.AxisY.Title = "Gráfico ISO/64 frequência (Hz) por decibel nível de audição (dBNA)";
-            chartArea3.Name = "ChartArea3";
-            this.chartAudioEmCampo.ChartAreas.Add(chartArea3);
+            chartArea26.AxisX.TitleAlignment = System.Drawing.StringAlignment.Near;
+            chartArea26.AxisY.Crossing = -1.7976931348623157E+308D;
+            chartArea26.AxisY.Interval = 10D;
+            chartArea26.AxisY.IsReversed = true;
+            chartArea26.AxisY.Maximum = 120D;
+            chartArea26.AxisY.Minimum = -10D;
+            chartArea26.AxisY.TextOrientation = System.Windows.Forms.DataVisualization.Charting.TextOrientation.Rotated270;
+            chartArea26.AxisY.Title = "Gráfico ISO/64 frequência (Hz) por decibel nível de audição (dBNA)";
+            chartArea26.Name = "ChartArea3";
+            this.chartAudioEmCampo.ChartAreas.Add(chartArea26);
             this.chartAudioEmCampo.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend3.Enabled = false;
-            legend3.Name = "Legend1";
-            this.chartAudioEmCampo.Legends.Add(legend3);
+            legend26.Enabled = false;
+            legend26.Name = "Legend1";
+            this.chartAudioEmCampo.Legends.Add(legend26);
             this.chartAudioEmCampo.Location = new System.Drawing.Point(3, 3);
             this.chartAudioEmCampo.Name = "chartAudioEmCampo";
-            series3.ChartArea = "ChartArea3";
-            series3.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Point;
-            series3.Color = System.Drawing.Color.Black;
-            series3.Legend = "Legend1";
-            series3.Name = "Campo";
-            this.chartAudioEmCampo.Series.Add(series3);
+            series26.ChartArea = "ChartArea3";
+            series26.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Point;
+            series26.Color = System.Drawing.Color.Black;
+            series26.Legend = "Legend1";
+            series26.Name = "Campo";
+            this.chartAudioEmCampo.Series.Add(series26);
             this.chartAudioEmCampo.Size = new System.Drawing.Size(464, 403);
             this.chartAudioEmCampo.TabIndex = 1;
             this.chartAudioEmCampo.Text = "chart1";
@@ -9226,7 +9226,7 @@ namespace segmentoOtoneurologia
             this.tabPage37.Location = new System.Drawing.Point(4, 29);
             this.tabPage37.Name = "tabPage37";
             this.tabPage37.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage37.Size = new System.Drawing.Size(1031, 540);
+            this.tabPage37.Size = new System.Drawing.Size(1031, 533);
             this.tabPage37.TabIndex = 2;
             this.tabPage37.Text = "Convencional";
             this.tabPage37.UseVisualStyleBackColor = true;
@@ -9248,41 +9248,41 @@ namespace segmentoOtoneurologia
             this.tableLayoutPanel74.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 77.75665F));
             this.tableLayoutPanel74.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 22.24335F));
             this.tableLayoutPanel74.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel74.Size = new System.Drawing.Size(1025, 534);
+            this.tableLayoutPanel74.Size = new System.Drawing.Size(1025, 527);
             this.tableLayoutPanel74.TabIndex = 2;
             // 
             // chartCampoConven
             // 
-            chartArea4.AxisX.LabelStyle.Enabled = false;
-            chartArea4.AxisX.MajorTickMark.Enabled = false;
-            chartArea4.AxisX.Maximum = 15D;
-            chartArea4.AxisX.Minimum = 1D;
-            chartArea4.AxisX.TextOrientation = System.Windows.Forms.DataVisualization.Charting.TextOrientation.Horizontal;
-            chartArea4.AxisX.Title = "      125            250             500    750   1k     1,5k  2k       3k    4k " +
+            chartArea27.AxisX.LabelStyle.Enabled = false;
+            chartArea27.AxisX.MajorTickMark.Enabled = false;
+            chartArea27.AxisX.Maximum = 15D;
+            chartArea27.AxisX.Minimum = 1D;
+            chartArea27.AxisX.TextOrientation = System.Windows.Forms.DataVisualization.Charting.TextOrientation.Horizontal;
+            chartArea27.AxisX.Title = "      125            250             500    750   1k     1,5k  2k       3k    4k " +
     "      6k   8k";
-            chartArea4.AxisX.TitleAlignment = System.Drawing.StringAlignment.Near;
-            chartArea4.AxisY.Crossing = -1.7976931348623157E+308D;
-            chartArea4.AxisY.Interval = 10D;
-            chartArea4.AxisY.IsReversed = true;
-            chartArea4.AxisY.Maximum = 120D;
-            chartArea4.AxisY.Minimum = -10D;
-            chartArea4.AxisY.TextOrientation = System.Windows.Forms.DataVisualization.Charting.TextOrientation.Rotated270;
-            chartArea4.AxisY.Title = "Gráfico ISO/64 frequência (Hz) por decibel nível de audição (dBNA)";
-            chartArea4.Name = "ChartArea3";
-            this.chartCampoConven.ChartAreas.Add(chartArea4);
+            chartArea27.AxisX.TitleAlignment = System.Drawing.StringAlignment.Near;
+            chartArea27.AxisY.Crossing = -1.7976931348623157E+308D;
+            chartArea27.AxisY.Interval = 10D;
+            chartArea27.AxisY.IsReversed = true;
+            chartArea27.AxisY.Maximum = 120D;
+            chartArea27.AxisY.Minimum = -10D;
+            chartArea27.AxisY.TextOrientation = System.Windows.Forms.DataVisualization.Charting.TextOrientation.Rotated270;
+            chartArea27.AxisY.Title = "Gráfico ISO/64 frequência (Hz) por decibel nível de audição (dBNA)";
+            chartArea27.Name = "ChartArea3";
+            this.chartCampoConven.ChartAreas.Add(chartArea27);
             this.chartCampoConven.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend4.Enabled = false;
-            legend4.Name = "Legend1";
-            this.chartCampoConven.Legends.Add(legend4);
+            legend27.Enabled = false;
+            legend27.Name = "Legend1";
+            this.chartCampoConven.Legends.Add(legend27);
             this.chartCampoConven.Location = new System.Drawing.Point(4, 4);
             this.chartCampoConven.Name = "chartCampoConven";
-            series4.ChartArea = "ChartArea3";
-            series4.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Point;
-            series4.Color = System.Drawing.Color.Black;
-            series4.Legend = "Legend1";
-            series4.Name = "Campo";
-            this.chartCampoConven.Series.Add(series4);
-            this.chartCampoConven.Size = new System.Drawing.Size(463, 406);
+            series27.ChartArea = "ChartArea3";
+            series27.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Point;
+            series27.Color = System.Drawing.Color.Black;
+            series27.Legend = "Legend1";
+            series27.Name = "Campo";
+            this.chartCampoConven.Series.Add(series27);
+            this.chartCampoConven.Size = new System.Drawing.Size(463, 401);
             this.chartCampoConven.TabIndex = 1;
             this.chartCampoConven.Text = "chart1";
             // 
@@ -9317,12 +9317,12 @@ namespace segmentoOtoneurologia
             this.tableLayoutPanel75.Controls.Add(label56, 0, 1);
             this.tableLayoutPanel75.Controls.Add(label57, 0, 0);
             this.tableLayoutPanel75.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel75.Location = new System.Drawing.Point(474, 417);
+            this.tableLayoutPanel75.Location = new System.Drawing.Point(474, 412);
             this.tableLayoutPanel75.Name = "tableLayoutPanel75";
             this.tableLayoutPanel75.RowCount = 2;
             this.tableLayoutPanel75.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel75.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel75.Size = new System.Drawing.Size(547, 113);
+            this.tableLayoutPanel75.Size = new System.Drawing.Size(547, 111);
             this.tableLayoutPanel75.TabIndex = 2;
             // 
             // dissCampoConvOEComboBox
@@ -9361,7 +9361,7 @@ namespace segmentoOtoneurologia
             "8%",
             "4%",
             "0%"});
-            this.dissCampoConvOEComboBox.Location = new System.Drawing.Point(344, 72);
+            this.dissCampoConvOEComboBox.Location = new System.Drawing.Point(344, 71);
             this.dissCampoConvOEComboBox.Name = "dissCampoConvOEComboBox";
             this.dissCampoConvOEComboBox.Size = new System.Drawing.Size(61, 24);
             this.dissCampoConvOEComboBox.TabIndex = 72;
@@ -9372,7 +9372,7 @@ namespace segmentoOtoneurologia
             this.sdtCampoConvOETextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.tabelaExamesBindingSource, "sdtCampoConvOE", true));
             this.sdtCampoConvOETextBox.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sdtCampoConvOETextBox.ForeColor = System.Drawing.Color.Blue;
-            this.sdtCampoConvOETextBox.Location = new System.Drawing.Point(480, 73);
+            this.sdtCampoConvOETextBox.Location = new System.Drawing.Point(480, 72);
             this.sdtCampoConvOETextBox.Name = "sdtCampoConvOETextBox";
             this.sdtCampoConvOETextBox.Size = new System.Drawing.Size(63, 22);
             this.sdtCampoConvOETextBox.TabIndex = 72;
@@ -9437,7 +9437,7 @@ namespace segmentoOtoneurologia
             this.sdtCampoConvODTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.tabelaExamesBindingSource, "sdtCampoConvOD", true));
             this.sdtCampoConvODTextBox.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sdtCampoConvODTextBox.ForeColor = System.Drawing.Color.Red;
-            this.sdtCampoConvODTextBox.Location = new System.Drawing.Point(208, 73);
+            this.sdtCampoConvODTextBox.Location = new System.Drawing.Point(208, 72);
             this.sdtCampoConvODTextBox.Name = "sdtCampoConvODTextBox";
             this.sdtCampoConvODTextBox.Size = new System.Drawing.Size(61, 22);
             this.sdtCampoConvODTextBox.TabIndex = 72;
@@ -9491,7 +9491,7 @@ namespace segmentoOtoneurologia
             "8%",
             "4%",
             "0%"});
-            this.dissCampoConvODComboBox.Location = new System.Drawing.Point(72, 72);
+            this.dissCampoConvODComboBox.Location = new System.Drawing.Point(72, 71);
             this.dissCampoConvODComboBox.Name = "dissCampoConvODComboBox";
             this.dissCampoConvODComboBox.Size = new System.Drawing.Size(61, 24);
             this.dissCampoConvODComboBox.TabIndex = 72;
@@ -9616,7 +9616,7 @@ namespace segmentoOtoneurologia
             this.tableLayoutPanel76.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.09F));
             this.tableLayoutPanel76.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.09F));
             this.tableLayoutPanel76.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.09F));
-            this.tableLayoutPanel76.Size = new System.Drawing.Size(547, 406);
+            this.tableLayoutPanel76.Size = new System.Drawing.Size(547, 401);
             this.tableLayoutPanel76.TabIndex = 3;
             // 
             // label63
@@ -10395,7 +10395,7 @@ namespace segmentoOtoneurologia
             this.campoMEDIATconvODTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.tabelaExamesBindingSource, "campoMEDIATconvOD", true));
             this.campoMEDIATconvODTextBox.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.campoMEDIATconvODTextBox.ForeColor = System.Drawing.Color.Red;
-            this.campoMEDIATconvODTextBox.Location = new System.Drawing.Point(72, 372);
+            this.campoMEDIATconvODTextBox.Location = new System.Drawing.Point(72, 369);
             this.campoMEDIATconvODTextBox.Name = "campoMEDIATconvODTextBox";
             this.campoMEDIATconvODTextBox.Size = new System.Drawing.Size(61, 22);
             this.campoMEDIATconvODTextBox.TabIndex = 72;
@@ -10407,7 +10407,7 @@ namespace segmentoOtoneurologia
             this.campoMEDIATconvOETextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.tabelaExamesBindingSource, "campoMEDIATconvOE", true));
             this.campoMEDIATconvOETextBox.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.campoMEDIATconvOETextBox.ForeColor = System.Drawing.Color.Blue;
-            this.campoMEDIATconvOETextBox.Location = new System.Drawing.Point(276, 372);
+            this.campoMEDIATconvOETextBox.Location = new System.Drawing.Point(276, 369);
             this.campoMEDIATconvOETextBox.Name = "campoMEDIATconvOETextBox";
             this.campoMEDIATconvOETextBox.Size = new System.Drawing.Size(61, 22);
             this.campoMEDIATconvOETextBox.TabIndex = 73;
@@ -10486,11 +10486,11 @@ namespace segmentoOtoneurologia
             this.tableLayoutPanel77.Controls.Add(this.btnPlotarCampoConv, 1, 0);
             this.tableLayoutPanel77.Controls.Add(this.tableLayoutPanel97, 0, 0);
             this.tableLayoutPanel77.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel77.Location = new System.Drawing.Point(4, 417);
+            this.tableLayoutPanel77.Location = new System.Drawing.Point(4, 412);
             this.tableLayoutPanel77.Name = "tableLayoutPanel77";
             this.tableLayoutPanel77.RowCount = 1;
             this.tableLayoutPanel77.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel77.Size = new System.Drawing.Size(463, 113);
+            this.tableLayoutPanel77.Size = new System.Drawing.Size(463, 111);
             this.tableLayoutPanel77.TabIndex = 4;
             // 
             // btnPlotarCampoConv
@@ -10503,7 +10503,7 @@ namespace segmentoOtoneurologia
             this.btnPlotarCampoConv.Image = global::segmentoOtoneurologia.Properties.Resources.plotar;
             this.btnPlotarCampoConv.Location = new System.Drawing.Point(235, 4);
             this.btnPlotarCampoConv.Name = "btnPlotarCampoConv";
-            this.btnPlotarCampoConv.Size = new System.Drawing.Size(224, 105);
+            this.btnPlotarCampoConv.Size = new System.Drawing.Size(224, 103);
             this.btnPlotarCampoConv.TabIndex = 0;
             this.btnPlotarCampoConv.Text = "Plotar";
             this.btnPlotarCampoConv.TextAlign = System.Drawing.ContentAlignment.BottomRight;
@@ -10524,7 +10524,7 @@ namespace segmentoOtoneurologia
             this.tableLayoutPanel97.RowCount = 2;
             this.tableLayoutPanel97.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel97.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel97.Size = new System.Drawing.Size(224, 105);
+            this.tableLayoutPanel97.Size = new System.Drawing.Size(224, 103);
             this.tableLayoutPanel97.TabIndex = 1;
             // 
             // rbExibeBananaAudioCampoConvenc
@@ -10535,7 +10535,7 @@ namespace segmentoOtoneurologia
             this.rbExibeBananaAudioCampoConvenc.ForeColor = System.Drawing.Color.DarkGreen;
             this.rbExibeBananaAudioCampoConvenc.Location = new System.Drawing.Point(4, 4);
             this.rbExibeBananaAudioCampoConvenc.Name = "rbExibeBananaAudioCampoConvenc";
-            this.rbExibeBananaAudioCampoConvenc.Size = new System.Drawing.Size(216, 45);
+            this.rbExibeBananaAudioCampoConvenc.Size = new System.Drawing.Size(216, 44);
             this.rbExibeBananaAudioCampoConvenc.TabIndex = 0;
             this.rbExibeBananaAudioCampoConvenc.TabStop = true;
             this.rbExibeBananaAudioCampoConvenc.Text = "Exibe \"Banana da Fala\"";
@@ -10547,9 +10547,9 @@ namespace segmentoOtoneurologia
             this.rbEscondeBananaFalaAudioCampoConvenc.Dock = System.Windows.Forms.DockStyle.Fill;
             this.rbEscondeBananaFalaAudioCampoConvenc.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rbEscondeBananaFalaAudioCampoConvenc.ForeColor = System.Drawing.Color.DarkGreen;
-            this.rbEscondeBananaFalaAudioCampoConvenc.Location = new System.Drawing.Point(4, 56);
+            this.rbEscondeBananaFalaAudioCampoConvenc.Location = new System.Drawing.Point(4, 55);
             this.rbEscondeBananaFalaAudioCampoConvenc.Name = "rbEscondeBananaFalaAudioCampoConvenc";
-            this.rbEscondeBananaFalaAudioCampoConvenc.Size = new System.Drawing.Size(216, 45);
+            this.rbEscondeBananaFalaAudioCampoConvenc.Size = new System.Drawing.Size(216, 44);
             this.rbEscondeBananaFalaAudioCampoConvenc.TabIndex = 1;
             this.rbEscondeBananaFalaAudioCampoConvenc.TabStop = true;
             this.rbEscondeBananaFalaAudioCampoConvenc.Text = "Oculta \"Banana da Fala\"";
@@ -11498,37 +11498,37 @@ namespace segmentoOtoneurologia
             // 
             // chartAltOD
             // 
-            chartArea5.AxisX.LabelStyle.Enabled = false;
-            chartArea5.AxisX.MajorGrid.LineColor = System.Drawing.Color.Silver;
-            chartArea5.AxisX.MajorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dash;
-            chartArea5.AxisX.MajorTickMark.Enabled = false;
-            chartArea5.AxisX.Maximum = 9D;
-            chartArea5.AxisX.Minimum = 1D;
-            chartArea5.AxisX.TextOrientation = System.Windows.Forms.DataVisualization.Charting.TextOrientation.Horizontal;
-            chartArea5.AxisX.Title = "              9k            10k             12,5k     14k          16k          1" +
+            chartArea28.AxisX.LabelStyle.Enabled = false;
+            chartArea28.AxisX.MajorGrid.LineColor = System.Drawing.Color.Silver;
+            chartArea28.AxisX.MajorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dash;
+            chartArea28.AxisX.MajorTickMark.Enabled = false;
+            chartArea28.AxisX.Maximum = 9D;
+            chartArea28.AxisX.Minimum = 1D;
+            chartArea28.AxisX.TextOrientation = System.Windows.Forms.DataVisualization.Charting.TextOrientation.Horizontal;
+            chartArea28.AxisX.Title = "              9k            10k             12,5k     14k          16k          1" +
     "8k           20k ";
-            chartArea5.AxisX.TitleAlignment = System.Drawing.StringAlignment.Near;
-            chartArea5.AxisY.Crossing = -1.7976931348623157E+308D;
-            chartArea5.AxisY.Interval = 10D;
-            chartArea5.AxisY.IsReversed = true;
-            chartArea5.AxisY.Maximum = 120D;
-            chartArea5.AxisY.Minimum = -10D;
-            chartArea5.AxisY.TextOrientation = System.Windows.Forms.DataVisualization.Charting.TextOrientation.Rotated270;
-            chartArea5.AxisY.Title = "Gráfico ISO/64 frequência (Hz) por decibel nível de audição (dBNA)";
-            chartArea5.Name = "ChartArea2";
-            this.chartAltOD.ChartAreas.Add(chartArea5);
+            chartArea28.AxisX.TitleAlignment = System.Drawing.StringAlignment.Near;
+            chartArea28.AxisY.Crossing = -1.7976931348623157E+308D;
+            chartArea28.AxisY.Interval = 10D;
+            chartArea28.AxisY.IsReversed = true;
+            chartArea28.AxisY.Maximum = 120D;
+            chartArea28.AxisY.Minimum = -10D;
+            chartArea28.AxisY.TextOrientation = System.Windows.Forms.DataVisualization.Charting.TextOrientation.Rotated270;
+            chartArea28.AxisY.Title = "Gráfico ISO/64 frequência (Hz) por decibel nível de audição (dBNA)";
+            chartArea28.Name = "ChartArea2";
+            this.chartAltOD.ChartAreas.Add(chartArea28);
             this.chartAltOD.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend5.Enabled = false;
-            legend5.Name = "Legend1";
-            this.chartAltOD.Legends.Add(legend5);
+            legend28.Enabled = false;
+            legend28.Name = "Legend1";
+            this.chartAltOD.Legends.Add(legend28);
             this.chartAltOD.Location = new System.Drawing.Point(4, 4);
             this.chartAltOD.Name = "chartAltOD";
-            series5.ChartArea = "ChartArea2";
-            series5.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Point;
-            series5.Color = System.Drawing.Color.Red;
-            series5.Legend = "Legend1";
-            series5.Name = "ODalt";
-            this.chartAltOD.Series.Add(series5);
+            series28.ChartArea = "ChartArea2";
+            series28.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Point;
+            series28.Color = System.Drawing.Color.Red;
+            series28.Legend = "Legend1";
+            series28.Name = "ODalt";
+            this.chartAltOD.Series.Add(series28);
             this.chartAltOD.Size = new System.Drawing.Size(477, 422);
             this.chartAltOD.TabIndex = 1;
             this.chartAltOD.Text = "chart1";
@@ -12220,7 +12220,7 @@ namespace segmentoOtoneurologia
             this.tabPage32.Location = new System.Drawing.Point(4, 29);
             this.tabPage32.Name = "tabPage32";
             this.tabPage32.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage32.Size = new System.Drawing.Size(1031, 540);
+            this.tabPage32.Size = new System.Drawing.Size(1031, 533);
             this.tabPage32.TabIndex = 1;
             this.tabPage32.Text = "Orelha esquerda";
             // 
@@ -12240,7 +12240,7 @@ namespace segmentoOtoneurologia
             this.tableLayoutPanel59.RowCount = 2;
             this.tableLayoutPanel59.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 82.31939F));
             this.tableLayoutPanel59.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 17.68061F));
-            this.tableLayoutPanel59.Size = new System.Drawing.Size(1025, 534);
+            this.tableLayoutPanel59.Size = new System.Drawing.Size(1025, 527);
             this.tableLayoutPanel59.TabIndex = 1;
             // 
             // btnPlotarAudioAltOE
@@ -12251,9 +12251,9 @@ namespace segmentoOtoneurologia
             this.btnPlotarAudioAltOE.Font = new System.Drawing.Font("Arial", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPlotarAudioAltOE.ForeColor = System.Drawing.Color.MediumBlue;
             this.btnPlotarAudioAltOE.Image = global::segmentoOtoneurologia.Properties.Resources.plotar;
-            this.btnPlotarAudioAltOE.Location = new System.Drawing.Point(4, 442);
+            this.btnPlotarAudioAltOE.Location = new System.Drawing.Point(4, 436);
             this.btnPlotarAudioAltOE.Name = "btnPlotarAudioAltOE";
-            this.btnPlotarAudioAltOE.Size = new System.Drawing.Size(464, 88);
+            this.btnPlotarAudioAltOE.Size = new System.Drawing.Size(464, 87);
             this.btnPlotarAudioAltOE.TabIndex = 0;
             this.btnPlotarAudioAltOE.Text = "Plotar";
             this.btnPlotarAudioAltOE.TextAlign = System.Drawing.ContentAlignment.BottomRight;
@@ -12262,38 +12262,38 @@ namespace segmentoOtoneurologia
             // 
             // chartAltOE
             // 
-            chartArea6.AxisX.LabelStyle.Enabled = false;
-            chartArea6.AxisX.MajorGrid.LineColor = System.Drawing.Color.Silver;
-            chartArea6.AxisX.MajorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dash;
-            chartArea6.AxisX.MajorTickMark.Enabled = false;
-            chartArea6.AxisX.Maximum = 9D;
-            chartArea6.AxisX.Minimum = 1D;
-            chartArea6.AxisX.TextOrientation = System.Windows.Forms.DataVisualization.Charting.TextOrientation.Horizontal;
-            chartArea6.AxisX.Title = "              9k            10k           12,5k     14k          16k         18k " +
+            chartArea29.AxisX.LabelStyle.Enabled = false;
+            chartArea29.AxisX.MajorGrid.LineColor = System.Drawing.Color.Silver;
+            chartArea29.AxisX.MajorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dash;
+            chartArea29.AxisX.MajorTickMark.Enabled = false;
+            chartArea29.AxisX.Maximum = 9D;
+            chartArea29.AxisX.Minimum = 1D;
+            chartArea29.AxisX.TextOrientation = System.Windows.Forms.DataVisualization.Charting.TextOrientation.Horizontal;
+            chartArea29.AxisX.Title = "              9k            10k           12,5k     14k          16k         18k " +
     "          20k ";
-            chartArea6.AxisX.TitleAlignment = System.Drawing.StringAlignment.Near;
-            chartArea6.AxisY.Crossing = -1.7976931348623157E+308D;
-            chartArea6.AxisY.Interval = 10D;
-            chartArea6.AxisY.IsReversed = true;
-            chartArea6.AxisY.Maximum = 120D;
-            chartArea6.AxisY.Minimum = -10D;
-            chartArea6.AxisY.TextOrientation = System.Windows.Forms.DataVisualization.Charting.TextOrientation.Rotated270;
-            chartArea6.AxisY.Title = "Gráfico ISO/64 frequência (Hz) por decibel nível de audição (dBNA)";
-            chartArea6.Name = "ChartArea1";
-            this.chartAltOE.ChartAreas.Add(chartArea6);
+            chartArea29.AxisX.TitleAlignment = System.Drawing.StringAlignment.Near;
+            chartArea29.AxisY.Crossing = -1.7976931348623157E+308D;
+            chartArea29.AxisY.Interval = 10D;
+            chartArea29.AxisY.IsReversed = true;
+            chartArea29.AxisY.Maximum = 120D;
+            chartArea29.AxisY.Minimum = -10D;
+            chartArea29.AxisY.TextOrientation = System.Windows.Forms.DataVisualization.Charting.TextOrientation.Rotated270;
+            chartArea29.AxisY.Title = "Gráfico ISO/64 frequência (Hz) por decibel nível de audição (dBNA)";
+            chartArea29.Name = "ChartArea1";
+            this.chartAltOE.ChartAreas.Add(chartArea29);
             this.chartAltOE.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend6.Enabled = false;
-            legend6.Name = "Legend1";
-            this.chartAltOE.Legends.Add(legend6);
+            legend29.Enabled = false;
+            legend29.Name = "Legend1";
+            this.chartAltOE.Legends.Add(legend29);
             this.chartAltOE.Location = new System.Drawing.Point(4, 4);
             this.chartAltOE.Name = "chartAltOE";
-            series6.ChartArea = "ChartArea1";
-            series6.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Point;
-            series6.Color = System.Drawing.Color.DodgerBlue;
-            series6.Legend = "Legend1";
-            series6.Name = "OEalt";
-            this.chartAltOE.Series.Add(series6);
-            this.chartAltOE.Size = new System.Drawing.Size(464, 431);
+            series29.ChartArea = "ChartArea1";
+            series29.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Point;
+            series29.Color = System.Drawing.Color.DodgerBlue;
+            series29.Legend = "Legend1";
+            series29.Name = "OEalt";
+            this.chartAltOE.Series.Add(series29);
+            this.chartAltOE.Size = new System.Drawing.Size(464, 425);
             this.chartAltOE.TabIndex = 1;
             this.chartAltOE.Text = "chart1";
             // 
@@ -12307,12 +12307,12 @@ namespace segmentoOtoneurologia
             this.tableLayoutPanel60.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel60.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel60.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel60.Location = new System.Drawing.Point(475, 442);
+            this.tableLayoutPanel60.Location = new System.Drawing.Point(475, 436);
             this.tableLayoutPanel60.Name = "tableLayoutPanel60";
             this.tableLayoutPanel60.RowCount = 2;
             this.tableLayoutPanel60.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel60.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel60.Size = new System.Drawing.Size(546, 88);
+            this.tableLayoutPanel60.Size = new System.Drawing.Size(546, 87);
             this.tableLayoutPanel60.TabIndex = 2;
             // 
             // tableLayoutPanel61
@@ -12379,7 +12379,7 @@ namespace segmentoOtoneurologia
             this.tableLayoutPanel61.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.09F));
             this.tableLayoutPanel61.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.09F));
             this.tableLayoutPanel61.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.09F));
-            this.tableLayoutPanel61.Size = new System.Drawing.Size(546, 431);
+            this.tableLayoutPanel61.Size = new System.Drawing.Size(546, 425);
             this.tableLayoutPanel61.TabIndex = 3;
             // 
             // va20koeComboBox
@@ -12418,7 +12418,7 @@ namespace segmentoOtoneurologia
             "110",
             "115",
             "120"});
-            this.va20koeComboBox.Location = new System.Drawing.Point(94, 316);
+            this.va20koeComboBox.Location = new System.Drawing.Point(94, 308);
             this.va20koeComboBox.Name = "va20koeComboBox";
             this.va20koeComboBox.Size = new System.Drawing.Size(83, 24);
             this.va20koeComboBox.TabIndex = 13;
@@ -12459,7 +12459,7 @@ namespace segmentoOtoneurologia
             "110",
             "115",
             "120"});
-            this.va18koeComboBox.Location = new System.Drawing.Point(94, 277);
+            this.va18koeComboBox.Location = new System.Drawing.Point(94, 270);
             this.va18koeComboBox.Name = "va18koeComboBox";
             this.va18koeComboBox.Size = new System.Drawing.Size(83, 24);
             this.va18koeComboBox.TabIndex = 11;
@@ -12500,7 +12500,7 @@ namespace segmentoOtoneurologia
             "110",
             "115",
             "120"});
-            this.va16koeComboBox.Location = new System.Drawing.Point(94, 238);
+            this.va16koeComboBox.Location = new System.Drawing.Point(94, 232);
             this.va16koeComboBox.Name = "va16koeComboBox";
             this.va16koeComboBox.Size = new System.Drawing.Size(83, 24);
             this.va16koeComboBox.TabIndex = 9;
@@ -12541,7 +12541,7 @@ namespace segmentoOtoneurologia
             "110",
             "115",
             "120"});
-            this.va14koeComboBox.Location = new System.Drawing.Point(94, 199);
+            this.va14koeComboBox.Location = new System.Drawing.Point(94, 194);
             this.va14koeComboBox.Name = "va14koeComboBox";
             this.va14koeComboBox.Size = new System.Drawing.Size(83, 24);
             this.va14koeComboBox.TabIndex = 7;
@@ -12582,7 +12582,7 @@ namespace segmentoOtoneurologia
             "110",
             "115",
             "120"});
-            this.va10koeComboBox.Location = new System.Drawing.Point(94, 121);
+            this.va10koeComboBox.Location = new System.Drawing.Point(94, 118);
             this.va10koeComboBox.Name = "va10koeComboBox";
             this.va10koeComboBox.Size = new System.Drawing.Size(83, 24);
             this.va10koeComboBox.TabIndex = 3;
@@ -12623,7 +12623,7 @@ namespace segmentoOtoneurologia
             "110",
             "115",
             "120"});
-            this.va9koeComboBox.Location = new System.Drawing.Point(94, 82);
+            this.va9koeComboBox.Location = new System.Drawing.Point(94, 80);
             this.va9koeComboBox.Name = "va9koeComboBox";
             this.va9koeComboBox.Size = new System.Drawing.Size(83, 24);
             this.va9koeComboBox.TabIndex = 1;
@@ -12634,7 +12634,7 @@ namespace segmentoOtoneurologia
             this.chkMasc9kOECheckBox.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.chkMasc9kOECheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.tabelaExamesBindingSource, "chkMasc9kOE", true));
             this.chkMasc9kOECheckBox.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkMasc9kOECheckBox.Location = new System.Drawing.Point(184, 86);
+            this.chkMasc9kOECheckBox.Location = new System.Drawing.Point(184, 83);
             this.chkMasc9kOECheckBox.Name = "chkMasc9kOECheckBox";
             this.chkMasc9kOECheckBox.Size = new System.Drawing.Size(83, 24);
             this.chkMasc9kOECheckBox.TabIndex = 35;
@@ -12646,7 +12646,7 @@ namespace segmentoOtoneurologia
             this.chkMasc10kOECheckBox.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.chkMasc10kOECheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.tabelaExamesBindingSource, "chkMasc10kOE", true));
             this.chkMasc10kOECheckBox.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkMasc10kOECheckBox.Location = new System.Drawing.Point(184, 125);
+            this.chkMasc10kOECheckBox.Location = new System.Drawing.Point(184, 121);
             this.chkMasc10kOECheckBox.Name = "chkMasc10kOECheckBox";
             this.chkMasc10kOECheckBox.Size = new System.Drawing.Size(83, 24);
             this.chkMasc10kOECheckBox.TabIndex = 36;
@@ -12658,7 +12658,7 @@ namespace segmentoOtoneurologia
             this.chkMasc12_5kOECheckBox.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.chkMasc12_5kOECheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.tabelaExamesBindingSource, "chkMasc12_5kOE", true));
             this.chkMasc12_5kOECheckBox.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkMasc12_5kOECheckBox.Location = new System.Drawing.Point(184, 164);
+            this.chkMasc12_5kOECheckBox.Location = new System.Drawing.Point(184, 159);
             this.chkMasc12_5kOECheckBox.Name = "chkMasc12_5kOECheckBox";
             this.chkMasc12_5kOECheckBox.Size = new System.Drawing.Size(83, 24);
             this.chkMasc12_5kOECheckBox.TabIndex = 37;
@@ -12670,7 +12670,7 @@ namespace segmentoOtoneurologia
             this.chkMasc14kOECheckBox.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.chkMasc14kOECheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.tabelaExamesBindingSource, "chkMasc14kOE", true));
             this.chkMasc14kOECheckBox.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkMasc14kOECheckBox.Location = new System.Drawing.Point(184, 203);
+            this.chkMasc14kOECheckBox.Location = new System.Drawing.Point(184, 197);
             this.chkMasc14kOECheckBox.Name = "chkMasc14kOECheckBox";
             this.chkMasc14kOECheckBox.Size = new System.Drawing.Size(83, 24);
             this.chkMasc14kOECheckBox.TabIndex = 38;
@@ -12682,7 +12682,7 @@ namespace segmentoOtoneurologia
             this.chkMasc16kOECheckBox.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.chkMasc16kOECheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.tabelaExamesBindingSource, "chkMasc16kOE", true));
             this.chkMasc16kOECheckBox.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkMasc16kOECheckBox.Location = new System.Drawing.Point(184, 242);
+            this.chkMasc16kOECheckBox.Location = new System.Drawing.Point(184, 235);
             this.chkMasc16kOECheckBox.Name = "chkMasc16kOECheckBox";
             this.chkMasc16kOECheckBox.Size = new System.Drawing.Size(83, 24);
             this.chkMasc16kOECheckBox.TabIndex = 39;
@@ -12694,7 +12694,7 @@ namespace segmentoOtoneurologia
             this.chkMasc18kOECheckBox.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.chkMasc18kOECheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.tabelaExamesBindingSource, "chkMasc18kOE", true));
             this.chkMasc18kOECheckBox.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkMasc18kOECheckBox.Location = new System.Drawing.Point(184, 281);
+            this.chkMasc18kOECheckBox.Location = new System.Drawing.Point(184, 273);
             this.chkMasc18kOECheckBox.Name = "chkMasc18kOECheckBox";
             this.chkMasc18kOECheckBox.Size = new System.Drawing.Size(83, 24);
             this.chkMasc18kOECheckBox.TabIndex = 40;
@@ -12706,7 +12706,7 @@ namespace segmentoOtoneurologia
             this.chkMasc20kOECheckBox.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.chkMasc20kOECheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.tabelaExamesBindingSource, "chkMasc20kOE", true));
             this.chkMasc20kOECheckBox.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkMasc20kOECheckBox.Location = new System.Drawing.Point(184, 320);
+            this.chkMasc20kOECheckBox.Location = new System.Drawing.Point(184, 311);
             this.chkMasc20kOECheckBox.Name = "chkMasc20kOECheckBox";
             this.chkMasc20kOECheckBox.Size = new System.Drawing.Size(83, 24);
             this.chkMasc20kOECheckBox.TabIndex = 41;
@@ -12718,7 +12718,7 @@ namespace segmentoOtoneurologia
             this.chkliga9_10OECheckBox.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.chkliga9_10OECheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.tabelaExamesBindingSource, "chkliga9_10OE", true));
             this.chkliga9_10OECheckBox.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkliga9_10OECheckBox.Location = new System.Drawing.Point(274, 125);
+            this.chkliga9_10OECheckBox.Location = new System.Drawing.Point(274, 121);
             this.chkliga9_10OECheckBox.Name = "chkliga9_10OECheckBox";
             this.chkliga9_10OECheckBox.Size = new System.Drawing.Size(83, 24);
             this.chkliga9_10OECheckBox.TabIndex = 42;
@@ -12730,7 +12730,7 @@ namespace segmentoOtoneurologia
             this.chkliga10_12_5OECheckBox.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.chkliga10_12_5OECheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.tabelaExamesBindingSource, "chkliga10_12_5OE", true));
             this.chkliga10_12_5OECheckBox.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkliga10_12_5OECheckBox.Location = new System.Drawing.Point(274, 164);
+            this.chkliga10_12_5OECheckBox.Location = new System.Drawing.Point(274, 159);
             this.chkliga10_12_5OECheckBox.Name = "chkliga10_12_5OECheckBox";
             this.chkliga10_12_5OECheckBox.Size = new System.Drawing.Size(83, 24);
             this.chkliga10_12_5OECheckBox.TabIndex = 43;
@@ -12742,7 +12742,7 @@ namespace segmentoOtoneurologia
             this.chkliga12_5_14OECheckBox.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.chkliga12_5_14OECheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.tabelaExamesBindingSource, "chkliga12_5_14OE", true));
             this.chkliga12_5_14OECheckBox.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkliga12_5_14OECheckBox.Location = new System.Drawing.Point(274, 203);
+            this.chkliga12_5_14OECheckBox.Location = new System.Drawing.Point(274, 197);
             this.chkliga12_5_14OECheckBox.Name = "chkliga12_5_14OECheckBox";
             this.chkliga12_5_14OECheckBox.Size = new System.Drawing.Size(83, 24);
             this.chkliga12_5_14OECheckBox.TabIndex = 44;
@@ -12754,7 +12754,7 @@ namespace segmentoOtoneurologia
             this.chkliga14_16OECheckBox.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.chkliga14_16OECheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.tabelaExamesBindingSource, "chkliga14_16OE", true));
             this.chkliga14_16OECheckBox.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkliga14_16OECheckBox.Location = new System.Drawing.Point(274, 242);
+            this.chkliga14_16OECheckBox.Location = new System.Drawing.Point(274, 235);
             this.chkliga14_16OECheckBox.Name = "chkliga14_16OECheckBox";
             this.chkliga14_16OECheckBox.Size = new System.Drawing.Size(83, 24);
             this.chkliga14_16OECheckBox.TabIndex = 45;
@@ -12766,7 +12766,7 @@ namespace segmentoOtoneurologia
             this.chkliga16_18OECheckBox.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.chkliga16_18OECheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.tabelaExamesBindingSource, "chkliga16_18OE", true));
             this.chkliga16_18OECheckBox.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkliga16_18OECheckBox.Location = new System.Drawing.Point(274, 281);
+            this.chkliga16_18OECheckBox.Location = new System.Drawing.Point(274, 273);
             this.chkliga16_18OECheckBox.Name = "chkliga16_18OECheckBox";
             this.chkliga16_18OECheckBox.Size = new System.Drawing.Size(83, 24);
             this.chkliga16_18OECheckBox.TabIndex = 46;
@@ -12778,7 +12778,7 @@ namespace segmentoOtoneurologia
             this.chkliga18_20OECheckBox.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.chkliga18_20OECheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.tabelaExamesBindingSource, "chkliga18_20OE", true));
             this.chkliga18_20OECheckBox.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkliga18_20OECheckBox.Location = new System.Drawing.Point(274, 320);
+            this.chkliga18_20OECheckBox.Location = new System.Drawing.Point(274, 311);
             this.chkliga18_20OECheckBox.Name = "chkliga18_20OECheckBox";
             this.chkliga18_20OECheckBox.Size = new System.Drawing.Size(83, 24);
             this.chkliga18_20OECheckBox.TabIndex = 47;
@@ -12790,7 +12790,7 @@ namespace segmentoOtoneurologia
             this.chkAusente9kOECheckBox.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.chkAusente9kOECheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.tabelaExamesBindingSource, "chkAusente9kOE", true));
             this.chkAusente9kOECheckBox.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkAusente9kOECheckBox.Location = new System.Drawing.Point(364, 86);
+            this.chkAusente9kOECheckBox.Location = new System.Drawing.Point(364, 83);
             this.chkAusente9kOECheckBox.Name = "chkAusente9kOECheckBox";
             this.chkAusente9kOECheckBox.Size = new System.Drawing.Size(83, 24);
             this.chkAusente9kOECheckBox.TabIndex = 48;
@@ -12802,7 +12802,7 @@ namespace segmentoOtoneurologia
             this.chkAusente10kOECheckBox.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.chkAusente10kOECheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.tabelaExamesBindingSource, "chkAusente10kOE", true));
             this.chkAusente10kOECheckBox.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkAusente10kOECheckBox.Location = new System.Drawing.Point(364, 125);
+            this.chkAusente10kOECheckBox.Location = new System.Drawing.Point(364, 121);
             this.chkAusente10kOECheckBox.Name = "chkAusente10kOECheckBox";
             this.chkAusente10kOECheckBox.Size = new System.Drawing.Size(83, 24);
             this.chkAusente10kOECheckBox.TabIndex = 49;
@@ -12814,7 +12814,7 @@ namespace segmentoOtoneurologia
             this.chkAusente12_5kOECheckBox.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.chkAusente12_5kOECheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.tabelaExamesBindingSource, "chkAusente12_5kOE", true));
             this.chkAusente12_5kOECheckBox.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkAusente12_5kOECheckBox.Location = new System.Drawing.Point(364, 164);
+            this.chkAusente12_5kOECheckBox.Location = new System.Drawing.Point(364, 159);
             this.chkAusente12_5kOECheckBox.Name = "chkAusente12_5kOECheckBox";
             this.chkAusente12_5kOECheckBox.Size = new System.Drawing.Size(83, 24);
             this.chkAusente12_5kOECheckBox.TabIndex = 50;
@@ -12826,7 +12826,7 @@ namespace segmentoOtoneurologia
             this.chkAusente14kOECheckBox.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.chkAusente14kOECheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.tabelaExamesBindingSource, "chkAusente14kOE", true));
             this.chkAusente14kOECheckBox.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkAusente14kOECheckBox.Location = new System.Drawing.Point(364, 203);
+            this.chkAusente14kOECheckBox.Location = new System.Drawing.Point(364, 197);
             this.chkAusente14kOECheckBox.Name = "chkAusente14kOECheckBox";
             this.chkAusente14kOECheckBox.Size = new System.Drawing.Size(83, 24);
             this.chkAusente14kOECheckBox.TabIndex = 51;
@@ -12838,7 +12838,7 @@ namespace segmentoOtoneurologia
             this.chkAusente16kOECheckBox.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.chkAusente16kOECheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.tabelaExamesBindingSource, "chkAusente16kOE", true));
             this.chkAusente16kOECheckBox.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkAusente16kOECheckBox.Location = new System.Drawing.Point(364, 242);
+            this.chkAusente16kOECheckBox.Location = new System.Drawing.Point(364, 235);
             this.chkAusente16kOECheckBox.Name = "chkAusente16kOECheckBox";
             this.chkAusente16kOECheckBox.Size = new System.Drawing.Size(83, 24);
             this.chkAusente16kOECheckBox.TabIndex = 52;
@@ -12850,7 +12850,7 @@ namespace segmentoOtoneurologia
             this.chkAusente18kOECheckBox.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.chkAusente18kOECheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.tabelaExamesBindingSource, "chkAusente18kOE", true));
             this.chkAusente18kOECheckBox.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkAusente18kOECheckBox.Location = new System.Drawing.Point(364, 281);
+            this.chkAusente18kOECheckBox.Location = new System.Drawing.Point(364, 273);
             this.chkAusente18kOECheckBox.Name = "chkAusente18kOECheckBox";
             this.chkAusente18kOECheckBox.Size = new System.Drawing.Size(83, 24);
             this.chkAusente18kOECheckBox.TabIndex = 53;
@@ -12862,7 +12862,7 @@ namespace segmentoOtoneurologia
             this.chkAusente20kOECheckBox.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.chkAusente20kOECheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.tabelaExamesBindingSource, "chkAusente20kOE", true));
             this.chkAusente20kOECheckBox.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkAusente20kOECheckBox.Location = new System.Drawing.Point(364, 320);
+            this.chkAusente20kOECheckBox.Location = new System.Drawing.Point(364, 311);
             this.chkAusente20kOECheckBox.Name = "chkAusente20kOECheckBox";
             this.chkAusente20kOECheckBox.Size = new System.Drawing.Size(83, 24);
             this.chkAusente20kOECheckBox.TabIndex = 54;
@@ -12874,7 +12874,7 @@ namespace segmentoOtoneurologia
             this.label103.AutoSize = true;
             this.label103.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label103.ForeColor = System.Drawing.Color.Blue;
-            this.label103.Location = new System.Drawing.Point(4, 49);
+            this.label103.Location = new System.Drawing.Point(4, 48);
             this.label103.Name = "label103";
             this.label103.Size = new System.Drawing.Size(83, 19);
             this.label103.TabIndex = 55;
@@ -12887,7 +12887,7 @@ namespace segmentoOtoneurologia
             this.label104.AutoSize = true;
             this.label104.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label104.ForeColor = System.Drawing.Color.Blue;
-            this.label104.Location = new System.Drawing.Point(94, 49);
+            this.label104.Location = new System.Drawing.Point(94, 48);
             this.label104.Name = "label104";
             this.label104.Size = new System.Drawing.Size(83, 19);
             this.label104.TabIndex = 56;
@@ -12900,7 +12900,7 @@ namespace segmentoOtoneurologia
             this.label105.AutoSize = true;
             this.label105.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label105.ForeColor = System.Drawing.Color.Blue;
-            this.label105.Location = new System.Drawing.Point(184, 49);
+            this.label105.Location = new System.Drawing.Point(184, 48);
             this.label105.Name = "label105";
             this.label105.Size = new System.Drawing.Size(83, 19);
             this.label105.TabIndex = 57;
@@ -12913,7 +12913,7 @@ namespace segmentoOtoneurologia
             this.label106.AutoSize = true;
             this.label106.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label106.ForeColor = System.Drawing.Color.Blue;
-            this.label106.Location = new System.Drawing.Point(274, 49);
+            this.label106.Location = new System.Drawing.Point(274, 48);
             this.label106.Name = "label106";
             this.label106.Size = new System.Drawing.Size(83, 19);
             this.label106.TabIndex = 58;
@@ -12926,7 +12926,7 @@ namespace segmentoOtoneurologia
             this.label107.AutoSize = true;
             this.label107.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label107.ForeColor = System.Drawing.Color.Blue;
-            this.label107.Location = new System.Drawing.Point(364, 49);
+            this.label107.Location = new System.Drawing.Point(364, 48);
             this.label107.Name = "label107";
             this.label107.Size = new System.Drawing.Size(83, 19);
             this.label107.TabIndex = 59;
@@ -12970,7 +12970,7 @@ namespace segmentoOtoneurologia
             "110",
             "115",
             "120"});
-            this.va12e5koeComboBox.Location = new System.Drawing.Point(94, 164);
+            this.va12e5koeComboBox.Location = new System.Drawing.Point(94, 159);
             this.va12e5koeComboBox.Name = "va12e5koeComboBox";
             this.va12e5koeComboBox.Size = new System.Drawing.Size(83, 24);
             this.va12e5koeComboBox.TabIndex = 60;
@@ -13119,42 +13119,42 @@ namespace segmentoOtoneurologia
             // 
             // chartODimp
             // 
-            chartArea7.AxisX.Crossing = 0D;
-            chartArea7.AxisX.Interval = 100D;
-            chartArea7.AxisX.LineWidth = 2;
-            chartArea7.AxisX.MajorGrid.LineColor = System.Drawing.Color.Gray;
-            chartArea7.AxisX.MajorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dash;
-            chartArea7.AxisX.Maximum = 200D;
-            chartArea7.AxisX.Minimum = -600D;
-            chartArea7.AxisX.Title = "Pressão (mml H2O = daPa)";
-            chartArea7.AxisX.TitleAlignment = System.Drawing.StringAlignment.Near;
-            chartArea7.AxisY.LabelStyle.Enabled = false;
-            chartArea7.AxisY.LineWidth = 2;
-            chartArea7.AxisY.MajorGrid.LineColor = System.Drawing.Color.Gray;
-            chartArea7.AxisY.MajorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dash;
-            chartArea7.AxisY.MajorTickMark.Enabled = false;
-            chartArea7.AxisY.Maximum = 2.5D;
-            chartArea7.AxisY.Minimum = 0D;
-            chartArea7.AxisY.TextOrientation = System.Windows.Forms.DataVisualization.Charting.TextOrientation.Horizontal;
-            chartArea7.AxisY.Title = "(ml) 2,5\\n\\n\\n\\n\\n\\n\\n          2,0\\n\\n\\n\\n\\n\\n          1,5\\n\\n\\n\\n\\n\\n\\n       " +
+            chartArea30.AxisX.Crossing = 0D;
+            chartArea30.AxisX.Interval = 100D;
+            chartArea30.AxisX.LineWidth = 2;
+            chartArea30.AxisX.MajorGrid.LineColor = System.Drawing.Color.Gray;
+            chartArea30.AxisX.MajorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dash;
+            chartArea30.AxisX.Maximum = 200D;
+            chartArea30.AxisX.Minimum = -600D;
+            chartArea30.AxisX.Title = "Pressão (mml H2O = daPa)";
+            chartArea30.AxisX.TitleAlignment = System.Drawing.StringAlignment.Near;
+            chartArea30.AxisY.LabelStyle.Enabled = false;
+            chartArea30.AxisY.LineWidth = 2;
+            chartArea30.AxisY.MajorGrid.LineColor = System.Drawing.Color.Gray;
+            chartArea30.AxisY.MajorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dash;
+            chartArea30.AxisY.MajorTickMark.Enabled = false;
+            chartArea30.AxisY.Maximum = 2.5D;
+            chartArea30.AxisY.Minimum = 0D;
+            chartArea30.AxisY.TextOrientation = System.Windows.Forms.DataVisualization.Charting.TextOrientation.Horizontal;
+            chartArea30.AxisY.Title = "(ml) 2,5\\n\\n\\n\\n\\n\\n\\n          2,0\\n\\n\\n\\n\\n\\n          1,5\\n\\n\\n\\n\\n\\n\\n       " +
     "   1,0\\n\\n\\n\\n\\n\\n\\n          0,5\\n\\n\\n\\n\\n\\n\\n\\n\\n          ";
-            chartArea7.AxisY.TitleAlignment = System.Drawing.StringAlignment.Near;
-            chartArea7.AxisY.TitleFont = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            chartArea7.BackImageAlignment = System.Windows.Forms.DataVisualization.Charting.ChartImageAlignmentStyle.Center;
-            chartArea7.Name = "ChartArea1";
-            this.chartODimp.ChartAreas.Add(chartArea7);
+            chartArea30.AxisY.TitleAlignment = System.Drawing.StringAlignment.Near;
+            chartArea30.AxisY.TitleFont = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            chartArea30.BackImageAlignment = System.Windows.Forms.DataVisualization.Charting.ChartImageAlignmentStyle.Center;
+            chartArea30.Name = "ChartArea1";
+            this.chartODimp.ChartAreas.Add(chartArea30);
             this.chartODimp.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend7.Name = "Legend1";
-            this.chartODimp.Legends.Add(legend7);
+            legend30.Name = "Legend1";
+            this.chartODimp.Legends.Add(legend30);
             this.chartODimp.Location = new System.Drawing.Point(4, 4);
             this.chartODimp.Name = "chartODimp";
-            series7.BorderWidth = 2;
-            series7.ChartArea = "ChartArea1";
-            series7.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series7.Color = System.Drawing.Color.Red;
-            series7.Legend = "Legend1";
-            series7.Name = "OD";
-            this.chartODimp.Series.Add(series7);
+            series30.BorderWidth = 2;
+            series30.ChartArea = "ChartArea1";
+            series30.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series30.Color = System.Drawing.Color.Red;
+            series30.Legend = "Legend1";
+            series30.Name = "OD";
+            this.chartODimp.Series.Add(series30);
             this.chartODimp.Size = new System.Drawing.Size(620, 566);
             this.chartODimp.TabIndex = 0;
             this.chartODimp.Text = "chart1";
@@ -14598,41 +14598,41 @@ namespace segmentoOtoneurologia
             // chartOEimp
             // 
             this.chartOEimp.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            chartArea8.AxisX.Crossing = 0D;
-            chartArea8.AxisX.Interval = 100D;
-            chartArea8.AxisX.LineWidth = 2;
-            chartArea8.AxisX.MajorGrid.LineColor = System.Drawing.Color.Gray;
-            chartArea8.AxisX.MajorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dash;
-            chartArea8.AxisX.Maximum = 200D;
-            chartArea8.AxisX.Minimum = -600D;
-            chartArea8.AxisX.TextOrientation = System.Windows.Forms.DataVisualization.Charting.TextOrientation.Horizontal;
-            chartArea8.AxisX.Title = "Pressão (mml H2O = daPa)";
-            chartArea8.AxisX.TitleAlignment = System.Drawing.StringAlignment.Near;
-            chartArea8.AxisY.LabelStyle.Enabled = false;
-            chartArea8.AxisY.LineWidth = 2;
-            chartArea8.AxisY.MajorGrid.LineColor = System.Drawing.Color.Gray;
-            chartArea8.AxisY.MajorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dash;
-            chartArea8.AxisY.MajorTickMark.Enabled = false;
-            chartArea8.AxisY.Maximum = 2.5D;
-            chartArea8.AxisY.Minimum = 0D;
-            chartArea8.AxisY.TextOrientation = System.Windows.Forms.DataVisualization.Charting.TextOrientation.Horizontal;
-            chartArea8.AxisY.Title = "(ml) 2,5\\n\\n\\n\\n\\n\\n          2,0\\n\\n\\n\\n\\n\\n\\n          1,5\\n\\n\\n\\n\\n\\n\\n       " +
+            chartArea23.AxisX.Crossing = 0D;
+            chartArea23.AxisX.Interval = 100D;
+            chartArea23.AxisX.LineWidth = 2;
+            chartArea23.AxisX.MajorGrid.LineColor = System.Drawing.Color.Gray;
+            chartArea23.AxisX.MajorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dash;
+            chartArea23.AxisX.Maximum = 200D;
+            chartArea23.AxisX.Minimum = -600D;
+            chartArea23.AxisX.TextOrientation = System.Windows.Forms.DataVisualization.Charting.TextOrientation.Horizontal;
+            chartArea23.AxisX.Title = "Pressão (mml H2O = daPa)";
+            chartArea23.AxisX.TitleAlignment = System.Drawing.StringAlignment.Near;
+            chartArea23.AxisY.LabelStyle.Enabled = false;
+            chartArea23.AxisY.LineWidth = 2;
+            chartArea23.AxisY.MajorGrid.LineColor = System.Drawing.Color.Gray;
+            chartArea23.AxisY.MajorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dash;
+            chartArea23.AxisY.MajorTickMark.Enabled = false;
+            chartArea23.AxisY.Maximum = 2.5D;
+            chartArea23.AxisY.Minimum = 0D;
+            chartArea23.AxisY.TextOrientation = System.Windows.Forms.DataVisualization.Charting.TextOrientation.Horizontal;
+            chartArea23.AxisY.Title = "(ml) 2,5\\n\\n\\n\\n\\n\\n          2,0\\n\\n\\n\\n\\n\\n\\n          1,5\\n\\n\\n\\n\\n\\n\\n       " +
     "   1,0\\n\\n\\n\\n\\n\\n\\n          0,5\\n\\n\\n\\n\\n\\n\\n\\n\\n          ";
-            chartArea8.AxisY.TitleAlignment = System.Drawing.StringAlignment.Near;
-            chartArea8.AxisY.TitleFont = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            chartArea8.BackImageAlignment = System.Windows.Forms.DataVisualization.Charting.ChartImageAlignmentStyle.TopRight;
-            chartArea8.Name = "ChartArea1";
-            this.chartOEimp.ChartAreas.Add(chartArea8);
+            chartArea23.AxisY.TitleAlignment = System.Drawing.StringAlignment.Near;
+            chartArea23.AxisY.TitleFont = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            chartArea23.BackImageAlignment = System.Windows.Forms.DataVisualization.Charting.ChartImageAlignmentStyle.TopRight;
+            chartArea23.Name = "ChartArea1";
+            this.chartOEimp.ChartAreas.Add(chartArea23);
             this.chartOEimp.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend8.Name = "Legend1";
-            this.chartOEimp.Legends.Add(legend8);
+            legend23.Name = "Legend1";
+            this.chartOEimp.Legends.Add(legend23);
             this.chartOEimp.Location = new System.Drawing.Point(4, 4);
             this.chartOEimp.Name = "chartOEimp";
-            series8.ChartArea = "ChartArea1";
-            series8.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series8.Legend = "Legend1";
-            series8.Name = "OE";
-            this.chartOEimp.Series.Add(series8);
+            series23.ChartArea = "ChartArea1";
+            series23.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series23.Legend = "Legend1";
+            series23.Name = "OE";
+            this.chartOEimp.Series.Add(series23);
             this.chartOEimp.Size = new System.Drawing.Size(620, 566);
             this.chartOEimp.TabIndex = 0;
             this.chartOEimp.Text = "chart1";
@@ -16124,7 +16124,7 @@ namespace segmentoOtoneurologia
             this.tabPage23.Location = new System.Drawing.Point(4, 29);
             this.tabPage23.Name = "tabPage23";
             this.tabPage23.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage23.Size = new System.Drawing.Size(510, 535);
+            this.tabPage23.Size = new System.Drawing.Size(510, 542);
             this.tabPage23.TabIndex = 1;
             this.tabPage23.Text = "PEATE";
             this.tabPage23.UseVisualStyleBackColor = true;
@@ -16142,7 +16142,7 @@ namespace segmentoOtoneurologia
             this.tableLayoutPanel37.RowCount = 2;
             this.tableLayoutPanel37.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel37.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel37.Size = new System.Drawing.Size(504, 529);
+            this.tableLayoutPanel37.Size = new System.Drawing.Size(504, 536);
             this.tableLayoutPanel37.TabIndex = 0;
             // 
             // groupBox10
@@ -16152,7 +16152,7 @@ namespace segmentoOtoneurologia
             this.groupBox10.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox10.Location = new System.Drawing.Point(4, 4);
             this.groupBox10.Name = "groupBox10";
-            this.groupBox10.Size = new System.Drawing.Size(496, 257);
+            this.groupBox10.Size = new System.Drawing.Size(496, 260);
             this.groupBox10.TabIndex = 0;
             this.groupBox10.TabStop = false;
             this.groupBox10.Text = "Orelha direita";
@@ -16173,9 +16173,9 @@ namespace segmentoOtoneurologia
             this.groupBox11.BackColor = System.Drawing.Color.AliceBlue;
             this.groupBox11.Controls.Add(this.peateOETextBox);
             this.groupBox11.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupBox11.Location = new System.Drawing.Point(4, 268);
+            this.groupBox11.Location = new System.Drawing.Point(4, 271);
             this.groupBox11.Name = "groupBox11";
-            this.groupBox11.Size = new System.Drawing.Size(496, 257);
+            this.groupBox11.Size = new System.Drawing.Size(496, 261);
             this.groupBox11.TabIndex = 1;
             this.groupBox11.TabStop = false;
             this.groupBox11.Text = "Orelha esquerda";
@@ -16198,7 +16198,7 @@ namespace segmentoOtoneurologia
             this.tabPage24.Location = new System.Drawing.Point(4, 29);
             this.tabPage24.Name = "tabPage24";
             this.tabPage24.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage24.Size = new System.Drawing.Size(510, 535);
+            this.tabPage24.Size = new System.Drawing.Size(510, 542);
             this.tabPage24.TabIndex = 2;
             this.tabPage24.Text = "PEAML";
             // 
@@ -16210,7 +16210,7 @@ namespace segmentoOtoneurologia
             this.peamlODTextBox.Multiline = true;
             this.peamlODTextBox.Name = "peamlODTextBox";
             this.peamlODTextBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.peamlODTextBox.Size = new System.Drawing.Size(504, 529);
+            this.peamlODTextBox.Size = new System.Drawing.Size(504, 536);
             this.peamlODTextBox.TabIndex = 1;
             // 
             // tabPage25
@@ -16220,7 +16220,7 @@ namespace segmentoOtoneurologia
             this.tabPage25.Location = new System.Drawing.Point(4, 29);
             this.tabPage25.Name = "tabPage25";
             this.tabPage25.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage25.Size = new System.Drawing.Size(510, 535);
+            this.tabPage25.Size = new System.Drawing.Size(510, 542);
             this.tabPage25.TabIndex = 3;
             this.tabPage25.Text = "PEALL (P300)";
             // 
@@ -16236,7 +16236,7 @@ namespace segmentoOtoneurologia
             this.tableLayoutPanel39.Name = "tableLayoutPanel39";
             this.tableLayoutPanel39.RowCount = 1;
             this.tableLayoutPanel39.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel39.Size = new System.Drawing.Size(504, 529);
+            this.tableLayoutPanel39.Size = new System.Drawing.Size(504, 536);
             this.tableLayoutPanel39.TabIndex = 0;
             // 
             // peaP300TextBox
@@ -16247,7 +16247,7 @@ namespace segmentoOtoneurologia
             this.peaP300TextBox.Multiline = true;
             this.peaP300TextBox.Name = "peaP300TextBox";
             this.peaP300TextBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.peaP300TextBox.Size = new System.Drawing.Size(496, 521);
+            this.peaP300TextBox.Size = new System.Drawing.Size(496, 528);
             this.peaP300TextBox.TabIndex = 1;
             // 
             // tabPage39
@@ -16256,10 +16256,21 @@ namespace segmentoOtoneurologia
             this.tabPage39.Location = new System.Drawing.Point(4, 29);
             this.tabPage39.Name = "tabPage39";
             this.tabPage39.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage39.Size = new System.Drawing.Size(510, 535);
+            this.tabPage39.Size = new System.Drawing.Size(510, 542);
             this.tabPage39.TabIndex = 4;
             this.tabPage39.Text = "PEAEE";
             this.tabPage39.UseVisualStyleBackColor = true;
+            // 
+            // peamlOETextBox
+            // 
+            this.peamlOETextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.tabelaExamesBindingSource, "peamlOE", true));
+            this.peamlOETextBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.peamlOETextBox.Location = new System.Drawing.Point(3, 3);
+            this.peamlOETextBox.Multiline = true;
+            this.peamlOETextBox.Name = "peamlOETextBox";
+            this.peamlOETextBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.peamlOETextBox.Size = new System.Drawing.Size(504, 536);
+            this.peamlOETextBox.TabIndex = 1;
             // 
             // tabPage19
             // 
@@ -16786,13 +16797,13 @@ namespace segmentoOtoneurologia
             // tabPage44
             // 
             this.tabPage44.BackColor = System.Drawing.Color.AliceBlue;
+            this.tabPage44.Controls.Add(this.label147);
             this.tabPage44.Controls.Add(this.label125);
             this.tabPage44.Controls.Add(this.tableLayoutPanel94);
             this.tabPage44.Controls.Add(this.label123);
             this.tabPage44.Controls.Add(this.tableLayoutPanel92);
             this.tabPage44.Controls.Add(this.tableLayoutPanel95);
             this.tabPage44.Controls.Add(this.tableLayoutPanel96);
-            this.tabPage44.Controls.Add(this.label147);
             this.tabPage44.Location = new System.Drawing.Point(4, 29);
             this.tabPage44.Name = "tabPage44";
             this.tabPage44.Padding = new System.Windows.Forms.Padding(3);
@@ -16800,13 +16811,26 @@ namespace segmentoOtoneurologia
             this.tabPage44.TabIndex = 0;
             this.tabPage44.Text = "Orelha Esquerda";
             // 
+            // label147
+            // 
+            this.label147.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label147.AutoSize = true;
+            this.label147.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label147.ForeColor = System.Drawing.Color.Blue;
+            this.label147.Location = new System.Drawing.Point(75, 96);
+            this.label147.Name = "label147";
+            this.label147.Size = new System.Drawing.Size(302, 18);
+            this.label147.TabIndex = 11;
+            this.label147.Text = "Limiares eletrofisiológicos PEATE (BERA)";
+            this.label147.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // label125
             // 
             this.label125.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.label125.AutoSize = true;
             this.label125.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label125.ForeColor = System.Drawing.Color.Blue;
-            this.label125.Location = new System.Drawing.Point(79, 9);
+            this.label125.Location = new System.Drawing.Point(79, 14);
             this.label125.Name = "label125";
             this.label125.Size = new System.Drawing.Size(303, 18);
             this.label125.TabIndex = 15;
@@ -16927,7 +16951,7 @@ namespace segmentoOtoneurologia
             this.label123.AutoSize = true;
             this.label123.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label123.ForeColor = System.Drawing.Color.Blue;
-            this.label123.Location = new System.Drawing.Point(101, 266);
+            this.label123.Location = new System.Drawing.Point(101, 269);
             this.label123.Name = "label123";
             this.label123.Size = new System.Drawing.Size(248, 18);
             this.label123.TabIndex = 13;
@@ -17914,19 +17938,6 @@ namespace segmentoOtoneurologia
             this.label146.Text = "F. E.";
             this.label146.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label147
-            // 
-            this.label147.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label147.AutoSize = true;
-            this.label147.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label147.ForeColor = System.Drawing.Color.Blue;
-            this.label147.Location = new System.Drawing.Point(75, 91);
-            this.label147.Name = "label147";
-            this.label147.Size = new System.Drawing.Size(302, 18);
-            this.label147.TabIndex = 11;
-            this.label147.Text = "Limiares eletrofisiológicos PEATE (BERA)";
-            this.label147.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // tabControlEpidemiolOD
             // 
             this.tabControlEpidemiolOD.Controls.Add(this.tabPage43);
@@ -17939,11 +17950,11 @@ namespace segmentoOtoneurologia
             // tabPage43
             // 
             this.tabPage43.BackColor = System.Drawing.Color.Snow;
-            this.tabPage43.Controls.Add(this.tableLayoutPanel91);
             this.tabPage43.Controls.Add(this.label124);
-            this.tabPage43.Controls.Add(this.tableLayoutPanel93);
-            this.tabPage43.Controls.Add(this.label122);
             this.tabPage43.Controls.Add(this.label148);
+            this.tabPage43.Controls.Add(this.label122);
+            this.tabPage43.Controls.Add(this.tableLayoutPanel91);
+            this.tabPage43.Controls.Add(this.tableLayoutPanel93);
             this.tabPage43.Controls.Add(this.tableLayoutPanel108);
             this.tabPage43.Controls.Add(this.tableLayoutPanel109);
             this.tabPage43.Location = new System.Drawing.Point(4, 29);
@@ -17952,6 +17963,45 @@ namespace segmentoOtoneurologia
             this.tabPage43.Size = new System.Drawing.Size(459, 383);
             this.tabPage43.TabIndex = 0;
             this.tabPage43.Text = "Orelha Direita";
+            // 
+            // label124
+            // 
+            this.label124.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label124.AutoSize = true;
+            this.label124.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label124.ForeColor = System.Drawing.Color.Red;
+            this.label124.Location = new System.Drawing.Point(78, 14);
+            this.label124.Name = "label124";
+            this.label124.Size = new System.Drawing.Size(303, 18);
+            this.label124.TabIndex = 11;
+            this.label124.Text = "Limiares de Emissões Otoacústicas (EOA)";
+            this.label124.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label148
+            // 
+            this.label148.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label148.AutoSize = true;
+            this.label148.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label148.ForeColor = System.Drawing.Color.Red;
+            this.label148.Location = new System.Drawing.Point(78, 97);
+            this.label148.Name = "label148";
+            this.label148.Size = new System.Drawing.Size(302, 18);
+            this.label148.TabIndex = 8;
+            this.label148.Text = "Limiares eletrofisiológicos PEATE (BERA)";
+            this.label148.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label122
+            // 
+            this.label122.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label122.AutoSize = true;
+            this.label122.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label122.ForeColor = System.Drawing.Color.Red;
+            this.label122.Location = new System.Drawing.Point(106, 268);
+            this.label122.Name = "label122";
+            this.label122.Size = new System.Drawing.Size(248, 18);
+            this.label122.TabIndex = 9;
+            this.label122.Text = "Limiares eletrofisiológicos PEAEE";
+            this.label122.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // tableLayoutPanel91
             // 
@@ -18356,19 +18406,6 @@ namespace segmentoOtoneurologia
             this.comboBox18.Size = new System.Drawing.Size(83, 21);
             this.comboBox18.TabIndex = 14;
             // 
-            // label124
-            // 
-            this.label124.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label124.AutoSize = true;
-            this.label124.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label124.ForeColor = System.Drawing.Color.Red;
-            this.label124.Location = new System.Drawing.Point(78, 9);
-            this.label124.Name = "label124";
-            this.label124.Size = new System.Drawing.Size(303, 18);
-            this.label124.TabIndex = 11;
-            this.label124.Text = "Limiares de Emissões Otoacústicas (EOA)";
-            this.label124.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // tableLayoutPanel93
             // 
             this.tableLayoutPanel93.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
@@ -18475,32 +18512,6 @@ namespace segmentoOtoneurologia
             this.checkBox4.Text = "ausente";
             this.checkBox4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.checkBox4.UseVisualStyleBackColor = true;
-            // 
-            // label122
-            // 
-            this.label122.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label122.AutoSize = true;
-            this.label122.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label122.ForeColor = System.Drawing.Color.Red;
-            this.label122.Location = new System.Drawing.Point(106, 266);
-            this.label122.Name = "label122";
-            this.label122.Size = new System.Drawing.Size(248, 18);
-            this.label122.TabIndex = 9;
-            this.label122.Text = "Limiares eletrofisiológicos PEAEE";
-            this.label122.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label148
-            // 
-            this.label148.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label148.AutoSize = true;
-            this.label148.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label148.ForeColor = System.Drawing.Color.Red;
-            this.label148.Location = new System.Drawing.Point(78, 91);
-            this.label148.Name = "label148";
-            this.label148.Size = new System.Drawing.Size(302, 18);
-            this.label148.TabIndex = 8;
-            this.label148.Text = "Limiares eletrofisiológicos PEATE (BERA)";
-            this.label148.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // tableLayoutPanel108
             // 
@@ -19086,36 +19097,36 @@ namespace segmentoOtoneurologia
             this.chrtEpidemioOE.BackColor = System.Drawing.Color.AliceBlue;
             this.chrtEpidemioOE.BorderlineColor = System.Drawing.Color.Blue;
             this.chrtEpidemioOE.BorderlineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Solid;
-            chartArea9.AxisX.LabelStyle.Enabled = false;
-            chartArea9.AxisX.MajorGrid.LineColor = System.Drawing.Color.Silver;
-            chartArea9.AxisX.MajorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dash;
-            chartArea9.AxisX.MajorTickMark.Enabled = false;
-            chartArea9.AxisX.Maximum = 15D;
-            chartArea9.AxisX.Minimum = 1D;
-            chartArea9.AxisX.TextOrientation = System.Windows.Forms.DataVisualization.Charting.TextOrientation.Horizontal;
-            chartArea9.AxisX.Title = "      125            250             500     750  1k     1,5k  2k        3k   4k " +
+            chartArea31.AxisX.LabelStyle.Enabled = false;
+            chartArea31.AxisX.MajorGrid.LineColor = System.Drawing.Color.Silver;
+            chartArea31.AxisX.MajorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dash;
+            chartArea31.AxisX.MajorTickMark.Enabled = false;
+            chartArea31.AxisX.Maximum = 15D;
+            chartArea31.AxisX.Minimum = 1D;
+            chartArea31.AxisX.TextOrientation = System.Windows.Forms.DataVisualization.Charting.TextOrientation.Horizontal;
+            chartArea31.AxisX.Title = "      125            250             500     750  1k     1,5k  2k        3k   4k " +
     "       6k  8k";
-            chartArea9.AxisX.TitleAlignment = System.Drawing.StringAlignment.Near;
-            chartArea9.AxisY.Crossing = -1.7976931348623157E+308D;
-            chartArea9.AxisY.Interval = 10D;
-            chartArea9.AxisY.IsReversed = true;
-            chartArea9.AxisY.Maximum = 120D;
-            chartArea9.AxisY.Minimum = -10D;
-            chartArea9.AxisY.TextOrientation = System.Windows.Forms.DataVisualization.Charting.TextOrientation.Rotated270;
-            chartArea9.AxisY.Title = "Gráfico ISO/64 frequência (Hz) por decibel nível de audição (dBNA)";
-            chartArea9.Name = "ChartArea5";
-            this.chrtEpidemioOE.ChartAreas.Add(chartArea9);
-            legend9.Enabled = false;
-            legend9.Name = "Legend1";
-            this.chrtEpidemioOE.Legends.Add(legend9);
+            chartArea31.AxisX.TitleAlignment = System.Drawing.StringAlignment.Near;
+            chartArea31.AxisY.Crossing = -1.7976931348623157E+308D;
+            chartArea31.AxisY.Interval = 10D;
+            chartArea31.AxisY.IsReversed = true;
+            chartArea31.AxisY.Maximum = 120D;
+            chartArea31.AxisY.Minimum = -10D;
+            chartArea31.AxisY.TextOrientation = System.Windows.Forms.DataVisualization.Charting.TextOrientation.Rotated270;
+            chartArea31.AxisY.Title = "Gráfico ISO/64 frequência (Hz) por decibel nível de audição (dBNA)";
+            chartArea31.Name = "ChartArea5";
+            this.chrtEpidemioOE.ChartAreas.Add(chartArea31);
+            legend31.Enabled = false;
+            legend31.Name = "Legend1";
+            this.chrtEpidemioOE.Legends.Add(legend31);
             this.chrtEpidemioOE.Location = new System.Drawing.Point(533, 6);
             this.chrtEpidemioOE.Name = "chrtEpidemioOE";
-            series9.ChartArea = "ChartArea5";
-            series9.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Point;
-            series9.Color = System.Drawing.Color.DodgerBlue;
-            series9.Legend = "Legend1";
-            series9.Name = "OE";
-            this.chrtEpidemioOE.Series.Add(series9);
+            series31.ChartArea = "ChartArea5";
+            series31.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Point;
+            series31.Color = System.Drawing.Color.DodgerBlue;
+            series31.Legend = "Legend1";
+            series31.Name = "OE";
+            this.chrtEpidemioOE.Series.Add(series31);
             this.chrtEpidemioOE.Size = new System.Drawing.Size(466, 416);
             this.chrtEpidemioOE.TabIndex = 11;
             this.chrtEpidemioOE.Text = "chart1";
@@ -19126,36 +19137,36 @@ namespace segmentoOtoneurologia
             this.chrtEpidemioOD.BackImageAlignment = System.Windows.Forms.DataVisualization.Charting.ChartImageAlignmentStyle.Center;
             this.chrtEpidemioOD.BorderlineColor = System.Drawing.Color.Red;
             this.chrtEpidemioOD.BorderlineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Solid;
-            chartArea10.AxisX.LabelStyle.Enabled = false;
-            chartArea10.AxisX.MajorGrid.LineColor = System.Drawing.Color.Silver;
-            chartArea10.AxisX.MajorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dash;
-            chartArea10.AxisX.MajorTickMark.Enabled = false;
-            chartArea10.AxisX.Maximum = 15D;
-            chartArea10.AxisX.Minimum = 1D;
-            chartArea10.AxisX.TextOrientation = System.Windows.Forms.DataVisualization.Charting.TextOrientation.Horizontal;
-            chartArea10.AxisX.Title = "      125            250             500     750  1k     1,5k  2k        3k   4k " +
+            chartArea32.AxisX.LabelStyle.Enabled = false;
+            chartArea32.AxisX.MajorGrid.LineColor = System.Drawing.Color.Silver;
+            chartArea32.AxisX.MajorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dash;
+            chartArea32.AxisX.MajorTickMark.Enabled = false;
+            chartArea32.AxisX.Maximum = 15D;
+            chartArea32.AxisX.Minimum = 1D;
+            chartArea32.AxisX.TextOrientation = System.Windows.Forms.DataVisualization.Charting.TextOrientation.Horizontal;
+            chartArea32.AxisX.Title = "      125            250             500     750  1k     1,5k  2k        3k   4k " +
     "      6k   8k";
-            chartArea10.AxisX.TitleAlignment = System.Drawing.StringAlignment.Near;
-            chartArea10.AxisY.Crossing = -1.7976931348623157E+308D;
-            chartArea10.AxisY.Interval = 10D;
-            chartArea10.AxisY.IsReversed = true;
-            chartArea10.AxisY.Maximum = 120D;
-            chartArea10.AxisY.Minimum = -10D;
-            chartArea10.AxisY.TextOrientation = System.Windows.Forms.DataVisualization.Charting.TextOrientation.Rotated270;
-            chartArea10.AxisY.Title = "Gráfico ISO/64 frequência (Hz) por decibel nível de audição (dBNA)";
-            chartArea10.Name = "ChartArea4";
-            this.chrtEpidemioOD.ChartAreas.Add(chartArea10);
-            legend10.Enabled = false;
-            legend10.Name = "Legend1";
-            this.chrtEpidemioOD.Legends.Add(legend10);
+            chartArea32.AxisX.TitleAlignment = System.Drawing.StringAlignment.Near;
+            chartArea32.AxisY.Crossing = -1.7976931348623157E+308D;
+            chartArea32.AxisY.Interval = 10D;
+            chartArea32.AxisY.IsReversed = true;
+            chartArea32.AxisY.Maximum = 120D;
+            chartArea32.AxisY.Minimum = -10D;
+            chartArea32.AxisY.TextOrientation = System.Windows.Forms.DataVisualization.Charting.TextOrientation.Rotated270;
+            chartArea32.AxisY.Title = "Gráfico ISO/64 frequência (Hz) por decibel nível de audição (dBNA)";
+            chartArea32.Name = "ChartArea4";
+            this.chrtEpidemioOD.ChartAreas.Add(chartArea32);
+            legend32.Enabled = false;
+            legend32.Name = "Legend1";
+            this.chrtEpidemioOD.Legends.Add(legend32);
             this.chrtEpidemioOD.Location = new System.Drawing.Point(60, 6);
             this.chrtEpidemioOD.Name = "chrtEpidemioOD";
-            series10.ChartArea = "ChartArea4";
-            series10.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Point;
-            series10.Color = System.Drawing.Color.Red;
-            series10.Legend = "Legend1";
-            series10.Name = "OD";
-            this.chrtEpidemioOD.Series.Add(series10);
+            series32.ChartArea = "ChartArea4";
+            series32.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Point;
+            series32.Color = System.Drawing.Color.Red;
+            series32.Legend = "Legend1";
+            series32.Name = "OD";
+            this.chrtEpidemioOD.Series.Add(series32);
             this.chrtEpidemioOD.Size = new System.Drawing.Size(467, 416);
             this.chrtEpidemioOD.TabIndex = 10;
             this.chrtEpidemioOD.Text = "chart1";
@@ -19436,41 +19447,41 @@ namespace segmentoOtoneurologia
             // 
             // chart1
             // 
-            chartArea11.AxisX.Crossing = 0D;
-            chartArea11.AxisX.Interval = 100D;
-            chartArea11.AxisX.LineWidth = 2;
-            chartArea11.AxisX.MajorGrid.LineColor = System.Drawing.Color.Gray;
-            chartArea11.AxisX.MajorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dash;
-            chartArea11.AxisX.Maximum = 200D;
-            chartArea11.AxisX.Minimum = -600D;
-            chartArea11.AxisX.Title = "Pressão (mml H2O = daPa)";
-            chartArea11.AxisX.TitleAlignment = System.Drawing.StringAlignment.Near;
-            chartArea11.AxisY.LabelStyle.Enabled = false;
-            chartArea11.AxisY.LineWidth = 2;
-            chartArea11.AxisY.MajorGrid.LineColor = System.Drawing.Color.Gray;
-            chartArea11.AxisY.MajorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dash;
-            chartArea11.AxisY.MajorTickMark.Enabled = false;
-            chartArea11.AxisY.Maximum = 2.5D;
-            chartArea11.AxisY.Minimum = 0D;
-            chartArea11.AxisY.TextOrientation = System.Windows.Forms.DataVisualization.Charting.TextOrientation.Horizontal;
-            chartArea11.AxisY.Title = "(ml) 2,5\\n\\n\\n\\n\\n\\n\\n          2,0\\n\\n\\n\\n\\n\\n          1,5\\n\\n\\n\\n\\n\\n\\n       " +
+            chartArea33.AxisX.Crossing = 0D;
+            chartArea33.AxisX.Interval = 100D;
+            chartArea33.AxisX.LineWidth = 2;
+            chartArea33.AxisX.MajorGrid.LineColor = System.Drawing.Color.Gray;
+            chartArea33.AxisX.MajorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dash;
+            chartArea33.AxisX.Maximum = 200D;
+            chartArea33.AxisX.Minimum = -600D;
+            chartArea33.AxisX.Title = "Pressão (mml H2O = daPa)";
+            chartArea33.AxisX.TitleAlignment = System.Drawing.StringAlignment.Near;
+            chartArea33.AxisY.LabelStyle.Enabled = false;
+            chartArea33.AxisY.LineWidth = 2;
+            chartArea33.AxisY.MajorGrid.LineColor = System.Drawing.Color.Gray;
+            chartArea33.AxisY.MajorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dash;
+            chartArea33.AxisY.MajorTickMark.Enabled = false;
+            chartArea33.AxisY.Maximum = 2.5D;
+            chartArea33.AxisY.Minimum = 0D;
+            chartArea33.AxisY.TextOrientation = System.Windows.Forms.DataVisualization.Charting.TextOrientation.Horizontal;
+            chartArea33.AxisY.Title = "(ml) 2,5\\n\\n\\n\\n\\n\\n\\n          2,0\\n\\n\\n\\n\\n\\n          1,5\\n\\n\\n\\n\\n\\n\\n       " +
     "   1,0\\n\\n\\n\\n\\n\\n\\n          0,5\\n\\n\\n\\n\\n\\n\\n\\n\\n          ";
-            chartArea11.AxisY.TitleAlignment = System.Drawing.StringAlignment.Near;
-            chartArea11.AxisY.TitleFont = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            chartArea11.BackImageAlignment = System.Windows.Forms.DataVisualization.Charting.ChartImageAlignmentStyle.Center;
-            chartArea11.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea11);
-            legend11.Name = "Legend1";
-            this.chart1.Legends.Add(legend11);
+            chartArea33.AxisY.TitleAlignment = System.Drawing.StringAlignment.Near;
+            chartArea33.AxisY.TitleFont = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            chartArea33.BackImageAlignment = System.Windows.Forms.DataVisualization.Charting.ChartImageAlignmentStyle.Center;
+            chartArea33.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea33);
+            legend33.Name = "Legend1";
+            this.chart1.Legends.Add(legend33);
             this.chart1.Location = new System.Drawing.Point(4, 4);
             this.chart1.Name = "chart1";
-            series11.BorderWidth = 2;
-            series11.ChartArea = "ChartArea1";
-            series11.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series11.Color = System.Drawing.Color.Red;
-            series11.Legend = "Legend1";
-            series11.Name = "OD";
-            this.chart1.Series.Add(series11);
+            series33.BorderWidth = 2;
+            series33.ChartArea = "ChartArea1";
+            series33.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series33.Color = System.Drawing.Color.Red;
+            series33.Legend = "Legend1";
+            series33.Name = "OD";
+            this.chart1.Series.Add(series33);
             this.chart1.Size = new System.Drawing.Size(602, 419);
             this.chart1.TabIndex = 22;
             this.chart1.Text = "chart1";
@@ -19817,32 +19828,6 @@ namespace segmentoOtoneurologia
             this.tipoAudiometriaComboBox.Size = new System.Drawing.Size(259, 24);
             this.tipoAudiometriaComboBox.TabIndex = 1;
             // 
-            // tabelaExamesTableAdapter
-            // 
-            this.tabelaExamesTableAdapter.ClearBeforeFill = true;
-            // 
-            // tableAdapterManager
-            // 
-            this.tableAdapterManager.BackupDataSetBeforeUpdate = false;
-            this.tableAdapterManager.tabelaAgendamentoTableAdapter = null;
-            this.tableAdapterManager.tabelaBlocoNotasTableAdapter = null;
-            this.tableAdapterManager.tabelaCadastroSenhasTableAdapter = null;
-            this.tableAdapterManager.tabelaContatosTableAdapter = null;
-            this.tableAdapterManager.tabelaEstoqueTableAdapter = null;
-            this.tableAdapterManager.tabelaExamesTableAdapter = this.tabelaExamesTableAdapter;
-            this.tableAdapterManager.tabelaLaudario1TableAdapter = null;
-            this.tableAdapterManager.tabelaLaudarioTableAdapter = null;
-            this.tableAdapterManager.tabelaOcupacionalTableAdapter = null;
-            this.tableAdapterManager.tabelaOtoneuroTableAdapter = null;
-            this.tableAdapterManager.tabelaPacienteTableAdapter = null;
-            this.tableAdapterManager.tabelaProntuarioTableAdapter = null;
-            this.tableAdapterManager.tabelaReceituarioTableAdapter = null;
-            this.tableAdapterManager.UpdateOrder = segmentoOtoneurologia.segmsaude001DataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
-            // 
-            // tabelaLaudario1TableAdapter
-            // 
-            this.tabelaLaudario1TableAdapter.ClearBeforeFill = true;
-            // 
             // toolTip1
             // 
             this.toolTip1.ToolTipIcon = System.Windows.Forms.ToolTipIcon.Info;
@@ -19878,16 +19863,31 @@ namespace segmentoOtoneurologia
             this.toolTip7.ToolTipIcon = System.Windows.Forms.ToolTipIcon.Info;
             this.toolTip7.ToolTipTitle = "Laudo ou parecer";
             // 
-            // peamlOETextBox
+            // tabelaExamesTableAdapter
             // 
-            this.peamlOETextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.tabelaExamesBindingSource, "peamlOE", true));
-            this.peamlOETextBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.peamlOETextBox.Location = new System.Drawing.Point(3, 3);
-            this.peamlOETextBox.Multiline = true;
-            this.peamlOETextBox.Name = "peamlOETextBox";
-            this.peamlOETextBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.peamlOETextBox.Size = new System.Drawing.Size(504, 529);
-            this.peamlOETextBox.TabIndex = 1;
+            this.tabelaExamesTableAdapter.ClearBeforeFill = true;
+            // 
+            // tableAdapterManager
+            // 
+            this.tableAdapterManager.BackupDataSetBeforeUpdate = false;
+            this.tableAdapterManager.tabelaAgendamentoTableAdapter = null;
+            this.tableAdapterManager.tabelaBlocoNotasTableAdapter = null;
+            this.tableAdapterManager.tabelaCadastroSenhasTableAdapter = null;
+            this.tableAdapterManager.tabelaContatosTableAdapter = null;
+            this.tableAdapterManager.tabelaEstoqueTableAdapter = null;
+            this.tableAdapterManager.tabelaExamesTableAdapter = this.tabelaExamesTableAdapter;
+            this.tableAdapterManager.tabelaLaudario1TableAdapter = null;
+            this.tableAdapterManager.tabelaLaudarioTableAdapter = null;
+            this.tableAdapterManager.tabelaOcupacionalTableAdapter = null;
+            this.tableAdapterManager.tabelaOtoneuroTableAdapter = null;
+            this.tableAdapterManager.tabelaPacienteTableAdapter = null;
+            this.tableAdapterManager.tabelaProntuarioTableAdapter = null;
+            this.tableAdapterManager.tabelaReceituarioTableAdapter = null;
+            this.tableAdapterManager.UpdateOrder = segmentoOtoneurologia.segmsaude001DataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
+            // 
+            // tabelaLaudario1TableAdapter
+            // 
+            this.tabelaLaudario1TableAdapter.ClearBeforeFill = true;
             // 
             // frmExames
             // 
