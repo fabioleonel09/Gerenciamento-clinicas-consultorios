@@ -73,8 +73,6 @@ namespace segmentoOtoneurologia
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.tabelaCadastroSenhasTableAdapter = new segmentoOtoneurologia.segmsaude001DataSetTableAdapters.tabelaCadastroSenhasTableAdapter();
             this.tableAdapterManager = new segmentoOtoneurologia.segmsaude001DataSetTableAdapters.TableAdapterManager();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -163,7 +161,7 @@ namespace segmentoOtoneurologia
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Arial", 6.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.label4.Location = new System.Drawing.Point(32, 449);
+            this.label4.Location = new System.Drawing.Point(32, 472);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(316, 24);
             this.label4.TabIndex = 11;
@@ -176,7 +174,7 @@ namespace segmentoOtoneurologia
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Arial", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.label5.Location = new System.Drawing.Point(31, 433);
+            this.label5.Location = new System.Drawing.Point(31, 456);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(174, 16);
             this.label5.TabIndex = 10;
@@ -207,8 +205,6 @@ namespace segmentoOtoneurologia
             // tabPage1
             // 
             this.tabPage1.BackColor = System.Drawing.Color.LightSlateGray;
-            this.tabPage1.Controls.Add(this.label7);
-            this.tabPage1.Controls.Add(this.label8);
             this.tabPage1.Controls.Add(this.button1);
             this.tabPage1.Controls.Add(this.label4);
             this.tabPage1.Controls.Add(this.pictureBox3);
@@ -579,30 +575,6 @@ namespace segmentoOtoneurologia
             this.tableAdapterManager.tabelaReceituarioTableAdapter = null;
             this.tableAdapterManager.UpdateOrder = segmentoOtoneurologia.segmsaude001DataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
             // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Arial", 6.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.label7.Location = new System.Drawing.Point(32, 492);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(274, 12);
-            this.label7.TabIndex = 17;
-            this.label7.Text = "Associação de Fonoaudiologia LTDA. CNPJ: 03.975.327/0001-77.";
-            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Arial", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.label8.Location = new System.Drawing.Point(31, 475);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(161, 16);
-            this.label8.TabIndex = 16;
-            this.label8.Text = "em parceria com ASFON";
-            this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // frmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
@@ -686,8 +658,6 @@ namespace segmentoOtoneurologia
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
     }
 }
 
