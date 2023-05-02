@@ -11305,12 +11305,28 @@ namespace segmentoOtoneurologia
 
             montaAudiogramaOD();
             montaAudiogramaOE();
+            montaTimpanoOD();
+            montaTimpanoOE();
+        }
+
+        private void montaTimpanoOE()
+        {
+            //var fundoOEimp = new NamedImage("sombraTimpanoOE", Properties.Resources.sombraTimpanoOE);
+            //chartEpidemiolOEImpedancio.Images.Clear();
+            //chartEpidemiolOEImpedancio.Images.Add(fundoOEimp);
+            //chartEpidemiolOEImpedancio.ChartAreas[0].BackImage = "sombraTimpanoOE";
+        }
+
+        private void montaTimpanoOD()
+        {
+            //var fundoODimp = new NamedImage("sombraTimpanoOD", Properties.Resources.sombraTimpanoOD);
+            //chartEpidemiolODImpedancio.Images.Clear();
+            //chartEpidemiolODImpedancio.Images.Add(fundoODimp);
+            //chartEpidemiolODImpedancio.ChartAreas[0].BackImage = "sombraTimpanoOD";
         }
 
         private void montaAudiogramaOD()
-        {
-            //chartAudioOD.Series.Clear();// limpa o chart
-
+        {           
             //***PARA MONTAR O GRÁFICO***
 
             int iniciar = 1;
@@ -11319,25 +11335,19 @@ namespace segmentoOtoneurologia
             chrtEpidemioOD.ChartAreas[0].AxisX.MajorGrid.LineDashStyle = ChartDashStyle.Dash;
             chrtEpidemioOD.ChartAreas[0].AxisX.MajorGrid.LineColor = Color.Transparent;
 
-            //string fundoChart = "fundoChartTransp";
-            //Series imgFundo = chrtEpidemioOD.Series.Add(fundoChart);
+            string fundoChart = "fundoChartTransp";
+            Series imgFundo = chrtEpidemioOD.Series.Add(fundoChart);
 
-            //imgFundo.ChartArea = chrtEpidemioOD.ChartAreas[0].Name;
-            //imgFundo.Name = fundoChart;
-            //imgFundo.ChartType = SeriesChartType.Point;
+            imgFundo.ChartArea = chrtEpidemioOD.ChartAreas[0].Name;
+            imgFundo.Name = fundoChart;
+            imgFundo.ChartType = SeriesChartType.Point;
 
-            //if (rbExibeBananaAudioClinicaOD.Checked == true)
-            //{
-            //    var fundoAudioOD = new NamedImage("bananaVermelha", Properties.Resources.bananaVermelha);
-            //    chrtEpidemioOD.Images.Clear();
-            //    chrtEpidemioOD.Images.Add(fundoAudioOD);
-            //    imgFundo.MarkerImage = "bananaVermelha";
-            //    imgFundo.Points.AddXY(7.50, 45);
-            //}
-            //else if (rbEscondeBananaAudioClinicaOD.Checked == true)
-            //{
-            //    chrtEpidemioOD.Series[fundoChart].Points.Clear();
-            //}
+            var fundoAudioOD = new NamedImage("bananaVermelha", Properties.Resources.bananaVermelha);
+            chrtEpidemioOD.Images.Clear();
+            chrtEpidemioOD.Images.Add(fundoAudioOD);
+            imgFundo.MarkerImage = "bananaVermelha";
+            imgFundo.Points.AddXY(7.50, 45);
+
 
             string seriesName1 = "grade1OD";
             Series ser1 = chrtEpidemioOD.Series.Add(seriesName1);
@@ -11491,8 +11501,6 @@ namespace segmentoOtoneurologia
 
         private void montaAudiogramaOE()
         {
-            //chrtEpidemioOE.Series.Clear();// limpa o chart
-
             //***PARA MONTAR O GRÁFICO***
 
             int iniciar = 1;
@@ -11501,25 +11509,18 @@ namespace segmentoOtoneurologia
             chrtEpidemioOE.ChartAreas[0].AxisX.MajorGrid.LineDashStyle = ChartDashStyle.Dash;
             chrtEpidemioOE.ChartAreas[0].AxisX.MajorGrid.LineColor = Color.Transparent;
 
-            //string fundoChart = "fundoChartTransp";
-            //Series imgFundo = chrtEpidemioOE.Series.Add(fundoChart);
+            string fundoChart = "fundoChartTransp";
+            Series imgFundo = chrtEpidemioOE.Series.Add(fundoChart);
 
-            //imgFundo.ChartArea = chrtEpidemioOE.ChartAreas[0].Name;
-            //imgFundo.Name = fundoChart;
-            //imgFundo.ChartType = SeriesChartType.Point;
+            imgFundo.ChartArea = chrtEpidemioOE.ChartAreas[0].Name;
+            imgFundo.Name = fundoChart;
+            imgFundo.ChartType = SeriesChartType.Point;
 
-            //if (rbExibeBananaAudioClinicaOD.Checked == true)
-            //{
-            //    var fundoAudioOD = new NamedImage("bananaVermelha", Properties.Resources.bananaVermelha);
-            //    chrtEpidemioOE.Images.Clear();
-            //    chrtEpidemioOE.Images.Add(fundoAudioOD);
-            //    imgFundo.MarkerImage = "bananaVermelha";
-            //    imgFundo.Points.AddXY(7.50, 45);
-            //}
-            //else if (rbEscondeBananaAudioClinicaOD.Checked == true)
-            //{
-            //    chrtEpidemioOE.Series[fundoChart].Points.Clear();
-            //}
+            var fundoAudioOE = new NamedImage("bananaAzul", Properties.Resources.bananaAzul);
+            chrtEpidemioOE.Images.Clear();
+            chrtEpidemioOE.Images.Add(fundoAudioOE);
+            imgFundo.MarkerImage = "bananaAzul";
+            imgFundo.Points.AddXY(7.50, 45);
 
             string seriesName1 = "grade1OD";
             Series ser1 = chrtEpidemioOE.Series.Add(seriesName1);
@@ -11683,6 +11684,23 @@ namespace segmentoOtoneurologia
         {
             tabControlEpidemiolOD.Visible = false;
             tabControlEpidemiolOE.Visible = false;
+        }
+
+        private void tabControlEpidemiol_Selecting(object sender, TabControlCancelEventArgs e)
+        {
+            SetStyle(ControlStyles.OptimizedDoubleBuffer, true);
+        }
+
+        private void btnLimparEpidemiol_Click(object sender, EventArgs e)
+        {
+            chrtEpidemioOD.Series.Clear();// limpa o chartOD
+            chrtEpidemioOE.Series.Clear();// limpa o chartOE
+        }
+
+        private void btnPlotarEpidemiolImp_Click(object sender, EventArgs e)
+        {
+            //plotaEpidemiolTimpanoOD();
+            //plotaEpidemiolTimpanoOE();
         }
     }   
 }
